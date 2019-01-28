@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  min-height: 100%;
 }
 
 .wrapper {
@@ -268,6 +269,11 @@ li.proj .projectbox {
 ul .fa-big {
   margin: 0.2em 0.6em 0.3em 0.6em;
   vertical-align:sub;
+}
+
+.fa-sml {
+  margin: 0 0.2em;
+  font-size: 0.8em;
 }
 
 .navigation .fa-big {
