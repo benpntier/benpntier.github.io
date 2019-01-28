@@ -1,9 +1,14 @@
+/* ----------------------------------- */
+/* ----- PRINCIPAUX GROUPEMENTS ----- */
+/* --------------------------------- */
+
 html {
   min-height: 100%;
 }
 
 body {
   color: #003f6d;
+  background-color: #629ac9;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -12,7 +17,10 @@ body {
 }
 
 .wrapper {
-  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(210, 236, 245, 0.5));
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.9),
+    rgba(210, 236, 245, 0.5));
   position: fixed;
   overflow-x: auto;
   top: 0;
@@ -21,28 +29,22 @@ body {
   height: 100%;
 }
 
-h3, p, li {
-  font-family: 'Rubik', sans-serif;
-}
-
 li.proj {
   padding: 0 0.2em;
 }
 
 .main {
   margin: auto;
-  top: 0;
-  left:0;
+  top:  0;
+  left: 0;
   right:0;
   box-sizing: border-box;
 }
 
 .main.index {
-  position: absolute;
   background-color: rgba(255, 255, 255, 0.98);
+  position: absolute;
   width: 420px;
-  max-width: 100%;
-  min-width: 420px;
   height: 530px;
   border-radius: 0.6em;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
@@ -59,6 +61,16 @@ li.proj {
 
 .inner {
   padding: 1.5em;
+}
+
+
+
+/* --------------------------- */
+/* ----- TITRES & TEXTE ----- */
+/* ------------------------- */
+
+h3, p, li, figcaption {
+  font-family: 'Rubik', sans-serif;
 }
 
 .main h1 {
@@ -86,6 +98,7 @@ li.proj {
 
 .main.projects h1 {
   font-family: 'Raleway', sans-serif;
+  font-size: 6vh;
   font-weight: 900;
   margin-top: 0.6em;
   margin-bottom: 1.3em;
@@ -111,7 +124,7 @@ li.proj {
   margin-top: 0;
 }
 
-p {
+p, figcaption {
   font-size: 0.9em;
 }
 
@@ -119,23 +132,30 @@ em {
   margin-right: 0.07em;
 }
 
-a {
-  transition: color;
-  transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s; /* Firefox 4 */
-  -webkit-transition-duration: 0.5s; /* Safari and Chrome */
-  -o-transition-duration: 0.5s; /* Opera */
+.credits p {
+  font-size: 0.7em;
+  font-weight: 300;
+  position: absolute;
+  color: #c0c0c0;
+  bottom: 0.5em;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
-.main .proj a, a.button, .navigation a {
-  color: #0067be;
-  text-decoration: none;
+.credits a {
+  color: #c0c0c0;
 }
 
-h1 a {
-  color: #276a9b;
-  text-decoration: none;
+.credits a:hover {
+  color: #a3a3a3;
 }
+
+
+
+/* ----------------------- */
+/* ----- HYPERLIENS ----- */
+/* --------------------- */
 
 #nav a {
   text-decoration: none;
@@ -165,8 +185,52 @@ h1 a {
   color: #1a103f;
 }
 
+a {
+  transition: color;
+  transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s; /* Firefox 4 */
+  -webkit-transition-duration: 0.5s; /* Safari and Chrome */
+  -o-transition-duration: 0.5s; /* Opera */
+}
+
+.main .proj a, a.button, .navigation a {
+  color: #0067be;
+  text-decoration: none;
+}
+
+h1 a {
+  color: #276a9b;
+  text-decoration: none;
+}
+
 .main .proj a:hover, a.button:hover, h1 a:hover, .navigation a:hover {
   color: #003e73;
+}
+
+a.button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0067be;
+  padding: 0.9em 1.4em;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  transition: background-color, border-color, color;
+  transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s; /* Firefox 4 */
+  -webkit-transition-duration: 0.5s; /* Safari and Chrome */
+  -o-transition-duration: 0.5s; /* Opera */
+}
+
+a.button:hover {
+  background-color: #e7f2f9;
+  border-color: #003e73;
+}
+
+p.btn {
+  margin-top: 2.3em;
+  text-align: center;
 }
 
 .navigation {
@@ -176,6 +240,7 @@ h1 a {
 }
 
 .navigation p {
+  font-size: 2.45vh;
   display: inline-block;
   margin: 0;
   position: absolute;
@@ -194,31 +259,11 @@ h1 a {
   right: 0;
 }
 
-a.button {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #0067be;
-  padding: 0.9em 1.4em;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  text-transform: uppercase;
 
-  transition: background-color, border-color, color;
-  transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s; /* Firefox 4 */
-  -webkit-transition-duration: 0.5s; /* Safari and Chrome */
-  -o-transition-duration: 0.5s; /* Opera */
-}
 
-a.button:hover {
-  background-color: #e7f2f9;
-  border-color: #003e73;
-}
-
-p.btn {
-  text-align: center;
-}
+/* ---------------------------------------------------- */
+/* ----- LISTES (NAV INDEX ET LISTE DES PROJETS) ----- */
+/* -------------------------------------------------- */
 
 ul {
   list-style-type: none;
@@ -251,9 +296,15 @@ li.proj .projectbox {
   margin-top: 7%;
 }
 
+
+
+/* ------------------------ */
+/* ----- SEPARATIONS ----- */
+/* ---------------------- */
+
 .vdivider {
   display: inline-block;
-  border-left:1px solid #cadfef;
+  border-left:1px solid #d9e9f5;
   height:6.5em;
   vertical-align:super;
 }
@@ -263,12 +314,56 @@ li.proj .projectbox {
   width: 6.5em;
   height: 1px;
   border: 0;
-  border-top: 1px solid #cadfef;
+  border-top: 1px solid #d9e9f5;
   vertical-align: middle;
   margin-left: 2.53em;
   margin-right: 2.53em;
   margin-bottom: 1em;
 }
+
+#contact {
+  overflow: hidden;
+  text-align: center;
+}
+
+#contact:before, #contact:after {
+  background-color: #9dbeda;
+  width: 50%;
+}
+
+#contact:before, #contact:after, .main.projects h3:after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+}
+
+#contact:before {
+  right: 0.6em;
+  margin-left: -50%;
+}
+
+#contact:after, .main.projects h3:after {
+  left: 0.6em;
+  margin-right: -50%;
+}
+
+.main.projects h3 {
+  overflow: hidden;
+  text-align: left;
+}
+
+.main.projects h3:after {
+  background-color: #cadfef;
+  width: 96.6%;
+}
+
+
+
+/* ------------------------------ */
+/* ----- ICONS FONTAWESOME ----- */
+/* ---------------------------- */
 
 ul .fa-big {
   margin: 0.2em 0.6em 0.3em 0.6em;
@@ -317,68 +412,11 @@ ul .fa-big {
   color: #1c5f98;
 }
 
-#contact {
-  overflow: hidden;
-  text-align: center;
-}
 
-#contact:before, #contact:after {
-  background-color: #9dbeda;
-  width: 50%;
-}
 
-#contact:before, #contact:after, .main.projects h3:after {
-  content: "";
-  display: inline-block;
-  height: 1px;
-  position: relative;
-  vertical-align: middle;
-}
-
-#contact:before {
-  right: 0.6em;
-  margin-left: -50%;
-}
-
-#contact:after, .main.projects h3:after {
-  left: 0.6em;
-  margin-right: -50%;
-}
-
-.main.projects h3 {
-  overflow: hidden;
-  text-align: left;
-}
-
-.main.projects h3:after {
-  background-color: #cadfef;
-  width: 96.6%;
-}
-
-.credits {
-  margin-top: 2em;
-  z-index: -2;
-}
-
-.credits p {
-  font-size: 0.7em;
-  font-weight: 300;
-  position: absolute;
-  color: #c0c0c0;
-  margin-top: 4em;
-  bottom: 0.5em;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
-
-.credits a {
-  color: #c0c0c0;
-}
-
-.credits a:hover {
-  color: #a3a3a3;
-}
+/* ------------------------------- */
+/* ----- IMAGES & GALLERIES ----- */
+/* ----------------------------- */
 
 a img {
   transition: opacity;
@@ -453,16 +491,19 @@ a:hover img {
 .gallery2 img {
   max-width: 47%;
   margin: 0.5em;
+  vertical-align: top;
 }
 
 .gallery3 img {
   max-width: 30%;
   margin: 0.5em;
+  vertical-align: top;
 }
 
 .gallery4 img {
   max-width: 22%;
   margin: 0.5em;
+  vertical-align: top;
 }
 
 figure {
@@ -488,7 +529,6 @@ figure img:last-child {
 }
 
 figcaption {
-  font-family: 'Rubik', sans-serif;
   font-weight: 300;
   position: absolute;
   width: 100%;
@@ -516,6 +556,12 @@ figure:hover figcaption {
   margin: 0.7em 0.7em 0.5em 0;
 }
 
+
+
+/* -------------------------------------- */
+/* ----- MEDIA QUERIES (REPONSIVE) ----- */
+/* ------------------------------------ */
+
 @media only screen and (max-device-width: 1024px){
   .main.projects {
     max-width: 95%;
@@ -524,23 +570,110 @@ figure:hover figcaption {
   body {
     background-size: auto 100%;
   }
-}
 
-@media only screen and (max-device-width: 440px){
-  .main.index {
-    min-width: 80%;
-    max-height: 75%;
+  figcaption {
+    opacity: 100;
   }
 }
 
-@media only screen and (max-device-width: 360px) {
-  .main.index {
-    min-width: 93%;
-    max-height: 96%;
+@media only screen and (max-device-width: 810px) {
+  .main.projects h3:after {
+    display: none;
+  }
+
+  figcaption {
+    font-size: 1.9vh;
+  }
+
+  .navlabel {
+    display: none;
+  }
+
+  .credits p {
+    font-size: 1.82vh;
+  }
+
+  li.proj p {
+    font-size: 1.9vh;
+    line-height: 1.35em;
+  }
+}
+
+@media only screen and (max-device-width: 630px) {
+
+  .main.projects {
+    width: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .tools img {
+    height: 65px;
+  }
+
+  .main.projects h1 {
+    font-size: 5vh;
+    margin: 0.3em 0.3em 0.7em 0.3em;
+  }
+
+  .hdivider, .vdivider {
+    display: none;
+  }
+
+  ul.proj {
+    text-align: left;
+  }
+
+  li.proj {
+    width: 29.4%;
+    margin-bottom: 8em;
+  }
+
+  li.proj p {
+    font-size: 2.3vh;
+    line-height: 1.4em;
+  }
+}
+
+@media only screen and (max-device-width: 460px) {
+  .main p {
+    line-height: 1.3em;
   }
 
   figure {
     max-width: 100%;
     display: block;
+    margin-bottom: 1.3em;
+  }
+
+  .gallery2 img {
+    min-width: 97%;
+    margin-bottom: 1.3em;
+  }
+
+  .gallery3 img, .gallery4 img {
+    max-width: 47%;
+  }
+
+  .gallery3-wide img {
+    max-width: 80%;
+  }
+
+  p.btn {
+    margin-top: 3.5em;
+  }
+
+  .tools img {
+    height: 90px;
+  }
+
+  h3 strong {
+    display: block;
+    text-transform: uppercase;
+  }
+
+  li.proj {
+    width: 46%;
+    margin-bottom: 15em;
   }
 }
