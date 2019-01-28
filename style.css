@@ -1,3 +1,7 @@
+html {
+  min-height: 100%;
+}
+
 body {
   color: #003f6d;
   background-size: cover;
@@ -515,6 +519,10 @@ figure:hover figcaption {
 @media only screen and (max-device-width: 1024px){
   .main.projects {
     max-width: 95%;
+  }
+
+  body {
+    background-size: auto 100%;
   }
 }
 
