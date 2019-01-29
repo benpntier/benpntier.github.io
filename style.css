@@ -132,6 +132,12 @@ em {
   margin-right: 0.07em;
 }
 
+.main.index .credits {
+  position: absolute;
+  bottom: 1em;
+  min-width: 88%;
+}
+
 .credits p {
   font-size: 0.7em;
   font-weight: 300;
@@ -445,10 +451,15 @@ a:hover img {
   opacity: 0.6;
 }
 
+#imgportrait {
+  margin-top: -3em;
+  min-width: 100%;
+  float: left;
+  display: grid;
+}
+
 .main #portrait {
-  display:block;
-  margin: 0 auto;
-  margin-top: -45px;
+  margin: 0 auto 1.5em auto;
   border-radius: 50%;
   border: 2px solid #ffffff;
   min-width: 135px !important;
@@ -695,9 +706,6 @@ figure:hover figcaption {
   }
 }
 
-@media only screen and (max-device-width: 560px) {
-}
-
 @media only screen and (max-device-width: 460px) {
   .main p {
     line-height: 1.3em;
@@ -743,5 +751,75 @@ figure:hover figcaption {
   li.proj p {
     font-size: 1.8vh;
     line-height: 1.4em;
+  }
+
+  .credits p {
+    line-height: 0.8em !important;
+  }
+
+  .main.index {
+    position: relative;
+    margin: 12em 1em 1em 1em;
+    width: auto;
+    height: auto;
+  }
+
+  #about, .main.index p {
+    font-size: 1em;
+  }
+
+  .main.index h2 {
+    font-size: 0.95em;
+  }
+
+  .main.index .credits {
+    position: relative;
+    margin-top: 2.2em;
+  }
+
+  .main.index .credits p {
+    font-size: 0.75em !important;
+  }
+
+  #nav {
+    font-size: 1.5em;
+    line-height: 2.8em;
+  }
+
+  #contact .fa-med {
+    display: inline;
+    font-size: 2.8em;
+  }
+
+  #contact a {
+    text-decoration: none;
+  }
+
+  ul .fa-big {
+    margin-right: 1.3em;
+  }
+
+  .inner {
+    padding: 2.8em 2.8em 1.5em 2.8em;
+  }
+ .main.index h1 {
+    font-size: 5.3vh;
+  }
+
+  .main #portrait {
+    min-width: 24vh !important;
+    min-height: 24vh !important;
+  }
+
+  #imgportrait {
+    margin-top: -8em;
+  }
+
+}
+
+@media only screen and (min-aspect-ratio:3/2) and (max-device-height:700px) {
+  .main.index {
+    position: relative;
+    margin: 5em auto;
   }
 }
