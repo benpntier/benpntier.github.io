@@ -702,7 +702,6 @@ figure:hover figcaption {
 
   .credits p {
     font-size: 0.75em;
-    line-height: 0.65em !important;
   }
 }
 
@@ -753,10 +752,6 @@ figure:hover figcaption {
     line-height: 1.4em;
   }
 
-  .credits p {
-    line-height: 0.8em !important;
-  }
-
   .main.index {
     position: relative;
     margin: 12em 1em 1em 1em;
@@ -766,7 +761,7 @@ figure:hover figcaption {
 
   #about, .main.index p {
     font-size: 0.8em;
-    line-height: 2.7vmax;
+    line-height: 1.2em;
   }
 
   .main.index h2 {
@@ -785,7 +780,7 @@ figure:hover figcaption {
   #nav {
     font-size: 1.5em;
     line-height: 2.8em;
-    margin: 2em auto;
+    margin: 2.5em auto;
   }
 
   #contact .fa-med {
@@ -816,6 +811,7 @@ figure:hover figcaption {
 
   #imgportrait {
     margin-top: -8em;
+    margin-bottom: 3em
   }
 
 }
