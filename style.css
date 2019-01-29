@@ -765,7 +765,8 @@ figure:hover figcaption {
   }
 
   #about, .main.index p {
-    font-size: 1em;
+    font-size: 0.8em;
+    line-height: 2.85vmax;
   }
 
   .main.index h2 {
@@ -778,12 +779,13 @@ figure:hover figcaption {
   }
 
   .main.index .credits p {
-    font-size: 0.75em !important;
+    font-size: 0.6em !important;
   }
 
   #nav {
     font-size: 1.5em;
     line-height: 2.8em;
+    margin: 2em auto;
   }
 
   #contact .fa-med {
@@ -795,14 +797,15 @@ figure:hover figcaption {
     text-decoration: none;
   }
 
-  ul .fa-big {
+  .main.index ul .fa-big {
     margin-right: 1.3em;
   }
 
-  .inner {
+  .main.index .inner {
     padding: 2.8em 2.8em 1.5em 2.8em;
   }
- .main.index h1 {
+
+  .main.index h1 {
     font-size: 5.3vh;
   }
 
