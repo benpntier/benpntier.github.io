@@ -135,12 +135,12 @@ em {
 .credits p {
   font-size: 0.7em;
   font-weight: 300;
-  position: absolute;
   color: #c0c0c0;
   bottom: 0.5em;
   left: 0;
   right: 0;
   text-align: center;
+  margin: 0;
 }
 
 .credits a {
@@ -151,6 +151,34 @@ em {
   color: #a3a3a3;
 }
 
+.credits .fas {
+  display: inline;
+}
+
+.navigation {
+  display: table;
+  width: 100%;
+}
+
+.navigation p {
+  display: table-cell;
+  padding: 1.2em 0;
+}
+
+.navigation .back {
+  text-align: left;
+  width: 50%;
+}
+
+.navigation .home {
+  text-align: center;
+  width: 0;
+}
+
+.navigation .forw {
+  text-align: right;
+  width: 50%;
+}
 
 
 /* ----------------------- */
@@ -229,19 +257,8 @@ a.button:hover {
 }
 
 p.btn {
-  margin-top: 2.3em;
+  padding: 1em;
   text-align: center;
-}
-
-.navigation {
-  position: relative;
-  margin-top: 1.8em;
-  margin-bottom: 6em;
-}
-
-.navigation p {
-  margin: 0;
-  position: absolute;
 }
 
 .navigation .back {
@@ -570,7 +587,7 @@ figure:hover figcaption {
   }
 
   .credits p {
-    font-size: 1.5vmax;
+    font-size: 0.83em;
   }
 }
 
@@ -584,7 +601,7 @@ figure:hover figcaption {
   }
 
   .credits p {
-    font-size: 1.6vmin;
+    font-size: 0.9em;
   }
 
   figcaption, li.proj p {
@@ -618,7 +635,7 @@ figure:hover figcaption {
   }
 
   .credits p {
-    font-size: 1.6vmax;
+    font-size: 0.8em;
   }
 
   li.proj p {
@@ -668,9 +685,17 @@ figure:hover figcaption {
     line-height: 1.4em;
   }
 
-  .credits p {
-    font-size: 1.7vmax;
+  .bottom .navigation p {
+    padding: 0.7em 0;
   }
+
+  .credits p {
+    font-size: 0.75em;
+    line-height: 0.65em !important;
+  }
+}
+
+@media only screen and (max-device-width: 560px) {
 }
 
 @media only screen and (max-device-width: 460px) {
