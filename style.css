@@ -754,7 +754,7 @@ figure:hover figcaption {
 
   .main.index {
     position: relative;
-    margin: 12em 1em 1em 1em;
+    margin: 1.3em 1em;
     width: auto;
     height: auto;
   }
@@ -811,11 +811,16 @@ figure:hover figcaption {
   .main #portrait {
     min-width: 24vh !important;
     min-height: 24vh !important;
+    border-width: 5px;
   }
 
   #imgportrait {
-    margin-top: -8em;
+    margin-top: 5em;
     margin-bottom: 3em
+  }
+
+  .main.index ul .fa-big {
+    vertical-align: baseline;
   }
 
 }
