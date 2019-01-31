@@ -29,10 +29,6 @@ body {
   height: 100%;
 }
 
-li.proj {
-  padding: 0 0.2em;
-}
-
 .main {
   margin: auto;
   top:  0;
@@ -61,6 +57,10 @@ li.proj {
 
 .inner {
   padding: 1.5em;
+}
+
+li.proj {
+  padding: 0 0.2em;
 }
 
 
@@ -112,12 +112,6 @@ h3, p, li, figcaption {
   margin: 0;
 }
 
-#about {
-  font-weight: 300;
-  font-size: 0.95em;
-  margin-top: 1.4em;
-}
-
 .main h3 {
   font-size: 1.1em;
   font-weight: normal;
@@ -130,6 +124,12 @@ p, figcaption {
 
 em {
   margin-right: 0.07em;
+}
+
+#about {
+  font-weight: 300;
+  font-size: 0.95em;
+  margin-top: 1.4em;
 }
 
 .main.index .credits {
@@ -187,9 +187,9 @@ em {
 }
 
 
-/* ----------------------- */
-/* ----- HYPERLIENS ----- */
-/* --------------------- */
+/* ----------------------------- */
+/* ----- LIENS ET BOUTONS ----- */
+/* --------------------------- */
 
 #nav a {
   text-decoration: none;
@@ -669,13 +669,13 @@ figure:hover figcaption {
     margin-bottom: 2%;
   }
 
-  .tools img {
-    height: 65px;
-  }
-
   .main.projects h1 {
     font-size: 5vh;
     margin: 0.3em 0.3em 0.7em 0.3em;
+  }
+
+  .tools img {
+    height: 65px;
   }
 
   .hdivider, .vdivider {
@@ -708,55 +708,6 @@ figure:hover figcaption {
 @media only screen and (max-device-width: 460px) {
   .main p {
     line-height: 1.3em;
-  }
-
-  figure {
-    max-width: 100%;
-    display: block;
-    margin-bottom: 1.3em;
-  }
-
-  .gallery2 img {
-    min-width: 97%;
-    margin-bottom: 1.3em;
-  }
-
-  .gallery3 img, .gallery4 img {
-    max-width: 47%;
-  }
-
-  .gallery3-wide img {
-    max-width: 80%;
-  }
-
-  p.btn {
-    margin-top: 3.5em;
-  }
-
-  .tools img {
-    height: 90px;
-  }
-
-  h3 strong {
-    display: block;
-    text-transform: uppercase;
-  }
-
-  li.proj {
-    width: 46%;
-    margin-bottom: 18.5em;
-  }
-
-  li.proj p {
-    font-size: 1.8vh;
-    line-height: 1.4em;
-  }
-
-  .main.index {
-    position: relative;
-    margin: 1.3em 1em;
-    width: auto;
-    height: auto;
   }
 
   #about, .main.index p {
@@ -806,6 +757,55 @@ figure:hover figcaption {
 
   .main.index h1 {
     font-size: 5.3vh;
+  }
+
+  figure {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 1.3em;
+  }
+
+  .gallery2 img {
+    min-width: 97%;
+    margin-bottom: 1.3em;
+  }
+
+  .gallery3 img, .gallery4 img {
+    max-width: 47%;
+  }
+
+  .gallery3-wide img {
+    max-width: 80%;
+  }
+
+  p.btn {
+    margin-top: 3.5em;
+  }
+
+  .tools img {
+    height: 90px;
+  }
+
+  h3 strong {
+    display: block;
+    text-transform: uppercase;
+  }
+
+  li.proj {
+    width: 46%;
+    margin-bottom: 18.5em;
+  }
+
+  li.proj p {
+    font-size: 1.8vh;
+    line-height: 1.4em;
+  }
+
+  .main.index {
+    position: relative;
+    margin: 1.3em 1em;
+    width: auto;
+    height: auto;
   }
 
   .main #portrait {
