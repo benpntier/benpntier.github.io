@@ -83,10 +83,10 @@ h3, p, li, figcaption {
   text-shadow: 0.052em 0.052em rgba(0, 0, 0, 0.1);
 
   transition: text-shadow;
-  transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s; /* Firefox 4 */
-  -webkit-transition-duration: 0.3s; /* Safari and Chrome */
-  -o-transition-duration: 0.3s; /* Opera */
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s; /* Firefox 4 */
+  -webkit-transition-duration: 0.4s; /* Safari and Chrome */
+  -o-transition-duration: 0.4s; /* Opera */
 }
 
 .main h1:hover {
