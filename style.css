@@ -293,7 +293,7 @@ ul {
   padding: 0;
 }
 
-ul.proj {
+ul.proj, ul.cover {
   text-align: center;
 }
 
@@ -316,6 +316,20 @@ li.proj p {
 
 li.proj .projectbox {
   margin-top: 7%;
+}
+
+
+li.cover {
+  width: 10em;
+  height: 10em;
+  padding: 0 0 0 0;
+  text-align: center;
+  display: inline-block;
+}
+
+li.cover img {
+  width: 100%;
+  height: auto;
 }
 
 
@@ -509,6 +523,22 @@ a:hover img {
   border-style: solid;
   border-color: #e6e6e6;
   border-width: 1px;
+}
+
+.gallery-rounded img {
+  display: inline-block;
+  border-radius: 0;
+
+  transition: border-radius;
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s; /* Firefox 4 */
+  -webkit-transition-duration: 0.4s; /* Safari and Chrome */
+  -o-transition-duration: 0.4s; /* Opera */
+}
+
+.gallery-rounded img:hover {
+  display: inline-block;
+  border-radius: 15px;
 }
 
 .gallery1 img {
