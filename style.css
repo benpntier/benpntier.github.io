@@ -392,7 +392,7 @@ li.cover img {
 
 .main.projects h3:after {
   background-color: #cadfef;
-  width: 96.6%;
+  width: 86.9%;
 }
 
 
@@ -564,10 +564,13 @@ a:hover img {
 }
 
 figure {
-  max-width: 49.5%;
   margin: 0;
   display: inline-block;
   position: relative;
+}
+
+figure.img-cap {
+  max-width: 49.5%;
 }
 
 figure img {
@@ -605,6 +608,15 @@ figcaption {
 
 figure:hover figcaption {
   opacity: 100;
+}
+
+.diff-height {
+  display: flex;
+  flex-direction: row;
+}
+
+.diff-height figure {
+  margin-right: 0.2em;
 }
 
 .tools img {
