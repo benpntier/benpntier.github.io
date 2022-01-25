@@ -8,12 +8,16 @@ html {
 
 body {
   color: #003f6d;
-  background-color: #629ac9;
+  background-color: #cee3f0;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   min-height: 100%;
+}
+
+body.home {
+  background-color: #629ac9;
 }
 
 .wrapper {
