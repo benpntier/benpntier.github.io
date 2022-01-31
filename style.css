@@ -733,6 +733,11 @@ img#fr, img#en {
     width: 18px;
   }
 
+  .cover-solo img {
+    width: 500px;
+    height: 500px;
+  }
+
   .hdivider, .vdivider {
     display: none;
   }
@@ -783,6 +788,11 @@ img#fr, img#en {
     font-size: 0.6em !important;
   }
 
+  .gallery1 img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
   #nav {
     font-size: 1.5em;
     line-height: 2.8em;
@@ -815,7 +825,7 @@ img#fr, img#en {
   }
 
   figure {
-    max-width: 100%;
+    max-width: 100% !important;
     display: block;
     margin-bottom: 1.3em;
   }
