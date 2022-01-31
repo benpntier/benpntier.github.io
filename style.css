@@ -629,6 +629,10 @@ figure:hover figcaption {
   margin: 0.7em 0.7em 0.5em 0;
 }
 
+img#fr, img#en {
+  width: 12px;
+}
+
 
 
 /* -------------------------------------- */
@@ -723,6 +727,10 @@ figure:hover figcaption {
 
   .tools img {
     height: 65px;
+  }
+
+  img#fr, img#en {
+    width: 18px;
   }
 
   .hdivider, .vdivider {
@@ -833,13 +841,17 @@ figure:hover figcaption {
     height: 90px;
   }
 
+  img#fr, img#en {
+    width: 24px;
+  }
+
   h3 strong {
     display: block;
     text-transform: uppercase;
   }
 
   li.proj {
-    width: 46%;
+    width: 45%;
     margin-bottom: 18.5em;
   }
 
