@@ -22,8 +22,9 @@
               in other words that will generate an image using only small points of colour, based on
               <a href="https://ieeexplore.ieee.org/abstract/document/8345408?casa_token=OxHIuOtqQ4YAAAAA:FBUQE66vameBp1XAkmWutdFAipgEgIVJ57SigVxJwF_ESe0OrYkUXmmTKd2zV3FNL14ROZ7w" target="somethingUnique">
               an article by Hiroki Tokura, Yuki Kuroda, Yasuaki Ito and Koji Nakano.</a> In this project, each point is elliptical (as opposed to the publication, in which they are square), choosing an
-              orientation and colour that best transcribes the original image, by getting as close as possible to the gaussian filter that simulates human vision. Precision will vary depending on the size
-              of the original image (results below respectively correspond to sizes 128*128, 256*256 and 512*512).
+              orientation and colour that best transcribes the original image, by getting as close as possible to the gaussian filter that simulates human vision. To imitate a pointillist aspect and
+              their use of colour, the shade of each "stroke" is randomly changed, especially in flat tint areas. Precision is a parameter, that needs to be chosen proportionally to the size of the original image (results below
+              respectively correspond to sizes 128*128, 256*256 and 512*512 for the same parameter value).
               The final algorithm has been implemented both in Python and C++.
             </p>
             <p>
@@ -36,10 +37,10 @@
               <a href="https://isocpp.org/" title="C++" target="somethingUnique"><img src="../../img/tools/cpp.png"></a>
             </p>
             <div class="gallery gallery4 gallery-shadow">
-              <img src="../../uni/img/pointillism/original.jpg" alt="Original image">
-              <img src="../../uni/img/pointillism/result128.jpg" alt="128*128 result">
-              <img src="../../uni/img/pointillism/result256.jpg" alt"256*256 result">
-              <img src="../../uni/img/pointillism/result512.jpg" alt="512*512 result">
+              <img src="../../uni/img/pointillism/original.png" alt="Original image">
+              <img src="../../uni/img/pointillism/result128.png" alt="128*128 result">
+              <img src="../../uni/img/pointillism/result256.png" alt"256*256 result">
+              <img src="../../uni/img/pointillism/result512.png" alt="512*512 result">
             </div>
           </div>
           <div class="navigation">
