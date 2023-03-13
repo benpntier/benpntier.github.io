@@ -2,9 +2,11 @@
 /************************/
 /******* OhMyFood *******/
 /*** Benoît Pannetier ***/
-/***** Decembre 2022 ****/
+/******* Mars 2023 ******/
 /************************/
+/* Font */
 @import url("https://fonts.googleapis.com/css2?&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
+/* Menu Fade In Animation */
 @keyframes platsFadeIn {
   0% {
     opacity: 0;
@@ -15,6 +17,7 @@
     transform: translateY(0);
   }
 }
+/* Loader Fade Out Animation */
 @keyframes loaderFadeOut {
   0% {
     opacity: 1;
@@ -29,6 +32,7 @@
     z-index: -1;
   }
 }
+/* Loader Spinner Rotation Animation */
 @keyframes spinnerRotation {
   0% {
     transform: rotate(0deg);
@@ -37,6 +41,7 @@
     transform: rotate(360deg);
   }
 }
+/* Loader Fork Slide In Animation */
 @keyframes forkSlideIn {
   0% {
     transform: translateX(45px);
@@ -47,7 +52,8 @@
     opacity: 1;
   }
 }
-@keyframes knifeSlideOut {
+/* Loader Knife Slide In Animation */
+@keyframes knifeSlideIn {
   0% {
     transform: translateX(-45px);
     opacity: 0;
@@ -57,6 +63,7 @@
     opacity: 1;
   }
 }
+/* Loader Plate Fade In Animation */
 @keyframes plateFadeIn {
   0% {
     opacity: 0;
@@ -100,7 +107,7 @@ body {
 .loader__icon--knife {
   width: 21px;
   direction: rtl;
-  animation-name: knifeSlideOut;
+  animation-name: knifeSlideIn;
 }
 .loader__plate {
   height: 60px;
@@ -619,6 +626,17 @@ section:last-child {
   margin-right: 5px;
 }
 
+/* Mobile (Large) */
+@media screen and (min-width: 475px) {
+  .fonctionnement__list {
+    align-items: center;
+  }
+  .fonctionnement__item {
+    max-width: 260px;
+    width: 100%;
+  }
+}
+/* Tablet */
 @media screen and (min-width: 700px) {
   .fonctionnement__list {
     flex-direction: row;
@@ -669,6 +687,7 @@ section:last-child {
     margin: auto;
   }
 }
+/* Desktop */
 @media screen and (min-width: 991px) {
   .header--home {
     flex-direction: row;

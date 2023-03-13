@@ -1,11 +1,13 @@
 /************************/
 /******* OhMyFood *******/
 /*** Benoît Pannetier ***/
-/***** Decembre 2022 ****/
+/******* Mars 2023 ******/
 /************************/
 
+/* Font */
 @import url('https://fonts.googleapis.com/css2?&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
 
+// Colours
 $primary: #9356DC;
 $secondary: #FF79DA;
 $tertiary: #99E2D0;
@@ -16,6 +18,7 @@ $bg-tertiary: #EAEAEA;
 $dark-grey: #353535;
 $text-secondary: #FFFFFF;
 
+// Pseudo-hover
 @mixin pseudo-hover {
     position: absolute;
     content: "";
@@ -26,6 +29,7 @@ $text-secondary: #FFFFFF;
     z-index: -1;
 }
 
+/* Menu Fade In Animation */
 @keyframes platsFadeIn {
     0% {
         opacity: 0;
@@ -37,6 +41,7 @@ $text-secondary: #FFFFFF;
     }
 }
 
+/* Loader Fade Out Animation */
 @keyframes loaderFadeOut {
     0% {
         opacity: 1;
@@ -52,15 +57,17 @@ $text-secondary: #FFFFFF;
     }
 }
 
- @keyframes spinnerRotation {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
- }
+/* Loader Spinner Rotation Animation */
+@keyframes spinnerRotation {
+   0% {
+       transform: rotate(0deg);
+   }
+   100% {
+       transform: rotate(360deg);
+   }
+}
 
+/* Loader Fork Slide In Animation */
  @keyframes forkSlideIn {
     0% {
         transform: translateX(45px);
@@ -72,7 +79,8 @@ $text-secondary: #FFFFFF;
     }
  }
 
- @keyframes knifeSlideOut {
+/* Loader Knife Slide In Animation */
+@keyframes knifeSlideIn {
     0% {
         transform: translateX(-45px);
         opacity: 0;
@@ -81,9 +89,10 @@ $text-secondary: #FFFFFF;
         transform: translateX(0);
         opacity: 1;
     }
- }
+}
 
- @keyframes plateFadeIn {
+/* Loader Plate Fade In Animation */
+@keyframes plateFadeIn {
     0% {
         opacity: 0;
         transform: scale(1.4);
@@ -92,7 +101,7 @@ $text-secondary: #FFFFFF;
         opacity: 1;
         transform: scale(1);
     }
- }
+}
 
 body {
     background-color: $bg-primary;
@@ -128,7 +137,7 @@ body {
         &--knife {    
             width: 21px;
             direction: rtl;
-            animation-name: knifeSlideOut;
+            animation-name: knifeSlideIn;
 
         }
     }
@@ -629,7 +638,20 @@ section:last-child{
     }
 }
 
+/* Mobile (Large) */
+@media screen and (min-width: 475px) {
+    .fonctionnement {
+        &__list {
+            align-items: center;
+        }
+        &__item {
+            max-width: 260px;
+            width: 100%;
+        }
+    }
+}
 
+/* Tablet */
 @media screen and (min-width: 700px) {
 
     .fonctionnement {
@@ -693,8 +715,7 @@ section:last-child{
     }
 }
 
-
-
+/* Desktop */
 @media screen and (min-width: 991px) {
 
     .header {

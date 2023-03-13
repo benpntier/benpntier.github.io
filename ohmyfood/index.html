@@ -1,7 +1,7 @@
 <!-- ////////////////////// -->
 <!-- ////// OHMYFOOD ////// -->
 <!-- // Benoît Pannetier // -->
-<!-- //// Fevrier 2023 //// -->
+<!-- ////// Mars 2023 ///// -->
 <!-- ////////////////////// -->
 
 <!DOCTYPE html>
@@ -16,11 +16,13 @@
     </head>
 
     <body>
+        <!-- Loader Animation -->
         <div class="loader">
             <i class="loader__icon loader__icon--fork fa-solid fa-utensils"></i>
             <div class="loader__plate"><div class="loader__plate--inner"></div></div>
             <i class="loader__icon loader__icon--knife fa-solid fa-utensils"></i>
         </div>
+        <!-- Header -->
         <header class="header header--home">
             <div class="header__logo header__logo--home">
                 <img src="images/logo/ohmyfood.png" class="header__img" alt="OhMyFood">
@@ -29,6 +31,7 @@
         </header>
 
         <main class="homepage">
+            <!-- Accueil -->
             <section class="home">
                 <h1 class="home__title">Réservez le menu qui vous convient</h1>
                 <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
@@ -36,6 +39,7 @@
                 <a href="#restaurants" class="button">Explorer nos restaurants</a>
             </section>
 
+            <!-- Fonctionnement -->
             <section class="fonctionnement">
                 <h2 class="homepage__title">Fonctionnement</h2>
                 <ol class="fonctionnement__list">
@@ -45,9 +49,11 @@
                 </ol>
             </section>
 
+            <!-- Liste des restaurants -->
             <section class="restaurants" id="restaurants">
                 <h2 class="homepage__title">Restaurants</h2>
                 <div class="restaurants__list">
+                    <!-- La Palette du Goût -->
                     <a class="restaurants__item" href="./la-palette-du-gout.html">
                         <article class="card">
                             <div class="card__new">Nouveau</div>
@@ -62,6 +68,7 @@
                         </article>
                     </a>
 
+                    <!-- La Note Enchantée -->
                     <a class="restaurants__item" href="./la-note-enchantee.html">
                         <article class="card">
                             <div class="card__new">Nouveau</div>
@@ -76,6 +83,7 @@
                         </article>
                     </a>
 
+                    <!-- A La Française -->
                     <a class="restaurants__item" href="./a-la-francaise.html">
                         <article class="card">
                             <img class="card__img" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française">
@@ -89,6 +97,7 @@
                         </article>
                     </a>
 
+                    <!-- Le Délice des Sens -->
                     <a class="restaurants__item" href="./le-delice-des-sens.html">
                         <article class="card">
                             <img class="card__img" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens">
@@ -105,6 +114,7 @@
             </section>
         </main>
         
+        <!-- Footer -->
         <footer class="footer">
             <div class="footer__content">
                 <img src="images/logo/ohmyfood-white.png" class="footer__logo" alt="OhMyFood">
