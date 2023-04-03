@@ -6,6 +6,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     min-height: 100%;
+    font-family: 'Raleway';
 }
 
 main {
@@ -23,6 +24,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.portrait img {
+    margin-bottom: 20px;
 }
 
 .portrait img {
@@ -69,4 +74,12 @@ main h1 {
   
   .main h1:hover {
     text-shadow: 0.07em 0.07em rgba(0, 0, 0, 0.12);
+  }
+
+  main h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #003f6d;
+    font-size: 1em;
+    font-weight: 400;
   }
