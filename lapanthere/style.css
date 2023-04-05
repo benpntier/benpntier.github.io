@@ -685,9 +685,22 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
+h1, h2 {
     font-size: 20px;
     font-family: "Open Sans";
+}
+
+.padding {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.citation {
+    font-size: 18px;
+}
+
+.citation__name {
+    font-weight: 300;
 }
 
 .cta-hero {
@@ -705,7 +718,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 21px;
     line-height: 1.4em;
 }
 
