@@ -1439,7 +1439,6 @@ hr {
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0
 }
 
@@ -1450,7 +1449,6 @@ hr {
     height: auto;
     margin: 0;
     overflow: visible;
-    clip: auto
 }
 
 [role=button] {
@@ -3060,7 +3058,7 @@ input[type=search] {
 input[type=checkbox],
 input[type=radio] {
     margin: 4px 0 0;
-    margin-top: 1px\9;
+    margin-top: 1px;
     line-height: normal
 }
 
@@ -3186,7 +3184,7 @@ textarea.form-control {
 .radio input[type=radio],
 .radio-inline input[type=radio] {
     position: absolute;
-    margin-top: 4px\9;
+    margin-top: 4px;
     margin-left: -20px
 }
 
@@ -4332,7 +4330,6 @@ tbody.collapse.in {
     content: "";
     border-top: 0;
     border-bottom: 4px dashed;
-    border-bottom: 4px solid\9
 }
 
 .dropup .dropdown-menu,
@@ -4553,7 +4550,6 @@ tbody.collapse.in {
 [data-toggle=buttons]>.btn-group>.btn input[type=checkbox],
 [data-toggle=buttons]>.btn-group>.btn input[type=radio] {
     position: absolute;
-    clip: rect(0, 0, 0, 0);
     pointer-events: none
 }
 
@@ -7435,7 +7431,6 @@ button.close {
 
 .carousel-control.left {
     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
     background-repeat: repeat-x
 }
 
@@ -7443,7 +7438,6 @@ button.close {
     right: 0;
     left: auto;
     background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
     background-repeat: repeat-x
 }
 
