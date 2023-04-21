@@ -154,15 +154,25 @@ b {
     flex-wrap: wrap;
     gap: 1.5em;
     justify-content: center;
+    max-width: 1500px;
+}
+
+.projects-pro .project {
+    width: 290px;
+    flex-direction: column;
+}
+
+.projects-uni .project {
+    flex-direction: row;
+    width: 320px;
+    align-items: center;
 }
 
 .project {
-    width: 290px;
     padding: 1em;
     background-color: #fcfdfd;
     border-radius: 15px;
     display: flex;
-    flex-direction: column;
     gap: .9em;
 }
 
@@ -172,8 +182,12 @@ b {
     gap: .8em
 }
 
-.project img {
+.projects-pro .project img {
     height: 35px
+}
+
+.projects-uni .project img {
+    height: 70px;
 }
 
 .project h4, .project p {
