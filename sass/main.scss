@@ -69,7 +69,7 @@ h2 {
 
 h3 {
     font-size: 2.8em;
-    margin-bottom: .7em;
+    margin-bottom: 0;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
 }
 
@@ -86,9 +86,16 @@ b {
     font-weight: 600;
 }
 
+hr {
+    border-top: 1px solid $lightergrey;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
 .about {
     padding-top: 3.1em;
-    padding-bottom: 8em;
+    padding-bottom: 6em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -266,10 +273,6 @@ b {
 
         &--separator {
             width: 2.5em;
-            border-top: 1px solid $lightergrey;
-            border-bottom: 0;
-            border-left: 0;
-            border-right: 0;
             transition: width .4s ease;
         }
 
@@ -288,7 +291,21 @@ b {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 3em;
+    padding-bottom: 4em;
+
+    &__ornament {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1em;
+        margin-bottom: 1.5em;
+        margin-top: .4em;
+        color: $lightergrey;
+
+        &--separator {
+            width: 7em;
+        }
+    }
 
     &__list {
         display: flex;
@@ -345,6 +362,13 @@ b {
 }
 
 .uni {
+    & .projects__ornament {
+        color: darken($lightergrey, 7);
+
+        &--separator {
+            border-top-color: darken($lightergrey, 7);
+        }
+    }
     &__project {
         flex-direction: row;
         width: 320px;
