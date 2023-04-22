@@ -6,7 +6,7 @@ $bg-secondary: #d1dfe1;
 $sky: #7bb7cb;
 $cloud-shadow: #efe5f2;
 $link: #947fb3;
-$lightergrey: #c4bdcb;
+$lightergrey: #bdc7cb;
 $pro-hightlight: #d3c5d8;
 $uni-highlight: #c3b3c8;
 $tag-colours: (
@@ -120,6 +120,7 @@ hr {
     line-height: 1.9em;
     font-family: 'Fira Mono', monospace;
     letter-spacing: 0;
+    white-space: nowrap;
 }
 
 @each $tag-name, $tag-colour in $tag-colours {
@@ -157,6 +158,7 @@ hr {
         position: absolute;
         border-radius: 50% 50% 10px 10px;
         z-index: 1;
+        transition: box-shadow .4s;
     }
 
     &__cloud {
@@ -236,6 +238,10 @@ hr {
         }
     }
 
+    &:hover &__shadow {
+        box-shadow: inset 15px 7px 0 rgba(0, 0, 0, 0.1);
+    }
+
     &:hover &__cloud--bottomleft {
         transform: scale(1.1) translateX(-13px) translateY(4px);
     }
@@ -302,11 +308,21 @@ hr {
         margin-top: .4em;
         color: $lightergrey;
 
-        &--separator {
-            width: 7em;
+        & hr {
+            transition: transform .3s;
+        }
+
+        & hr:first-child {
+            transform-origin: right center;
+        }
+
+        & hr:nth-of-type(2) {
+            transform-origin: left center;
         }
     }
-
+    &:hover &__ornament hr {
+        transform: scaleX(1.4);
+    }
     &__list {
         display: flex;
         flex-direction: row;
@@ -343,6 +359,9 @@ hr {
 }
 
 .pro {
+    &__separator {
+        width: 7em;
+    }
     &__project {
         width: 290px;
         flex-direction: column;
@@ -362,12 +381,12 @@ hr {
 }
 
 .uni {
+    &__separator {
+        width: 7em;
+        border-top-color: darken($lightergrey, 7);
+    }
     & .projects__ornament {
         color: darken($lightergrey, 7);
-
-        &--separator {
-            border-top-color: darken($lightergrey, 7);
-        }
     }
     &__project {
         flex-direction: row;
@@ -377,5 +396,11 @@ hr {
     }
     &__img {
         height: 70px;
+    }
+}
+
+.art {
+    &__separator {
+        width: 4.5em;
     }
 }
