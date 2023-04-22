@@ -98,7 +98,7 @@ b {
 }
 
 .tags span {
-    background-color: grey;
+    background-color: darkgrey;
     margin-right: 0.3em;
     border-radius: 7px;
     padding: 2px 6px 3px 6px;
@@ -118,25 +118,157 @@ b {
 }
 
 @each $tag-name, $tag-colour in $tag-colours {
-    .tags .#{$tag-name}:hover {
+    .about .tags .#{$tag-name}:hover, .projects__card:hover .tags .#{$tag-name} {
         background-color: darken($tag-colour, 8);
     }
 }
 
 .portrait {
+    position: relative;
+
     &__sky {
         height: 220px;
         width: 215px;
         background-color: #7bb7cb;
-        border-radius: 50% 50% 0 0;
+        border-radius: 50% 50% 10px 10px;
         display: flex;
         align-items: flex-end;
         justify-content: center;
+        overflow: hidden;
+    }
+
+    &__shadow {
+        box-shadow: inset 12px 5px 0 rgba(0, 0, 0, 0.1);
+        height: 220px;
+        width: 215px;
+        position: absolute;
+        border-radius: 50% 50% 10px 10px;
+        z-index: 1;
+    }
+
+    .cloud-1 {
+        left: -30px;
+        bottom: -12px;
+        transform: scale(1.1);
+        z-index: 2;
+        transition: transform 0.4s ease;
+    }
+
+    .cloud-2 {
+        left: 130px;
+        bottom: 140px;
+        z-index: 1;
+        transition: transform 0.4s ease;
+    }
+
+    .cloud-3 {
+        z-index: 1;
+        top: -100px;
+        left: -45px;
+        position: relative;
+        transform: scale(.3);
+        opacity: .75;
+        transition: transform 0.4s ease;
+    }
+
+    .cloud-4 {
+        z-index: 1;
+        top: -40px;
+        left: 25px;
+        position: relative;
+        transform: scale(.4);
+        opacity: .8;
+        transition: transform 0.4s ease
+    }
+
+    &:hover .cloud-1 {
+        transform: scale(1.1) translateX(-13px) translateY(4px);
+    }
+
+    &:hover .cloud-2 {
+        transform: translateX(15px) translateY(-5px);
+    }
+
+    &:hover .cloud-3 {
+        transform: scale(.3) translateX(-10px) translateY(-4px);
+    }
+
+    &:hover .cloud-4 {
+        transform: scale(.4) translateX(10px) translateY(3px);
+    }
+
+    &:hover hr {
+        width: 2.8em;
+    }
+
+    &__cloud {
+        background-color: $white;
+        width: 100px;
+        height: 30px;
+        border-radius: 50px;
+        position: absolute;
+
+        & div {
+            background-color: $white;
+            border-radius: 50%;
+            position: absolute;
+            box-shadow: inset -8px -5px 7px #efe5f2;
+
+            &:first-child {
+                width: 80px;
+                height: 50px;
+                bottom: -10px;
+                left: -10px;
+                z-index: 2;
+            }
+            &:nth-child(2){
+                width: 72px;
+                height: 42px;
+                bottom: -5px;
+                left: 40px;
+                z-index: 2;
+            }
+            &:nth-child(3){
+                width: 60px;
+                height: 35px;
+                bottom: 20px;
+                left: 30px;
+                z-index: 1;
+            }
+            &:nth-child(4){
+                width: 60px;
+                height: 35px;
+                bottom: -20px;
+                left: 30px;
+                z-index: 2;
+            }
+        }
     }
 
     &__img {
         width: 78%;
+        z-index: 2;
+        position: absolute;
     }
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: .7em;
+    position: absolute;
+    right: 0;
+    font-size: 1.1em;
+    padding-top: .5em;
+    color: #42879e;
+}
+
+hr {
+    width: 2.5em;
+    border-top: 1px solid darkgrey;
+    border-bottom: 0;
+    opacity: 0.4;
+    transition: width .4s ease;
 }
 
 .projects {
@@ -159,6 +291,20 @@ b {
         border-radius: 15px;
         display: flex;
         gap: .9em;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s;
+
+        &:hover {
+            box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.23);
+
+            & img {
+                opacity: 100%;
+            }
+        }
+    }
+    & img {
+        opacity: .8;
+        transition: opacity 0.3s;
     }
     &__dates {
         font-size: .85em;
@@ -170,6 +316,7 @@ b {
     &__project {
         width: 290px;
         flex-direction: column;
+        border-bottom: #d3c5d8 solid 1px;
     }
     &__header {
         display: flex;
@@ -189,6 +336,7 @@ b {
         flex-direction: row;
         width: 320px;
         align-items: center;
+        border-bottom: #c3b3c8 solid 1px;
     }
     &__img {
         height: 70px;

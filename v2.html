@@ -18,21 +18,35 @@
             <h2>Spécialiste en Intelligence Artificielle</h2>
         </header>
         <main>
-            <section class="about">
+            <div class="about">
                 <div class="bio">
                     <p>Diplômé d'un <b>master</b> en <b>IA</b> et <b>reconnaissance des formes</b>,<br>et <b>passionné</b> d'informatique depuis toujours, mes projets<br>m'ont permis de forger mes <b>compétences techniques</b><br>ainsi que ma <b>créativité</b>.</p>
-                    <div class="tags"><span class="ai">Machine Learning</span><span class="dl">Deep Learning</span><br><span class="nlp">Natural Language Processing</span><span class="imagep">Image Processing</span><br><span class="prog">Python</span><span class="web">Web</span></p></div>
+                    <div class="tags"><span class="ai">Machine Learning</span><span class="dl">Deep Learning</span><br><span class="nlp">Natural Language Processing</span><span class="imagep">Image Processing</span><br><span class="prog">Python</span><span class="web">Web</span></div>
                 </div>
                 <div class="portrait">
-                    <div class="portrait__sky"><img src="img/portrait-transparent.png" alt="Portrait" class="portrait__img"></div>
+                    <div class="portrait__sky">
+                        <div class="portrait__cloud cloud-3"><div></div><div></div><div></div><div></div></div>
+                        <div class="portrait__cloud cloud-4"><div></div><div></div><div></div><div></div></div>
+                        <img src="img/portrait-transparent.png" alt="Portrait" class="portrait__img">
+                        <div class="portrait__shadow"></div>
+                    </div>
+                    
+                    <div class="portrait__cloud cloud-1"><div></div><div></div><div></div><div></div></div>
+                    <div class="portrait__cloud cloud-2"><div></div><div></div><div></div><div></div></div>
+                    <div class="contact">
+                        <hr>
+                        <i class="fa-solid fa-envelope"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
                 </div>
-            </section>
+            </div>
             <section class="projects pro bg-primary">
                 <h3>Projets professionnels</h3>
                 <div class="projects__list">
                     <article class="projects__card pro__project">
                         <div class="pro__header">
-                            <img src="img/logos/vimersio.png" class="pro__img">
+                            <img src="img/logos/vimersio.png" class="pro__img" alt="Vimersio">
                             <div class="projects__info">
                                 <h4 class="no-margin"><b>Chargé de dev. IT</b>, Vimersio</h4>
                                 <p class="projects__dates no-margin">Octobre 2022 - Septembre 2023</p>
@@ -43,18 +57,18 @@
                     </article>
                     <article class="projects__card pro__project">
                         <div class="pro__header">
-                            <img src="img/logos/irit.png" class="pro__img">
+                            <img src="img/logos/irit.png" class="pro__img" alt="IRIT">
                             <div class="projects__info">
                                 <h4 class="no-margin"><b>Stage de fin d'études</b>, IRIT</h4>
                                 <p class="projects__dates no-margin">Mars-août 2021</p>
                             </div>
                         </div>
                         <p class="pro__desc no-margin">Concevoir un <b>réseau de neurones</b> capable de proposer une <b>correction automatique</b> basée sur la <b>prononciation</b></p>
-                        <div class="tags"><span class="dl">Deep Learning</span><br><span class="nlp">Natural Language Processing</span></div>
+                        <div class="tags"><span class="dl">Deep Learning</span><span class="nlp">NLP</span></div>
                     </article>
                     <article class="projects__card pro__project">
                         <div class="pro__header">
-                            <img src="img/logos/ups.png" class="pro__img">
+                            <img src="img/logos/ups.png" class="pro__img" alt="Université Paul Sabatier">
                             <div class="projects__info">
                                 <h4 class="no-margin"><b>Bureau d'études</b>, UPS / IRIT</h4>
                                 <p class="projects__dates no-margin">Avril-mai 2019</p>
@@ -65,7 +79,7 @@
                     </article>
                     <article class="projects__card pro__project">
                         <div class="pro__header">
-                            <img src="img/logos/ica.png" class="pro__img">
+                            <img src="img/logos/ica.png" class="pro__img" alt="Institut Clément Ader">
                             <div class="projects__info">
                                 <h4 class="no-margin"><b>Stage</b>, Institut Clément Ader</h4>
                                 <p class="projects__dates no-margin">Avril-juin 2018</p>
@@ -80,7 +94,7 @@
                 <h3>Projets universitaires</h3>
                 <div class="projects__list">
                     <article class="projects__card uni__project">
-                        <img src="uni/img/conceptmap/icon.png" class="uni__img">
+                        <img src="uni/img/conceptmap/icon.png" class="uni__img" alt="Concept Mapping Tool">
                         <div class="projects__info">
                             <h4 class="no-margin"><i>Concept Mapping Tool</i></h4>
                             <p class="projects__dates no-margin">Octobre 2020 - Mars 2021</p>
@@ -89,7 +103,7 @@
                         </div>
                     </article>
                     <article class="projects__card uni__project">
-                        <img src="uni/img/pointillism/icon.png" class="uni__img">
+                        <img src="uni/img/pointillism/icon.png" class="uni__img" alt="Programme Pointilliste">
                         <div class="projects__info">
                             <h4 class="no-margin">Programme Pointilliste</h4>
                             <p class="projects__dates no-margin">Mars-juin 2020</p>
@@ -98,7 +112,7 @@
                         </div>
                     </article>
                     <article class="projects__card uni__project">
-                        <img src="uni/img/denoiser/icon.png" class="uni__img">
+                        <img src="uni/img/denoiser/icon.png" class="uni__img" alt="Algorithme de débruitage">
                         <div class="projects__info">
                             <h4 class="no-margin">Algorithme de débruitage</h4>
                             <p class="projects__dates no-margin">Février-mai 2020</p>
@@ -107,7 +121,7 @@
                         </div>
                     </article>
                     <article class="projects__card uni__project">
-                        <img src="uni/img/arkanoid3D/icon.png" class="uni__img">
+                        <img src="uni/img/arkanoid3D/icon.png" class="uni__img" alt="Arkanoid 3D">
                         <div class="projects__info">
                             <h4 class="no-margin">Jeu web <i>Arkanoid 3D</i></h4>
                             <p class="projects__dates no-margin">Novembre 2019 - Janvier 2020</p>
@@ -116,7 +130,7 @@
                         </div>
                     </article>
                     <article class="projects__card uni__project">
-                        <img src="uni/img/neocampus/icon.png" class="uni__img">
+                        <img src="uni/img/neocampus/icon.png" class="uni__img" alt="neOCampus">
                         <div class="projects__info">
                             <h4 class="no-margin">Interface neOCampus</h4>
                             <p class="projects__dates no-margin">Novembre 2018 - Janvier 2019</p>
@@ -125,7 +139,7 @@
                         </div>
                     </article>
                     <article class="projects__card uni__project">
-                        <img src="uni/img/coursepoursuite/icon.png" class="uni__img">
+                        <img src="uni/img/coursepoursuite/icon.png" class="uni__img" alt="Course Poursuite">
                         <div class="projects__info">
                             <h4 class="no-margin">Application <i>Course Poursuite</i></h4>
                             <p class="projects__dates no-margin">Novembre 2018 - Janvier 2019</p>
@@ -134,7 +148,7 @@
                         </div>
                     </article>
                     <article class="projects__card uni__project">
-                        <img src="uni/img/norntalk/icon.png" class="uni__img">
+                        <img src="uni/img/norntalk/icon.png" class="uni__img" alt="Norn Talk">
                         <div class="projects__info">
                             <h4 class="no-margin">Application <i>Norn Talk</i></h4>
                             <p class="projects__dates no-margin">Octobre-décembre 2017</p>
@@ -143,7 +157,7 @@
                         </div>
                     </article>
                     <article class="projects__card uni__project">
-                        <img src="uni/img/algogen/icon.png" class="uni__img">
+                        <img src="uni/img/algogen/icon.png" class="uni__img" alt="Algorithme génétique">
                         <div class="projects__info">
                             <h4 class="no-margin">Algorithme génétique</h4>
                             <p class="projects__dates no-margin">Septembre-novembre 2017</p>
@@ -152,7 +166,7 @@
                         </div>
                     </article>
                     <article class="projects__card uni__project">
-                        <img src="uni/img/cabinetmedical/icon.png" class="uni__img">
+                        <img src="uni/img/cabinetmedical/icon.png" class="uni__img" alt="Cabinet Médical">
                         <div class="projects__info">
                             <h4 class="no-margin">Site de cabinet médical</h4>
                             <p class="projects__dates no-margin">Décembre 2017 - Janvier 2018</p>
@@ -161,7 +175,7 @@
                         </div>
                     </article>
                     <article class="projects__card uni__project">
-                        <img src="uni/img/bravenewearth/icon.png" class="uni__img">
+                        <img src="uni/img/bravenewearth/icon.png" class="uni__img" alt="Brave New Earth">
                         <div class="projects__info">
                             <h4 class="no-margin">Webdoc <i>Brave New Earth</i></h4>
                             <p class="projects__dates no-margin">Février-mai 2017</p>
@@ -170,7 +184,7 @@
                         </div>
                     </article>
                     <article class="projects__card uni__project">
-                        <img src="uni/img/dune/icon.png" class="uni__img">
+                        <img src="uni/img/dune/icon.png" class="uni__img" alt="Un Rêve de Dune">
                         <div class="projects__info">
                             <h4 class="no-margin">Site web <i>Un Rêve de Dune</i></h4>
                             <p class="projects__dates no-margin">Septembre-octobre 2016</p>
@@ -179,7 +193,7 @@
                         </div>
                     </article>
                     <article class="projects__card uni__project">
-                        <img src="uni/img/odyssee/icon.png" class="uni__img">
+                        <img src="uni/img/odyssee/icon.png" class="uni__img" alt="L'Odyssée de l'Hyperespace">
                         <div class="projects__info">
                             <h4 class="no-margin"><i>L'Odyssée de l'Hyperespace</i></h4>
                             <p class="projects__dates no-margin">Mars-mai 2016</p>
