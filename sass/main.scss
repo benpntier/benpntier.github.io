@@ -1,0 +1,196 @@
+// Colours
+$black: #2d3639;
+$white: #fcfdfd;
+$bg-primary: #e8f1f2;
+$bg-secondary: #d1dfe1;
+$tag-colours: (
+    "ai": #7dc2ba,
+    "dl": #79bbd4,
+    "nlp": #be9ece,
+    "imagep": #95a1dd,
+    "prog": #e0a4a1,
+    "web": #e7b881,
+    "sql": #c9bdae,
+    "android": #a3cb7b,
+    "design": #dea8d7
+);
+
+body {
+    padding: 0;
+    background-color: $bg-secondary;
+    color: $black;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: -.02em;
+}
+
+header {
+    padding-top: 2em;
+    padding-bottom: 3.1em;
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: $bg-primary;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+h1, h3 {
+    font-family: 'Playfair Display', serif ;
+    transition: text-shadow 0.3s;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 4.9em;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+h1:hover {
+    text-shadow: 7px 7px 0px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: -.3em;
+    margin-bottom: 0;
+    font-size: 1.9em;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 2.8em;
+    margin-bottom: .7em;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+}
+
+h3:hover {
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+h4 {
+    font-weight: 500;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.07);
+}
+
+b {
+    font-weight: 600;
+}
+
+.about {
+    padding-top: 3.1em;
+    padding-bottom: 8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7em;
+}
+
+.about p {
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: 400;
+    font-size: 1.12em;
+}
+
+.tags span {
+    background-color: grey;
+    margin-right: 0.3em;
+    border-radius: 7px;
+    padding: 2px 6px 3px 6px;
+    color: white;
+    font-size: .8em;
+    line-height: 1.9em;
+    font-family: 'Fira Mono', monospace;
+    letter-spacing: 0;
+}
+
+@each $tag-name, $tag-colour in $tag-colours {
+    .tags .#{$tag-name} {
+        background-color: $tag-colour;
+
+        transition: background-color 0.3s;
+    }
+}
+
+@each $tag-name, $tag-colour in $tag-colours {
+    .tags .#{$tag-name}:hover {
+        background-color: darken($tag-colour, 8);
+    }
+}
+
+.portrait {
+    &__sky {
+        height: 220px;
+        width: 215px;
+        background-color: #7bb7cb;
+        border-radius: 50% 50% 0 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    &__img {
+        width: 78%;
+    }
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3em;
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5em;
+        justify-content: center;
+        max-width: 1500px;
+    }
+    &__card {
+        padding: 1em;
+        background-color: $white;
+        border-radius: 15px;
+        display: flex;
+        gap: .9em;
+    }
+    &__dates {
+        font-size: .85em;
+        color: grey;
+    }
+}
+
+.pro {
+    &__project {
+        width: 290px;
+        flex-direction: column;
+    }
+    &__header {
+        display: flex;
+        flex-direction: row;
+        gap: .8em
+    }
+    &__img {
+        height: 35px;
+    }
+    &__desc {
+        font-size: .9em;
+    }
+}
+
+.uni {
+    &__project {
+        flex-direction: row;
+        width: 320px;
+        align-items: center;
+    }
+    &__img {
+        height: 70px;
+    }
+}
