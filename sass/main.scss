@@ -3,6 +3,12 @@ $black: #2d3639;
 $white: #fcfdfd;
 $bg-primary: #e8f1f2;
 $bg-secondary: #d1dfe1;
+$sky: #7bb7cb;
+$cloud-shadow: #efe5f2;
+$link: #947fb3;
+$lightergrey: #c4bdcb;
+$pro-hightlight: #d3c5d8;
+$uni-highlight: #c3b3c8;
 $tag-colours: (
     "ai": #7dc2ba,
     "dl": #79bbd4,
@@ -129,7 +135,7 @@ b {
     &__sky {
         height: 220px;
         width: 215px;
-        background-color: #7bb7cb;
+        background-color: $sky;
         border-radius: 50% 50% 10px 10px;
         display: flex;
         align-items: flex-end;
@@ -146,73 +152,51 @@ b {
         z-index: 1;
     }
 
-    .cloud-1 {
-        left: -30px;
-        bottom: -12px;
-        transform: scale(1.1);
-        z-index: 2;
-        transition: transform 0.4s ease;
-    }
-
-    .cloud-2 {
-        left: 130px;
-        bottom: 140px;
-        z-index: 1;
-        transition: transform 0.4s ease;
-    }
-
-    .cloud-3 {
-        z-index: 1;
-        top: -100px;
-        left: -45px;
-        position: relative;
-        transform: scale(.3);
-        opacity: .75;
-        transition: transform 0.4s ease;
-    }
-
-    .cloud-4 {
-        z-index: 1;
-        top: -40px;
-        left: 25px;
-        position: relative;
-        transform: scale(.4);
-        opacity: .8;
-        transition: transform 0.4s ease
-    }
-
-    &:hover .cloud-1 {
-        transform: scale(1.1) translateX(-13px) translateY(4px);
-    }
-
-    &:hover .cloud-2 {
-        transform: translateX(15px) translateY(-5px);
-    }
-
-    &:hover .cloud-3 {
-        transform: scale(.3) translateX(-10px) translateY(-4px);
-    }
-
-    &:hover .cloud-4 {
-        transform: scale(.4) translateX(10px) translateY(3px);
-    }
-
-    &:hover hr {
-        width: 2.8em;
-    }
-
     &__cloud {
         background-color: $white;
         width: 100px;
         height: 30px;
         border-radius: 50px;
         position: absolute;
+        transition: transform 0.4s ease;
+
+        &--bottomleft {
+            left: -30px;
+            bottom: -12px;
+            transform: scale(1.1);
+            z-index: 2;
+        }
+
+        &--topright {
+            left: 130px;
+            bottom: 140px;
+            z-index: 1;
+        }
+
+        &--middle {
+            z-index: 1;
+            position: relative;
+
+            &left {
+                top: -100px;
+                left: -45px;
+                transform: scale(.3);
+                opacity: .75;
+            }
+
+            &right {
+                top: -40px;
+                left: 25px;
+                transform: scale(.4);
+                opacity: .8;
+            }
+        }
 
         & div {
             background-color: $white;
             border-radius: 50%;
             position: absolute;
-            box-shadow: inset -8px -5px 7px #efe5f2;
+            box-shadow: inset -8px -5px 7px $cloud-shadow;
 
             &:first-child {
                 width: 80px;
@@ -245,30 +229,59 @@ b {
         }
     }
 
+    &:hover &__cloud--bottomleft {
+        transform: scale(1.1) translateX(-13px) translateY(4px);
+    }
+
+    &:hover &__cloud--topright {
+        transform: translateX(15px) translateY(-5px);
+    }
+
+    &:hover &__cloud--middleleft {
+        transform: scale(.3) translateX(-10px) translateY(-4px);
+    }
+
+    &:hover &__cloud--middleright {
+        transform: scale(.4) translateX(10px) translateY(3px);
+    }
+
+    &:hover hr {
+        width: 2.8em;
+    }
+
     &__img {
         width: 78%;
         z-index: 2;
         position: absolute;
     }
-}
 
-.contact {
-    display: flex;
-    flex-direction: row;
-    gap: .7em;
-    position: absolute;
-    right: 0;
-    font-size: 1.1em;
-    padding-top: .5em;
-    color: #42879e;
-}
+    &__contact {
+        display: flex;
+        flex-direction: row;
+        gap: .7em;
+        position: absolute;
+        right: 0;
+        font-size: 1.1em;
+        padding-top: .5em;
 
-hr {
-    width: 2.5em;
-    border-top: 1px solid darkgrey;
-    border-bottom: 0;
-    opacity: 0.4;
-    transition: width .4s ease;
+        &--separator {
+            width: 2.5em;
+            border-top: 1px solid $lightergrey;
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+            transition: width .4s ease;
+        }
+
+        &--link {
+            color: $link;
+            transition: color .3s;
+
+            &:hover {
+                color: darken($link, 10);
+            }
+        }
+    }
 }
 
 .projects {
@@ -316,7 +329,7 @@ hr {
     &__project {
         width: 290px;
         flex-direction: column;
-        border-bottom: #d3c5d8 solid 1px;
+        border-bottom: $pro-hightlight solid 1px;
     }
     &__header {
         display: flex;
@@ -336,7 +349,7 @@ hr {
         flex-direction: row;
         width: 320px;
         align-items: center;
-        border-bottom: #c3b3c8 solid 1px;
+        border-bottom: $uni-highlight solid 1px;
     }
     &__img {
         height: 70px;

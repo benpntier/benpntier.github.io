@@ -194,58 +194,40 @@ b {
   border-radius: 50% 50% 10px 10px;
   z-index: 1;
 }
-.portrait .cloud-1 {
-  left: -30px;
-  bottom: -12px;
-  transform: scale(1.1);
-  z-index: 2;
-  transition: transform 0.4s ease;
-}
-.portrait .cloud-2 {
-  left: 130px;
-  bottom: 140px;
-  z-index: 1;
-  transition: transform 0.4s ease;
-}
-.portrait .cloud-3 {
-  z-index: 1;
-  top: -100px;
-  left: -45px;
-  position: relative;
-  transform: scale(0.3);
-  opacity: 0.75;
-  transition: transform 0.4s ease;
-}
-.portrait .cloud-4 {
-  z-index: 1;
-  top: -40px;
-  left: 25px;
-  position: relative;
-  transform: scale(0.4);
-  opacity: 0.8;
-  transition: transform 0.4s ease;
-}
-.portrait:hover .cloud-1 {
-  transform: scale(1.1) translateX(-13px) translateY(4px);
-}
-.portrait:hover .cloud-2 {
-  transform: translateX(15px) translateY(-5px);
-}
-.portrait:hover .cloud-3 {
-  transform: scale(0.3) translateX(-10px) translateY(-4px);
-}
-.portrait:hover .cloud-4 {
-  transform: scale(0.4) translateX(10px) translateY(3px);
-}
-.portrait:hover hr {
-  width: 2.8em;
-}
 .portrait__cloud {
   background-color: #fcfdfd;
   width: 100px;
   height: 30px;
   border-radius: 50px;
   position: absolute;
+  transition: transform 0.4s ease;
+}
+.portrait__cloud--bottomleft {
+  left: -30px;
+  bottom: -12px;
+  transform: scale(1.1);
+  z-index: 2;
+}
+.portrait__cloud--topright {
+  left: 130px;
+  bottom: 140px;
+  z-index: 1;
+}
+.portrait__cloud--middle {
+  z-index: 1;
+  position: relative;
+}
+.portrait__cloud--middleleft {
+  top: -100px;
+  left: -45px;
+  transform: scale(0.3);
+  opacity: 0.75;
+}
+.portrait__cloud--middleright {
+  top: -40px;
+  left: 25px;
+  transform: scale(0.4);
+  opacity: 0.8;
 }
 .portrait__cloud div {
   background-color: #fcfdfd;
@@ -281,13 +263,27 @@ b {
   left: 30px;
   z-index: 2;
 }
+.portrait:hover .portrait__cloud--bottomleft {
+  transform: scale(1.1) translateX(-13px) translateY(4px);
+}
+.portrait:hover .portrait__cloud--topright {
+  transform: translateX(15px) translateY(-5px);
+}
+.portrait:hover .portrait__cloud--middleleft {
+  transform: scale(0.3) translateX(-10px) translateY(-4px);
+}
+.portrait:hover .portrait__cloud--middleright {
+  transform: scale(0.4) translateX(10px) translateY(3px);
+}
+.portrait:hover hr {
+  width: 2.8em;
+}
 .portrait__img {
   width: 78%;
   z-index: 2;
   position: absolute;
 }
-
-.contact {
+.portrait__contact {
   display: flex;
   flex-direction: row;
   gap: 0.7em;
@@ -295,15 +291,21 @@ b {
   right: 0;
   font-size: 1.1em;
   padding-top: 0.5em;
-  color: #42879e;
 }
-
-hr {
+.portrait__contact--separator {
   width: 2.5em;
-  border-top: 1px solid darkgrey;
+  border-top: 1px solid #c4bdcb;
   border-bottom: 0;
-  opacity: 0.4;
+  border-left: 0;
+  border-right: 0;
   transition: width 0.4s ease;
+}
+.portrait__contact--link {
+  color: #947fb3;
+  transition: color 0.3s;
+}
+.portrait__contact--link:hover {
+  color: #795fa0;
 }
 
 .projects {
