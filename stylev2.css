@@ -341,7 +341,7 @@ hr {
   transform-origin: left center;
 }
 .projects:hover .projects__ornament hr {
-  transform: scaleX(1.4);
+  transform: scaleX(1.35);
 }
 .projects__list {
   display: flex;
