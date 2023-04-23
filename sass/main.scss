@@ -7,7 +7,7 @@ $sky: #7bb7cb;
 $cloud-shadow: #efe5f2;
 $link: #947fb3;
 $lightergrey: #bdc7cb;
-$pro-hightlight: #d3c5d8;
+$pro-highlight: #d3c5d8;
 $uni-highlight: #c3b3c8;
 $tag-colours: (
     "ai": #7dc2ba,
@@ -84,6 +84,15 @@ h4 {
 
 b {
     font-weight: 600;
+}
+
+img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 hr {
@@ -356,6 +365,15 @@ hr {
         font-size: .85em;
         color: grey;
     }
+    &__link {
+        color: darken($sky, 30);
+        text-decoration: none;
+        transition: color .3s;
+
+        &:hover {
+            color: darken($sky, 42);
+        }
+    }
 }
 
 .pro {
@@ -365,7 +383,7 @@ hr {
     &__project {
         width: 290px;
         flex-direction: column;
-        border-bottom: $pro-hightlight solid 1px;
+        border-bottom: $pro-highlight solid 1px;
     }
     &__header {
         display: flex;
@@ -390,7 +408,7 @@ hr {
     }
     &__project {
         flex-direction: row;
-        width: 320px;
+        width: 305px;
         align-items: center;
         border-bottom: $uni-highlight solid 1px;
     }
@@ -402,5 +420,21 @@ hr {
 .art {
     &__separator {
         width: 4.5em;
+    }
+    &__project {
+        flex-direction: row;
+        width: 357px;
+        border-bottom: $pro-highlight solid 1px;
+        
+        &:nth-of-type(2) {
+            width: 345px;
+        }
+    }
+    &__img {
+        height: 105px;
+        border-radius: 6px;
+    }
+    &__desc {
+        font-size: .9em;
     }
 }
