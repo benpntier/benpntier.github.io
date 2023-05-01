@@ -153,6 +153,7 @@ hr {
         height: 220px;
         width: 215px;
         background-color: $sky;
+        background: linear-gradient(0deg, lighten($sky, 15) 0%, $sky 100%);
         border-radius: 50% 50% 10px 10px;
         display: flex;
         align-items: flex-end;
@@ -431,10 +432,30 @@ hr {
         }
     }
     &__img {
+        width: 105px;
         height: 105px;
+        object-fit: cover;
         border-radius: 6px;
     }
     &__desc {
         font-size: .9em;
     }
+}
+
+@media screen and (max-width: 1400px) {
+    .pro .projects__list {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .uni .projects__list {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+.about {
+    gap: 3em;
+}
 }
