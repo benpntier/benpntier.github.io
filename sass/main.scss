@@ -345,6 +345,10 @@ hr {
         justify-content: center;
         max-width: 1500px;
     }
+    &__item {
+        text-decoration: none;
+        color: $black;
+    }
     &__card {
         padding: 1em;
         background-color: $white;
@@ -444,6 +448,10 @@ hr {
     &__desc {
         font-size: .9em;
     }
+}
+
+.uni__project .projects__dates, .art__project .projects__dates {
+    margin: 0 0 1.4em 0;
 }
 
 .project__page {

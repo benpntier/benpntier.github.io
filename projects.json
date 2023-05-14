@@ -2,8 +2,9 @@
     {
         "id":"vimersio",
         "category":"pro",
-        "company":"Vimersio",
+        "company":"<a href='https://vimersio.com/' class='projects__link' target='_blank'>Vimersio</a>",
         "logo_url":"img/logos/vimersio.png",
+        "logo_alt":"Vimersio",
         "name":"Chargé de dev. IT",
         "dates":"Octobre 2022 - Septembre 2023",
         "desc":"<b>Automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et optimiser ses fonctionnalités",
@@ -19,8 +20,9 @@
     {
         "id":"phonetik",
         "category":"pro",
-        "company":"IRIT",
+        "company":"<a href='https://www.irit.fr/' class='projects__link' target='_blank'>IRIT</a>",
         "logo_url":"img/logos/irit.png",
+        "logo_alt":"IRIT",
         "name":"Stage de fin d'études",
         "dates":"Mars-août 2021",
         "desc":"Concevoir un <b>réseau de neurones</b> capable de proposer une <b>correction automatique</b> basée sur la <b>prononciation</b>",
@@ -38,11 +40,12 @@
     {
         "id":"nxt",
         "category":"pro",
-        "company":"UPS / IRIT",
+        "company":"<a href='http://www.univ-tlse3.fr/' class='projects__link' target='_blank'>UPS</a> / <a href='https://www.irit.fr/' class='projects__link' target='_blank'>IRIT</a>",
         "logo_url":"img/logos/ups.png",
+        "logo_alt":"Université Paul Sabatier",
         "name":"Bureau d'études",
         "dates":"Avril-mai 2019",
-        "desc":"Implémenter une <b>interface</b> et une <b>IA</b> pour faire <b>collaborer</b> deux robots Lego NXT sur une <b>tâche commune</b> sans collision",
+        "desc":"Implémenter une <b>interface<\/b> et une <b>IA<\/b> pour faire <b>collaborer<\/b> deux robots Lego NXT sur une <b>tâche commune<\/b> sans collision",
         "tags_short":[
             "Algorithme A*",
             "Java"
@@ -55,8 +58,9 @@
     {
         "id":"ica",
         "category":"pro",
-        "company":"Institut Clément Ader",
+        "company":"<a href='https://ica.cnrs.fr/' class='projects__link' target='_blank'>Institut Clément Ader</a>",
         "logo_url":"img/logos/ica.png",
+        "logo_alt":"Institut Clément Ader",
         "name":"Stage",
         "dates":"Avril-juin 2018",
         "desc":"<b>Migrer</b> un <b>site</b> statique vers WordPress, maintenir ses <b>fonctions</b> et <b>données</b> et étendre ses fonctionnalités",
@@ -70,5 +74,218 @@
             "web",
             "sql"
         ]
+    },
+    {
+        "id":"conceptmap",
+        "category":"uni",
+        "logo_url":"uni/img/conceptmap/icon.png",
+        "logo_alt":"Concept Mapping Tool",
+        "name":"<i>Concept Mapping Tool</i>",
+        "dates":"Octobre 2020 - Mars 2021",
+        "tags_short":[
+            "Java",
+            "Web",
+            "SQL"
+        ],
+        "tags_colors_short":[
+            "prog",
+            "web",
+            "sql"
+        ]
+    },
+    {
+        "id":"pointillism",
+        "category":"uni",
+        "logo_url":"uni/img/pointillism/icon.png",
+        "logo_alt":"Programme Pointilliste",
+        "name":"Programme Pointilliste",
+        "dates":"Mars-juin 2020",
+        "tags_short":[
+            "Image Processing",
+            "C++"
+        ],
+        "tags_colors_short":[
+            "imagep",
+            "prog"
+        ]
+    },
+    {
+        "id":"denoiser",
+        "category":"uni",
+        "logo_url":"uni/img/denoiser/icon.png",
+        "logo_alt":"Algorithme de débruitage",
+        "name":"Algorithme de débruitage",
+        "dates":"Février-mai 2020",
+        "tags_short":[
+            "Image Processing",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "imagep",
+            "prog"
+        ]
+    },
+    {
+        "id":"arkanoid3D",
+        "category":"uni",
+        "logo_url":"uni/img/arkanoid3D/icon.png",
+        "logo_alt":"Arkanoid 3D",
+        "name":"Jeu web <i>Arkanoid 3D</i>",
+        "dates":"Novembre 2019 - Janvier 2020",
+        "tags_short":[
+            "Web",
+            "JavaScript"
+        ],
+        "tags_colors_short":[
+            "web",
+            "web"
+        ]
+    },
+    {
+        "id":"neocampus",
+        "category":"uni",
+        "logo_url":"uni/img/neocampus/icon.png",
+        "logo_alt":"neOCampus",
+        "name":"Interface neOCampus",
+        "dates":"Novembre 2018 - Janvier 2019",
+        "tags_short":[
+            "Java",
+            "SQL"
+        ],
+        "tags_colors_short":[
+            "prog",
+            "sql"
+        ]
+    },    {
+        "id":"coursepoursuite",
+        "category":"uni",
+        "logo_url":"uni/img/coursepoursuite/icon.png",
+        "logo_alt":"Course Poursuite",
+        "name":"Application <i>Course Poursuite</i>",
+        "dates":"Novembre 2018 - Janvier 2019",
+        "tags_short":[
+            "Android",
+            "Java"
+        ],
+        "tags_colors_short":[
+            "android",
+            "prog"
+        ]
+    },
+    {
+        "id":"norntalk",
+        "category":"uni",
+        "logo_url":"uni/img/norntalk/icon.png",
+        "logo_alt":"Norn Talk",
+        "name":"Application <i>Norn Talk</i>",
+        "dates":"Octobre-décembre 2017",
+        "tags_short":[
+            "Android",
+            "Kotlin"
+        ],
+        "tags_colors_short":[
+            "android",
+            "prog"
+        ]
+    },
+    {
+        "id":"algogen",
+        "category":"uni",
+        "logo_url":"uni/img/algogen/icon.png",
+        "logo_alt":"Algorithme génétique",
+        "name":"Algorithme génétique",
+        "dates":"Septembre-novembre 2017",
+        "tags_short":[
+            "Python"
+        ],
+        "tags_colors_short":[
+            "prog"
+        ]
+    },
+    {
+        "id":"cabinetmedical",
+        "category":"uni",
+        "logo_url":"uni/img/cabinetmedical/icon.png",
+        "logo_alt":"Cabinet Médical",
+        "name":"Site de cabinet médical",
+        "dates":"Décembre 2017 - Janvier 2018",
+        "tags_short":[
+            "Web",
+            "PHP",
+            "SQL"
+        ],
+        "tags_colors_short":[
+            "web",
+            "web",
+            "sql"
+        ]
+    },
+    {
+        "id":"bravenewearth",
+        "category":"uni",
+        "logo_url":"uni/img/bravenewearth/icon.png",
+        "logo_alt":"Brave New Earth",
+        "name":"Webdoc <i>Brave New Earth</i>",
+        "dates":"Février-mai 2017",
+        "tags_short":[
+            "Web",
+            "Montage vidéo",
+            "Design"
+        ],
+        "tags_colors_short":[
+            "web",
+            "design",
+            "design"
+        ]
+    },
+    {
+        "id":"dune",
+        "category":"uni",
+        "logo_url":"uni/img/dune/icon.png",
+        "logo_alt":"Un Rêve de Dune",
+        "name":"Site web <i>Un Rêve de Dune</i>",
+        "dates":"Septembre-octobre 2016",
+        "tags_short":[
+            "Web",
+            "Design"
+        ],
+        "tags_colors_short":[
+            "web",
+            "design"
+        ]
+    },
+    {
+        "id":"odyssee",
+        "category":"uni",
+        "logo_url":"uni/img/odyssee/icon.png",
+        "logo_alt":"L'Odyssée de l'Hyperespace",
+        "name":"L'Odyssée de l'Hyperespace",
+        "dates":"Mars-mai 2016",
+        "tags_short":[
+            "Python",
+            "Dijkstra"
+        ],
+        "tags_colors_short":[
+            "prog",
+            "algo"
+        ]
+    },
+    {
+        "id":"analog",
+        "category":"art",
+        "logo_url":"art/img/analog/5.jpg",
+        "logo_alt":"Exemple de photo argentique (Bordeaux)",
+        "name":"Photographie argentique",
+        "dates":"Depuis 2021",
+        "desc":"Garder des <b>souvenirs</b> de mes <b>voyages</b> grâce à mon appareil <i><b>point-and-shoot</b></i>"
+    },
+    {
+        "id":"odyssee",
+        "category":"art",
+        "logo_url":"art/img/covers/DoctorWho.png",
+        "logo_alt":"Exemple de pochette (Doctor Who)",
+        "name":"<i>Soundtrack Covers</i>",
+        "dates":"Depuis 2012",
+        "desc":"Créer des <b>pochettes alternatives</b> pour mes albums préférés de <b>musique de film et séries</b>"
     }
 ]

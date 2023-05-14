@@ -365,6 +365,10 @@ hr {
   justify-content: center;
   max-width: 1500px;
 }
+.projects__item {
+  text-decoration: none;
+  color: #2d3639;
+}
 .projects__card {
   padding: 1em;
   background-color: #fcfdfd;
@@ -453,6 +457,10 @@ hr {
 }
 .art__desc {
   font-size: 0.9em;
+}
+
+.uni__project .projects__dates, .art__project .projects__dates {
+  margin: 0 0 1.4em 0;
 }
 
 .project__page {
