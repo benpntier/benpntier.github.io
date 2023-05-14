@@ -10,7 +10,7 @@ $lightergrey: #bdc7cb;
 $pro-highlight: #d3c5d8;
 $uni-highlight: #c3b3c8;
 $tag-colours: (
-    "ai": #7dc2ba,
+    "algo": #7dc2ba,
     "dl": #79bbd4,
     "nlp": #be9ece,
     "imagep": #95a1dd,
@@ -41,6 +41,11 @@ header {
 
 .no-margin {
     margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
 
 h1, h3 {
@@ -140,7 +145,7 @@ hr {
 }
 
 @each $tag-name, $tag-colour in $tag-colours {
-    .about .tags .#{$tag-name}:hover, .projects__card:hover .tags .#{$tag-name} {
+    .about .tags .#{$tag-name}:hover, .projects__card:hover .tags .#{$tag-name}, .project__page .tags .#{$tag-name}:hover {
         background-color: darken($tag-colour, 8);
     }
 }
@@ -439,6 +444,65 @@ hr {
     &__desc {
         font-size: .9em;
     }
+}
+
+.project__page {
+    padding: 2em;
+    margin-top: 3em;
+    background-color: $white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    min-width: 500px;
+    max-width: 900px;
+}
+
+.project__dates {
+    font-size: 1.1em;
+    color: darken($lightergrey, 30);
+    margin: 0;
+}
+
+.project__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project__logo {
+    height: 4em;
+    margin-right: 1em;
+}
+
+.project__mission {
+    font-size: 1em;
+    margin-bottom: .5em;
+}
+
+.project__context {
+    margin-top: 1.5em;
+}
+
+.project__context, .project__grade {
+    font-size: .95em;
+}
+
+.project__image {
+    margin-top: 1em;
+    max-width: 100%;
+    border-radius: .7em;
+}
+
+.project__page figcaption {
+    font-size: .85em;
+    color: darken($lightergrey, 30);
+    font-style: italic;
+}
+
+.project__page .fa-solid {
+    color: darken($lightergrey, 10);
+    margin-right: .3em;
+    text-align: center;
+    width: 1em;
 }
 
 @media screen and (max-width: 1400px) {

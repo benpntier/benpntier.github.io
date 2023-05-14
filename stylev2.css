@@ -20,6 +20,11 @@ header {
   margin: 0;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 h1, h3 {
   font-family: "Playfair Display", serif;
   transition: text-shadow 0.3s;
@@ -108,7 +113,7 @@ hr {
   white-space: nowrap;
 }
 
-.tags .ai {
+.tags .algo {
   background-color: #7dc2ba;
   transition: background-color 0.3s;
 }
@@ -153,39 +158,39 @@ hr {
   transition: background-color 0.3s;
 }
 
-.about .tags .ai:hover, .projects__card:hover .tags .ai {
+.about .tags .algo:hover, .projects__card:hover .tags .algo, .project__page .tags .algo:hover {
   background-color: #61b5ab;
 }
 
-.about .tags .dl:hover, .projects__card:hover .tags .dl {
+.about .tags .dl:hover, .projects__card:hover .tags .dl, .project__page .tags .dl:hover {
   background-color: #5aabca;
 }
 
-.about .tags .nlp:hover, .projects__card:hover .tags .nlp {
+.about .tags .nlp:hover, .projects__card:hover .tags .nlp, .project__page .tags .nlp:hover {
   background-color: #ac83c0;
 }
 
-.about .tags .imagep:hover, .projects__card:hover .tags .imagep {
+.about .tags .imagep:hover, .projects__card:hover .tags .imagep, .project__page .tags .imagep:hover {
   background-color: #7686d3;
 }
 
-.about .tags .prog:hover, .projects__card:hover .tags .prog {
+.about .tags .prog:hover, .projects__card:hover .tags .prog, .project__page .tags .prog:hover {
   background-color: #d68682;
 }
 
-.about .tags .web:hover, .projects__card:hover .tags .web {
+.about .tags .web:hover, .projects__card:hover .tags .web, .project__page .tags .web:hover {
   background-color: #e0a55f;
 }
 
-.about .tags .sql:hover, .projects__card:hover .tags .sql {
+.about .tags .sql:hover, .projects__card:hover .tags .sql, .project__page .tags .sql:hover {
   background-color: #b9a996;
 }
 
-.about .tags .android:hover, .projects__card:hover .tags .android {
+.about .tags .android:hover, .projects__card:hover .tags .android, .project__page .tags .android:hover {
   background-color: #8fbf5e;
 }
 
-.about .tags .design:hover, .projects__card:hover .tags .design {
+.about .tags .design:hover, .projects__card:hover .tags .design, .project__page .tags .design:hover {
   background-color: #d38ac9;
 }
 
@@ -448,6 +453,65 @@ hr {
 }
 .art__desc {
   font-size: 0.9em;
+}
+
+.project__page {
+  padding: 2em;
+  margin-top: 3em;
+  background-color: #fcfdfd;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  min-width: 500px;
+  max-width: 900px;
+}
+
+.project__dates {
+  font-size: 1.1em;
+  color: #697e86;
+  margin: 0;
+}
+
+.project__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project__logo {
+  height: 4em;
+  margin-right: 1em;
+}
+
+.project__mission {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+.project__context {
+  margin-top: 1.5em;
+}
+
+.project__context, .project__grade {
+  font-size: 0.95em;
+}
+
+.project__image {
+  margin-top: 1em;
+  max-width: 100%;
+  border-radius: 0.7em;
+}
+
+.project__page figcaption {
+  font-size: 0.85em;
+  color: #697e86;
+  font-style: italic;
+}
+
+.project__page .fa-solid {
+  color: #a0afb5;
+  margin-right: 0.3em;
+  text-align: center;
+  width: 1em;
 }
 
 @media screen and (max-width: 1400px) {

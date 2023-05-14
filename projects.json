@@ -1,0 +1,74 @@
+[
+    {
+        "id":"vimersio",
+        "category":"pro",
+        "company":"Vimersio",
+        "logo_url":"img/logos/vimersio.png",
+        "name":"Chargé de dev. IT",
+        "dates":"Octobre 2022 - Septembre 2023",
+        "desc":"<b>Automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et optimiser ses fonctionnalités",
+        "tags_short":[
+            "Video Processing",
+            "Android"
+        ],
+        "tags_colors_short":[
+            "imagep",
+            "android"
+        ]
+    },
+    {
+        "id":"phonetik",
+        "category":"pro",
+        "company":"IRIT",
+        "logo_url":"img/logos/irit.png",
+        "name":"Stage de fin d'études",
+        "dates":"Mars-août 2021",
+        "desc":"Concevoir un <b>réseau de neurones</b> capable de proposer une <b>correction automatique</b> basée sur la <b>prononciation</b>",
+        "tags_short":[
+            "Deep Learning",
+            "NLP",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "dl",
+            "nlp",
+            "prog"
+        ]
+    },
+    {
+        "id":"nxt",
+        "category":"pro",
+        "company":"UPS / IRIT",
+        "logo_url":"img/logos/ups.png",
+        "name":"Bureau d'études",
+        "dates":"Avril-mai 2019",
+        "desc":"Implémenter une <b>interface</b> et une <b>IA</b> pour faire <b>collaborer</b> deux robots Lego NXT sur une <b>tâche commune</b> sans collision",
+        "tags_short":[
+            "Algorithme A*",
+            "Java"
+        ],
+        "tags_colors_short":[
+            "algo",
+            "prog"
+        ]
+    },
+    {
+        "id":"ica",
+        "category":"pro",
+        "company":"Institut Clément Ader",
+        "logo_url":"img/logos/ica.png",
+        "name":"Stage",
+        "dates":"Avril-juin 2018",
+        "desc":"<b>Migrer</b> un <b>site</b> statique vers WordPress, maintenir ses <b>fonctions</b> et <b>données</b> et étendre ses fonctionnalités",
+        "tags_short":[
+            "Web",
+            "WordPress",
+            "SQL"
+        ],
+        "tags_colors_short":[
+            "web",
+            "web",
+            "sql"
+        ]
+    }
+]
