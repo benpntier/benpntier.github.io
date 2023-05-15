@@ -6,6 +6,7 @@
         "logo_url":"img/logos/vimersio.png",
         "logo_alt":"Vimersio",
         "name":"Chargé de dev. IT",
+        "name_full":"Chargé de développement IT",
         "dates":"Octobre 2022 - Septembre 2023",
         "desc":"<b>Automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et optimiser ses fonctionnalités",
         "tags_short":[
@@ -35,7 +36,27 @@
             "dl",
             "nlp",
             "prog"
-        ]
+        ],
+        "tags_full":[
+            "Réseaux siamois",
+            "LSTM",
+            "Natural Language Processing",
+            "Keras",
+            "scikit-learn",
+            "Python",
+            "Java"
+        ],
+        "tags_colors_full":[
+            "dl",
+            "dl",
+            "nlp",
+            "dl",
+            "algo",
+            "prog",
+            "prog"
+        ],
+        "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>Master 2</b> en Intelligence Artificielle",
+        "grade":"<b>15.5</b>/20"
     },
     {
         "id":"nxt",
@@ -53,7 +74,19 @@
         "tags_colors_short":[
             "algo",
             "prog"
-        ]
+        ],
+        "tags_full":[
+            "Algorithme A*",
+            "Java",
+            "Librairie leJOS"
+        ],
+        "tags_colors_full":[
+            "algo",
+            "prog",
+            "prog"
+        ],
+        "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>L3</b> Informatique, travail en binôme",
+        "grade":"<b>16</b>/20"
     },
     {
         "id":"ica",
@@ -73,7 +106,23 @@
             "web",
             "web",
             "sql"
-        ]
+        ],
+        "tags_full":[
+            "HTML",
+            "CSS",
+            "PHP",
+            "WordPress",
+            "SQL"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "web",
+            "web",
+            "sql"
+        ],
+        "context":"<b>IUT Paul Sabatier</b> (Toulouse), stage de fin de <b>DUT</b> Informatique, travail en binôme",
+        "grade":"<b>17</b>/20"
     },
     {
         "id":"conceptmap",
@@ -91,7 +140,25 @@
             "prog",
             "web",
             "sql"
-        ]
+        ],
+        "tags_full":[
+            "Java",
+            "HTML",
+            "CSS",
+            "PHP",
+            "JavaScript",
+            "SQL"
+        ],
+        "tags_colors_full":[
+            "prog",
+            "web",
+            "web",
+            "web",
+            "web",
+            "sql"
+        ],
+        "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, groupe de six membres",
+        "grade":"<b>14.5</b>/20"
     },
     {
         "id":"pointillism",
@@ -107,7 +174,18 @@
         "tags_colors_short":[
             "imagep",
             "prog"
-        ]
+        ],
+        "tags_full":[
+            "Image Processing",
+            "C++",
+            "Python"
+        ],
+        "tags_colors_full":[
+            "imagep",
+            "prog",
+            "prog"
+        ],
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle"
     },
     {
         "id":"denoiser",
@@ -123,7 +201,8 @@
         "tags_colors_short":[
             "imagep",
             "prog"
-        ]
+        ],
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle"
     },
     {
         "id":"arkanoid3D",
@@ -139,7 +218,16 @@
         "tags_colors_short":[
             "web",
             "web"
-        ]
+        ],
+        "tags_full":[
+            "HTML",
+            "JavaScript"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web"
+        ],
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle"
     },
     {
         "id":"neocampus",
@@ -155,8 +243,11 @@
         "tags_colors_short":[
             "prog",
             "sql"
-        ]
-    },    {
+        ],
+        "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>L3</b> Informatique, projet tuteuré, travail en binôme",
+        "grade":"<b>20</b>/20"
+    },
+    {
         "id":"coursepoursuite",
         "category":"uni",
         "logo_url":"uni/img/coursepoursuite/icon.png",
@@ -170,7 +261,9 @@
         "tags_colors_short":[
             "android",
             "prog"
-        ]
+        ],
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en binôme",
+        "grade":"<b>20</b>/20"
     },
     {
         "id":"norntalk",
@@ -186,7 +279,9 @@
         "tags_colors_short":[
             "android",
             "prog"
-        ]
+        ],
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, projet tuteuré, groupe de quatre membres",
+        "grade":"<b>16.9</b>/20"
     },
     {
         "id":"algogen",
@@ -200,7 +295,9 @@
         ],
         "tags_colors_short":[
             "prog"
-        ]
+        ],
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en bînome",
+        "grade":"<b>15.8</b>/20"
     },
     {
         "id":"cabinetmedical",
@@ -218,7 +315,21 @@
             "web",
             "web",
             "sql"
-        ]
+        ],
+        "tags_full":[
+            "HTML",
+            "CSS",
+            "PHP",
+            "SQL"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "web",
+            "sql"
+        ],
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en bînome",
+        "grade":"<b>20</b>/20"
     },
     {
         "id":"bravenewearth",
@@ -236,7 +347,21 @@
             "web",
             "design",
             "design"
-        ]
+        ],
+        "tags_full":[
+            "Web",
+            "Wix",
+            "Montage vidéo",
+            "Design"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "design",
+            "design"
+        ],
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, groupe de six membres",
+        "grade":"<b>19</b>/20"
     },
     {
         "id":"dune",
@@ -252,7 +377,19 @@
         "tags_colors_short":[
             "web",
             "design"
-        ]
+        ],
+        "tags_full":[
+            "HTML",
+            "CSS",
+            "Design"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "design"
+        ],
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 1<sup>re</sup> année, travail en binôme",
+        "grade":"<b>20</b>/20"
     },
     {
         "id":"odyssee",
@@ -268,7 +405,9 @@
         "tags_colors_short":[
             "prog",
             "algo"
-        ]
+        ],
+        "context":"<b>Lycée Charles Gide</b> (Uzès), projet final de la <b>spécialité ISN</b>, travail en binôme",
+        "grade":"<b>20</b>/20"
     },
     {
         "id":"analog",
