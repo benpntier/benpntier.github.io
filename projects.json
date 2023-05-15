@@ -258,7 +258,12 @@
             "web"
         ],
         "mission":"Implémenter un <b>jeu web 3D</b> inspiré du casse-briques <b>Arkanoid</b> (1986) développé par Taito, où le joueur doit casser toute les briques en faisant rebondir une balle grâce à une barre horizontale. Dans ce projet, le but est de générer tous les <b>visuels</b>, implémenter un <b>système de caméra</b> et développer les <b>mécaniques de jeu</b> grâce à un moteur physique.",
-        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle"
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "images_url":[
+            "uni/img/arkanoid3D/environment.jpg",
+            "uni/img/arkanoid3D/XYaxes.jpg"
+        ],
+        "nb_columns":2
     },
     {
         "id":"neocampus",
@@ -365,7 +370,14 @@
         ],
         "mission":"Développer les pages d'un <b>site web dynamique</b> de <b>cabinet médical</b> et créer sa <b>base de données</b> pour permettre l'<b>ajout</b>, la <b>modification</b> et la <b>suppression</b> de données.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en bînome",
-        "grade":"<b>20</b>/20"
+        "grade":"<b>20</b>/20",
+        "images_url":[
+            "uni/img/cabinetmedical/screenshot1.jpg",
+            "uni/img/cabinetmedical/screenshot2.jpg",
+            "uni/img/cabinetmedical/screenshot3.jpg",
+            "uni/img/cabinetmedical/screenshot4.jpg"
+        ],
+        "nb_columns":2
     },
     {
         "id":"bravenewearth",
@@ -401,7 +413,8 @@
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, groupe de six membres",
         "grade":"<b>19</b>/20",
         "images_url":[
-            "uni/img/bravenewearth/screenshot.jpg"
+            "uni/img/bravenewearth/screenshot.jpg",
+            "uni/img/bravenewearth/screenshot2.jpg"
         ],
         "nb_columns":1
     },
