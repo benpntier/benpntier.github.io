@@ -36,6 +36,8 @@ function addProjectInfo(project) {
         tag.innerText = projectTags[t];
         proTags.appendChild(tag);
     }
+
+    document.querySelector(".project__image").src = project.img_url;
     
 
 }

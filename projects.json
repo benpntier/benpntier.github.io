@@ -58,7 +58,8 @@
         ],
         "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un modèle de <b>Deep Learning</b> permettant de proposer une <b>correction automatique</b> basée sur la <b>prononciation</b> (plutôt que l'orthographe), lié à une <b>interface de clavier</b> en Java Swing. Ce type de clavier pourrait <b>faciliter la saisie</b> pour les personnes dysorthographiques.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>Master 2</b> en Intelligence Artificielle",
-        "grade":"<b>15.5</b>/20"
+        "grade":"<b>15.5</b>/20",
+        "img_url":"pro/img/phonetik/interface.jpg"
     },
     {
         "id":"nxt",
@@ -163,7 +164,8 @@
         ],
         "mission":"Développer un <b>outil en ligne d'aide à la correction de cartes conceptuelles</b>, en ayant à la fois une partie <b>saisie de carte</b> et une partie </b>correction, avec un <b>algorithme de prétaitement</b> des cartes pour faciliter leur correction.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, groupe de six membres",
-        "grade":"<b>14.5</b>/20"
+        "grade":"<b>14.5</b>/20",
+        "img_url":"uni/img/conceptmap/screenshot.jpg"
     },
     {
         "id":"pointillism",
@@ -386,7 +388,8 @@
         ],
         "mission":"Création d'un <b>webdocumentaire</b> comprenant des <b>vidéos</b> et <b>articles de vulgarisation</b>, pour mener l'enquête sur les caractéristiques d'une planète habitable, tout en construisant une <b>ligne directrice éditoriale</b> et <b>esthétique</b> inspiré des films noirs.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, groupe de six membres",
-        "grade":"<b>19</b>/20"
+        "grade":"<b>19</b>/20",
+        "img_url":"uni/img/bravenewearth/screenshot.jpg"
     },
     {
         "id":"dune",
@@ -415,7 +418,8 @@
         ],
         "mission":"Développer un <b>site web statique</b>, en explorant les notions fondamentales du <b>HTML</b> et <b>CSS</b>, consacré au projet d'adaptation cinématographique du livre <b>Dune</b> par Alejandro Jodorowsky.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 1<sup>re</sup> année, travail en binôme",
-        "grade":"<b>20</b>/20"
+        "grade":"<b>20</b>/20",
+        "img_url":"uni/img/dune/screenshot.jpg"
     },
     {
         "id":"odyssee",
