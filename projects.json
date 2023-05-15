@@ -16,7 +16,8 @@
         "tags_colors_short":[
             "imagep",
             "android"
-        ]
+        ],
+        "mission":"<b>Automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et optimiser ses fonctionnalités."
     },
     {
         "id":"phonetik",
@@ -55,6 +56,7 @@
             "prog",
             "prog"
         ],
+        "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un modèle de <b>Deep Learning</b> permettant de proposer une <b>correction automatique</b> basée sur la <b>prononciation</b> (plutôt que l'orthographe), lié à une <b>interface de clavier</b> en Java Swing. Ce type de clavier pourrait <b>faciliter la saisie</b> pour les personnes dysorthographiques.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>Master 2</b> en Intelligence Artificielle",
         "grade":"<b>15.5</b>/20"
     },
@@ -85,6 +87,7 @@
             "prog",
             "prog"
         ],
+        "mission":"Implémenter en <b>Java</b> une IA (<b>algorithme A*</b>) pour faire <b>collaborer</b> deux <b><a href='https://www.lego.com/themes/mindstorms/about' target='_blank'>Lego NXT</a></b> : l'un <b>autonome</b>, l'autre <b>télécommandé</b> (grâce à une interface Java Swing) en évitant les collisions, pour réaliser une <b>tâche commune</b> et en suivant leur <b>trajectoire</b> sur une carte.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>L3</b> Informatique, travail en binôme",
         "grade":"<b>16</b>/20"
     },
@@ -121,6 +124,7 @@
             "web",
             "sql"
         ],
+        "mission":"Refonte complète du <b>site web de l'ICA</b>, en utilisant <b>WordPress</b>, pour <b>moderniser son apparence</b>, <b>restructurer sa base de données</b> et <b>améliorer</b> voire <b>compléter</b> ses <b>fonctionnalités</b> (notamment des pages de gestion en intranet).",
         "context":"<b>IUT Paul Sabatier</b> (Toulouse), stage de fin de <b>DUT</b> Informatique, travail en binôme",
         "grade":"<b>17</b>/20"
     },
@@ -157,6 +161,7 @@
             "web",
             "sql"
         ],
+        "mission":"Développer un <b>outil en ligne d'aide à la correction de cartes conceptuelles</b>, en ayant à la fois une partie <b>saisie de carte</b> et une partie </b>correction, avec un <b>algorithme de prétaitement</b> des cartes pour faciliter leur correction.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, groupe de six membres",
         "grade":"<b>14.5</b>/20"
     },
@@ -185,6 +190,7 @@
             "prog",
             "prog"
         ],
+        "mission":"Implémenter un programme appliquant un <b>effet \"pointilliste\"</b> à une image, autrement dit qui va générer une image en utilisant seulement des <b>petits points de couleur</b>, d'après une publication de Hiroki Tokura, Yuki Kuroda, Yasuaki Ito et Koji Nakano. Dans ce projet, chaque point est de forme <b>elliptique</b> (tandis que la publication utilise des formes carrées) en choisissant une <b>orientation</b> et une <b>couleur</b> qui <b>retranscrit le mieux l'image originale</b>, en se rapprochant du filtre gaussien qui simule la vision humaine. Pour imiter un aspect pointilliste et leur utilisation des couleurs, la <b>nuance</b> de chaque \"coup de pinceau\" est <b>modifiée aléatoirement</b>, particulièrement dans les zones d'aplat. La <b>précision</b> est un paramètre, qui peut varier pour obtenir des résultats tels que ci-dessous. L'algorithme final a été implémenté à la fois en Python et en C++.",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle"
     },
     {
@@ -202,6 +208,17 @@
             "imagep",
             "prog"
         ],
+        "tags_full":[
+            "Image Processing",
+            "BM3D",
+            "Python"
+        ],
+        "tags_colors_full":[
+            "imagep",
+            "imagep",
+            "prog"
+        ],
+        "mission":"Expérimenter plusieurs techniques de <b>débruitage d'image</b>, plus particulièrement en utilisant une méthode de <b>préservation des bords</b>, grâce aux principes de l'<b>algorithme BM3D</b>, tel que le <b>filtrage 3D</b> et la <b>correspondance par blocs</b> (le but étant de proposer un algorithme basé sur ces principes plutôt que d'implémenter l'algorithme BM3D tel quel).",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle"
     },
     {
@@ -227,6 +244,7 @@
             "web",
             "web"
         ],
+        "mission":"Implémenter un <b>jeu web 3D</b> inspiré du casse-briques <b>Arkanoid</b> (1986) développé par Taito, où le joueur doit casser toute les briques en faisant rebondir une balle grâce à une barre horizontale. Dans ce projet, le but est de générer tous les <b>visuels</b>, implémenter un <b>système de caméra</b> et développer les <b>mécaniques de jeu</b> grâce à un moteur physique.",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle"
     },
     {
@@ -244,6 +262,7 @@
             "prog",
             "sql"
         ],
+        "mission":"Concevoir et développer une <b>application Java</b> qui permettra de <b>visualiser</b> les <b>données</b> de <b>consommation énergétique</b> et gérer les différents <b>capteurs</b> du projet <a href='https://www.irit.fr/neocampus/fr/' target='_blank'>neOCampus</a> de l'Université Paul Sabatier.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>L3</b> Informatique, projet tuteuré, travail en binôme",
         "grade":"<b>20</b>/20"
     },
@@ -262,6 +281,7 @@
             "android",
             "prog"
         ],
+        "mission":"Concevoir et développer une <b>application Android</b> permettant de gérer une <b>liste de courses</b>. Son but est de faciliter la <b>gestion des courses</b> et du <b>budget</b>, pour que l'utilisateur ait du recul sur ses achats.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en binôme",
         "grade":"<b>20</b>/20"
     },
@@ -280,6 +300,7 @@
             "android",
             "prog"
         ],
+        "mission":"Concevoir et développer une <b>application Android</b> permettant d’envoyer des <b>SMS chiffrés</b> à des utilisateurs de l’application, afin d'assurer la confidentialité et sécurité de leurs échanges.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, projet tuteuré, groupe de quatre membres",
         "grade":"<b>16.9</b>/20"
     },
@@ -296,6 +317,7 @@
         "tags_colors_short":[
             "prog"
         ],
+        "mission":"Implémenter un <b>algorithme génétique</b>, afin de répondre au problème du <b>voyageur de commerce</b>, en considérant les <b>notions mathématiques</b> associées.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en bînome",
         "grade":"<b>15.8</b>/20"
     },
@@ -328,6 +350,7 @@
             "web",
             "sql"
         ],
+        "mission":"Développer les pages d'un <b>site web dynamique</b> de <b>cabinet médical</b> et créer sa <b>base de données</b> pour permettre l'<b>ajout</b>, la <b>modification</b> et la <b>suppression</b> de données.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en bînome",
         "grade":"<b>20</b>/20"
     },
@@ -337,6 +360,7 @@
         "logo_url":"uni/img/bravenewearth/icon.png",
         "logo_alt":"Brave New Earth",
         "name":"Webdoc <i>Brave New Earth</i>",
+        "name_full":"Webdocumentaire <i>Brave New Earth</i>",
         "dates":"Février-mai 2017",
         "tags_short":[
             "Web",
@@ -360,6 +384,7 @@
             "design",
             "design"
         ],
+        "mission":"Création d'un <b>webdocumentaire</b> comprenant des <b>vidéos</b> et <b>articles de vulgarisation</b>, pour mener l'enquête sur les caractéristiques d'une planète habitable, tout en construisant une <b>ligne directrice éditoriale</b> et <b>esthétique</b> inspiré des films noirs.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, groupe de six membres",
         "grade":"<b>19</b>/20"
     },
@@ -388,6 +413,7 @@
             "web",
             "design"
         ],
+        "mission":"Développer un <b>site web statique</b>, en explorant les notions fondamentales du <b>HTML</b> et <b>CSS</b>, consacré au projet d'adaptation cinématographique du livre <b>Dune</b> par Alejandro Jodorowsky.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 1<sup>re</sup> année, travail en binôme",
         "grade":"<b>20</b>/20"
     },
@@ -406,6 +432,7 @@
             "prog",
             "algo"
         ],
+        "mission":"Développer un <b>programme Python</b> avec une <b>interface Tkinter</b>, permettant de résoudre le problème du <b>voyageur de commerce</b>, grâce à l'algorithme de <b>Dijkstra</b>. Pour nous approprier ce problème du plus court chemin, nous avons situé le contexte <i>il y a bien longtemps, dans une galaxie lointaine, très lointaine....</i>",
         "context":"<b>Lycée Charles Gide</b> (Uzès), projet final de la <b>spécialité ISN</b>, travail en binôme",
         "grade":"<b>20</b>/20"
     },

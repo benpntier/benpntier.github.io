@@ -18,6 +18,8 @@ function addProjectInfo(project) {
         document.querySelector(".project__grade").innerHTML = "<i class='fa-solid fa-medal' title='Note finale'></i> " + project.grade;
     }
 
+    document.querySelector(".project__mission").innerHTML = project.mission;
+
     let projectTags;
     let projectTagsColors;
     if (project.tags_full === undefined) {
