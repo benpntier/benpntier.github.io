@@ -492,6 +492,7 @@ hr {
 
 .project__context, .project__grade {
     font-size: .95em;
+    color: lighten($black, 15);
 }
 
 .project__image {

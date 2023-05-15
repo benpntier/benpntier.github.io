@@ -501,6 +501,7 @@ hr {
 
 .project__context, .project__grade {
   font-size: 0.95em;
+  color: #4f5f64;
 }
 
 .project__image {
