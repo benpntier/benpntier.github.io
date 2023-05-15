@@ -59,7 +59,10 @@
         "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un modèle de <b>Deep Learning</b> permettant de proposer une <b>correction automatique</b> basée sur la <b>prononciation</b> (plutôt que l'orthographe), lié à une <b>interface de clavier</b> en Java Swing. Ce type de clavier pourrait <b>faciliter la saisie</b> pour les personnes dysorthographiques.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>Master 2</b> en Intelligence Artificielle",
         "grade":"<b>15.5</b>/20",
-        "img_url":"pro/img/phonetik/interface.jpg"
+        "images_url":[
+            "pro/img/phonetik/interface.jpg"
+        ],
+        "nb_columns":1
     },
     {
         "id":"nxt",
@@ -88,7 +91,7 @@
             "prog",
             "prog"
         ],
-        "mission":"Implémenter en <b>Java</b> une IA (<b>algorithme A*</b>) pour faire <b>collaborer</b> deux <b><a href='https://www.lego.com/themes/mindstorms/about' target='_blank'>Lego NXT</a></b> : l'un <b>autonome</b>, l'autre <b>télécommandé</b> (grâce à une interface Java Swing) en évitant les collisions, pour réaliser une <b>tâche commune</b> et en suivant leur <b>trajectoire</b> sur une carte.",
+        "mission":"Implémenter en <b>Java</b> une IA (<b>algorithme A*</b>) pour faire <b>collaborer</b> deux <b><a href='https://www.lego.com/themes/mindstorms/about' class='projects__link' target='_blank'>Lego NXT</a></b> : l'un <b>autonome</b>, l'autre <b>télécommandé</b> (grâce à une interface Java Swing) en évitant les collisions, pour réaliser une <b>tâche commune</b> et en suivant leur <b>trajectoire</b> sur une carte.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>L3</b> Informatique, travail en binôme",
         "grade":"<b>16</b>/20"
     },
@@ -127,7 +130,12 @@
         ],
         "mission":"Refonte complète du <b>site web de l'ICA</b>, en utilisant <b>WordPress</b>, pour <b>moderniser son apparence</b>, <b>restructurer sa base de données</b> et <b>améliorer</b> voire <b>compléter</b> ses <b>fonctionnalités</b> (notamment des pages de gestion en intranet).",
         "context":"<b>IUT Paul Sabatier</b> (Toulouse), stage de fin de <b>DUT</b> Informatique, travail en binôme",
-        "grade":"<b>17</b>/20"
+        "grade":"<b>17</b>/20",
+        "images_url":[
+            "pro/img/ica/accueil2012.jpg",
+            "pro/img/ica/accueil2018.jpg"
+        ],
+        "nb_columns":2
     },
     {
         "id":"conceptmap",
@@ -165,7 +173,10 @@
         "mission":"Développer un <b>outil en ligne d'aide à la correction de cartes conceptuelles</b>, en ayant à la fois une partie <b>saisie de carte</b> et une partie </b>correction, avec un <b>algorithme de prétaitement</b> des cartes pour faciliter leur correction.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, groupe de six membres",
         "grade":"<b>14.5</b>/20",
-        "img_url":"uni/img/conceptmap/screenshot.jpg"
+        "images_url":[
+            "uni/img/conceptmap/screenshot.jpg"
+        ],
+        "nb_columns":1
     },
     {
         "id":"pointillism",
@@ -264,7 +275,7 @@
             "prog",
             "sql"
         ],
-        "mission":"Concevoir et développer une <b>application Java</b> qui permettra de <b>visualiser</b> les <b>données</b> de <b>consommation énergétique</b> et gérer les différents <b>capteurs</b> du projet <a href='https://www.irit.fr/neocampus/fr/' target='_blank'>neOCampus</a> de l'Université Paul Sabatier.",
+        "mission":"Concevoir et développer une <b>application Java</b> qui permettra de <b>visualiser</b> les <b>données</b> de <b>consommation énergétique</b> et gérer les différents <b>capteurs</b> du projet <a href='https://www.irit.fr/neocampus/fr/' class='projects__link' target='_blank'>neOCampus</a> de l'Université Paul Sabatier.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>L3</b> Informatique, projet tuteuré, travail en binôme",
         "grade":"<b>20</b>/20"
     },
@@ -389,7 +400,10 @@
         "mission":"Création d'un <b>webdocumentaire</b> comprenant des <b>vidéos</b> et <b>articles de vulgarisation</b>, pour mener l'enquête sur les caractéristiques d'une planète habitable, tout en construisant une <b>ligne directrice éditoriale</b> et <b>esthétique</b> inspiré des films noirs.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, groupe de six membres",
         "grade":"<b>19</b>/20",
-        "img_url":"uni/img/bravenewearth/screenshot.jpg"
+        "images_url":[
+            "uni/img/bravenewearth/screenshot.jpg"
+        ],
+        "nb_columns":1
     },
     {
         "id":"dune",
@@ -419,7 +433,10 @@
         "mission":"Développer un <b>site web statique</b>, en explorant les notions fondamentales du <b>HTML</b> et <b>CSS</b>, consacré au projet d'adaptation cinématographique du livre <b>Dune</b> par Alejandro Jodorowsky.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 1<sup>re</sup> année, travail en binôme",
         "grade":"<b>20</b>/20",
-        "img_url":"uni/img/dune/screenshot.jpg"
+        "images_url":[
+            "uni/img/dune/screenshot.jpg"
+        ],
+        "nb_columns":1
     },
     {
         "id":"odyssee",

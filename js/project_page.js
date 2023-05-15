@@ -1,5 +1,7 @@
 function addProjectInfo(project) {
-    document.querySelector(".project__logo").src = project.logo_url;
+    let projectLogo = document.querySelector(".project__logo");
+    projectLogo.src = project.logo_url;
+    projectLogo.alt = project.logo_alt;
     let projectName = project.name;
     if (project.name_full !== undefined) {
         projectName = project.name_full;
@@ -37,9 +39,22 @@ function addProjectInfo(project) {
         proTags.appendChild(tag);
     }
 
-    document.querySelector(".project__image").src = project.img_url;
-    
+    const projectGallery = document.createElement("div");
+    projectGallery.classList.add("gallery", "gallery--"+project.nb_columns);
 
+
+    for (img_url of project.images_url) {
+        var projectImage = document.createElement("img");
+        projectImage.className = "project__image";
+        projectImage.src = img_url;
+
+        var projectFigure = document.createElement("figure");
+        projectFigure.appendChild(projectImage);
+        projectFigure.classList.add("no-margin", "gallery__img--"+project.nb_columns);
+        projectGallery.appendChild(projectFigure);
+    }
+    document.querySelector(".project__page").appendChild(projectGallery);
+    
 }
 
 

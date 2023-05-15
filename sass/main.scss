@@ -375,7 +375,7 @@ hr {
         color: grey;
     }
     &__link {
-        color: darken($sky, 30);
+        color: darken($sky, 25);
         text-decoration: none;
         transition: color .3s;
 
@@ -499,6 +499,25 @@ hr {
     margin-top: 1em;
     max-width: 100%;
     border-radius: .7em;
+}
+
+figure .project__image {
+    margin-top: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &--2 {
+        gap: 1.5em;
+    }
+
+    &__img--2 {
+        max-width: 48%;
+    }
 }
 
 .project__page figcaption {
