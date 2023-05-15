@@ -280,7 +280,7 @@
         "desc":"Garder des <b>souvenirs</b> de mes <b>voyages</b> grâce à mon appareil <i><b>point-and-shoot</b></i>"
     },
     {
-        "id":"odyssee",
+        "id":"covers",
         "category":"art",
         "logo_url":"art/img/covers/DoctorWho.png",
         "logo_alt":"Exemple de pochette (Doctor Who)",

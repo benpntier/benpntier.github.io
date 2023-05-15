@@ -45,7 +45,7 @@ function addProjectHTML(project) {
         proArticle.appendChild(proTags);
 
         const proLink = document.createElement("a");
-        proLink.href = "project.html";
+        proLink.href = "project.html?id=" + project.id;
         proLink.appendChild(proArticle);
         proLink.className = "projects__item";
 
@@ -86,7 +86,7 @@ function addProjectHTML(project) {
         uniArticle.appendChild(uniInfo);
 
         const uniLink = document.createElement("a");
-        uniLink.href = "project.html";
+        uniLink.href = "project.html?id=" + project.id;
         uniLink.appendChild(uniArticle);
         uniLink.className = "projects__item";
 
@@ -123,7 +123,7 @@ function addProjectHTML(project) {
         artArticle.appendChild(artInfo);
 
         const artLink = document.createElement("a");
-        artLink.href = "project.html";
+        artLink.href = "project.html?id=" + project.id;
         artLink.appendChild(artArticle);
         artLink.className = "projects__item";
 
