@@ -515,8 +515,24 @@ figure .project__image {
         gap: 1.5em;
     }
 
+    &--3 {
+        gap: 1em;
+    }
+
+    &--4 {
+        gap: .7em;
+    }
+
     &__img--2 {
         max-width: 48%;
+    }
+
+    &__img--3 {
+        max-width: 32%;
+    }
+
+    &__img--4 {
+        max-width: 24%;
     }
 }
 

@@ -523,8 +523,20 @@ figure .project__image {
 .gallery--2 {
   gap: 1.5em;
 }
+.gallery--3 {
+  gap: 1em;
+}
+.gallery--4 {
+  gap: 0.7em;
+}
 .gallery__img--2 {
   max-width: 48%;
+}
+.gallery__img--3 {
+  max-width: 32%;
+}
+.gallery__img--4 {
+  max-width: 24%;
 }
 
 .project__page figcaption {

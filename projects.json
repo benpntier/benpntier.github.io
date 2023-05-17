@@ -195,8 +195,8 @@
         ],
         "tags_full":[
             "Image Processing",
-            "C++",
-            "Python"
+            "Python",
+            "C++"
         ],
         "tags_colors_full":[
             "imagep",
@@ -204,7 +204,14 @@
             "prog"
         ],
         "mission":"Implémenter un programme appliquant un <b>effet \"pointilliste\"</b> à une image, autrement dit qui va générer une image en utilisant seulement des <b>petits points de couleur</b>, d'après une publication de Hiroki Tokura, Yuki Kuroda, Yasuaki Ito et Koji Nakano. Dans ce projet, chaque point est de forme <b>elliptique</b> (tandis que la publication utilise des formes carrées) en choisissant une <b>orientation</b> et une <b>couleur</b> qui <b>retranscrit le mieux l'image originale</b>, en se rapprochant du filtre gaussien qui simule la vision humaine. Pour imiter un aspect pointilliste et leur utilisation des couleurs, la <b>nuance</b> de chaque \"coup de pinceau\" est <b>modifiée aléatoirement</b>, particulièrement dans les zones d'aplat. La <b>précision</b> est un paramètre, qui peut varier pour obtenir des résultats tels que ci-dessous. L'algorithme final a été implémenté à la fois en Python et en C++.",
-        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle"
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "images_url":[
+            "https://benpntier.github.io/uni/img/pointillism/original.png",
+            "https://benpntier.github.io/uni/img/pointillism/result8.png",
+            "https://benpntier.github.io/uni/img/pointillism/result6.png",
+            "https://benpntier.github.io/uni/img/pointillism/result4.png"
+        ],
+        "nb_columns":4
     },
     {
         "id":"denoiser",
@@ -232,7 +239,18 @@
             "prog"
         ],
         "mission":"Expérimenter plusieurs techniques de <b>débruitage d'image</b>, plus particulièrement en utilisant une méthode de <b>préservation des bords</b>, grâce aux principes de l'<b>algorithme BM3D</b>, tel que le <b>filtrage 3D</b> et la <b>correspondance par blocs</b> (le but étant de proposer un algorithme basé sur ces principes plutôt que d'implémenter l'algorithme BM3D tel quel).",
-        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle"
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "images_url":[
+            "https://benpntier.github.io/uni/img/denoiser/1_noisy.jpg",
+            "https://benpntier.github.io/uni/img/denoiser/1_restored.jpg",
+            "https://benpntier.github.io/uni/img/denoiser/2_noisy.jpg",
+            "https://benpntier.github.io/uni/img/denoiser/2_restored.jpg",
+            "https://benpntier.github.io/uni/img/denoiser/3_noisy.jpg",
+            "https://benpntier.github.io/uni/img/denoiser/3_restored.jpg",
+            "https://benpntier.github.io/uni/img/denoiser/4_noisy.jpg",
+            "https://benpntier.github.io/uni/img/denoiser/4_restored.jpg"
+        ],
+        "nb_columns":4
     },
     {
         "id":"arkanoid3D",
@@ -282,7 +300,13 @@
         ],
         "mission":"Concevoir et développer une <b>application Java</b> qui permettra de <b>visualiser</b> les <b>données</b> de <b>consommation énergétique</b> et gérer les différents <b>capteurs</b> du projet <a href='https://www.irit.fr/neocampus/fr/' class='projects__link' target='_blank'>neOCampus</a> de l'Université Paul Sabatier.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>L3</b> Informatique, projet tuteuré, travail en binôme",
-        "grade":"<b>20</b>/20"
+        "grade":"<b>20</b>/20",
+        "images_url":[
+            "uni/img/neocampus/panneau1.png",
+            "uni/img/neocampus/panneau2.png",
+            "uni/img/neocampus/panneau3.png"
+        ],
+        "nb_columns":3
     },
     {
         "id":"coursepoursuite",
@@ -301,7 +325,13 @@
         ],
         "mission":"Concevoir et développer une <b>application Android</b> permettant de gérer une <b>liste de courses</b>. Son but est de faciliter la <b>gestion des courses</b> et du <b>budget</b>, pour que l'utilisateur ait du recul sur ses achats.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en binôme",
-        "grade":"<b>20</b>/20"
+        "grade":"<b>20</b>/20",
+        "images_url":[
+            "uni/img/coursepoursuite/screenshot1.jpg",
+            "uni/img/coursepoursuite/screenshot2.jpg",
+            "uni/img/coursepoursuite/screenshot3.jpg"
+        ],
+        "nb_columns":3
     },
     {
         "id":"norntalk",
@@ -320,7 +350,15 @@
         ],
         "mission":"Concevoir et développer une <b>application Android</b> permettant d’envoyer des <b>SMS chiffrés</b> à des utilisateurs de l’application, afin d'assurer la confidentialité et sécurité de leurs échanges.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, projet tuteuré, groupe de quatre membres",
-        "grade":"<b>16.9</b>/20"
+        "grade":"<b>16.9</b>/20",
+        "images_url":
+        [
+            "uni/img/norntalk/screenshot1.jpg",
+            "uni/img/norntalk/screenshot2.jpg",
+            "uni/img/norntalk/screenshot3.jpg",
+            "uni/img/norntalk/screenshot4.jpg"
+        ],
+        "nb_columns":4
     },
     {
         "id":"algogen",
@@ -337,7 +375,16 @@
         ],
         "mission":"Implémenter un <b>algorithme génétique</b>, afin de répondre au problème du <b>voyageur de commerce</b>, en considérant les <b>notions mathématiques</b> associées.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en bînome",
-        "grade":"<b>15.8</b>/20"
+        "grade":"<b>15.8</b>/20",
+        "images_url":[
+            "https://benpntier.github.io/uni/img/algogen/screenshot1.jpg",
+            "https://benpntier.github.io/uni/img/algogen/screenshot2.jpg",
+            "https://benpntier.github.io/uni/img/algogen/screenshot3.jpg",
+            "uni/img/algogen/chart1.jpg",
+            "uni/img/algogen/chart2.jpg",
+            "uni/img/algogen/chart3.jpg"
+        ],
+        "nb_columns":3
     },
     {
         "id":"cabinetmedical",
