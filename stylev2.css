@@ -486,6 +486,14 @@ hr {
   gap: 1em;
 }
 
+.project__title .projects__link {
+  color: #0084ae;
+}
+
+.project__title .projects__link:hover {
+  color: #004a62;
+}
+
 .project__logo {
   height: 4.2em;
 }

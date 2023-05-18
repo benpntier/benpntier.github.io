@@ -6,6 +6,7 @@ $bg-secondary: #d1dfe1;
 $sky: #7bb7cb;
 $cloud-shadow: #efe5f2;
 $link: #947fb3;
+$link-secondary: #0084ae;
 $lightergrey: #bdc7cb;
 $pro-highlight: #d3c5d8;
 $uni-highlight: #c3b3c8;
@@ -475,6 +476,14 @@ hr {
     flex-direction: row;
     align-items: center;
     gap: 1em;
+}
+
+.project__title .projects__link {
+    color: $link-secondary;
+}
+
+.project__title .projects__link:hover {
+    color: darken($link-secondary, 15);
 }
 
 .project__logo {
