@@ -62,7 +62,8 @@
         "images_url":[
             "pro/img/phonetik/interface.jpg"
         ],
-        "nb_columns":1
+        "nb_columns":1,
+        "rounded":true
     },
     {
         "id":"nxt",
@@ -135,7 +136,8 @@
             "pro/img/ica/accueil2012.jpg",
             "pro/img/ica/accueil2018.jpg"
         ],
-        "nb_columns":2
+        "nb_columns":2,
+        "rounded":true
     },
     {
         "id":"conceptmap",
@@ -176,7 +178,8 @@
         "images_url":[
             "uni/img/conceptmap/screenshot.jpg"
         ],
-        "nb_columns":1
+        "nb_columns":1,
+        "rounded":true
     },
     {
         "id":"pointillism",
@@ -211,7 +214,8 @@
             "https://benpntier.github.io/uni/img/pointillism/result6.png",
             "https://benpntier.github.io/uni/img/pointillism/result4.png"
         ],
-        "nb_columns":4
+        "nb_columns":4,
+        "rounded":true
     },
     {
         "id":"denoiser",
@@ -250,7 +254,8 @@
             "https://benpntier.github.io/uni/img/denoiser/4_noisy.jpg",
             "https://benpntier.github.io/uni/img/denoiser/4_restored.jpg"
         ],
-        "nb_columns":4
+        "nb_columns":4,
+        "rounded":true
     },
     {
         "id":"arkanoid3D",
@@ -281,7 +286,8 @@
             "uni/img/arkanoid3D/environment.jpg",
             "uni/img/arkanoid3D/XYaxes.jpg"
         ],
-        "nb_columns":2
+        "nb_columns":2,
+        "rounded":true
     },
     {
         "id":"neocampus",
@@ -331,7 +337,8 @@
             "uni/img/coursepoursuite/screenshot2.jpg",
             "uni/img/coursepoursuite/screenshot3.jpg"
         ],
-        "nb_columns":3
+        "nb_columns":3,
+        "rounded":true
     },
     {
         "id":"norntalk",
@@ -358,7 +365,8 @@
             "uni/img/norntalk/screenshot3.jpg",
             "uni/img/norntalk/screenshot4.jpg"
         ],
-        "nb_columns":4
+        "nb_columns":4,
+        "rounded":true
     },
     {
         "id":"algogen",
@@ -424,7 +432,8 @@
             "uni/img/cabinetmedical/screenshot3.jpg",
             "uni/img/cabinetmedical/screenshot4.jpg"
         ],
-        "nb_columns":2
+        "nb_columns":2,
+        "rounded":true
     },
     {
         "id":"bravenewearth",
@@ -463,7 +472,8 @@
             "uni/img/bravenewearth/screenshot.jpg",
             "uni/img/bravenewearth/screenshot2.jpg"
         ],
-        "nb_columns":1
+        "nb_columns":1,
+        "rounded":true
     },
     {
         "id":"dune",
@@ -496,7 +506,8 @@
         "images_url":[
             "uni/img/dune/screenshot.jpg"
         ],
-        "nb_columns":1
+        "nb_columns":1,
+        "rounded":true
     },
     {
         "id":"odyssee",
@@ -533,6 +544,7 @@
         "logo_alt":"Exemple de pochette (Doctor Who)",
         "name":"<i>Soundtrack Covers</i>",
         "dates":"Depuis 2012",
-        "desc":"Créer des <b>pochettes alternatives</b> pour mes albums préférés de <b>musique de film et séries</b>"
+        "desc":"Créer des <b>pochettes alternatives</b> pour mes albums préférés de <b>musique de film et séries</b>",
+        "mission":"<b>Réimaginer</b> des <b>pochettes</b> de <b>bandes originales</b> de <b>films</b> et <b>séries TV</b>, à partir de visuels officiels ou non. L'objectif est simplement d'avoir une pochette qui représente mieux le film, sa musique ou qui soit simplement plus artistique."
     }
 ]

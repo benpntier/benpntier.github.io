@@ -483,11 +483,11 @@ hr {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 1em;
 }
 
 .project__logo {
   height: 4.2em;
-  margin-right: 1em;
 }
 
 .project__mission {
@@ -505,13 +505,19 @@ hr {
 }
 
 .project__image {
-  margin-top: 1em;
+  margin-top: 0;
   max-width: 100%;
-  border-radius: 0.7em;
 }
 
-figure .project__image {
-  margin-top: 0;
+.rounded {
+  border-radius: 0.7em;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  transition: border-radius 0.3s, box-shadow 0.4s;
+}
+
+.rounded:hover {
+  border-radius: 0.35em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .gallery {

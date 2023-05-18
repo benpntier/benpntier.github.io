@@ -1,7 +1,11 @@
 function addProjectInfo(project) {
     let projectLogo = document.querySelector(".project__logo");
-    projectLogo.src = project.logo_url;
-    projectLogo.alt = project.logo_alt;
+    if (project.category != "art") {
+        projectLogo.src = project.logo_url;
+        projectLogo.alt = project.logo_alt;
+    } else {
+        projectLogo.remove();
+    }
     let projectName = project.name;
     if (project.name_full !== undefined) {
         projectName = project.name_full;
@@ -46,6 +50,9 @@ function addProjectInfo(project) {
     for (img_url of project.images_url) {
         var projectImage = document.createElement("img");
         projectImage.className = "project__image";
+        if (project.rounded) {
+            projectImage.classList.add("rounded");
+        }
         projectImage.src = img_url;
 
         var projectFigure = document.createElement("figure");
