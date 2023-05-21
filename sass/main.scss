@@ -308,6 +308,10 @@ hr {
     }
 }
 
+#pro, #uni, #art {
+    scroll-behavior: smooth;
+}
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -458,11 +462,30 @@ hr {
 .project__page {
     padding: 2em;
     margin-top: 3em;
+    margin-bottom: 3em;
     background-color: $white;
     border-radius: 15px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     min-width: 500px;
     max-width: 900px;
+}
+
+.project__navigation {
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+    position: absolute;
+    margin-left: -4em;
+    margin-top: -.5em;
+}
+
+.project__navigation .fa-solid {
+    transition: color .3s;
+}
+
+.project__navigation .fa-solid:hover {
+    color: darken($lightergrey, 25);
 }
 
 .project__dates {
@@ -531,6 +554,11 @@ hr {
         gap: 1.5em;
     }
 
+    &--2h {
+        gap: 1.5em;
+        flex-wrap: nowrap;
+    }
+
     &--3 {
         gap: 1em;
     }
@@ -563,6 +591,32 @@ hr {
     margin-right: .3em;
     text-align: center;
     width: 1em;
+}
+
+.project__button {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.project__button .project__link {
+    padding: 1em 1.3em;
+    color: darken($link-secondary, 5);
+    text-decoration: none;
+    border: 1px solid $sky;
+    border-bottom: 3px solid $sky;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    transition: all .3s;
+}
+
+.project__button:hover .project__link {
+    color: darken($link-secondary, 20);
+    border: 1px solid darken($sky, 15);
+    border-bottom: 3px solid darken($sky, 15);
+    background-color: lighten($sky, 30);
 }
 
 @media screen and (max-width: 1400px) {

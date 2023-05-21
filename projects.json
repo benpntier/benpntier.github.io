@@ -17,7 +17,8 @@
             "imagep",
             "android"
         ],
-        "mission":"<b>Automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et optimiser ses fonctionnalités."
+        "mission":"<b>Automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et optimiser ses fonctionnalités.",
+        "next":"phonetik"
     },
     {
         "id":"phonetik",
@@ -62,8 +63,11 @@
         "images_url":[
             "pro/img/phonetik/interface.jpg"
         ],
+        "caption":["Interface du clavier et exemple de correction automatique"],
         "nb_columns":1,
-        "rounded":true
+        "rounded":true,
+        "prev":"vimersio",
+        "next":"nxt"
     },
     {
         "id":"nxt",
@@ -94,7 +98,18 @@
         ],
         "mission":"Implémenter en <b>Java</b> une IA (<b>algorithme A*</b>) pour faire <b>collaborer</b> deux <b><a href='https://www.lego.com/themes/mindstorms/about' class='projects__link' target='_blank'>Lego NXT</a></b> : l'un <b>autonome</b>, l'autre <b>télécommandé</b> (grâce à une interface Java Swing) en évitant les collisions, pour réaliser une <b>tâche commune</b> et en suivant leur <b>trajectoire</b> sur une carte.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>L3</b> Informatique, travail en binôme",
-        "grade":"<b>16</b>/20"
+        "grade":"<b>16</b>/20",
+        "images_url":[
+            "pro/img/nxt/interfaceSaisie.jpg",
+            "pro/img/nxt/interfaceSuivi.jpg"
+        ],
+        "caption":[
+            "Interface de saisie de carte",
+            "Interface de suivi des robots"
+        ],
+        "nb_columns":"2h",
+        "prev":"phonetik",
+        "next":"ica"
     },
     {
         "id":"ica",
@@ -136,8 +151,13 @@
             "pro/img/ica/accueil2012.jpg",
             "pro/img/ica/accueil2018.jpg"
         ],
+        "caption":[
+            "Site web initial",
+            "Site web à la fin du stage"
+        ],
         "nb_columns":2,
-        "rounded":true
+        "rounded":true,
+        "prev":"nxt"
     },
     {
         "id":"conceptmap",
@@ -178,8 +198,10 @@
         "images_url":[
             "uni/img/conceptmap/screenshot.jpg"
         ],
+        "caption":["Interface de correction de carte"],
         "nb_columns":1,
-        "rounded":true
+        "rounded":true,
+        "next":"pointillism"
     },
     {
         "id":"pointillism",
@@ -214,8 +236,16 @@
             "https://benpntier.github.io/uni/img/pointillism/result6.png",
             "https://benpntier.github.io/uni/img/pointillism/result4.png"
         ],
+        "caption":[
+            "Image originale",
+            "Résultat avec précision 8",
+            "Résultat avec précision 6",
+            "Résultat avec précision 4"
+        ],
         "nb_columns":4,
-        "rounded":true
+        "rounded":true,
+        "prev":"conceptmap",
+        "next":"denoiser"
     },
     {
         "id":"denoiser",
@@ -255,7 +285,9 @@
             "https://benpntier.github.io/uni/img/denoiser/4_restored.jpg"
         ],
         "nb_columns":4,
-        "rounded":true
+        "rounded":true,
+        "prev":"pointillism",
+        "next":"arkanoid3D"
     },
     {
         "id":"arkanoid3D",
@@ -286,8 +318,14 @@
             "uni/img/arkanoid3D/environment.jpg",
             "uni/img/arkanoid3D/XYaxes.jpg"
         ],
+        "caption":[
+            "Environnement du jeu",
+            "Environnement 3D"
+        ],
         "nb_columns":2,
-        "rounded":true
+        "rounded":true,
+        "prev":"denoiser",
+        "next":"neocampus"
     },
     {
         "id":"neocampus",
@@ -312,7 +350,14 @@
             "uni/img/neocampus/panneau2.png",
             "uni/img/neocampus/panneau3.png"
         ],
-        "nb_columns":3
+        "caption":[
+            "Panneau 'Temps réel'",
+            "Panneau 'A Posteriori'",
+            "Panneau 'Gestion des Capteurs'"
+        ],
+        "nb_columns":3,
+        "prev":"arkanoid3D",
+        "next":"coursepoursuite"
     },
     {
         "id":"coursepoursuite",
@@ -338,7 +383,9 @@
             "uni/img/coursepoursuite/screenshot3.jpg"
         ],
         "nb_columns":3,
-        "rounded":true
+        "rounded":true,
+        "prev":"neocampus",
+        "next":"norntalk"
     },
     {
         "id":"norntalk",
@@ -366,7 +413,9 @@
             "uni/img/norntalk/screenshot4.jpg"
         ],
         "nb_columns":4,
-        "rounded":true
+        "rounded":true,
+        "prev":"coursepoursuite",
+        "next":"algogen"
     },
     {
         "id":"algogen",
@@ -392,7 +441,9 @@
             "uni/img/algogen/chart2.jpg",
             "uni/img/algogen/chart3.jpg"
         ],
-        "nb_columns":3
+        "nb_columns":3,
+        "prev":"norntalk",
+        "next":"cabinetmedical"
     },
     {
         "id":"cabinetmedical",
@@ -433,7 +484,9 @@
             "uni/img/cabinetmedical/screenshot4.jpg"
         ],
         "nb_columns":2,
-        "rounded":true
+        "rounded":true,
+        "prev":"algogen",
+        "next":"bravenewearth"
     },
     {
         "id":"bravenewearth",
@@ -472,8 +525,12 @@
             "uni/img/bravenewearth/screenshot.jpg",
             "uni/img/bravenewearth/screenshot2.jpg"
         ],
+        "video":"<iframe width='623' height='350' src='https://www.youtube-nocookie.com/embed/d1ha6hZjz-E' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
         "nb_columns":1,
-        "rounded":true
+        "rounded":true,
+        "external_url":["https://bravenewearth.wixsite.com/site/", "Lien du Webdocumentaire"],
+        "prev":"cabinetmedical",
+        "next":"dune"
     },
     {
         "id":"dune",
@@ -507,7 +564,9 @@
             "uni/img/dune/screenshot.jpg"
         ],
         "nb_columns":1,
-        "rounded":true
+        "rounded":true,
+        "prev":"bravenewearth",
+        "next":"odyssee"
     },
     {
         "id":"odyssee",
@@ -526,7 +585,17 @@
         ],
         "mission":"Développer un <b>programme Python</b> avec une <b>interface Tkinter</b>, permettant de résoudre le problème du <b>voyageur de commerce</b>, grâce à l'algorithme de <b>Dijkstra</b>. Pour nous approprier ce problème du plus court chemin, nous avons situé le contexte <i>il y a bien longtemps, dans une galaxie lointaine, très lointaine....</i>",
         "context":"<b>Lycée Charles Gide</b> (Uzès), projet final de la <b>spécialité ISN</b>, travail en binôme",
-        "grade":"<b>20</b>/20"
+        "grade":"<b>20</b>/20",
+        "images_url":[
+            "uni/img/odyssee/screenshot1.png",
+            "uni/img/odyssee/screenshot2.png"
+        ],
+        "caption":[
+            "Interface",
+            "Console"
+        ],
+        "nb_columns":2,
+        "prev":"dune"
     },
     {
         "id":"analog",
@@ -535,7 +604,8 @@
         "logo_alt":"Exemple de photo argentique (Bordeaux)",
         "name":"Photographie argentique",
         "dates":"Depuis 2021",
-        "desc":"Garder des <b>souvenirs</b> de mes <b>voyages</b> grâce à mon appareil <i><b>point-and-shoot</b></i>"
+        "desc":"Garder des <b>souvenirs</b> de mes <b>voyages</b> grâce à mon appareil <i><b>point-and-shoot</b></i>",
+        "next":"covers"
     },
     {
         "id":"covers",
@@ -545,6 +615,7 @@
         "name":"<i>Soundtrack Covers</i>",
         "dates":"Depuis 2012",
         "desc":"Créer des <b>pochettes alternatives</b> pour mes albums préférés de <b>musique de film et séries</b>",
-        "mission":"<b>Réimaginer</b> des <b>pochettes</b> de <b>bandes originales</b> de <b>films</b> et <b>séries TV</b>, à partir de visuels officiels ou non. L'objectif est simplement d'avoir une pochette qui représente mieux le film, sa musique ou qui soit simplement plus artistique."
+        "mission":"<b>Réimaginer</b> des <b>pochettes</b> de <b>bandes originales</b> de <b>films</b> et <b>séries TV</b>, à partir de visuels officiels ou non. L'objectif est simplement d'avoir une pochette qui représente mieux le film, sa musique ou qui soit simplement plus artistique.",
+        "prev":"analog"
     }
 ]

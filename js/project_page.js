@@ -1,4 +1,23 @@
 function addProjectInfo(project) {
+
+    const projectNavigation = document.querySelector(".project__navigation");
+
+    document.querySelector("a").href = "v2.html#"+project.category;
+
+    if (project.prev !== undefined) {
+        const navPrevious = document.createElement("a");
+        navPrevious.href = "project.html?id="+project.prev;
+        navPrevious.innerHTML = "<i class='fa-solid fa-arrow-left'></i>";
+        projectNavigation.prepend(navPrevious)
+    }
+
+    if (project.next !== undefined) {
+        const navNext = document.createElement("a");
+        navNext.href = "project.html?id="+project.next;
+        navNext.innerHTML = "<i class='fa-solid fa-arrow-right'></i>";
+        projectNavigation.appendChild(navNext)
+    }
+
     let projectLogo = document.querySelector(".project__logo");
     if (project.category != "art") {
         projectLogo.src = project.logo_url;
@@ -46,8 +65,8 @@ function addProjectInfo(project) {
     const projectGallery = document.createElement("div");
     projectGallery.classList.add("gallery", "gallery--"+project.nb_columns);
 
-
-    for (img_url of project.images_url) {
+    for (var i=0; i < project.images_url.length; i++){
+        img_url = project.images_url[i];
         var projectImage = document.createElement("img");
         projectImage.className = "project__image";
         if (project.rounded) {
@@ -56,11 +75,42 @@ function addProjectInfo(project) {
         projectImage.src = img_url;
 
         var projectFigure = document.createElement("figure");
+
+        if (project.caption !== undefined) {
+            figcaption = project.caption[i];
+            projectImage.alt = figcaption;
+        }
+
         projectFigure.appendChild(projectImage);
+
+        if (project.caption !== undefined) {
+            var projectCaption = document.createElement("figcaption");
+            projectCaption.innerText = figcaption;
+            projectFigure.appendChild(projectCaption);
+        }
         projectFigure.classList.add("no-margin", "gallery__img--"+project.nb_columns);
         projectGallery.appendChild(projectFigure);
     }
-    document.querySelector(".project__page").appendChild(projectGallery);
+
+    if (project.video !== undefined) {
+        projectGallery.insertAdjacentHTML('beforeend', project.video);
+    }
+
+    const projectPage = document.querySelector(".project__page");
+    projectPage.appendChild(projectGallery);
+
+    if (project.external_url !== undefined) {
+        const projectButton = document.createElement("div");
+        projectButton.className = "project__button";
+        
+        const buttonLink = document.createElement("a");
+        buttonLink.className = "project__link";
+        buttonLink.href = project.external_url[0];
+        buttonLink.text = project.external_url[1];
+
+        projectButton.appendChild(buttonLink);
+        projectPage.appendChild(projectButton);
+    }
     
 }
 

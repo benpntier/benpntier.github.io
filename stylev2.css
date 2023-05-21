@@ -330,6 +330,10 @@ hr {
   color: #795fa0;
 }
 
+#pro, #uni, #art {
+  scroll-behavior: smooth;
+}
+
 .projects {
   display: flex;
   flex-direction: column;
@@ -466,11 +470,30 @@ hr {
 .project__page {
   padding: 2em;
   margin-top: 3em;
+  margin-bottom: 3em;
   background-color: #fcfdfd;
   border-radius: 15px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   min-width: 500px;
   max-width: 900px;
+}
+
+.project__navigation {
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  position: absolute;
+  margin-left: -4em;
+  margin-top: -0.5em;
+}
+
+.project__navigation .fa-solid {
+  transition: color 0.3s;
+}
+
+.project__navigation .fa-solid:hover {
+  color: #768a93;
 }
 
 .project__dates {
@@ -537,6 +560,10 @@ hr {
 .gallery--2 {
   gap: 1.5em;
 }
+.gallery--2h {
+  gap: 1.5em;
+  flex-wrap: nowrap;
+}
 .gallery--3 {
   gap: 1em;
 }
@@ -564,6 +591,31 @@ hr {
   margin-right: 0.3em;
   text-align: center;
   width: 1em;
+}
+
+.project__button {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.project__button .project__link {
+  padding: 1em 1.3em;
+  color: #007195;
+  text-decoration: none;
+  border: 1px solid #7bb7cb;
+  border-bottom: 3px solid #7bb7cb;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+
+.project__button:hover .project__link {
+  color: #003748;
+  border: 1px solid #4798b3;
+  border-bottom: 3px solid #4798b3;
+  background-color: #e9f3f6;
 }
 
 @media screen and (max-width: 1400px) {
