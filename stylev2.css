@@ -158,39 +158,39 @@ hr {
   transition: background-color 0.3s;
 }
 
-.about .tags .algo:hover, .projects__card:hover .tags .algo, .project__page .tags .algo:hover {
+.about .tags .algo:hover, .projects__card:hover .tags .algo, .project__page .tags .algo:hover, .filter .algo:hover {
   background-color: #61b5ab;
 }
 
-.about .tags .dl:hover, .projects__card:hover .tags .dl, .project__page .tags .dl:hover {
+.about .tags .dl:hover, .projects__card:hover .tags .dl, .project__page .tags .dl:hover, .filter .dl:hover {
   background-color: #5aabca;
 }
 
-.about .tags .nlp:hover, .projects__card:hover .tags .nlp, .project__page .tags .nlp:hover {
+.about .tags .nlp:hover, .projects__card:hover .tags .nlp, .project__page .tags .nlp:hover, .filter .nlp:hover {
   background-color: #ac83c0;
 }
 
-.about .tags .imagep:hover, .projects__card:hover .tags .imagep, .project__page .tags .imagep:hover {
+.about .tags .imagep:hover, .projects__card:hover .tags .imagep, .project__page .tags .imagep:hover, .filter .imagep:hover {
   background-color: #7686d3;
 }
 
-.about .tags .prog:hover, .projects__card:hover .tags .prog, .project__page .tags .prog:hover {
+.about .tags .prog:hover, .projects__card:hover .tags .prog, .project__page .tags .prog:hover, .filter .prog:hover {
   background-color: #d68682;
 }
 
-.about .tags .web:hover, .projects__card:hover .tags .web, .project__page .tags .web:hover {
+.about .tags .web:hover, .projects__card:hover .tags .web, .project__page .tags .web:hover, .filter .web:hover {
   background-color: #e0a55f;
 }
 
-.about .tags .sql:hover, .projects__card:hover .tags .sql, .project__page .tags .sql:hover {
+.about .tags .sql:hover, .projects__card:hover .tags .sql, .project__page .tags .sql:hover, .filter .sql:hover {
   background-color: #b9a996;
 }
 
-.about .tags .android:hover, .projects__card:hover .tags .android, .project__page .tags .android:hover {
+.about .tags .android:hover, .projects__card:hover .tags .android, .project__page .tags .android:hover, .filter .android:hover {
   background-color: #8fbf5e;
 }
 
-.about .tags .design:hover, .projects__card:hover .tags .design, .project__page .tags .design:hover {
+.about .tags .design:hover, .projects__card:hover .tags .design, .project__page .tags .design:hover, .filter .design:hover {
   background-color: #d38ac9;
 }
 
@@ -406,7 +406,7 @@ hr {
 }
 
 .pro__separator {
-  width: 7em;
+  width: 6em;
 }
 .pro__project {
   width: 290px;
@@ -426,7 +426,7 @@ hr {
 }
 
 .uni__separator {
-  width: 7em;
+  width: 5em;
   border-top-color: #a9b6bb;
 }
 .uni .projects__ornament {
@@ -443,7 +443,7 @@ hr {
 }
 
 .art__separator {
-  width: 4.5em;
+  width: 4em;
 }
 .art__project {
   flex-direction: row;
@@ -465,6 +465,20 @@ hr {
 
 .uni__project .projects__dates, .art__project .projects__dates {
   margin: 0 0 1.4em 0;
+}
+
+.filter {
+  color: #768a93;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  font-size: 0.85em;
+  margin-bottom: 1em;
+}
+
+.filter .tags span {
+  background-color: #a3b1b7;
 }
 
 .project__page {

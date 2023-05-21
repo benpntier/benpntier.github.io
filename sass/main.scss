@@ -146,7 +146,7 @@ hr {
 }
 
 @each $tag-name, $tag-colour in $tag-colours {
-    .about .tags .#{$tag-name}:hover, .projects__card:hover .tags .#{$tag-name}, .project__page .tags .#{$tag-name}:hover {
+    .about .tags .#{$tag-name}:hover, .projects__card:hover .tags .#{$tag-name}, .project__page .tags .#{$tag-name}:hover, .filter .#{$tag-name}:hover {
         background-color: darken($tag-colour, 8);
     }
 }
@@ -392,7 +392,7 @@ hr {
 
 .pro {
     &__separator {
-        width: 7em;
+        width: 6em;
     }
     &__project {
         width: 290px;
@@ -414,7 +414,7 @@ hr {
 
 .uni {
     &__separator {
-        width: 7em;
+        width: 5em;
         border-top-color: darken($lightergrey, 7);
     }
     & .projects__ornament {
@@ -433,7 +433,7 @@ hr {
 
 .art {
     &__separator {
-        width: 4.5em;
+        width: 4em;
     }
     &__project {
         flex-direction: row;
@@ -457,6 +457,20 @@ hr {
 
 .uni__project .projects__dates, .art__project .projects__dates {
     margin: 0 0 1.4em 0;
+}
+
+.filter {
+    color: darken($lightergrey, 25);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    font-size: .85em;
+    margin-bottom: 1em;
+}
+
+.filter .tags span {
+    background-color: darken($lightergrey, 9);
 }
 
 .project__page {
