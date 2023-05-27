@@ -816,15 +816,18 @@ footer:not(.bg-primary) a:hover {
   .fa-filter {
     display: none;
   }
+  .art__project {
+    width: inherit;
+  }
+  .art .projects__item {
+    flex-grow: 1;
+  }
 }
 @media screen and (max-width: 350px) {
   .pro__project {
     width: inherit;
   }
   .uni__project {
-    width: inherit;
-  }
-  .art__project {
     width: inherit;
   }
   .projects__item {

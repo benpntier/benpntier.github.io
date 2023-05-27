@@ -853,6 +853,14 @@ footer {
     .fa-filter {
         display: none;
     }
+
+    .art__project {
+        width: inherit;
+    }
+
+    .art .projects__item {
+        flex-grow: 1;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -861,10 +869,6 @@ footer {
     }
 
     .uni__project {
-        width: inherit;
-    }
-
-    .art__project {
         width: inherit;
     }
 
