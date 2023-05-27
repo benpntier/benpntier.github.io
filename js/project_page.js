@@ -1,5 +1,4 @@
 function addProjectInfo(project) {
-
     const projectNavigation = document.querySelector(".project__navigation");
 
     document.querySelector("a").href = "v2.html#"+project.category;
@@ -139,7 +138,6 @@ function addProjectInfo(project) {
         projectButton.appendChild(buttonLink);
         projectPage.appendChild(projectButton);
     }
-    
 }
 
 
@@ -152,7 +150,12 @@ function fetchData(id) {
 			projectsData = data;
 
             var project = projectsData.filter(p => p.id == id)[0];
-            addProjectInfo(project)
+
+            if (project == undefined) {
+                document.querySelector(".project__title h2").innerHTML = "Oups ! Projet introuvable..."
+            } else {
+                addProjectInfo(project);
+            }
 		});
 }
 

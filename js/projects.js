@@ -2,6 +2,7 @@ let projectsData = [];
 let filters = [];
 
 function addProjectHTML(project) {
+
     if (project.category == "pro") {
         const proLogo = document.createElement("img");
         proLogo.src = project.logo_url;
