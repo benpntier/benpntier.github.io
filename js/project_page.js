@@ -55,41 +55,46 @@ function addProjectInfo(project) {
         projectTagsColors = project.tags_colors_full;
     }
     const proTags = document.querySelector(".tags");
-    for (var t=0; t < projectTags.length; t++) {
-        var tag = document.createElement("span");
-        tag.className = projectTagsColors[t];
-        tag.innerText = projectTags[t];
-        proTags.appendChild(tag);
+    if (projectTags !== undefined) {
+        for (var t=0; t < projectTags.length; t++) {
+            var tag = document.createElement("span");
+            tag.className = projectTagsColors[t];
+            tag.innerText = projectTags[t];
+            proTags.appendChild(tag);
+        }
     }
 
     const projectGallery = document.createElement("div");
     projectGallery.classList.add("gallery", "gallery--"+project.nb_columns);
 
-    for (var i=0; i < project.images_url.length; i++){
-        img_url = project.images_url[i];
-        var projectImage = document.createElement("img");
-        projectImage.className = "project__image";
-        if (project.rounded) {
-            projectImage.classList.add("rounded");
+    if (project.images_url !== undefined) {
+    
+        for (var i=0; i < project.images_url.length; i++){
+            img_url = project.images_url[i];
+            var projectImage = document.createElement("img");
+            projectImage.className = "project__image";
+            if (project.rounded) {
+                projectImage.classList.add("rounded");
+            }
+            projectImage.src = img_url;
+    
+            var projectFigure = document.createElement("figure");
+    
+            if (project.caption !== undefined) {
+                figcaption = project.caption[i];
+                projectImage.alt = figcaption;
+            }
+    
+            projectFigure.appendChild(projectImage);
+    
+            if (project.caption !== undefined) {
+                var projectCaption = document.createElement("figcaption");
+                projectCaption.innerText = figcaption;
+                projectFigure.appendChild(projectCaption);
+            }
+            projectFigure.classList.add("no-margin", "gallery__img--"+project.nb_columns);
+            projectGallery.appendChild(projectFigure);
         }
-        projectImage.src = img_url;
-
-        var projectFigure = document.createElement("figure");
-
-        if (project.caption !== undefined) {
-            figcaption = project.caption[i];
-            projectImage.alt = figcaption;
-        }
-
-        projectFigure.appendChild(projectImage);
-
-        if (project.caption !== undefined) {
-            var projectCaption = document.createElement("figcaption");
-            projectCaption.innerText = figcaption;
-            projectFigure.appendChild(projectCaption);
-        }
-        projectFigure.classList.add("no-margin", "gallery__img--"+project.nb_columns);
-        projectGallery.appendChild(projectFigure);
     }
 
     if (project.video !== undefined) {
@@ -98,6 +103,29 @@ function addProjectInfo(project) {
 
     const projectPage = document.querySelector(".project__page");
     projectPage.appendChild(projectGallery);
+
+    if (project.images_url_2 !== undefined) {
+
+        if (project.inbetween_text !== undefined) {
+            const projectInbetweenText = document.createElement("p");
+            projectInbetweenText.className = "gallery__inbetween";
+            projectInbetweenText.innerHTML = project.inbetween_text;
+            projectPage.appendChild(projectInbetweenText);
+        }
+
+        for (var i=0; i < project.images_url_2.length; i++){
+            img_url = project.images_url_2[i];
+            var projectImage = document.createElement("img");
+            projectImage.className = "project__image--inbetween";
+            projectImage.src = img_url;
+    
+            var projectFigure = document.createElement("figure");
+    
+            projectFigure.appendChild(projectImage);
+            projectFigure.classList.add("no-margin", "gallery", "gallery__img--"+project.images_url_2.length);
+            projectPage.appendChild(projectFigure);
+        }
+    }
 
     if (project.external_url !== undefined) {
         const projectButton = document.createElement("div");

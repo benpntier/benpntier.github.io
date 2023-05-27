@@ -1,4 +1,5 @@
 let projectsData = [];
+let filters = [];
 
 function addProjectHTML(project) {
     if (project.category == "pro") {
@@ -145,6 +146,53 @@ function fetchData() {
         })
 }
 
+function filterProjects(event) {
+
+    if (event.target.classList.contains("selected")) {
+        event.target.classList.remove("selected");
+        filters.splice(filters.indexOf(event.target.innerText), 1);
+    } else {
+        event.target.classList.add("selected");
+        filters.push(event.target.innerText);
+    }
+
+    var projectsData_filter = projectsData.filter(p => p.category == "uni" && filters.some(filter => p.tags_short.includes(filter)));
+
+    if (filters.length == 0) {
+        projectsData_filter = projectsData.filter(p => p.category == "uni");
+    }
+
+    document.querySelector(".uni .projects__list").innerHTML = "";
+    for (project of projectsData_filter) {
+        addProjectHTML(project);
+    }
+}
+
+function filterTagsHover(event) {
+    let projectTags = document.querySelectorAll(".uni .projects__item .tags span");
+    for (tag of projectTags) {
+        if (tag.innerText != event.target.innerText) {
+            console.log(tag);
+            tag.classList.add("nonhoverfilter")
+        }
+    }
+}
+
+function filterTagsReset() {
+    let projectTags = document.querySelectorAll(".uni .projects__item .tags span");
+    for (tag of projectTags) {
+        if (tag.classList.contains("nonhoverfilter")) {
+            tag.classList.remove("nonhoverfilter");
+        }
+    }
+}
+
 window.onload = function() {
     fetchData();
+    
+    document.querySelectorAll(".filter .tags span").forEach(tag => {
+        tag.addEventListener("click", filterProjects)
+        tag.addEventListener("mouseover", filterTagsHover)
+        tag.addEventListener("mouseout", filterTagsReset)
+    });
 };
