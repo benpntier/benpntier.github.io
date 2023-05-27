@@ -518,6 +518,18 @@ hr {
   min-width: 500px;
   max-width: 900px;
 }
+.project__page figcaption {
+  font-size: 0.85em;
+  color: #697e86;
+  font-style: italic;
+  margin-top: 0.3em;
+}
+.project__page .fa-solid {
+  color: #a0afb5;
+  margin-right: 0.3em;
+  text-align: center;
+  width: 1em;
+}
 .project__navigation {
   font-size: 1.4em;
   display: flex;
@@ -575,18 +587,6 @@ hr {
 }
 .project__image--inbetween:hover {
   border-radius: 0.35em;
-}
-.project__page figcaption {
-  font-size: 0.85em;
-  color: #697e86;
-  font-style: italic;
-  margin-top: 0.3em;
-}
-.project__page .fa-solid {
-  color: #a0afb5;
-  margin-right: 0.3em;
-  text-align: center;
-  width: 1em;
 }
 .project__button {
   margin-top: 3em;
@@ -678,6 +678,32 @@ hr {
 .rounded:hover {
   border-radius: 0.35em;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: 0.75em;
+}
+footer.bg-primary {
+  color: #bdc7cb;
+}
+footer.bg-primary a {
+  color: #bdc7cb;
+  transition: color 0.3s;
+}
+footer.bg-primary a:hover {
+  color: #a0afb5;
+}
+footer:not(.bg-primary) {
+  color: #92a3a9;
+}
+footer:not(.bg-primary) a {
+  color: #92a3a9;
+  transition: color 0.3s;
+}
+footer:not(.bg-primary) a:hover {
+  color: #768a93;
 }
 
 @media screen and (max-width: 1400px) {

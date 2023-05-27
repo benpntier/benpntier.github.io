@@ -484,6 +484,20 @@ hr {
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
         min-width: 500px;
         max-width: 900px;
+
+        & figcaption {
+            font-size: .85em;
+            color: darken($lightergrey, 30);
+            font-style: italic;
+            margin-top: .3em;
+        }
+
+        & .fa-solid {
+            color: darken($lightergrey, 10);
+            margin-right: .3em;
+            text-align: center;
+            width: 1em;
+        }
     }
 
     &__navigation {
@@ -555,22 +569,6 @@ hr {
     
         &--inbetween:hover {
             border-radius: .35em;
-        }
-    }
-
-    &__page {
-        & figcaption {
-            font-size: .85em;
-            color: darken($lightergrey, 30);
-            font-style: italic;
-            margin-top: .3em;
-        }
-
-        & .fa-solid {
-            color: darken($lightergrey, 10);
-            margin-right: .3em;
-            text-align: center;
-            width: 1em;
         }
     }
 
@@ -686,6 +684,38 @@ hr {
     &:hover {
         border-radius: .35em;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 1em;
+    font-size: .75em;
+
+    &.bg-primary {
+        color: $lightergrey;
+
+        & a {
+            color: $lightergrey;
+            transition: color .3s;
+    
+            &:hover {
+                color: darken($lightergrey, 10)
+            }
+        }
+    }
+
+    &:not(.bg-primary) {
+        color: darken($lightergrey, 15);
+
+        & a {
+            color: darken($lightergrey, 15);
+            transition: color .3s;
+    
+            &:hover {
+                color: darken($lightergrey, 25)
+            }
+        }
     }
 }
 
