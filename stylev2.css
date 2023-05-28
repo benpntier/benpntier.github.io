@@ -98,7 +98,7 @@ hr {
 
 .about p {
   margin-top: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.75em;
   font-weight: 400;
   font-size: 1.12em;
 }
@@ -887,8 +887,14 @@ footer:not(.bg-primary) a:hover {
   h4 {
     font-size: 0.95em;
   }
+  header {
+    padding-top: 1em;
+    padding-bottom: 1.2em;
+  }
   .about {
     margin: 0 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
   .about p {
     font-size: 0.9em;
