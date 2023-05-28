@@ -277,10 +277,6 @@
         "images_url":[
             "https://benpntier.github.io/uni/img/denoiser/1_noisy.jpg",
             "https://benpntier.github.io/uni/img/denoiser/1_restored.jpg",
-            "https://benpntier.github.io/uni/img/denoiser/2_noisy.jpg",
-            "https://benpntier.github.io/uni/img/denoiser/2_restored.jpg",
-            "https://benpntier.github.io/uni/img/denoiser/3_noisy.jpg",
-            "https://benpntier.github.io/uni/img/denoiser/3_restored.jpg",
             "https://benpntier.github.io/uni/img/denoiser/4_noisy.jpg",
             "https://benpntier.github.io/uni/img/denoiser/4_restored.jpg"
         ],
@@ -382,7 +378,7 @@
             "uni/img/coursepoursuite/screenshot2.jpg",
             "uni/img/coursepoursuite/screenshot3.jpg"
         ],
-        "nb_columns":3,
+        "nb_columns":"3v",
         "rounded":true,
         "prev":"neocampus",
         "next":"norntalk"
@@ -434,14 +430,12 @@
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en bînome",
         "grade":"<b>15.8</b>/20",
         "images_url":[
-            "uni/img/algogen/screenshot1.jpg",
-            "uni/img/algogen/screenshot2.jpg",
-            "uni/img/algogen/screenshot3.jpg",
             "uni/img/algogen/chart1.jpg",
             "uni/img/algogen/chart2.jpg",
             "uni/img/algogen/chart3.jpg"
         ],
         "nb_columns":3,
+        "rounded":true,
         "prev":"norntalk",
         "next":"cabinetmedical"
     },

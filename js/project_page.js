@@ -1,20 +1,20 @@
 function addProjectInfo(project) {
     const projectNavigation = document.querySelector(".project__navigation");
 
-    document.querySelector("a").href = "v2.html#"+project.category;
+    document.querySelector(".nav-home").href = "v2.html#"+project.category;
 
+    const navPrevious = document.querySelector(".nav-prev");
     if (project.prev !== undefined) {
-        const navPrevious = document.createElement("a");
         navPrevious.href = "project.html?id="+project.prev;
-        navPrevious.innerHTML = "<i class='fa-solid fa-arrow-left'></i>";
-        projectNavigation.prepend(navPrevious)
+    } else {
+        navPrevious.classList.add("project__navigation--hidden");
     }
 
+    const navNext = document.querySelector(".nav-next");
     if (project.next !== undefined) {
-        const navNext = document.createElement("a");
         navNext.href = "project.html?id="+project.next;
-        navNext.innerHTML = "<i class='fa-solid fa-arrow-right'></i>";
-        projectNavigation.appendChild(navNext)
+    } else {
+        navNext.classList.add("project__navigation--hidden");
     }
 
     let projectLogo = document.querySelector(".project__logo");
@@ -36,10 +36,10 @@ function addProjectInfo(project) {
     document.querySelector(".project__dates").innerText = project.dates;
 
     if (project.context !== undefined) {
-        document.querySelector(".project__context").innerHTML = "<i class='fa-solid fa-building-columns' title='Contexte'></i> " + project.context;
+        document.querySelector(".project__context").innerHTML = "<i class='project__icon fa-solid fa-building-columns' title='Contexte'></i> " + project.context;
     }
     if (project.grade !== undefined) {
-        document.querySelector(".project__grade").innerHTML = "<i class='fa-solid fa-medal' title='Note finale'></i> " + project.grade;
+        document.querySelector(".project__grade").innerHTML = "<i class='project__icon fa-solid fa-medal' title='Note finale'></i> " + project.grade;
     }
 
     document.querySelector(".project__mission").innerHTML = project.mission;

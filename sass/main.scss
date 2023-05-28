@@ -478,7 +478,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1em;
+    gap: .5em;
     font-size: .85em;
     margin-bottom: 1em;
 }
@@ -509,13 +509,13 @@ hr {
             font-style: italic;
             margin-top: .3em;
         }
+    }
 
-        & .fa-solid {
-            color: darken($lightergrey, 10);
-            margin-right: .3em;
-            text-align: center;
-            width: 1em;
-        }
+    &__icon {
+        color: darken($lightergrey, 10);
+        margin-right: .3em;
+        text-align: center;
+        width: 1em;
     }
 
     &__navigation {
@@ -528,11 +528,17 @@ hr {
         margin-top: -.5em;
 
         & .fa-solid {
+            color: darken($lightergrey, 10);
+            text-align: center;
             transition: color .3s;
 
             &:hover {
                 color: darken($lightergrey, 25);
             }
+        }
+
+        &--hidden {
+            display: none;
         }
     }
 
@@ -568,11 +574,13 @@ hr {
 
     &__context {
         margin-top: 1.5em;
+        font-size: .95em;
+        color: lighten($black, 15);
+    }
 
-        &, .project__grade {
-            font-size: .95em;
-            color: lighten($black, 15);
-        }
+    &__grade {
+        font-size: .95em;
+        color: lighten($black, 15);
     }
 
     &__image {
@@ -581,6 +589,7 @@ hr {
         vertical-align: top;
     
         &--inbetween {
+            max-width: 100%;
             border-radius: .7em;
             transition: border-radius .3s;
         }
@@ -636,7 +645,7 @@ hr {
         flex-wrap: nowrap;
     }
 
-    &--3 {
+    &--3, &--3v {
         gap: 1em;
     }
 
@@ -646,13 +655,14 @@ hr {
 
     &--5 {
         gap: .4em;
+        margin-top: -1em;
     }
 
     &__img--2 {
         max-width: 48%;
     }
 
-    &__img--3 {
+    &__img--3, &__img--3v {
         max-width: 32%;
     }
 
@@ -686,10 +696,6 @@ hr {
         & img:hover {
             border-radius: .7em;
         }
-    }
-
-    &__inbetween {
-        width: 100%;
     }
 }
 
@@ -743,6 +749,72 @@ footer {
     }
 }
 
+@media screen and (max-width: 1150px) {
+    body.center {
+        flex-direction: column;
+        background-color: $bg-primary;
+    }
+
+    .project__page {
+        margin-top: 0;
+        margin-bottom: 0;
+        background: none;
+        box-shadow: none;
+        min-width: 200px;
+        max-width: none;
+        padding: 0;
+    }
+
+    .project__navigation {
+        flex-direction: row;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 1.5em 1.5em 1em;
+        position:relative;
+        justify-content: space-between;
+        background-color: $bg-secondary;
+
+        &--hidden {
+            display: block;
+            visibility: hidden;
+        }
+    }
+
+    .project__header {
+        background-color: $bg-secondary;
+        padding: .1em 2em 1.3em;
+    }
+
+    .project__mission {
+        padding: .3em 2em .5em;
+    }
+
+    .project__page .tags, .project__context, .project__grade, .project__page .gallery, .gallery__inbetween {
+        padding: 0 2em;
+    }
+
+    .gallery {
+        &--2, &--2h {
+            gap: .8em;
+        }
+        &--3, &--3v {
+            gap: .3em;
+        }
+        &--4 {
+            gap: .3em;
+        }
+        &--5 {
+            gap: .2em;
+        }
+    }
+
+
+
+    footer {
+        padding-top: 2em;
+    }
+}
+
 @media screen and (max-width: 1090px) {
     .uni .projects__list {
         max-width: 900px;
@@ -752,6 +824,10 @@ footer {
 @media screen and (max-width: 991px) {
     .about {
         gap: 4em;
+    }
+
+    .project__page figcaption {
+        font-size: .7em;
     }
 }
 
@@ -764,8 +840,30 @@ footer {
         font-size: 1.5em;
     }
 
+    .project__dates {
+        font-size: 1em;
+    }
+
     .about {
         flex-direction: column-reverse;
+    }
+
+    .projects__list {
+        gap: .75em;
+    }
+
+    .gallery--2h {
+        flex-wrap: wrap;
+    }
+
+    .gallery__img--2, .gallery__img--2h, .gallery__img--3 {
+        max-width: 400px;
+        margin-bottom: .4em;
+    }
+
+    .gallery__img--3v {
+        max-width: 250px;
+        margin-bottom: .4em;
     }
 }
 
@@ -777,6 +875,10 @@ footer {
 
     h2 {
         font-size: 1.3em;
+    }
+
+    .project__dates {
+        font-size: .9em;
     }
 
     h3 {
@@ -792,16 +894,48 @@ footer {
     .about p {
         font-size: 1em;
     }
+
+    .projects {
+        padding-bottom: 2em;
+    }
+
+    .project__logo {
+        height: 3.5em;
+    }
+
+    .project__mission, .gallery__inbetween {
+        font-size: .85em;
+    }
+
+    .project__context, .project__grade {
+        font-size: .8em;
+    }
+
+    .project__button .project__link {
+        font-size: .8em;
+    }
+
+    .gallery__img--4 {
+        max-width: 48%;
+    }
+
+    footer {
+        font-size: .65em;
+    }
 }
 
 @media screen and (max-width: 410px) {
     h1 {
         font-size: 2.3em;
-        text-shadow: none;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1)
     }
 
     h2 {
         font-size: 1.15em;
+    }
+
+    .project__dates {
+        font-size: .85em;
     }
 
     h4 {
@@ -833,6 +967,10 @@ footer {
         height: 30px;
     }
 
+    .pro__desc, .art__desc {
+        font-size: .8em;
+    }
+
     .uni__img {
         height: 50px;
     }
@@ -861,6 +999,24 @@ footer {
     .art .projects__item {
         flex-grow: 1;
     }
+
+    .project__navigation {
+        padding-top: .8em;
+        padding-bottom: .6em;
+    }
+
+    .project__navigation .fa-solid {
+        font-size: .9em;
+    }
+
+    .project__logo {
+        height: 3em;
+    }
+
+    .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__grade, .project__page .gallery, .gallery__inbetween {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -874,6 +1030,27 @@ footer {
 
     .projects__item {
         flex-grow: 1;
+    }
+
+    .project__title h2 {
+        font-size: 1em;
+    }
+
+    h4 {
+        font-size: .9em;
+    }
+
+    .projects__dates {
+        font-size: .75em;
+    }
+
+    .art__img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .art__project.projects__card {
+        gap: .5em;
     }
 
     .tags span {
