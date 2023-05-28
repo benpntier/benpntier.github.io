@@ -652,7 +652,7 @@
             "art/img/analog/53.jpg",
             "art/img/analog/55.jpg"
         ],
-        "nb_columns":5,
+        "nb_columns":"5h",
         "next":"covers"
     },
     {

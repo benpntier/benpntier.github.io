@@ -659,7 +659,7 @@ hr {
 .gallery--4 {
   gap: 0.7em;
 }
-.gallery--5 {
+.gallery--5, .gallery--5h {
   gap: 0.4em;
   margin-top: -1em;
 }
@@ -672,25 +672,25 @@ hr {
 .gallery__img--4 {
   max-width: 24%;
 }
-.gallery__img--5 {
+.gallery__img--5, .gallery__img--5h {
   max-width: 19%;
 }
-.gallery__img--5:first-child img {
+.gallery__img--5:first-child img, .gallery__img--5h:first-child img {
   border-radius: 0.5em 0 0 0;
 }
-.gallery__img--5:nth-child(5) img {
+.gallery__img--5:nth-child(5) img, .gallery__img--5h:nth-child(5) img {
   border-radius: 0 0.5em 0 0;
 }
-.gallery__img--5:nth-last-child(5) img {
+.gallery__img--5:nth-last-child(5) img, .gallery__img--5h:nth-last-child(5) img {
   border-radius: 0 0 0 0.5em;
 }
-.gallery__img--5:last-child img {
+.gallery__img--5:last-child img, .gallery__img--5h:last-child img {
   border-radius: 0 0 0.5em 0;
 }
-.gallery__img--5 img {
+.gallery__img--5 img, .gallery__img--5h img {
   transition: border-radius 0.3s;
 }
-.gallery__img--5 img:hover {
+.gallery__img--5 img:hover, .gallery__img--5h img:hover {
   border-radius: 0.7em;
 }
 
@@ -781,7 +781,7 @@ footer:not(.bg-primary) a:hover {
   .gallery--4 {
     gap: 0.3em;
   }
-  .gallery--5 {
+  .gallery--5, .gallery--5h {
     gap: 0.2em;
   }
   footer {
@@ -931,6 +931,9 @@ footer:not(.bg-primary) a:hover {
   .art .projects__item {
     flex-grow: 1;
   }
+  .tags span {
+    font-size: 0.73em;
+  }
   .project__navigation {
     padding-top: 0.8em;
     padding-bottom: 0.6em;
@@ -944,6 +947,24 @@ footer:not(.bg-primary) a:hover {
   .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__grade, .project__page .gallery, .gallery__inbetween {
     padding-left: 1em;
     padding-right: 1em;
+  }
+  .gallery__img--5h {
+    max-width: 49%;
+  }
+  .gallery__img--5h:nth-child(2) img {
+    border-radius: 0 0.5em 0 0;
+  }
+  .gallery__img--5h:nth-child(5) img {
+    border-radius: 0;
+  }
+  .gallery__img--5h:nth-last-child(5) img {
+    border-radius: 0;
+  }
+  .gallery__img--5h:nth-last-child(2) img {
+    border-radius: 0 0 0 0.5em;
+  }
+  .gallery__img--5h:last-child img {
+    border-radius: 0 0 0.5em 0;
   }
 }
 @media screen and (max-width: 350px) {

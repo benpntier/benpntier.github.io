@@ -653,7 +653,7 @@ hr {
         gap: .7em;
     }
 
-    &--5 {
+    &--5, &--5h {
         gap: .4em;
         margin-top: -1em;
     }
@@ -670,7 +670,7 @@ hr {
         max-width: 24%;
     }
 
-    &__img--5 {
+    &__img--5, &__img--5h {
         max-width: 19%;
 
         &:first-child img {
@@ -803,7 +803,7 @@ footer {
         &--4 {
             gap: .3em;
         }
-        &--5 {
+        &--5, &--5h {
             gap: .2em;
         }
     }
@@ -1000,6 +1000,10 @@ footer {
         flex-grow: 1;
     }
 
+    .tags span {
+        font-size: .73em;
+    }
+
     .project__navigation {
         padding-top: .8em;
         padding-bottom: .6em;
@@ -1016,6 +1020,30 @@ footer {
     .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__grade, .project__page .gallery, .gallery__inbetween {
         padding-left: 1em;
         padding-right: 1em;
+    }
+
+    .gallery__img--5h {
+        max-width: 49%;
+
+        &:nth-child(2) img {
+            border-radius: 0 .5em 0 0;
+        }
+
+        &:nth-child(5) img {
+            border-radius: 0;
+        }
+
+        &:nth-last-child(5) img {
+            border-radius: 0;
+        }
+
+        &:nth-last-child(2) img {
+            border-radius: 0 0 0 .5em;
+        }
+
+        &:last-child img {
+            border-radius: 0 0 .5em 0;
+        }
     }
 }
 
