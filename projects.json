@@ -96,7 +96,7 @@
             "prog",
             "prog"
         ],
-        "mission":"Implémenter en <b>Java</b> une IA (<b>algorithme A*</b>) pour faire <b>collaborer</b> deux <b><a href='https://www.lego.com/themes/mindstorms/about' class='projects__link' target='_blank'>Lego NXT</a></b> : l'un <b>autonome</b>, l'autre <b>télécommandé</b> (grâce à une interface Java Swing) en évitant les collisions, pour réaliser une <b>tâche commune</b> et en suivant leur <b>trajectoire</b> sur une carte.",
+        "mission":"Implémenter en <b>Java</b> une IA (<b>algorithme A*</b>) pour faire <b>collaborer</b> deux <b><a href='https://www.lego.com/themes/mindstorms/about' class='projects__link' target='_blank'>Lego NXT</a></b>&nbsp;: l'un <b>autonome</b>, l'autre <b>télécommandé</b> (grâce à une interface Java Swing) en évitant les collisions, pour réaliser une <b>tâche commune</b> et en suivant leur <b>trajectoire</b> sur une carte.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>L3</b> Informatique, travail en binôme",
         "grade":"<b>16</b>/20",
         "images_url":[
@@ -681,7 +681,7 @@
             "art/img/covers/HarryPotter.png",
             "art/img/covers/2001.png"
         ],
-        "inbetween_text":"Selon les pochettes, il peut y avoir plus ou moins d'étapes pour adapter un <b>visuel existant</b>. Il faut <b>s'adapter</b> au <b>format carré</b>, parfois <b>cacher</b> des éléments, ou en <b>ajouter</b>, comme le montre cette animation pour <i>Star Wars Episode III - La Revanche des Sith</i> (John Williams, Sony Classical) :",
+        "inbetween_text":"Selon les pochettes, il peut y avoir plus ou moins d'étapes pour adapter un <b>visuel existant</b>. Il faut <b>s'adapter</b> au <b>format carré</b>, parfois <b>cacher</b> des éléments, ou en <b>ajouter</b>, comme le montre cette animation pour <i>Star Wars Episode III - La Revanche des Sith</i> (John Williams, Sony Classical)&nbsp;:",
         "images_url_2":[
             "art/img/covers/revenge-wip.gif"
         ],
