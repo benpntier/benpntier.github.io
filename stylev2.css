@@ -834,6 +834,9 @@ footer:not(.bg-primary) a:hover {
     font-size: 3em;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
   }
+  h1:hover {
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
+  }
   h2 {
     font-size: 1.3em;
   }
@@ -878,6 +881,9 @@ footer:not(.bg-primary) a:hover {
     font-size: 2.3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
   }
+  h1:hover {
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  }
   h2 {
     font-size: 1.15em;
   }
@@ -888,8 +894,11 @@ footer:not(.bg-primary) a:hover {
     font-size: 0.95em;
   }
   header {
-    padding-top: 1em;
-    padding-bottom: 1.2em;
+    padding-top: 1.2em;
+    padding-bottom: 0.2em;
+  }
+  header.bg-primary {
+    background-color: #d1dfe1;
   }
   .about {
     margin: 0 2em;
