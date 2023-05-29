@@ -192,7 +192,7 @@
             "web",
             "sql"
         ],
-        "mission":"Développer un <b>outil en ligne d'aide à la correction de cartes conceptuelles</b>, en ayant à la fois une partie <b>saisie de carte</b> et une partie </b>correction, avec un <b>algorithme de prétaitement</b> des cartes pour faciliter leur correction.",
+        "mission":"Développer un <b>outil en ligne d'aide à la correction de cartes conceptuelles</b>, en ayant à la fois une partie <b>saisie de carte</b> et une partie <b>correction</b>, avec un <b>algorithme de prétaitement</b> des cartes pour faciliter leur correction.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, groupe de six membres",
         "grade":"<b>14.5</b>/20",
         "images_url":[
@@ -512,7 +512,7 @@
             "design",
             "design"
         ],
-        "mission":"Création d'un <b>webdocumentaire</b> comprenant des <b>vidéos</b> et <b>articles de vulgarisation</b>, pour mener l'enquête sur les caractéristiques d'une planète habitable, tout en construisant une <b>ligne directrice éditoriale</b> et <b>esthétique</b> inspiré des films noirs.",
+        "mission":"Création d'un <b>webdocumentaire</b> comprenant des <b>vidéos</b> et <b>articles de vulgarisation</b>, pour mener l'enquête sur les caractéristiques d'une planète habitable, tout en construisant une <b>ligne directrice éditoriale</b> et <b>esthétique</b> inspirée des <i>films noirs</i>.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, groupe de six membres",
         "grade":"<b>19</b>/20",
         "images_url":[
