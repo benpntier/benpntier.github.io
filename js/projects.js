@@ -1,5 +1,6 @@
 let projectsData = [];
 let filters = [];
+let startFilter = false;
 
 function addProjectHTML(project) {
 
@@ -91,6 +92,9 @@ function addProjectHTML(project) {
         uniLink.href = "project.html?id=" + project.id;
         uniLink.appendChild(uniArticle);
         uniLink.className = "projects__item";
+        if (!uniLink.classList.contains("no-delay") && startFilter) {
+            uniLink.classList.add("no-delay")
+        }
 
         document.querySelector(".uni .projects__list").appendChild(uniLink);
 
@@ -148,6 +152,8 @@ function fetchData() {
 }
 
 function filterProjects(event) {
+
+    startFilter = true;
 
     if (event.target.classList.contains("selected")) {
         event.target.classList.remove("selected");

@@ -1,3 +1,164 @@
+@keyframes loader-fadeout {
+    0% {
+        opacity: 1;
+        z-index: 3;
+    }
+    90% {
+        opacity: 0;
+        z-index: 3;
+    }
+    100% {
+        opacity: 0;
+        z-index: -1;
+    }
+    
+}
+
+@keyframes title-slidein {
+    0% {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes p-slidein {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes cloud-bottomleft {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    32% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1.1);
+    }
+}
+
+@keyframes cloud-middleright {
+    0% {
+        opacity: 0;
+        transform: translateX(20px) scale(.4);
+    }
+
+    25% {
+        opacity: 0;
+        transform: translateX(20px) scale(.4);
+    }
+
+    100% {
+        opacity: .8;
+        transform: translateY(0) scale(.4);
+    }
+}
+
+
+@keyframes cloud-middleleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px) scale(.3);
+    }
+
+    27% {
+        opacity: 0;
+        transform: translateX(-20px) scale(.3);
+    }
+
+    100% {
+        opacity: .75;
+        transform: translateY(0) scale(.3);
+    }
+}
+
+@keyframes cloud-topright {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    35% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes contact-fadein {
+    0% {
+        opacity: 0;
+        transform: translateX(5px);
+    }
+
+    35% {
+        opacity: 0;
+        transform: translateX(5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes contact-separator {
+    0% {
+        transform: scaleX(0);
+    }
+
+    35% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scaleX(1);
+        transform-origin: 100%;
+    }
+}
+
+@keyframes ornament-separator {
+    0% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+$loader-duration: 1.2;
+
 // Colours
 $black: #2d3639;
 $white: #fcfdfd;
@@ -30,6 +191,15 @@ body {
     letter-spacing: -.02em;
 }
 
+.loader {
+    background-color: $bg-secondary;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: loader-fadeout .7s #{$loader-duration - .5}s both;
+}
+
 header {
     padding-top: 2em;
     padding-bottom: 3.1em;
@@ -59,6 +229,8 @@ h1 {
     font-style: italic;
     font-size: 4.9em;
     text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+
+    animation: title-slidein 1.2s #{$loader-duration}s both;
 }
 
 h1:hover {
@@ -72,6 +244,10 @@ h2 {
     font-weight: 300;
 }
 
+header h2 {
+    animation: title-slidein 1s #{$loader-duration+.25}s backwards;
+}
+
 h3 {
     text-align: center;
     font-size: 2.8em;
@@ -79,6 +255,21 @@ h3 {
     margin-left: .7em;
     margin-right: .7em;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+
+    animation: title-slidein 1s;
+    animation-fill-mode: backwards;
+}
+
+.pro h3 {
+    animation-delay: #{$loader-duration+.65}s;
+}
+
+.uni h3 {
+    animation-delay: #{$loader-duration+1.7}s;
+}
+
+.art h3 {
+    animation-delay: #{$loader-duration+3.1}s;
 }
 
 h3:hover {
@@ -125,6 +316,8 @@ hr {
     margin-bottom: .75em;
     font-weight: 400;
     font-size: 1.12em;
+
+    animation: 1.5s p-slidein #{$loader-duration+.4}s both;
 }
 
 .bio {
@@ -133,6 +326,17 @@ hr {
 
 .bio .tags {
     max-width: 380px;
+}
+
+.bio .tags span {
+    animation: 1s p-slidein;
+    animation-fill-mode: backwards;
+
+    @for $i from 1 to 7 {
+        &:nth-of-type(#{$i}) {
+            animation-delay: #{$loader-duration+.5+$i*.1}s;
+        }
+    }
 }
 
 .tags {
@@ -169,6 +373,7 @@ hr {
 
 .portrait {
     position: relative;
+    animation: fadein 1.2s #{$loader-duration+.5}s backwards;
 
     &__sky {
         height: 220px;
@@ -205,12 +410,14 @@ hr {
             bottom: -12px;
             transform: scale(1.1);
             z-index: 2;
+            animation: cloud-bottomleft 1.3s #{$loader-duration+.2}s;
         }
 
         &--topright {
             left: 130px;
             bottom: 140px;
             z-index: 1;
+            animation: cloud-topright 1.3s #{$loader-duration+.2}s;
         }
 
         &--middle {
@@ -222,6 +429,7 @@ hr {
                 left: -45px;
                 transform: scale(.3);
                 opacity: .75;
+                animation: cloud-middleleft 1.5s #{$loader-duration+.2}s;
             }
 
             &right {
@@ -229,6 +437,7 @@ hr {
                 left: 25px;
                 transform: scale(.4);
                 opacity: .8;
+                animation: cloud-middleright 1.5s #{$loader-duration+.2}s;
             }
         }
 
@@ -307,10 +516,12 @@ hr {
         right: 0;
         font-size: 1.1em;
         padding-top: .5em;
+        animation: contact-fadein 1.3s #{$loader-duration+.3}s backwards;
 
         &--separator {
             width: 2.5em;
             transition: width .4s ease;
+            animation: contact-separator 1.3s #{$loader-duration}s backwards;
         }
 
         &--link {
@@ -339,8 +550,15 @@ hr {
         margin-top: .4em;
         color: $lightergrey;
 
+        & .fa-solid {
+            animation: fadein 1s;
+            animation-fill-mode: backwards;
+        }
+
         & hr {
             transition: transform .3s;
+            animation: ornament-separator .8s;
+            animation-fill-mode: backwards;
         }
 
         & hr:first-child {
@@ -366,6 +584,12 @@ hr {
     &__item {
         text-decoration: none;
         color: $black;
+
+        animation: title-slidein .75s backwards;
+        
+        &.no-delay {
+            animation-duration: .5s;
+        }
     }
     &__card {
         padding: 1em;
@@ -424,6 +648,21 @@ hr {
     &__desc {
         font-size: .9em;
     }
+    & .projects__ornament {
+        & .fa-solid {
+            animation-delay: #{$loader-duration+1}s;
+        }
+        & hr {
+            animation-delay: #{$loader-duration+1.1}s;
+        }
+    }
+    & .projects__list .projects__item {
+        @for $i from 1 to 5 {
+            &:nth-of-type(#{$i}) {
+                animation-delay: #{$loader-duration+.8+$i*.1}s;
+            }
+        }
+    }
 }
 
 .uni {
@@ -433,6 +672,13 @@ hr {
     }
     & .projects__ornament {
         color: darken($lightergrey, 7);
+
+        & .fa-solid {
+            animation-delay: #{$loader-duration+1.2}s;
+        }
+        & hr {
+            animation-delay: #{$loader-duration+1.3}s;;
+        }
     }
     &__project {
         flex-direction: row;
@@ -443,9 +689,41 @@ hr {
     &__img {
         height: 70px;
     }
+    & .projects__ornament {
+        & .fa-solid {
+            animation-delay: #{$loader-duration+1.95}s;
+        }
+        & hr {
+            animation-delay: #{$loader-duration+2.05}s;
+        }
+    }
+    & .projects__list .projects__item {
+        @for $i from 1 to 13 {
+            &:nth-of-type(#{$i}) {
+                animation-delay: #{$loader-duration+1.75+$i*.05}s;
+            }
+        }
+        &.no-delay {
+            @for $i from 1 to 13 {
+                &:nth-of-type(#{$i}) {
+                    animation-delay: #{$i*.03}s;
+                }
+            }
+        }
+    }
 }
 
 .art {
+    & .projects__ornament {
+        color: darken($lightergrey, 7);
+
+        & .fa-solid {
+            animation-delay: #{$loader-duration+1.2}s;
+        }
+        & hr {
+            animation-delay: #{$loader-duration+1.3}s;
+        }
+    }
     &__separator {
         width: 4em;
     }
@@ -467,6 +745,21 @@ hr {
     &__desc {
         font-size: .9em;
     }
+    & .projects__ornament {
+        & .fa-solid {
+            animation-delay: #{$loader-duration+3.4}s;
+        }
+        & hr {
+            animation-delay: #{$loader-duration+3.5}s;
+        }
+    }
+    & .projects__list .projects__item {
+        @for $i from 1 to 5 {
+            &:nth-of-type(#{$i}) {
+                animation-delay: #{$loader-duration+3.1+$i*.1}s;
+            }
+        }
+    }
 }
 
 .uni__project .projects__dates, .art__project .projects__dates {
@@ -481,6 +774,8 @@ hr {
     gap: .5em;
     font-size: .85em;
     margin-bottom: 1em;
+    animation: title-slidein 1s #{$loader-duration+2.1}s backwards;
+    
 }
 
 .filter .tags {
@@ -502,6 +797,17 @@ hr {
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
         min-width: 500px;
         max-width: 900px;
+
+        & .tags span {
+            animation: 1s p-slidein;
+            animation-fill-mode: backwards;
+            
+            @for $i from 1 to 8 {
+                &:nth-of-type(#{$i}) {
+                    animation-delay: #{$loader-duration+.3+$i*.05}s;
+                }
+            }
+        }
 
         & figcaption {
             font-size: .85em;
@@ -542,10 +848,23 @@ hr {
         }
     }
 
+    &__title {
+        animation: title-slidein 1s #{$loader-duration+.1}s backwards;
+
+        & .projects__link {
+            color: $link-secondary;
+    
+            &:hover {
+                color: darken($link-secondary, 15);
+            }
+        }
+    }
+
     &__dates {
         font-size: 1.1em;
         color: darken($lightergrey, 30);
         margin: 0;
+        animation: title-slidein 1s #{$loader-duration+.2}s backwards;
     }
 
     &__header {
@@ -555,32 +874,28 @@ hr {
         gap: 1em;
     }
 
-    &__title .projects__link {
-        color: $link-secondary;
-
-        &:hover {
-            color: darken($link-secondary, 15);
-        }
-    }
-
     &__logo {
         height: 4.2em;
+        animation: title-slidein 1s #{$loader-duration}s backwards;
     }
 
     &__mission {
         font-size: 1em;
         margin-bottom: .5em;
+        animation: p-slidein 1s #{$loader-duration+.45}s backwards;
     }
 
     &__context {
         margin-top: 1.5em;
         font-size: .95em;
         color: lighten($black, 15);
+        animation: p-slidein 1s #{$loader-duration+1}s backwards;
     }
 
     &__grade {
         font-size: .95em;
         color: lighten($black, 15);
+        animation: p-slidein 1s #{$loader-duration+1}s backwards;
     }
 
     &__image {
@@ -599,10 +914,90 @@ hr {
         }
     }
 
+    &__gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        animation: p-slidein 1s #{$loader-duration+1}s backwards;
+    
+        &--1 {
+            gap: 1em;
+        }
+    
+        &--2 {
+            gap: 1.5em;
+        }
+    
+        &--2h {
+            gap: 1.5em;
+            flex-wrap: nowrap;
+        }
+    
+        &--3, &--3v {
+            gap: 1em;
+        }
+    
+        &--4 {
+            gap: .7em;
+        }
+    
+        &--5, &--5h {
+            gap: .4em;
+            margin-top: -1em;
+        }
+    
+        &__img--2 {
+            max-width: 48%;
+        }
+    
+        &__img--3, &__img--3v {
+            max-width: 32%;
+        }
+    
+        &__img--4 {
+            max-width: 24%;
+        }
+    
+        &__img--5, &__img--5h {
+            max-width: 19%;
+    
+            &:first-child img {
+                border-radius: .5em 0 0 0;
+            }
+    
+            &:nth-child(5) img {
+                border-radius: 0 .5em 0 0;
+            }
+    
+            &:nth-last-child(5) img {
+                border-radius: 0 0 0 .5em;
+            }
+    
+            &:last-child img {
+                border-radius: 0 0 .5em 0;
+            }
+    
+            & img {
+                transition: border-radius .3s;
+            }
+    
+            & img:hover {
+                border-radius: .7em;
+            }
+        }
+
+        &__inbetween {
+            animation: p-slidein 1s #{$loader-duration+1}s backwards;
+        }
+    }
+    
+
     &__button {
         margin-top: 3em;
         margin-bottom: 2em;
         text-align: center;
+        animation: p-slidein 1s #{$loader-duration+1}s backwards;
 
         & .project__link {
             padding: 1em 1.3em;
@@ -622,79 +1017,6 @@ hr {
             border: 1px solid darken($sky, 15);
             border-bottom: 3px solid darken($sky, 15);
             background-color: lighten($sky, 30);
-        }
-    }
-}
-
-.gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    &--1 {
-        gap: 1em;
-    }
-
-    &--2 {
-        gap: 1.5em;
-    }
-
-    &--2h {
-        gap: 1.5em;
-        flex-wrap: nowrap;
-    }
-
-    &--3, &--3v {
-        gap: 1em;
-    }
-
-    &--4 {
-        gap: .7em;
-    }
-
-    &--5, &--5h {
-        gap: .4em;
-        margin-top: -1em;
-    }
-
-    &__img--2 {
-        max-width: 48%;
-    }
-
-    &__img--3, &__img--3v {
-        max-width: 32%;
-    }
-
-    &__img--4 {
-        max-width: 24%;
-    }
-
-    &__img--5, &__img--5h {
-        max-width: 19%;
-
-        &:first-child img {
-            border-radius: .5em 0 0 0;
-        }
-
-        &:nth-child(5) img {
-            border-radius: 0 .5em 0 0;
-        }
-
-        &:nth-last-child(5) img {
-            border-radius: 0 0 0 .5em;
-        }
-
-        &:last-child img {
-            border-radius: 0 0 .5em 0;
-        }
-
-        & img {
-            transition: border-radius .3s;
-        }
-
-        & img:hover {
-            border-radius: .7em;
         }
     }
 }
@@ -750,6 +1072,10 @@ footer {
 }
 
 @media screen and (max-width: 1150px) {
+    .loader {
+        background-color: $bg-primary
+    }
+
     body.center {
         flex-direction: column;
         background-color: $bg-primary;
@@ -789,11 +1115,11 @@ footer {
         padding: .3em 2em .5em;
     }
 
-    .project__page .tags, .project__context, .project__grade, .project__page .gallery, .gallery__inbetween {
+    .project__page .tags, .project__context, .project__grade, .project__page .project__gallery, .project__gallery__inbetween {
         padding: 0 2em;
     }
 
-    .gallery {
+    .project__gallery {
         &--2, &--2h {
             gap: .8em;
         }
@@ -807,8 +1133,6 @@ footer {
             gap: .2em;
         }
     }
-
-
 
     footer {
         padding-top: 2em;
@@ -852,16 +1176,16 @@ footer {
         gap: .75em;
     }
 
-    .gallery--2h {
+    .project__gallery--2h {
         flex-wrap: wrap;
     }
 
-    .gallery__img--2, .gallery__img--2h, .gallery__img--3 {
+    .project__gallery__img--2, .project__gallery__img--2h, .project__gallery__img--3 {
         max-width: 400px;
         margin-bottom: .4em;
     }
 
-    .gallery__img--3v {
+    .project__gallery__img--3v {
         max-width: 250px;
         margin-bottom: .4em;
     }
@@ -907,7 +1231,7 @@ footer {
         height: 3.5em;
     }
 
-    .project__mission, .gallery__inbetween {
+    .project__mission, .project__gallery__inbetween {
         font-size: .85em;
     }
 
@@ -919,7 +1243,7 @@ footer {
         font-size: .8em;
     }
 
-    .gallery__img--4 {
+    .project__gallery__img--4 {
         max-width: 48%;
     }
 
@@ -1036,12 +1360,12 @@ footer {
         height: 3em;
     }
 
-    .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__grade, .project__page .gallery, .gallery__inbetween {
+    .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__grade, .project__page .project__gallery, .project__gallery__inbetween {
         padding-left: 1em;
         padding-right: 1em;
     }
 
-    .gallery__img--5h {
+    .project__gallery__img--5h {
         max-width: 49%;
 
         &:nth-child(2) img {

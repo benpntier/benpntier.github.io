@@ -1,7 +1,4 @@
 function addProjectInfo(project) {
-    const projectNavigation = document.querySelector(".project__navigation");
-
-    document.querySelector(".nav-home").href = "v2.html#"+project.category;
 
     const navPrevious = document.querySelector(".nav-prev");
     if (project.prev !== undefined) {
@@ -64,7 +61,7 @@ function addProjectInfo(project) {
     }
 
     const projectGallery = document.createElement("div");
-    projectGallery.classList.add("gallery", "gallery--"+project.nb_columns);
+    projectGallery.classList.add("project__gallery", "project__gallery--"+project.nb_columns);
 
     if (project.images_url !== undefined) {
     
@@ -91,7 +88,7 @@ function addProjectInfo(project) {
                 projectCaption.innerText = figcaption;
                 projectFigure.appendChild(projectCaption);
             }
-            projectFigure.classList.add("no-margin", "gallery__img--"+project.nb_columns);
+            projectFigure.classList.add("no-margin", "project__gallery__img--"+project.nb_columns);
             projectGallery.appendChild(projectFigure);
         }
     }
@@ -107,7 +104,7 @@ function addProjectInfo(project) {
 
         if (project.inbetween_text !== undefined) {
             const projectInbetweenText = document.createElement("p");
-            projectInbetweenText.className = "gallery__inbetween";
+            projectInbetweenText.className = "project__gallery__inbetween";
             projectInbetweenText.innerHTML = project.inbetween_text;
             projectPage.appendChild(projectInbetweenText);
         }
@@ -121,7 +118,7 @@ function addProjectInfo(project) {
             var projectFigure = document.createElement("figure");
     
             projectFigure.appendChild(projectImage);
-            projectFigure.classList.add("no-margin", "gallery", "gallery__img--"+project.images_url_2.length);
+            projectFigure.classList.add("no-margin", "project__gallery", "project__gallery__img--"+project.images_url_2.length);
             projectPage.appendChild(projectFigure);
         }
     }
