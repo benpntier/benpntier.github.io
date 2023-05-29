@@ -398,7 +398,7 @@
             "android",
             "prog"
         ],
-        "mission":"Concevoir et développer une <b>application Android</b> permettant d’envoyer des <b>SMS chiffrés</b> à des utilisateurs de l’application, afin d'assurer la confidentialité et sécurité de leurs échanges.",
+        "mission":"Concevoir et développer une <b>application Android</b> permettant d’envoyer des <b>SMS chiffrés</b> à d'autres utilisateurs, afin d'assurer la <b>confidentialité</b> et <b>sécurité</b> de leurs échanges.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, projet tuteuré, groupe de quatre membres",
         "grade":"<b>16.9</b>/20",
         "images_url":
