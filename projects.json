@@ -18,6 +18,10 @@
             "android"
         ],
         "mission":"<b>Automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et optimiser ses fonctionnalités.",
+        "images_url":[
+            "pro/img/vimersio/viabot.jpg"
+        ],
+        "rounded":true,
         "next":"phonetik"
     },
     {
