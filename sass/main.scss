@@ -503,7 +503,7 @@ hr {
     }
 
     &__img {
-        width: 78%;
+        height: 210px;
         z-index: 2;
         position: absolute;
     }
@@ -1247,6 +1247,30 @@ footer {
         max-width: 48%;
     }
 
+    .project__gallery__img--5h {
+        max-width: 49%;
+
+        &:nth-child(2) img {
+            border-radius: 0 .5em 0 0;
+        }
+
+        &:nth-child(5) img {
+            border-radius: 0;
+        }
+
+        &:nth-last-child(5) img {
+            border-radius: 0;
+        }
+
+        &:nth-last-child(2) img {
+            border-radius: 0 0 0 .5em;
+        }
+
+        &:last-child img {
+            border-radius: 0 0 .5em 0;
+        }
+    }
+
     footer {
         font-size: .65em;
     }
@@ -1366,30 +1390,6 @@ footer {
     .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__grade, .project__page .project__gallery, .project__gallery__inbetween {
         padding-left: 1em;
         padding-right: 1em;
-    }
-
-    .project__gallery__img--5h {
-        max-width: 49%;
-
-        &:nth-child(2) img {
-            border-radius: 0 .5em 0 0;
-        }
-
-        &:nth-child(5) img {
-            border-radius: 0;
-        }
-
-        &:nth-last-child(5) img {
-            border-radius: 0;
-        }
-
-        &:nth-last-child(2) img {
-            border-radius: 0 0 0 .5em;
-        }
-
-        &:last-child img {
-            border-radius: 0 0 .5em 0;
-        }
     }
 }
 

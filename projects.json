@@ -594,7 +594,7 @@
     {
         "id":"analog",
         "category":"art",
-        "logo_url":"art/img/analog/logo.jpg",
+        "logo_url":"art/img/analog/icon.jpg",
         "logo_alt":"Exemple de photo argentique (Venise)",
         "name":"Photographie argentique",
         "dates":"Depuis 2021",
@@ -608,6 +608,7 @@
             "art/img/analog/5.jpg",
             "art/img/analog/6.jpg",
             "art/img/analog/7.jpg",
+            "art/img/analog/8.jpg",
             "art/img/analog/9.jpg",
             "art/img/analog/10.jpg",
             "art/img/analog/11.jpg",
@@ -618,6 +619,7 @@
             "art/img/analog/16.jpg",
             "art/img/analog/17.jpg",
             "art/img/analog/18.jpg",
+            "art/img/analog/19.jpg",
             "art/img/analog/20.jpg",
             "art/img/analog/21.jpg",
             "art/img/analog/22.jpg",
@@ -646,11 +648,9 @@
             "art/img/analog/45.jpg",
             "art/img/analog/46.jpg",
             "art/img/analog/47.jpg",
+            "art/img/analog/48.jpg",
             "art/img/analog/49.jpg",
-            "art/img/analog/51.jpg",
-            "art/img/analog/52.jpg",
-            "art/img/analog/53.jpg",
-            "art/img/analog/55.jpg"
+            "art/img/analog/50.jpg"
         ],
         "nb_columns":"5h",
         "next":"covers"
@@ -658,7 +658,7 @@
     {
         "id":"covers",
         "category":"art",
-        "logo_url":"art/img/covers/DoctorWho.png",
+        "logo_url":"art/img/covers/icon.png",
         "logo_alt":"Exemple de pochette (Doctor Who)",
         "name":"<i>Soundtrack Covers</i>",
         "dates":"Depuis 2012",
