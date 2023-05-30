@@ -179,8 +179,7 @@ function filterTagsHover(event) {
     let projectTags = document.querySelectorAll(".uni .projects__item .tags span");
     for (tag of projectTags) {
         if (tag.innerText != event.target.innerText) {
-            console.log(tag);
-            tag.classList.add("nonhoverfilter")
+            tag.classList.add("nonhoverfilter");
         }
     }
 }

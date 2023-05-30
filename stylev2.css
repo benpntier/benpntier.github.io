@@ -131,6 +131,54 @@
     transform: scaleX(1);
   }
 }
+@keyframes sparkle-grow-0 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0.4);
+  }
+}
+@keyframes sparkle-grow-1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+@keyframes sparkle-grow-2 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+@keyframes sparkle-grow-3 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+@keyframes sparkle-grow-4 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+@keyframes sparkle-grow-5 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0.3);
+  }
+}
 body {
   padding: 0;
   background-color: #d1dfe1;
@@ -165,6 +213,87 @@ header {
 .center {
   display: flex;
   justify-content: center;
+}
+
+.title-sparkles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.sparkle {
+  display: flex;
+  position: relative;
+}
+
+.sparkle--0 {
+  top: 3em;
+  left: 2em;
+  animation: sparkle-grow-0 0.5s;
+  animation-delay: 1.6s;
+  animation-fill-mode: both;
+  transform-origin: 75%;
+}
+
+.sparkle--1 {
+  top: 0.7em;
+  left: -0.3em;
+  animation: sparkle-grow-1 0.5s;
+  animation-delay: 1.7s;
+  animation-fill-mode: both;
+  transform-origin: 75%;
+}
+
+.sparkle--2 {
+  top: 2.1em;
+  left: 0.9em;
+  animation: sparkle-grow-2 0.5s;
+  animation-delay: 1.8s;
+  animation-fill-mode: both;
+  transform-origin: 75%;
+}
+
+.sparkle--3 {
+  top: 0;
+  left: -1.1em;
+  animation: sparkle-grow-3 0.5s;
+  animation-delay: 1.85s;
+  animation-fill-mode: both;
+  transform-origin: 75%;
+}
+
+.sparkle--4 {
+  top: 1.5em;
+  left: -4.1em;
+  animation: sparkle-grow-4 0.5s;
+  animation-delay: 1.75s;
+  animation-fill-mode: both;
+  transform-origin: 75%;
+}
+
+.sparkle--5 {
+  top: 2em;
+  left: -3.5em;
+  animation: sparkle-grow-5 0.5s;
+  animation-delay: 1.65s;
+  animation-fill-mode: both;
+  transform-origin: 75%;
+}
+
+.sparkle div {
+  background-color: #cecbe5;
+  border-radius: 50%;
+}
+.sparkle div:first-child {
+  width: 40px;
+  height: 10px;
+}
+.sparkle div:nth-child(2) {
+  height: 40px;
+  width: 10px;
+  margin-top: -15px;
+  margin-left: -25px;
 }
 
 h1, h3 {
