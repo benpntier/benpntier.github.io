@@ -911,6 +911,10 @@ hr {
     margin: 0 .3em
 }
 
+.filter .tags span {
+    cursor: pointer;
+}
+
 .filter .tags span:not(.selected) {
     background-color: darken($lightergrey, 9);
 }
