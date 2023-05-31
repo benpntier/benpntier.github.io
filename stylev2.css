@@ -222,7 +222,7 @@ header {
   align-items: baseline;
 }
 
-.sparkle {
+.sparkle, .sparkles-left, .sparkles-right {
   display: flex;
   position: relative;
 }
@@ -306,6 +306,9 @@ h1 {
   font-style: italic;
   font-size: 4.9em;
   text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  line-height: 0.9em;
+  margin-bottom: 0.25em;
+  margin-top: 0.2em;
   animation: title-slidein 1.2s 1.2s both;
 }
 
@@ -1302,10 +1305,30 @@ footer:not(.bg-primary) a:hover {
     font-size: 0.7em;
   }
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 830px) {
   h1 {
     font-size: 4em;
   }
+  header h2 {
+    font-size: 1.5em;
+  }
+  header {
+    padding-top: 1.8em;
+    padding-bottom: 2.3em;
+  }
+  .sparkles-left, .sparkles-right {
+    transform: scale(0.8);
+  }
+  .sparkles-left {
+    top: -0.2em;
+    left: 0.8em;
+  }
+  .sparkles-right {
+    top: -0.2em;
+    left: -0.6em;
+  }
+}
+@media screen and (max-width: 730px) {
   h2 {
     font-size: 1.5em;
   }
@@ -1330,7 +1353,30 @@ footer:not(.bg-primary) a:hover {
     margin-bottom: 0.4em;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 3.3em;
+  }
+  header h2 {
+    font-size: 1.35em;
+  }
+  header {
+    padding-top: 1.7em;
+    padding-bottom: 1.8em;
+  }
+  .sparkles-left, .sparkles-right {
+    transform: scale(0.67);
+  }
+  .sparkles-left {
+    top: -0.4em;
+    left: 1em;
+  }
+  .sparkles-right {
+    top: -0.4em;
+    left: -0.4em;
+  }
+}
+@media screen and (max-width: 603px) {
   h1 {
     font-size: 3em;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
@@ -1338,6 +1384,20 @@ footer:not(.bg-primary) a:hover {
   h1:hover {
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
   }
+  header h2 {
+    font-size: 1.3em;
+  }
+  .sparkles-left, .sparkles-right {
+    transform: scale(0.6);
+  }
+  .sparkles-left {
+    left: 1.1em;
+  }
+  .sparkles-right {
+    left: -0.2em;
+  }
+}
+@media screen and (max-width: 550px) {
   h2 {
     font-size: 1.3em;
   }
@@ -1406,7 +1466,7 @@ footer:not(.bg-primary) a:hover {
   h1:hover {
     text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
   }
-  h2 {
+  h2, header h2 {
     font-size: 1.15em;
   }
   .project__dates {

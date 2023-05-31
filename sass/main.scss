@@ -268,7 +268,7 @@ header {
     align-items: baseline;
 }
 
-.sparkle {
+.sparkle, .sparkles-left, .sparkles-right {
     display: flex;
     position: relative;
 }
@@ -353,6 +353,10 @@ h1 {
     font-style: italic;
     font-size: 4.9em;
     text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+
+    line-height: .9em;
+    margin-bottom: .25em;
+    margin-top: .2em;
 
     animation: title-slidein 1.2s #{$loader-duration}s both;
 }
@@ -1279,11 +1283,36 @@ footer {
     }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 830px) {
     h1 {
         font-size: 4em;
     }
 
+    header h2 {
+        font-size: 1.5em;
+    }
+
+    header {
+        padding-top: 1.8em;
+        padding-bottom: 2.3em;
+    }
+    
+    .sparkles-left, .sparkles-right {
+        transform: scale(.8);
+    }
+
+    .sparkles-left {
+        top: -.2em;
+        left: .8em;
+    }
+
+    .sparkles-right {
+        top: -.2em;
+        left: -.6em;
+    }
+}
+
+@media screen and (max-width: 730px) {
     h2 {
         font-size: 1.5em;
     }
@@ -1315,7 +1344,36 @@ footer {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 3.3em;
+    }
+
+    header h2 {
+        font-size: 1.35em;
+    }
+
+    header {
+        padding-top: 1.7em;
+        padding-bottom: 1.8em;
+    }
+
+    .sparkles-left, .sparkles-right {
+        transform: scale(.67);
+    }
+
+    .sparkles-left {
+        top: -.4em;
+        left: 1em;
+    }
+
+    .sparkles-right {
+        top: -.4em;
+        left: -.4em;
+    }
+}
+
+@media screen and (max-width: 603px) {
     h1 {
         font-size: 3em;
         text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
@@ -1325,6 +1383,24 @@ footer {
         }
     }
 
+    header h2 {
+        font-size: 1.3em;
+    }
+
+    .sparkles-left, .sparkles-right {
+        transform: scale(.6);
+    }
+
+    .sparkles-left {
+        left: 1.1em;
+    }
+
+    .sparkles-right {
+        left: -.2em;
+    }
+}
+
+@media screen and (max-width: 550px) {
     h2 {
         font-size: 1.3em;
     }
@@ -1413,7 +1489,7 @@ footer {
         }
     }
 
-    h2 {
+    h2, header h2 {
         font-size: 1.15em;
     }
 
