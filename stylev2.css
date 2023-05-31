@@ -1397,6 +1397,19 @@ footer:not(.bg-primary) a:hover {
     left: -0.2em;
   }
 }
+@media screen and (max-width: 560px) {
+  h1 {
+    max-width: 220px;
+  }
+  .sparkles-left {
+    top: 1.5em;
+    left: 1.5em;
+  }
+  .sparkles-right {
+    top: -1em;
+    left: -1.2em;
+  }
+}
 @media screen and (max-width: 550px) {
   h2 {
     font-size: 1.3em;
@@ -1457,7 +1470,7 @@ footer:not(.bg-primary) a:hover {
 }
 @media screen and (max-width: 410px) {
   h1 {
-    font-size: 2.3em;
+    font-size: 2.5em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
     line-height: 0.9em;
     margin-bottom: 0.25em;
@@ -1468,6 +1481,9 @@ footer:not(.bg-primary) a:hover {
   }
   h2, header h2 {
     font-size: 1.15em;
+  }
+  .sparkle div {
+    background-color: #fcfdfd;
   }
   .project__dates {
     font-size: 0.85em;

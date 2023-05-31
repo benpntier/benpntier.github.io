@@ -1400,6 +1400,22 @@ footer {
     }
 }
 
+@media screen and (max-width: 560px) {
+    h1 {
+        max-width: 220px;
+    }
+
+    .sparkles-left {
+        top: 1.5em;
+        left: 1.5em;
+    }
+
+    .sparkles-right {
+        top: -1em;
+        left: -1.2em;
+    }
+}
+
 @media screen and (max-width: 550px) {
     h2 {
         font-size: 1.3em;
@@ -1478,7 +1494,7 @@ footer {
 
 @media screen and (max-width: 410px) {
     h1 {
-        font-size: 2.3em;
+        font-size: 2.5em;
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
         line-height: .9em;
         margin-bottom: .25em;
@@ -1491,6 +1507,10 @@ footer {
 
     h2, header h2 {
         font-size: 1.15em;
+    }
+
+    .sparkle div {
+        background-color: $white;
     }
 
     .project__dates {
