@@ -17,6 +17,24 @@
             "imagep",
             "android"
         ],
+        "tags_full":[
+            "Video Processing",
+            "Computer Vision",
+            "Python",
+            "Android",
+            "Kotlin",
+            "GitHub",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "imagep",
+            "imagep",
+            "prog",
+            "android",
+            "prog",
+            "env",
+            "env"
+        ],
         "mission":"<b>Automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et optimiser ses fonctionnalités.",
         "images_url":[
             "pro/img/vimersio/viabot.jpg"
@@ -50,7 +68,8 @@
             "Keras",
             "scikit-learn",
             "Python",
-            "Java"
+            "Java",
+            "Google Colab"
         ],
         "tags_colors_full":[
             "dl",
@@ -59,7 +78,8 @@
             "dl",
             "algo",
             "prog",
-            "prog"
+            "prog",
+            "env"
         ],
         "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un modèle de <b>Deep Learning</b> permettant de proposer une <b>correction automatique</b> basée sur la <b>prononciation</b> (plutôt que l'orthographe), lié à une <b>interface de clavier</b> en Java Swing. Ce type de clavier pourrait <b>faciliter la saisie</b> pour les personnes dysorthographiques.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>Master 2</b> en Intelligence Artificielle",
@@ -93,12 +113,14 @@
         "tags_full":[
             "Algorithme A*",
             "Java",
-            "Librairie leJOS"
+            "Librairie leJOS",
+            "GitHub"
         ],
         "tags_colors_full":[
             "algo",
             "prog",
-            "prog"
+            "prog",
+            "env"
         ],
         "mission":"Implémenter en <b>Java</b> une IA (<b>algorithme A*</b>) pour faire <b>collaborer</b> deux <b><a href='https://www.lego.com/themes/mindstorms/about' class='projects__link' target='_blank'>Lego NXT</a></b>&nbsp;: l'un <b>autonome</b>, l'autre <b>télécommandé</b> (grâce à une interface Java Swing) en évitant les collisions, pour réaliser une <b>tâche commune</b> et en suivant leur <b>trajectoire</b> sur une carte.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>L3</b> Informatique, travail en binôme",
@@ -186,7 +208,8 @@
             "CSS",
             "PHP",
             "JavaScript",
-            "SQL"
+            "SQL",
+            "GitHub"
         ],
         "tags_colors_full":[
             "prog",
@@ -194,7 +217,8 @@
             "web",
             "web",
             "web",
-            "sql"
+            "sql",
+            "env"
         ],
         "mission":"Développer un <b>outil en ligne d'aide à la correction de cartes conceptuelles</b>, en ayant à la fois une partie <b>saisie de carte</b> et une partie <b>correction</b>, avec un <b>algorithme de prétaitement</b> des cartes pour faciliter leur correction.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, groupe de six membres",
@@ -225,12 +249,14 @@
         "tags_full":[
             "Image Processing",
             "Python",
-            "C++"
+            "C++",
+            "Google Colab"
         ],
         "tags_colors_full":[
             "imagep",
             "prog",
-            "prog"
+            "prog",
+            "env"
         ],
         "mission":"Implémenter un programme appliquant un <b>effet \"pointilliste\"</b> à une image, autrement dit qui va générer une image en utilisant seulement des <b>petits points de couleur</b>, d'après une publication de Hiroki Tokura, Yuki Kuroda, Yasuaki Ito et Koji Nakano. Dans ce projet, chaque point est de forme <b>elliptique</b> (tandis que la publication utilise des formes carrées) en choisissant une <b>orientation</b> et une <b>couleur</b> qui <b>retranscrit le mieux l'image originale</b>, en se rapprochant du filtre gaussien qui simule la vision humaine. Pour imiter un aspect pointilliste et leur utilisation des couleurs, la <b>nuance</b> de chaque \"coup de pinceau\" est <b>modifiée aléatoirement</b>, particulièrement dans les zones d'aplat. La <b>précision</b> est un paramètre, qui peut varier pour obtenir des résultats tels que ci-dessous. L'algorithme final a été implémenté à la fois en Python et en C++.",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
@@ -269,12 +295,14 @@
         "tags_full":[
             "Image Processing",
             "BM3D",
-            "Python"
+            "Python",
+            "Google Colab"
         ],
         "tags_colors_full":[
             "imagep",
             "imagep",
-            "prog"
+            "prog",
+            "env"
         ],
         "mission":"Expérimenter plusieurs techniques de <b>débruitage d'image</b>, plus particulièrement en utilisant une méthode de <b>préservation des bords</b>, grâce aux principes de l'<b>algorithme BM3D</b>, tel que le <b>filtrage 3D</b> et la <b>correspondance par blocs</b> (le but étant de proposer un algorithme basé sur ces principes plutôt que d'implémenter l'algorithme BM3D tel quel).",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
@@ -396,11 +424,13 @@
         "dates":"Octobre-décembre 2017",
         "tags_short":[
             "Android",
-            "Kotlin"
+            "Kotlin",
+            "GitHub"
         ],
         "tags_colors_short":[
             "android",
-            "prog"
+            "prog",
+            "env"
         ],
         "mission":"Concevoir et développer une <b>application Android</b> permettant d’envoyer des <b>SMS chiffrés</b> à d'autres utilisateurs, afin d'assurer la <b>confidentialité</b> et <b>sécurité</b> de leurs échanges.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, projet tuteuré, groupe de quatre membres",
