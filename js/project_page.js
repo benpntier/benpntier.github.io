@@ -76,14 +76,16 @@ function addProjectInfo(project) {
     
             var projectFigure = document.createElement("figure");
     
-            if (project.caption !== undefined) {
-                figcaption = project.caption[i];
+            if (project.images_caption !== undefined) {
+                figcaption = project.images_caption[i];
                 projectImage.alt = figcaption;
+            } else if (project.images_alt !== undefined) {
+                projectImage.alt = project.images_alt[i];
             }
     
             projectFigure.appendChild(projectImage);
     
-            if (project.caption !== undefined) {
+            if (project.images_caption !== undefined) {
                 var projectCaption = document.createElement("figcaption");
                 projectCaption.innerText = figcaption;
                 projectFigure.appendChild(projectCaption);
@@ -114,6 +116,7 @@ function addProjectInfo(project) {
             var projectImage = document.createElement("img");
             projectImage.className = "project__image--inbetween";
             projectImage.src = img_url;
+            projectImage.alt = project.images_alt_2;
     
             var projectFigure = document.createElement("figure");
     
@@ -130,6 +133,7 @@ function addProjectInfo(project) {
         const buttonLink = document.createElement("a");
         buttonLink.className = "project__link";
         buttonLink.href = project.external_url[0];
+        buttonLink.target = "_blank";
         buttonLink.text = project.external_url[1];
 
         projectButton.appendChild(buttonLink);
