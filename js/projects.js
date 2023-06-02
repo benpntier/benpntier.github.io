@@ -177,8 +177,12 @@ function filterProjects(event) {
 
 function filterTagsHover(event) {
     let projectTags = document.querySelectorAll(".uni .projects__item .tags span");
+    let webTags = ["JavaScript", "PHP"];
+    let dlTags = ["CNN", "MLP"];
+    let mlTags = ["Linear Regression"];
     for (tag of projectTags) {
-        if (tag.innerText != event.target.innerText) {
+        console.log(tag.innerText, event.target.innerText == "Web" && webTags.includes(tag.innerText));
+        if (!(tag.innerText == event.target.innerText || (event.target.innerText == "Deep Learning" && dlTags.includes(tag.innerText)) || (event.target.innerText == "Machine Learning" && mlTags.includes(tag.innerText)) || (event.target.innerText == "Web" && webTags.includes(tag.innerText)))) {
             tag.classList.add("nonhoverfilter");
         }
     }

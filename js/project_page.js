@@ -35,6 +35,9 @@ function addProjectInfo(project) {
     if (project.context !== undefined) {
         document.querySelector(".project__context").innerHTML = "<i class='project__icon fa-solid fa-building-columns' title='Contexte'></i> " + project.context;
     }
+    if (project.dataset !== undefined) {
+        document.querySelector(".project__dataset").innerHTML = "<i class='project__icon fa-solid fa-database' title='Dataset'></i> " + project.dataset;
+    }
     if (project.grade !== undefined) {
         document.querySelector(".project__grade").innerHTML = "<i class='project__icon fa-solid fa-medal' title='Note finale'></i> " + project.grade;
     }

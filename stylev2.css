@@ -347,7 +347,7 @@ h3 {
 }
 
 .art h3 {
-  animation-delay: 4.3s;
+  animation-delay: 4.5s;
 }
 
 h3:hover {
@@ -893,6 +893,18 @@ hr {
 .uni .projects__list .projects__item:nth-of-type(12) {
   animation-delay: 3.55s;
 }
+.uni .projects__list .projects__item:nth-of-type(13) {
+  animation-delay: 3.6s;
+}
+.uni .projects__list .projects__item:nth-of-type(14) {
+  animation-delay: 3.65s;
+}
+.uni .projects__list .projects__item:nth-of-type(15) {
+  animation-delay: 3.7s;
+}
+.uni .projects__list .projects__item:nth-of-type(16) {
+  animation-delay: 3.75s;
+}
 .uni .projects__list .projects__item.no-delay:nth-of-type(1) {
   animation-delay: 0.03s;
 }
@@ -934,10 +946,10 @@ hr {
   color: #a9b6bb;
 }
 .art .projects__ornament .fa-solid {
-  animation-delay: 2.4s;
+  animation-delay: 4.8s;
 }
 .art .projects__ornament hr {
-  animation-delay: 2.5s;
+  animation-delay: 4.9s;
 }
 .art__separator {
   width: 4em;
@@ -959,23 +971,17 @@ hr {
 .art__desc {
   font-size: 0.9em;
 }
-.art .projects__ornament .fa-solid {
-  animation-delay: 4.6s;
-}
-.art .projects__ornament hr {
-  animation-delay: 4.7s;
-}
 .art .projects__list .projects__item:nth-of-type(1) {
-  animation-delay: 4.4s;
+  animation-delay: 4.6s;
 }
 .art .projects__list .projects__item:nth-of-type(2) {
-  animation-delay: 4.5s;
+  animation-delay: 4.7s;
 }
 .art .projects__list .projects__item:nth-of-type(3) {
-  animation-delay: 4.6s;
+  animation-delay: 4.8s;
 }
 .art .projects__list .projects__item:nth-of-type(4) {
-  animation-delay: 4.7s;
+  animation-delay: 4.9s;
 }
 
 .uni__project .projects__dates, .art__project .projects__dates {
@@ -1108,6 +1114,11 @@ hr {
 }
 .project__context {
   margin-top: 1.5em;
+  font-size: 0.95em;
+  color: #4f5f64;
+  animation: p-slidein 1s 2.2s backwards;
+}
+.project__dataset {
   font-size: 0.95em;
   color: #4f5f64;
   animation: p-slidein 1s 2.2s backwards;
@@ -1292,7 +1303,7 @@ footer:not(.bg-primary) a:hover {
   .project__mission {
     padding: 0.3em 2em 0.5em;
   }
-  .project__page .tags, .project__context, .project__grade, .project__page .project__gallery, .project__gallery__inbetween {
+  .project__page .tags, .project__context, .project__dataset, .project__grade, .project__page .project__gallery, .project__gallery__inbetween {
     padding: 0 2em;
   }
   .project__gallery--2, .project__gallery--2h {
@@ -1403,6 +1414,12 @@ footer:not(.bg-primary) a:hover {
   h1:hover {
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
   }
+  .fa-filter {
+    display: none;
+  }
+  .filter .tags {
+    margin: 0 1em;
+  }
   header h2 {
     font-size: 1.3em;
   }
@@ -1456,7 +1473,7 @@ footer:not(.bg-primary) a:hover {
   .project__mission, .project__gallery__inbetween {
     font-size: 0.85em;
   }
-  .project__context, .project__grade {
+  .project__context, .project__dataset, .project__grade {
     font-size: 0.8em;
   }
   .project__button .project__link {
@@ -1554,9 +1571,6 @@ footer:not(.bg-primary) a:hover {
   .uni__project .projects__dates, .art__project .projects__dates {
     margin: 0 0 0.6em 0;
   }
-  .fa-filter {
-    display: none;
-  }
   .art__project {
     width: inherit;
   }
@@ -1576,7 +1590,7 @@ footer:not(.bg-primary) a:hover {
   .project__logo {
     height: 3em;
   }
-  .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__grade, .project__page .project__gallery, .project__gallery__inbetween {
+  .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__dataset, .project__grade, .project__page .project__gallery, .project__gallery__inbetween {
     padding-left: 1em;
     padding-right: 1em;
   }

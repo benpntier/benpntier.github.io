@@ -232,6 +232,40 @@
         "images_caption":["Interface de correction de carte"],
         "nb_columns":1,
         "rounded":true,
+        "next":"fashionclass"
+    },
+    {
+        "id":"fashionclass",
+        "category":"uni",
+        "name":"Fashion classification",
+        "dates":"Octobre 2020",
+        "tags_short":[
+            "Deep Learning",
+            "MLP",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "dl",
+            "dl",
+            "prog"
+        ],
+        "tags_full":[
+            "Multi-layer Perceptron",
+            "Python",
+            "Keras",
+            "scikit-learn",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "dl",
+            "prog",
+            "dl",
+            "algo",
+            "env"
+        ],
+        "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle",
+        "dataset":"<a href='https://www.kaggle.com/datasets/zalando-research/fashionmnist' class='projects__link' target='_blank'>Fashion-MNIST</a> (Zalando)",
+        "prev":"conceptmap",
         "next":"pointillism"
     },
     {
@@ -277,7 +311,7 @@
         ],
         "nb_columns":4,
         "rounded":true,
-        "prev":"conceptmap",
+        "prev":"fashionclass",
         "next":"denoiser"
     },
     {
@@ -324,6 +358,40 @@
         "nb_columns":4,
         "rounded":true,
         "prev":"pointillism",
+        "next":"dogsvscats"
+    },
+    {
+        "id":"dogsvscats",
+        "category":"uni",
+        "name":"Dogs vs. cats classification",
+        "dates":"Décembre 2019 - Janvier 2020",
+        "tags_short":[
+            "Deep Learning",
+            "CNN",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "dl",
+            "dl",
+            "prog"
+        ],
+        "tags_full":[
+            "Convolutional Neural Network",
+            "Python",
+            "Keras",
+            "scikit-learn",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "dl",
+            "prog",
+            "dl",
+            "algo",
+            "env"
+        ],
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "dataset":"<a href='https://www.kaggle.com/c/dogs-vs-cats' class='projects__link' target='_blank'>Dogs vs. Cats</a> (Asirra)",
+        "prev":"denoiser",
         "next":"arkanoid3D"
     },
     {
@@ -361,7 +429,68 @@
         ],
         "nb_columns":2,
         "rounded":true,
-        "prev":"denoiser",
+        "prev":"dogsvscats",
+        "next":"datascience"
+    },
+    {
+        "id":"datascience",
+        "category":"uni",
+        "name":"Data Science",
+        "dates":"Novembre 2019 - Janvier 2020",
+        "tags_short":[
+            "Python",
+            "Linear Regression"
+        ],
+        "tags_colors_short":[
+            "prog",
+            "algo"
+        ],
+        "tags_full":[
+            "Python",
+            "Linear Regression",
+            "Pandas",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "prog",
+            "algo",
+            "algo",
+            "env"
+        ],
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "prev":"arkanoid3D",
+        "next":"multilabelclass"
+    },
+    {
+        "id":"multilabelclass",
+        "category":"uni",
+        "name":"Multi-Label classification",
+        "dates":"Novembre-décembre 2019",
+        "tags_short":[
+            "Machine Learning",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "algo",
+            "prog"
+        ],
+        "tags_full":[
+            "Logistic Regression",
+            "Python",
+            "scikit-learn",
+            "Pandas",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "algo",
+            "prog",
+            "algo",
+            "algo",
+            "env"
+        ],
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "dataset":"<a href='https://research.brighton.ac.uk/en/publications/spatialvoc2k-a-multilingual-dataset-of-images-with-annotations-an' class='projects__link' target='_blank'>SpatialVOC2K</a> (Anja Belz, Adrian Muscat, Pierre Anguill et al.)",
+        "prev":"datascience",
         "next":"neocampus"
     },
     {
@@ -393,7 +522,7 @@
             "Panneau 'Gestion des Capteurs'"
         ],
         "nb_columns":3,
-        "prev":"arkanoid3D",
+        "prev":"multilabelclass",
         "next":"coursepoursuite"
     },
     {
