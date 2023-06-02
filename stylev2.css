@@ -490,7 +490,7 @@ hr {
 }
 
 .tags .env:not(.nonhoverfilter) {
-  background-color: #a8c0c4;
+  background-color: #a3c2d1;
 }
 
 .tags .web {
@@ -546,7 +546,7 @@ hr {
 }
 
 .about .tags .env:hover, .projects__card:hover .tags .env, .project__page .tags .env:hover, .filter .env:not(.selected):hover, .filter .env:hover {
-  background-color: #90aeb4;
+  background-color: #88b0c3;
 }
 
 .about .tags .web:hover, .projects__card:hover .tags .web, .project__page .tags .web:hover, .filter .web:not(.selected):hover, .filter .web:hover {
