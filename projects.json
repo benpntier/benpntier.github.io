@@ -438,10 +438,18 @@
         "dates":"Octobre-décembre 2017",
         "tags_short":[
             "Android",
+            "Kotlin"
+        ],
+        "tags_colors_short":[
+            "android",
+            "prog"
+        ],
+        "tags_full":[
+            "Android",
             "Kotlin",
             "GitHub"
         ],
-        "tags_colors_short":[
+        "tags_colors_full":[
             "android",
             "prog",
             "env"
