@@ -97,7 +97,7 @@
         "additional_html":
         [
             "<p class='project__mission'>Pour pouvoir proposer une correction automatique à partir d'un mot saisi, le modèle proposé avait pour but de calculer la meilleure <b>représentation vectorielle</b> possible (<i>word embeddings</i>) pour tenir compte de la <b>phonétique</b>. Théoriquement, <b>deux homophones</b> auraient alors la <b>même représentation</b> et leur distance dans cet espace vectoriel serait nulle. En réalité, l'objectif était d'<b>entraîner le modèle</b> pour <b>minimiser</b> cette <b>distance</b>.</p>",
-            "<figure class='no-margin project__gallery project__gallery__img--1'><img class='project__image project__image' src='pro/img/phonetik/tsne.png' alt='Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE'><figcaption>Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE</figcaption></figure>"
+            "<figure class='no-margin project__gallery project__gallery__img--1'><img class='project__image' src='pro/img/phonetik/tsne.png' alt='Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE'><figcaption>Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE</figcaption></figure>"
         ],
         "nb_columns":1,
         "rounded":true,
