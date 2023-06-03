@@ -273,7 +273,7 @@
             "algo",
             "env"
         ],
-        "mission":"<b>Entraîner</b> et <b>évaluer</b> un <b>réseau de neurones</b> simple de type <b>MLP</b> (Multi-Layer Perceptron), afin de résoudre une tâche de <b>classification d'images de vêtements</b>, avec une première étape de <b>pré-traitement</b> des données (<b>encodage</b> <i>one-hot</i>, <b>normalisation</b>, <b>vectorisation</b> des images, etc).",
+        "mission":"<b>Entraîner</b> et <b>évaluer</b> un <b>réseau de neurones</b> (simple) de type <b>MLP</b> (Multi-Layer Perceptron), afin de résoudre une tâche de <b>classification d'images de vêtements</b>, avec une première étape de <b>pré-traitement</b> des données (<b>encodage</b> <i>one-hot</i>, <b>normalisation</b>, <b>vectorisation</b> des images, etc).",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, Travaux Pratiques",
         "dataset":"<a href='https://www.kaggle.com/datasets/zalando-research/fashionmnist' class='projects__link' target='_blank'>Fashion-MNIST</a> (Zalando)",
         "grade":"<b>16</b>/20",
@@ -314,7 +314,7 @@
             "prog",
             "env"
         ],
-        "mission":"Implémenter un programme appliquant un <b>effet \"pointilliste\"</b> à une image, autrement dit qui va générer une image en utilisant seulement des <b>petits points de couleur</b>, d'après une publication de Hiroki Tokura, Yuki Kuroda, Yasuaki Ito et Koji Nakano. Dans ce projet, chaque point est de forme <b>elliptique</b> (tandis que la publication utilise des formes carrées) en choisissant une <b>orientation</b> et une <b>couleur</b> qui <b>retranscrit le mieux l'image originale</b>, en se rapprochant du filtre gaussien qui simule la vision humaine. Pour imiter un aspect pointilliste et leur utilisation des couleurs, la <b>nuance</b> de chaque \"coup de pinceau\" est <b>modifiée aléatoirement</b>, particulièrement dans les zones d'aplat. La <b>précision</b> est un paramètre, qui peut varier pour obtenir des résultats tels que ci-dessous. L'algorithme final a été implémenté à la fois en Python et en C++.",
+        "mission":"Implémenter un programme appliquant un <b>effet \"pointilliste\"</b> à une image, autrement dit qui va générer une image en utilisant seulement des <b>petits points de couleur</b>, d'après <a href='https://ieeexplore.ieee.org/document/8345408' class='projects__link' target='_blank'><i>“A Square Pointillism Image Generation, and its GPU Acceleration”</i></a> (H. Tokura, Y. Kuroda, Y. Ito et K. Nakano, 2017).",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
         "images_url":[
             "https://benpntier.github.io/uni/img/pointillism/original.png",
@@ -330,6 +330,9 @@
         ],
         "nb_columns":4,
         "rounded":true,
+        "additional_html":[
+            "<p class='project__mission'>Dans ce projet, chaque point est de forme <b>elliptique</b> (tandis que la publication utilise des formes carrées) en choisissant une <b>orientation</b> et une <b>couleur</b> qui <b>retranscrit le mieux l'image originale</b>, en se rapprochant du filtre gaussien qui simule la vision humaine. Pour imiter un aspect pointilliste et leur utilisation des couleurs, la <b>nuance</b> de chaque \"coup de pinceau\" est <b>modifiée aléatoirement</b>, particulièrement dans les zones d'aplat. La <b>précision</b> est un paramètre, qui peut varier pour obtenir des résultats tels que ci-dessous. L'algorithme final a été implémenté à la fois en Python et en C++.</p>"
+        ],
         "prev":"fashionclass",
         "next":"denoiser"
     },
@@ -416,8 +419,13 @@
             "algo",
             "env"
         ],
+        "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un <b>réseau de neurones convolutionnels</b> (CNN), afin de résoudre le problème de classification binaire <b>chiens vs. chats</b> (<i>dogs vs. cats</i>).",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
         "dataset":"<a href='https://www.kaggle.com/c/dogs-vs-cats' class='projects__link' target='_blank'>Dogs vs. Cats</a> (Asirra)",
+        "additional_html":[
+            "<p class='project__mission no-margin'>L'<b>évaluation</b> du <b>modèle obtenu</b> sur les données de validation converge vers une <i>accuracy</i> de <b>0.73</b> (ce qui est un plutôt bon résultat pour le contexte de ce projet).</p>",
+            "<div class='project__gallery project__gallery--2'><figure class='no-margin project__gallery__img--2'><img class='project__image project__image--rounded' src='uni/img/dogsvscats/accuracy.png' alt='Accuracy au cours de l'entraînement et évaluation'><figcaption class='center'>Accuracy au cours de l'entraînement et évaluation</figcaption></figure><figure class='no-margin project__gallery__img--2'><img class='project__image project__image--rounded' src='uni/img/dogsvscats/loss.png' alt='Loss au cours de l'entraînement et évaluation'><figcaption class='center'>Loss au cours de l'entraînement et évaluation</figcaption></figure></div>"
+        ],
         "prev":"denoiser",
         "next":"arkanoid3D"
     },
@@ -531,6 +539,7 @@
             "algo",
             "env"
         ],
+        "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un modèle de <b>classification multi-label</b> (MLC) dans le domaine de la <b>détection de relation spatiale</b>, une sous-tâche de la recherche en <b>vision et langage naturel</b>.",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
         "dataset":"<a href='https://research.brighton.ac.uk/en/publications/spatialvoc2k-a-multilingual-dataset-of-images-with-annotations-an' class='projects__link' target='_blank'>SpatialVOC2K</a> (Anja Belz, Adrian Muscat, Pierre Anguill et al.)",
         "prev":"datascience",
