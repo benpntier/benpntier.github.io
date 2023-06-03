@@ -979,9 +979,9 @@
         [
             "<p class='project__mission'>Selon les pochettes, il peut y avoir plus ou moins d'étapes pour adapter un <b>visuel existant</b>. Il faut <b>s'adapter</b> au <b>format carré</b>, <b>disposer différement</b> les éléments et parfois en <b>ajouter</b>, comme le montre cette animation calque par calque pour <i>Star Wars Episode III - La Revanche des Sith</i> (John Williams, Sony Classical)&nbsp;:</p>",
             "<figure class='no-margin project__gallery project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/revenge-wip.gif' alt='Star Wars Episode III - Revenge of the Sith'></figure>",
-            "<p class='project__mission'>Il peut aussi y avoir besoin de <b>cacher</b> des éléments, comme pour l'<i>Episode VII</i>, <i>Le Réveil de la Force</i> (John Williams, Walt Disney Records) :</p>",
+            "<p class='project__mission'>Il peut aussi y avoir besoin de <b>cacher</b> des éléments, comme pour l'<i>Episode VII</i>, <i>Le Réveil de la Force</i> (John Williams, Walt Disney Records)&nbsp;:</p>",
             "<figure class='no-margin project__gallery project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/tfa-wip.gif' alt='Star Wars Episode VII - The Force Awakens'></figure>",
-            "<p class='project__mission'>Enfin, l'<b>univers d'un film</b> peut inspirer une pochette plus <b>expérimentale</b>. Par exemple, pour La Forme de l'Eau (Alexandre Desplat, Decca Records), à partir d'une affiche de James Jean, l'inspiration est venue des pochettes d'anciens disques vinyls :</p>",
+            "<p class='project__mission'>Enfin, l'<b>univers d'un film</b> peut inspirer une pochette plus <b>expérimentale</b>. Par exemple, pour La Forme de l'Eau (Alexandre Desplat, Decca Records), à partir d'une affiche de James Jean, l'inspiration est venue des pochettes d'anciens disques vinyls&nbsp;:</p>",
             "<figure class='no-margin project__gallery project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/shape-wip.gif' alt='The Shape of Water'></figure>"
         ],
         "nb_columns":5,
