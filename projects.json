@@ -35,12 +35,12 @@
             "env",
             "env"
         ],
-        "mission":"<b>Piloter</b> le <b>développement</b> des projets informatiques de Vimersio : <b>définir</b> les <b>besoins</b> des utilisateurs, <b>étudier</b> les différentes <b>méthodes envisageables</b>, selon les <b>risques</b> et les <b>enjeux</b>, et <b>mener à bien</b> l'<b>implémentation</b> de la solution choisie. Avec le ViaBot®, Vimersio propose une solution tout-en-un pour automatiser la création de <b>menus vidéos</b>, offrant aux clients la possibilité de voir leurs plats à 360° avant de commander. Ainsi, la réalisation du projet consistait notamment à <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et optimiser ses fonctionnalités.",
+        "mission":"<b>Piloter</b> le <b>développement</b> des projets informatiques de Vimersio : <b>définir</b> les <b>besoins</b> des utilisateurs, <b>proposer</b> et <b>étudier</b> les différentes <b>implémentations envisageables</b>, selon les <b>risques</b> et les <b>enjeux</b>, et <b>mener à bien</b> la <b>mise en œuvre</b> de la solution choisie, en <b>autonomie</b> ou en <b>coordonnant</b> l'équipe technique. Avec le ViaBot®, Vimersio propose un outil tout-en-un pour automatiser la création de <b>menus vidéos</b>, offrant aux clients la possibilité de voir leurs plats à 360° avant de commander. Ainsi, la réalisation technique du projet consistait (notamment) à <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et <b>optimiser</b> ses fonctionnalités ainsi que son <b>expérience utilisateur</b>.",
         "images_url":[
             "pro/img/vimersio/viabot.jpg"
         ],
         "images_caption":[
-            "ViaBot®, outil crée par Vimersio® pour faciliter la création de vidéos 360°"
+            "ViaBot®, outil créé par Vimersio® pour automatiser la création de menus vidéo à 360°"
         ],
         "rounded":true,
         "next":"phonetik"
@@ -84,9 +84,10 @@
             "prog",
             "env"
         ],
-        "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un modèle de <b>Deep Learning</b> permettant de proposer une <b>correction automatique</b> basée sur la <b>prononciation</b> (plutôt que l'orthographe), lié à une <b>interface de clavier</b> en Java Swing. Ce type de clavier pourrait <b>faciliter la saisie</b> pour les personnes dysorthographiques.",
+        "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un modèle de <b>Deep Learning</b> permettant de proposer une <b>correction automatique</b> basée sur la <b>prononciation</b> (plutôt que l'orthographe), lié à une <b>interface de clavier</b> en Java Swing. Ce type de clavier pourrait <b>faciliter la saisie</b> pour les personnes dysorthographiques (qui écrivent les mots phonétiquement).",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>Master 2</b> en Intelligence Artificielle",
         "grade":"<b>15.5</b>/20",
+        "comment":"<i>Benoît a montré beaucoup d'intérêt, d'autonomie et de persévérance pour terminer ce projet. Il a démontré de solides compétences en machine learning, deep learning et programmation Python. [...] De plus, son comportement, son écoute et son sérieux font qu'il est très agréable de travailler avec lui.</i> &ndash; <b>Mathieu Serrurier</b>, enseignant chercheur à l'IRIT",
         "images_url":[
             "pro/img/phonetik/interface.jpg"
         ],
@@ -95,7 +96,7 @@
         ],
         "additional_html":
         [
-            "<p class='project__mission'>Le modèle proposé avait ainsi pour but de calculer la meilleure <b>représentation vectorielle</b> possible (<i>word embeddings</i>) pour tenir compte de la <b>phonétique</b>. Théoriquement, <b>deux homophones</b> auraient alors la <b>même représentation</b> et leur distance dans cet espace vectoriel serait nulle. En réalité, l'objectif était d'<b>entraîner le modèle</b> pour <b>minimiser</b> cette <b>distance</b>.</p>",
+            "<p class='project__mission'>Pour pouvoir proposer une correction automatique à partir d'un mot saisi, le modèle proposé avait pour but de calculer la meilleure <b>représentation vectorielle</b> possible (<i>word embeddings</i>) pour tenir compte de la <b>phonétique</b>. Théoriquement, <b>deux homophones</b> auraient alors la <b>même représentation</b> et leur distance dans cet espace vectoriel serait nulle. En réalité, l'objectif était d'<b>entraîner le modèle</b> pour <b>minimiser</b> cette <b>distance</b>.</p>",
             "<figure class='no-margin project__gallery project__gallery__img--1'><img class='project__image project__image' src='pro/img/phonetik/tsne.png' alt='Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE'><figcaption>Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE</figcaption></figure>"
         ],
         "nb_columns":1,

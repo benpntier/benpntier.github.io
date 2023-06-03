@@ -41,6 +41,9 @@ function addProjectInfo(project) {
     if (project.grade !== undefined) {
         document.querySelector(".project__grade").innerHTML = "<i class='project__icon fa-solid fa-medal' title='Note finale'></i> " + project.grade;
     }
+    if (project.comment !== undefined) {
+        document.querySelector(".project__comment").innerHTML = "<i class='project__icon fa-solid fa-quote-left' title='Appréciation'></i> " + project.comment;
+    }
 
     document.querySelector(".project__mission").innerHTML = project.mission;
 

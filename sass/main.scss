@@ -930,7 +930,7 @@ hr {
             
             @for $i from 1 to 9 {
                 &:nth-of-type(#{$i}) {
-                    animation-delay: #{$loader-duration+.3+$i*.05}s;
+                    animation-delay: #{$loader-duration+.6+$i*.05}s;
                 }
             }
         }
@@ -1016,23 +1016,14 @@ hr {
 
     }
 
+    &__info {
+        font-size: .95em;
+        color: lighten($black, 15);
+        animation: p-slidein 1s #{$loader-duration+1}s backwards;
+    }
+
     &__context {
         margin-top: 1.5em;
-        font-size: .95em;
-        color: lighten($black, 15);
-        animation: p-slidein 1s #{$loader-duration+1}s backwards;
-    }
-
-    &__dataset {
-        font-size: .95em;
-        color: lighten($black, 15);
-        animation: p-slidein 1s #{$loader-duration+1}s backwards;
-    }
-
-    &__grade {
-        font-size: .95em;
-        color: lighten($black, 15);
-        animation: p-slidein 1s #{$loader-duration+1}s backwards;
     }
 
     &__image {
@@ -1252,7 +1243,7 @@ footer {
         padding: .3em 2em .5em;
     }
 
-    .project__page .tags, .project__context, .project__dataset, .project__grade, .project__page .project__gallery {
+    .project__page .tags, .project__info, .project__page .project__gallery {
         padding: 0 2em;
     }
 
@@ -1468,7 +1459,7 @@ footer {
         font-size: .85em;
     }
 
-    .project__context, .project__dataset, .project__grade {
+    .project__info {
         font-size: .8em;
     }
 
@@ -1621,7 +1612,7 @@ footer {
         height: 3em;
     }
 
-    .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__dataset, .project__grade, .project__page .project__gallery {
+    .project__navigation, .project__header, .project__mission, .project__page .tags, .project__info, .project__page .project__gallery {
         padding-left: 1em;
         padding-right: 1em;
     }
