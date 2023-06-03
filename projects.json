@@ -35,7 +35,7 @@
             "env",
             "env"
         ],
-        "mission":"<b>Automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et optimiser ses fonctionnalités.",
+        "mission":"<b>Piloter</b> le <b>développement</b> des projets informatiques de Vimersio : <b>définir</b> les <b>besoins</b> des utilisateurs, <b>étudier</b> les différentes <b>méthodes envisageables</b>, selon les <b>risques</b> et les <b>enjeux</b>, et <b>mener à bien</b> l'<b>implémentation</b> de la solution choisie. Avec le ViaBot®, Vimersio propose une solution tout-en-un pour automatiser la création de <b>menus vidéos</b>, offrant aux clients la possibilité de voir leurs plats à 360° avant de commander. Ainsi, la réalisation du projet consistait notamment à <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et optimiser ses fonctionnalités.",
         "images_url":[
             "pro/img/vimersio/viabot.jpg"
         ],
@@ -180,7 +180,7 @@
             "web",
             "sql"
         ],
-        "mission":"Refonte complète du <b>site web de l'Institut Clément Ader</b>, laboratoire de recherche à Toulouse, en utilisant <b>WordPress</b>, pour <b>moderniser son apparence</b> (intégrer le nouveau logo et construire une identité visuelle autour), <b>restructurer sa base de données</b> et <b>améliorer</b> voire <b>compléter</b> ses <b>fonctionnalités</b> (notamment des pages de gestion en intranet).",
+        "mission":"Reprendre complètement le <b>site web de l'Institut Clément Ader</b>, laboratoire de recherche à Toulouse, en utilisant <b>WordPress</b>, pour <b>moderniser son apparence</b> (intégrer le nouveau logo et construire une identité visuelle autour), <b>restructurer sa base de données</b> et <b>améliorer</b> voire <b>compléter</b> ses <b>fonctionnalités</b> (notamment des pages de gestion en intranet).",
         "context":"<b>IUT Paul Sabatier</b> (Toulouse), stage de fin de <b>DUT</b> Informatique, travail en binôme",
         "grade":"<b>17</b>/20",
         "images_url":[
@@ -729,7 +729,7 @@
             "design",
             "design"
         ],
-        "mission":"Création d'un <b>webdocumentaire</b> comprenant des <b>vidéos</b> et <b>articles de vulgarisation</b>, pour mener l'enquête sur les caractéristiques d'une planète habitable, tout en construisant une <b>ligne directrice éditoriale</b> et <b>esthétique</b> inspirée des <i>films noirs</i>.",
+        "mission":"Créer un <b>webdocumentaire</b> comprenant des <b>vidéos</b> et <b>articles de vulgarisation</b>, pour mener l'enquête sur les caractéristiques d'une planète habitable, tout en construisant une <b>ligne directrice éditoriale</b> et <b>esthétique</b> inspirée des <i>films noirs</i>.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, groupe de six membres",
         "grade":"<b>19</b>/20",
         "images_url":[
