@@ -850,6 +850,7 @@ hr {
 }
 .uni__img {
   height: 70px;
+  width: 70px;
 }
 .uni .projects__ornament .fa-solid {
   animation-delay: 3.15s;
@@ -940,6 +941,18 @@ hr {
 }
 .uni .projects__list .projects__item.no-delay:nth-of-type(12) {
   animation-delay: 0.36s;
+}
+.uni .projects__list .projects__item.no-delay:nth-of-type(13) {
+  animation-delay: 0.39s;
+}
+.uni .projects__list .projects__item.no-delay:nth-of-type(14) {
+  animation-delay: 0.42s;
+}
+.uni .projects__list .projects__item.no-delay:nth-of-type(15) {
+  animation-delay: 0.45s;
+}
+.uni .projects__list .projects__item.no-delay:nth-of-type(16) {
+  animation-delay: 0.48s;
 }
 
 .art .projects__ornament {
@@ -1112,6 +1125,9 @@ hr {
   margin-bottom: 0.5em;
   animation: p-slidein 1s 1.65s backwards;
 }
+.project__mission:nth-of-type(n + 2) {
+  animation-delay: 2.2s;
+}
 .project__context {
   margin-top: 1.5em;
   font-size: 0.95em;
@@ -1133,12 +1149,12 @@ hr {
   max-width: 100%;
   vertical-align: top;
 }
-.project__image--inbetween {
-  max-width: 100%;
+.project__image--rounded {
   border-radius: 0.7em;
   transition: border-radius 0.3s;
+  margin: 0.5em 0 0;
 }
-.project__image--inbetween:hover {
+.project__image--rounded:hover {
   border-radius: 0.35em;
 }
 .project__gallery {
@@ -1197,9 +1213,6 @@ hr {
 }
 .project__gallery__img--5 img:hover, .project__gallery__img--5h img:hover {
   border-radius: 0.7em;
-}
-.project__gallery__inbetween {
-  animation: p-slidein 1s 2.2s backwards;
 }
 .project__button {
   margin-top: 3em;
@@ -1300,10 +1313,13 @@ footer:not(.bg-primary) a:hover {
     background-color: #d1dfe1;
     padding: 0.1em 2em 1.3em;
   }
+  .project__page img[src*="img/logos/vimersio.png"] {
+    content: url("img/logos/vimersio-white.png");
+  }
   .project__mission {
     padding: 0.3em 2em 0.5em;
   }
-  .project__page .tags, .project__context, .project__dataset, .project__grade, .project__page .project__gallery, .project__gallery__inbetween {
+  .project__page .tags, .project__context, .project__dataset, .project__grade, .project__page .project__gallery {
     padding: 0 2em;
   }
   .project__gallery--2, .project__gallery--2h {
@@ -1470,7 +1486,7 @@ footer:not(.bg-primary) a:hover {
   .project__logo {
     height: 3.5em;
   }
-  .project__mission, .project__gallery__inbetween {
+  .project__mission {
     font-size: 0.85em;
   }
   .project__context, .project__dataset, .project__grade {
@@ -1560,6 +1576,7 @@ footer:not(.bg-primary) a:hover {
   }
   .uni__img {
     height: 50px;
+    width: 50px;
   }
   .art__img {
     height: 35px;
@@ -1590,7 +1607,7 @@ footer:not(.bg-primary) a:hover {
   .project__logo {
     height: 3em;
   }
-  .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__dataset, .project__grade, .project__page .project__gallery, .project__gallery__inbetween {
+  .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__dataset, .project__grade, .project__page .project__gallery {
     padding-left: 1em;
     padding-right: 1em;
   }

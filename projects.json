@@ -90,7 +90,14 @@
         "images_url":[
             "pro/img/phonetik/interface.jpg"
         ],
-        "images_caption":["Interface du clavier et exemple de correction automatique"],
+        "images_caption":[
+            "Interface du clavier et exemple de correction automatique"
+        ],
+        "additional_html":
+        [
+            "<p class='project__mission'>Le modèle proposé avait ainsi pour but de calculer la meilleure <b>représentation vectorielle</b> possible (<i>word embeddings</i>) pour tenir compte de la <b>phonétique</b>. Théoriquement, <b>deux homophones</b> auraient alors la <b>même représentation</b> et leur distance dans cet espace vectoriel serait nulle. En réalité, l'objectif était d'<b>entraîner le modèle</b> pour <b>minimiser</b> cette <b>distance</b>.</p>",
+            "<figure class='no-margin project__gallery project__gallery__img--1'><img class='project__image project__image' src='pro/img/phonetik/tsne.png' alt='Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE'><figcaption>Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE</figcaption></figure>"
+        ],
         "nb_columns":1,
         "rounded":true,
         "prev":"vimersio",
@@ -237,7 +244,9 @@
     {
         "id":"fashionclass",
         "category":"uni",
-        "name":"Fashion classification",
+        "logo_url":"uni/img/fashionclass/icon.png",
+        "logo_alt":"Classification de vêtements",
+        "name":"Classification de vêtements",
         "dates":"Octobre 2020",
         "tags_short":[
             "Deep Learning",
@@ -265,6 +274,7 @@
         ],
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle",
         "dataset":"<a href='https://www.kaggle.com/datasets/zalando-research/fashionmnist' class='projects__link' target='_blank'>Fashion-MNIST</a> (Zalando)",
+        "grade":"<b>16</b>/20",
         "prev":"conceptmap",
         "next":"pointillism"
     },
@@ -363,7 +373,9 @@
     {
         "id":"dogsvscats",
         "category":"uni",
-        "name":"Dogs vs. cats classification",
+        "logo_url":"uni/img/dogsvscats/icon.png",
+        "logo_alt":"Dogs vs. cats",
+        "name":"Classification <i>Dogs vs. cats</i>",
         "dates":"Décembre 2019 - Janvier 2020",
         "tags_short":[
             "Deep Learning",
@@ -435,6 +447,8 @@
     {
         "id":"datascience",
         "category":"uni",
+        "logo_url":"uni/img/datascience/icon.png",
+        "logo_alt":"Data Science",
         "name":"Data Science",
         "dates":"Novembre 2019 - Janvier 2020",
         "tags_short":[
@@ -464,7 +478,9 @@
     {
         "id":"multilabelclass",
         "category":"uni",
-        "name":"Multi-Label classification",
+        "name":"Classification Multi-Label",
+        "logo_url":"uni/img/multilabelclass/icon.png",
+        "logo_alt":"Classification Multi-Label",
         "dates":"Novembre-décembre 2019",
         "tags_short":[
             "Machine Learning",
@@ -958,12 +974,11 @@
             "Harry Potter and the Philosophers's Stone",
             "2001: A Space Odyssey"
         ],
-        "inbetween_text":"Selon les pochettes, il peut y avoir plus ou moins d'étapes pour adapter un <b>visuel existant</b>. Il faut <b>s'adapter</b> au <b>format carré</b>, parfois <b>cacher</b> des éléments, ou en <b>ajouter</b>, comme le montre cette animation calque par calque pour <i>Star Wars Episode III - La Revanche des Sith</i> (John Williams, Sony Classical)&nbsp;:",
-        "images_url_2":[
-            "art/img/covers/revenge-wip.gif"
-        ],
-        "images_alt_2":[
-            "Star Wars Episode III - Revenge of the Sith"
+        "inbetween_text":"",
+        "additional_html":
+        [
+            "<p class='project__mission'>Selon les pochettes, il peut y avoir plus ou moins d'étapes pour adapter un <b>visuel existant</b>. Il faut <b>s'adapter</b> au <b>format carré</b>, parfois <b>cacher</b> des éléments, ou en <b>ajouter</b>, comme le montre cette animation calque par calque pour <i>Star Wars Episode III - La Revanche des Sith</i> (John Williams, Sony Classical)&nbsp;:</p>",
+            "<figure class='no-margin project__gallery project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/revenge-wip.gif' alt='Star Wars Episode III - Revenge of the Sith'></figure>"
         ],
         "nb_columns":5,
         "prev":"analog"

@@ -817,6 +817,7 @@ hr {
     }
     &__img {
         height: 70px;
+        width: 70px;
     }
     & .projects__ornament {
         & .fa-solid {
@@ -833,7 +834,7 @@ hr {
             }
         }
         &.no-delay {
-            @for $i from 1 to 13 {
+            @for $i from 1 to 17 {
                 &:nth-of-type(#{$i}) {
                     animation-delay: #{$i*.03}s;
                 }
@@ -1008,6 +1009,11 @@ hr {
         font-size: 1em;
         margin-bottom: .5em;
         animation: p-slidein 1s #{$loader-duration+.45}s backwards;
+
+        &:nth-of-type(n + 2) {
+            animation-delay: #{$loader-duration+1}s;
+        }
+
     }
 
     &__context {
@@ -1034,13 +1040,13 @@ hr {
         max-width: 100%;
         vertical-align: top;
     
-        &--inbetween {
-            max-width: 100%;
+        &--rounded {
             border-radius: .7em;
             transition: border-radius .3s;
+            margin: .5em 0 0;
         }
     
-        &--inbetween:hover {
+        &--rounded:hover {
             border-radius: .35em;
         }
     }
@@ -1116,10 +1122,6 @@ hr {
             & img:hover {
                 border-radius: .7em;
             }
-        }
-
-        &__inbetween {
-            animation: p-slidein 1s #{$loader-duration+1}s backwards;
         }
     }
     
@@ -1242,11 +1244,15 @@ footer {
         padding: .1em 2em 1.3em;
     }
 
+    .project__page img[src*="img/logos/vimersio.png"] {
+        content: url("img/logos/vimersio-white.png");
+}
+
     .project__mission {
         padding: .3em 2em .5em;
     }
 
-    .project__page .tags, .project__context, .project__dataset, .project__grade, .project__page .project__gallery, .project__gallery__inbetween {
+    .project__page .tags, .project__context, .project__dataset, .project__grade, .project__page .project__gallery {
         padding: 0 2em;
     }
 
@@ -1458,7 +1464,7 @@ footer {
         height: 3.5em;
     }
 
-    .project__mission, .project__gallery__inbetween {
+    .project__mission {
         font-size: .85em;
     }
 
@@ -1574,6 +1580,7 @@ footer {
 
     .uni__img {
         height: 50px;
+        width: 50px;
     }
 
     .art__img {
@@ -1614,7 +1621,7 @@ footer {
         height: 3em;
     }
 
-    .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__dataset, .project__grade, .project__page .project__gallery, .project__gallery__inbetween {
+    .project__navigation, .project__header, .project__mission, .project__page .tags, .project__context, .project__dataset, .project__grade, .project__page .project__gallery {
         padding-left: 1em;
         padding-right: 1em;
     }

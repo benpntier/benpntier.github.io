@@ -105,27 +105,9 @@ function addProjectInfo(project) {
     const projectPage = document.querySelector(".project__page");
     projectPage.appendChild(projectGallery);
 
-    if (project.images_url_2 !== undefined) {
-
-        if (project.inbetween_text !== undefined) {
-            const projectInbetweenText = document.createElement("p");
-            projectInbetweenText.className = "project__gallery__inbetween";
-            projectInbetweenText.innerHTML = project.inbetween_text;
-            projectPage.appendChild(projectInbetweenText);
-        }
-
-        for (var i=0; i < project.images_url_2.length; i++){
-            img_url = project.images_url_2[i];
-            var projectImage = document.createElement("img");
-            projectImage.className = "project__image--inbetween";
-            projectImage.src = img_url;
-            projectImage.alt = project.images_alt_2;
-    
-            var projectFigure = document.createElement("figure");
-    
-            projectFigure.appendChild(projectImage);
-            projectFigure.classList.add("no-margin", "project__gallery", "project__gallery__img--"+project.images_url_2.length);
-            projectPage.appendChild(projectFigure);
+    if (project.additional_html !== undefined) {
+        for (elementHTML of project.additional_html) {
+            projectPage.innerHTML += elementHTML;
         }
     }
 

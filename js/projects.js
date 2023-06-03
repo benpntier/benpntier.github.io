@@ -151,6 +151,22 @@ function fetchData() {
         })
 }
 
+let webTags = ["JavaScript", "PHP"];
+let dlTags = ["CNN", "MLP"];
+
+function getTag(tag) {
+
+    console.log(tag);
+
+    if (webTags.includes(tag)) {
+        return "Web";
+    } else if (dlTags.includes(tag)) {
+        return "Deep Learning";
+    } else {
+        return tag;
+    }
+}
+
 function filterProjects(event) {
 
     startFilter = true;
@@ -177,12 +193,10 @@ function filterProjects(event) {
 
 function filterTagsHover(event) {
     let projectTags = document.querySelectorAll(".uni .projects__item .tags span");
-    let webTags = ["JavaScript", "PHP"];
-    let dlTags = ["CNN", "MLP"];
-    let mlTags = ["Linear Regression"];
     for (tag of projectTags) {
-        console.log(tag.innerText, event.target.innerText == "Web" && webTags.includes(tag.innerText));
-        if (!(tag.innerText == event.target.innerText || (event.target.innerText == "Deep Learning" && dlTags.includes(tag.innerText)) || (event.target.innerText == "Machine Learning" && mlTags.includes(tag.innerText)) || (event.target.innerText == "Web" && webTags.includes(tag.innerText)))) {
+        let tagText = getTag(tag.innerText);
+
+        if (tagText != event.target.innerText) {
             tag.classList.add("nonhoverfilter");
         }
     }
