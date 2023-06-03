@@ -940,25 +940,34 @@ hr {
             font-size: .9em;
             color: lighten($black, 15);
             border-collapse: collapse;
+            border-radius: .7em;
+            overflow: hidden;
+            transition: border-radius .3s;
+
+            &:hover {
+                border-radius: .35em;
+            }
 
             & th, td {
                 padding: .3em .9em;
-                border-bottom: 1px solid lighten($lightergrey, 10);
+                
                 text-align: right;
             }
 
-            & tr:nth-child(even) {
-                background-color: darken(white, 3);
-
-                &:hover {
-                    background-color: darken(white, 6);
+            & tr {
+                &:not(:last-child) {
+                    border-bottom: 1px solid lighten($lightergrey, 10);
+                }
+                &:nth-child(even) {
+                    background-color: darken($white, 3);
+                }
+                &:nth-child(odd) {
+                    background-color: $white;
+                }
+                &:nth-child(even):hover, &:nth-child(odd):hover {
+                    background-color: darken($white, 7);
                 }
             }
-
-            & tr:nth-child(odd):hover {
-                background-color: darken(white, 6);
-            }
-
         }
 
         & figcaption {
@@ -1099,6 +1108,12 @@ hr {
         &--5, &--5h {
             gap: .4em;
             margin-top: -1em;
+        }
+
+        &__img--1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     
         &__img--2 {
@@ -1368,6 +1383,10 @@ footer {
         max-width: 250px;
         margin-bottom: .4em;
     }
+
+    .project__page table {
+        font-size: .75em;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -1431,6 +1450,11 @@ footer {
 
     .sparkles-right {
         left: -.2em;
+    }
+
+    .project__page table {
+        font-size: .7em;
+        padding: .2em .7em;
     }
 }
 
@@ -1519,6 +1543,10 @@ footer {
         &:last-child img {
             border-radius: 0 0 .5em 0;
         }
+    }
+
+    .project__page table td:nth-child(2), .project__page table th:nth-child(2), .project__page table td:nth-child(3), .project__page table th:nth-child(3) {
+        display: none;
     }
 
     footer {

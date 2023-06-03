@@ -35,7 +35,7 @@
             "env",
             "env"
         ],
-        "mission":"<b>Piloter</b> le <b>développement</b> des projets informatiques de Vimersio : <b>définir</b> les <b>besoins</b> des utilisateurs, <b>proposer</b> et <b>étudier</b> les différentes <b>implémentations envisageables</b>, selon les <b>risques</b> et les <b>enjeux</b>, et <b>mener à bien</b> la <b>mise en œuvre</b> de la solution choisie, en <b>autonomie</b> ou en <b>coordonnant</b> l'équipe technique. Avec le ViaBot®, Vimersio propose un outil tout-en-un pour automatiser la création de <b>menus vidéos</b>, offrant aux clients la possibilité de voir leurs plats à 360° avant de commander. Ainsi, la réalisation technique du projet consistait (notamment) à <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et <b>optimiser</b> ses fonctionnalités ainsi que son <b>expérience utilisateur</b>.",
+        "mission":"<b>Piloter</b> le <b>développement</b> des projets informatiques de Vimersio&nbsp;: <b>définir</b> les <b>besoins</b> des utilisateurs, <b>proposer</b> et <b>étudier</b> les différentes <b>implémentations envisageables</b>, selon les <b>risques</b> et les <b>enjeux</b>, et <b>mener à bien</b> la <b>mise en œuvre</b> de la solution choisie, en <b>autonomie</b> ou en <b>coordonnant</b> l'équipe technique. Avec le ViaBot®, Vimersio propose un outil tout-en-un pour automatiser la création de <b>menus vidéos</b>, offrant aux clients la possibilité de voir leurs plats à 360° avant de commander. Ainsi, la réalisation technique du projet consistait (notamment) à <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et <b>optimiser</b> ses fonctionnalités ainsi que son <b>expérience utilisateur</b>.",
         "images_url":[
             "pro/img/vimersio/viabot.jpg"
         ],
@@ -97,7 +97,7 @@
         "additional_html":
         [
             "<p class='project__mission'>Pour pouvoir proposer une correction automatique à partir d'un mot saisi, le modèle proposé avait pour but de calculer la meilleure <b>représentation vectorielle</b> possible (<i>word embeddings</i>) pour tenir compte de la <b>phonétique</b>. Théoriquement, <b>deux homophones</b> auraient alors la <b>même représentation</b> et leur distance dans cet espace vectoriel serait nulle. En réalité, l'objectif était d'<b>entraîner le modèle</b> pour <b>minimiser</b> cette <b>distance</b>.</p>",
-            "<figure class='no-margin project__gallery project__gallery__img--1'><img class='project__image' src='pro/img/phonetik/tsne.png' alt='Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE'><figcaption>Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE</figcaption></figure>"
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image' src='pro/img/phonetik/tsne.png' alt='Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE'><figcaption>Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE</figcaption></figure></div>"
         ],
         "nb_columns":1,
         "rounded":true,
@@ -273,9 +273,17 @@
             "algo",
             "env"
         ],
-        "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle",
+        "mission":"<b>Entraîner</b> et <b>évaluer</b> un <b>réseau de neurones</b> de type <b>MLP</b> (Multi-Layer Perceptron), afin de résoudre une tâche de <b>classification d'images de vêtements</b>, avec une première étape de <b>pré-traitement</b> des données (<b>encodage</b> <i>one-hot</i>, <b>normalisation</b>, <b>vectorisation</b> des images, etc).",
+        "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, Travaux Pratiques",
         "dataset":"<a href='https://www.kaggle.com/datasets/zalando-research/fashionmnist' class='projects__link' target='_blank'>Fashion-MNIST</a> (Zalando)",
         "grade":"<b>16</b>/20",
+        "additional_html":[
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/fashionclass/data.png' alt='Exemple de données présentes dans le dataset Fashion-MNIST'><figcaption>Exemple de données présentes dans le dataset Fashion-MNIST</figcaption></figure></div>",
+            "<p class='project__mission'>Avec un premier modèle construit avec <b>une seule couche cachée</b>, on obtient une <i>accuracy</i> de <b>69.5%</b> lors de son évaluation, ce qui peut être amélioré.</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/fashionclass/first-eval.png' alt='Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à une couche cachée'><figcaption>Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à une couche cachée</figcaption></figure></div>",
+            "<p class='project__mission'>En construisant un second modèle avec <b>deux couches cachées</b>, on obtient une <b>meilleure</b> <i>accuracy</i> de <b>74.9%</b> après l'avoir évalué.</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/fashionclass/second-eval.png' alt='Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à deux couches cachées'><figcaption>Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à deux couches cachées</figcaption></figure></div>"
+        ],
         "prev":"conceptmap",
         "next":"pointillism"
     },
@@ -475,9 +483,15 @@
         "mission":"<b>Collecter</b>, <b>traiter</b> et <b>analyser</b> des <b>données</b>. Après avoir choisi et <b>extrait</b> des <b>features</b>, l'objectif est dans un premier temps d'<b>exploiter</b> les données pour y <b>observer</b> des tendances, afin de formuler une <b>hypothèse</b> et mener une <b>analyse statistique</b>, puis dans un second temps concevoir un <b>modèle de prédiction</b> (régression linéaire simple).",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
         "additional_html":[
-            "<p class='project__mission no-margin'>La première partie consistait à <b>collecter</b> quotidiennement des <b>données</b> (<i>web scraping</i>) de RyanAir, afin de déterminer le <b>meilleur moment</b> pour acheter un <b>billet d'avion</b>. Par exemple, pour un vol entre Malte et Catane (Sicile), la <b>tendance observée</b> était qu'il était plus intéressant d'acheter un billet environ un mois (entre 32 et 27 jours) avant le vol :</p>",
-            "<figure class='no-margin project__gallery'><table><tr><th></th><th>Collection date</th><th>Flight date</th><th>Price (€)</th><th>Departure Time</th><th>Arrival Time</th><th>Days before</th></tr><tr><td>0</td><td>2019-12-02</td><td>2020-01-06</td><td>23.99</td><td>12:10</td><td>13:00</td><td>35</td></tr><tr><td>1</td><td>2019-12-02</td><td>2020-01-07</td><td>23.99</td><td>12:00</td><td>12:50</td><td>36</td></tr><tr><td>2</td><td>2019-12-02</td><td>2020-01-08</td><td>32.99</td><td>12:00</td><td>12:50</td><td>37</td></tr><tr><td>3</td><td>2019-12-02</td><td>2020-01-09</td><td>20.58</td><td>12:10</td><td>13:00</td><td>38</td></tr><tr><td>4</td><td>2019-12-02</td><td>2020-01-10</td><td>21.72</td><td>12:00</td><td>12:50</td><td>39</td></table><figcaption>Extrait des données collectées sur les vols entre Malte et Catane</figcaption></figure>",
-            "<figure class='project__gallery'><img class='project__image project__image--rounded' src='uni/img/datascience/plot.png' alt='Fluctuation of prices for route MLA-CTA'><figcaption>Variation des prix selon le nombre de jours avant le vol pour la route MLA-CTA</figcaption></figure"
+            "<p class='project__mission no-margin'>La première partie consistait à <b>collecter</b> quotidiennement des <b>données</b> (<i>web scraping</i>) de RyanAir, afin de déterminer le <b>meilleur moment</b> pour acheter un <b>billet d'avion</b>. Par exemple, pour un vol entre Malte et Catane (Sicile), la <b>tendance observée</b> était qu'il était plus intéressant d'acheter un billet environ un mois (entre 32 et 27 jours) avant le vol&nbsp;:</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><table><tr><th></th><th>Collection date</th><th>Flight date</th><th>Price (€)</th><th>Departure</th><th>Arrival</th><th>Days before</th></tr><tr><td>0</td><td>2019-12-02</td><td>2020-01-06</td><td>23.99</td><td>12:10</td><td>13:00</td><td>35</td></tr><tr><td>1</td><td>2019-12-02</td><td>2020-01-07</td><td>23.99</td><td>12:00</td><td>12:50</td><td>36</td></tr><tr><td>2</td><td>2019-12-02</td><td>2020-01-08</td><td>32.99</td><td>12:00</td><td>12:50</td><td>37</td></tr><tr><td>3</td><td>2019-12-02</td><td>2020-01-09</td><td>20.58</td><td>12:10</td><td>13:00</td><td>38</td></tr><tr><td>4</td><td>2019-12-02</td><td>2020-01-10</td><td>21.72</td><td>12:00</td><td>12:50</td><td>39</td></table><figcaption>Extrait des données collectées sur les vols entre Malte et Catane</figcaption></figure></div>",
+            "<div class='project__gallery'><figure class='project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/datascience/flights_plot.png' alt='Fluctuation of prices for route MLA-CTA'><figcaption>Variation des prix selon le nombre de jours avant le vol pour le trajet MLA-CTA</figcaption></figure></div>",
+            "<p class='project__mission'>La seconde partie se concentrait sur un <i>dataset</i> existant&nbsp;: des <b>annonces immobilières</b> publiées sur le site de Times of Malta entre 2015 et 2019. Les données étant des <b>pages HTML brutes</b>, il était bien sûr nécessaire de <b>traiter</b> les données (données <b>manquantes</b>, <b>doublons</b>, <b>format variable</b>, etc.) pour en extraire des <i>features</i> intéressantes. Certaines <b>observations</b> ont alors pu être réalisées, par exemple l'<b>augmentation de 30%</b> du prix d'achat à Sliema entre 2015 et 2018&nbsp;:</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/datascience/sliema_plot.png' alt='Evolution of median price in Sliema between 2015 et 2018'><figcaption>Évolution du prix médian de l'immobilier à Sliema entre 2015 et 2018</figcaption></figure></div>",
+            "<p class='project__mission'>Une <b>analyse statistique</b> permet également de constater l'importante <b>dispersion</b> des données&nbsp;:</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/datascience/distribution_plot.png' alt='Distribution of prices'><figcaption>Distribution des prix d'annonces immobilières à Malte entre 2015 et 2018</figcaption></figure></div>",
+            "<p class='project__mission'>Enfin, il est possible d'établir un <b>modèle de régression linéaire</b> pour pouvoir <b>prédire</b> un <b>prix médian</b> de l'immobilier à Malte pour un mois donné, avec un <b>score R2</b> de <b>0.939</b>&nbsp;:</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/datascience/model_plot.png' alt='Evolution of median price over time'><figcaption>Prédiction du modèle de régression linéaire et prix médian de l'immobilier</figcaption></figure></div>"
         ],
         "prev":"arkanoid3D",
         "next":"multilabelclass"
@@ -642,18 +656,9 @@
         "mission":"Implémenter un <b>algorithme génétique</b>, afin de répondre au problème du <b>voyageur de commerce</b>, en considérant les <b>notions mathématiques</b> associées.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en bînome",
         "grade":"<b>15.8</b>/20",
-        "images_url":[
-            "uni/img/algogen/chart1.jpg",
-            "uni/img/algogen/chart2.jpg",
-            "uni/img/algogen/chart3.jpg"
+        "additional_html":[
+            "<div class='project__gallery project__gallery--3'><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='uni/img/algogen/chart1.png' alt='Carte des villes à visiter'></figure><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='uni/img/algogen/chart2.png' alt='Évolution de la fitness en fonction du nombre de chemins générés'></figure><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='uni/img/algogen/chart3.png' alt='Évolution de la fitness au fil des générations'></figure></div>"
         ],
-        "images_alt":[
-            "Carte des villes à visiter",
-            "Évolution de la fitness en fonction du nombre de chemins générés",
-            "Évolution de la fitness au fil des générations"
-        ],
-        "nb_columns":3,
-        "rounded":true,
         "prev":"norntalk",
         "next":"cabinetmedical"
     },
@@ -985,11 +990,11 @@
         "additional_html":
         [
             "<p class='project__mission'>Selon les pochettes, il peut y avoir plus ou moins d'étapes pour adapter un <b>visuel existant</b>. Il faut <b>s'adapter</b> au <b>format carré</b>, <b>disposer différement</b> les éléments et parfois en <b>ajouter</b>, comme le montre cette animation calque par calque pour <i>Star Wars Episode III - La Revanche des Sith</i> (John Williams, Sony Classical)&nbsp;:</p>",
-            "<figure class='no-margin project__gallery project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/revenge-wip.gif' alt='Star Wars Episode III - Revenge of the Sith'></figure>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/revenge-wip.gif' alt='Star Wars Episode III - Revenge of the Sith'></figure></div>",
             "<p class='project__mission'>Il peut aussi y avoir besoin de <b>cacher</b> des éléments, comme pour l'<i>Episode VII</i>, <i>Le Réveil de la Force</i> (John Williams, Walt Disney Records)&nbsp;:</p>",
-            "<figure class='no-margin project__gallery project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/tfa-wip.gif' alt='Star Wars Episode VII - The Force Awakens'></figure>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/tfa-wip.gif' alt='Star Wars Episode VII - The Force Awakens'></figure></div>",
             "<p class='project__mission'>Enfin, l'<b>univers d'un film</b> peut inspirer une pochette plus <b>expérimentale</b>. Par exemple, pour La Forme de l'Eau (Alexandre Desplat, Decca Records), à partir d'une affiche de James Jean, l'inspiration est venue des pochettes d'anciens disques vinyls&nbsp;:</p>",
-            "<figure class='no-margin project__gallery project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/shape-wip.gif' alt='The Shape of Water'></figure>"
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/shape-wip.gif' alt='The Shape of Water'></figure></div>"
         ],
         "nb_columns":5,
         "prev":"analog"

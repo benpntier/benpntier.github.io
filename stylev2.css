@@ -1068,20 +1068,28 @@ hr {
   font-size: 0.9em;
   color: #4f5f64;
   border-collapse: collapse;
+  border-radius: 0.7em;
+  overflow: hidden;
+  transition: border-radius 0.3s;
+}
+.project__page table:hover {
+  border-radius: 0.35em;
 }
 .project__page table th, .project__page table td {
   padding: 0.3em 0.9em;
-  border-bottom: 1px solid #dadfe1;
   text-align: right;
 }
+.project__page table tr:not(:last-child) {
+  border-bottom: 1px solid #dadfe1;
+}
 .project__page table tr:nth-child(even) {
-  background-color: #f7f7f7;
+  background-color: #f3f7f7;
 }
-.project__page table tr:nth-child(even):hover {
-  background-color: #f0f0f0;
+.project__page table tr:nth-child(odd) {
+  background-color: #fcfdfd;
 }
-.project__page table tr:nth-child(odd):hover {
-  background-color: #f0f0f0;
+.project__page table tr:nth-child(even):hover, .project__page table tr:nth-child(odd):hover {
+  background-color: #e7efef;
 }
 .project__page figcaption {
   font-size: 0.85em;
@@ -1195,6 +1203,11 @@ hr {
 .project__gallery--5, .project__gallery--5h {
   gap: 0.4em;
   margin-top: -1em;
+}
+.project__gallery__img--1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .project__gallery__img--2 {
   max-width: 48%;
@@ -1410,6 +1423,9 @@ footer:not(.bg-primary) a:hover {
     max-width: 250px;
     margin-bottom: 0.4em;
   }
+  .project__page table {
+    font-size: 0.75em;
+  }
 }
 @media screen and (max-width: 700px) {
   h1 {
@@ -1459,6 +1475,10 @@ footer:not(.bg-primary) a:hover {
   }
   .sparkles-right {
     left: -0.2em;
+  }
+  .project__page table {
+    font-size: 0.7em;
+    padding: 0.2em 0.7em;
   }
 }
 @media screen and (max-width: 560px) {
@@ -1527,6 +1547,9 @@ footer:not(.bg-primary) a:hover {
   }
   .project__gallery__img--5h:last-child img {
     border-radius: 0 0 0.5em 0;
+  }
+  .project__page table td:nth-child(2), .project__page table th:nth-child(2), .project__page table td:nth-child(3), .project__page table th:nth-child(3) {
+    display: none;
   }
   footer {
     font-size: 0.65em;
