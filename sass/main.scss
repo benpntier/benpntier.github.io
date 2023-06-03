@@ -213,6 +213,7 @@ $link-secondary: #0084ae;
 $lightergrey: #bdc7cb;
 $pro-highlight: #d3c5d8;
 $uni-highlight: #c3b3c8;
+$valid: #e0f3cd;
 $tag-colours: (
     "algo": #7dc2ba,
     "dl": #79bbd4,
@@ -950,22 +951,45 @@ hr {
 
             & th, td {
                 padding: .3em .9em;
-                
                 text-align: right;
-            }
 
+                &.mono {
+                    font-family: 'Fira Mono', monospace;
+                    font-size: .9em;
+                }
+            }
             & tr {
+                & th.green, & td.green {
+                    color: darken(#bfd8a7, 47);
+                }
                 &:not(:last-child) {
-                    border-bottom: 1px solid lighten($lightergrey, 10);
+                    & th, & td {
+                        border-bottom: 1px solid lighten($lightergrey, 10);
+                    }
+                    & th.green, & td.green {
+                        border-bottom: 1px solid #bfd8a7;
+                    }
                 }
                 &:nth-child(even) {
                     background-color: darken($white, 3);
+
+                    & th.green, & td.green {
+                        background-color: darken($valid, 6);
+                    }
                 }
                 &:nth-child(odd) {
                     background-color: $white;
+
+                    & th.green, & td.green {
+                        background-color: $valid;
+                    }
                 }
                 &:nth-child(even):hover, &:nth-child(odd):hover {
                     background-color: darken($white, 7);
+
+                    & th.green, & td.green {
+                        background-color: darken($valid, 12);
+                    }
                 }
             }
         }
@@ -1545,7 +1569,7 @@ footer {
         }
     }
 
-    .project__page table td:nth-child(2), .project__page table th:nth-child(2), .project__page table td:nth-child(3), .project__page table th:nth-child(3) {
+    .project__page table#datascience td:nth-child(2), .project__page table#datascience th:nth-child(2), .project__page table#datascience td:nth-child(3), .project__page table#datascience th:nth-child(3) {
         display: none;
     }
 

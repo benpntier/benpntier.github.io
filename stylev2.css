@@ -1079,17 +1079,36 @@ hr {
   padding: 0.3em 0.9em;
   text-align: right;
 }
-.project__page table tr:not(:last-child) {
+.project__page table th.mono, .project__page table td.mono {
+  font-family: "Fira Mono", monospace;
+  font-size: 0.9em;
+}
+.project__page table tr th.green, .project__page table tr td.green {
+  color: #47632c;
+}
+.project__page table tr:not(:last-child) th, .project__page table tr:not(:last-child) td {
   border-bottom: 1px solid #dadfe1;
+}
+.project__page table tr:not(:last-child) th.green, .project__page table tr:not(:last-child) td.green {
+  border-bottom: 1px solid #bfd8a7;
 }
 .project__page table tr:nth-child(even) {
   background-color: #f3f7f7;
 }
+.project__page table tr:nth-child(even) th.green, .project__page table tr:nth-child(even) td.green {
+  background-color: #d1edb4;
+}
 .project__page table tr:nth-child(odd) {
   background-color: #fcfdfd;
 }
+.project__page table tr:nth-child(odd) th.green, .project__page table tr:nth-child(odd) td.green {
+  background-color: #e0f3cd;
+}
 .project__page table tr:nth-child(even):hover, .project__page table tr:nth-child(odd):hover {
   background-color: #e7efef;
+}
+.project__page table tr:nth-child(even):hover th.green, .project__page table tr:nth-child(even):hover td.green, .project__page table tr:nth-child(odd):hover th.green, .project__page table tr:nth-child(odd):hover td.green {
+  background-color: #c1e79c;
 }
 .project__page figcaption {
   font-size: 0.85em;
@@ -1548,7 +1567,7 @@ footer:not(.bg-primary) a:hover {
   .project__gallery__img--5h:last-child img {
     border-radius: 0 0 0.5em 0;
   }
-  .project__page table td:nth-child(2), .project__page table th:nth-child(2), .project__page table td:nth-child(3), .project__page table th:nth-child(3) {
+  .project__page table#datascience td:nth-child(2), .project__page table#datascience th:nth-child(2), .project__page table#datascience td:nth-child(3), .project__page table#datascience th:nth-child(3) {
     display: none;
   }
   footer {
