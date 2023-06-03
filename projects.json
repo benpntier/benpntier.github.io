@@ -423,7 +423,7 @@
             "algo",
             "env"
         ],
-        "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un <b>réseau de neurones convolutionnels</b> (CNN), afin de résoudre le problème de classification binaire <b>chiens vs. chats</b> (<i>dogs vs. cats</i>).",
+        "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un <b>réseau de neurones convolutionnels</b> (CNN), afin de résoudre le problème de classification binaire <b>chiens vs. chats</b> (<i>dogs vs. cats</i>), qui consiste à <b>reconnaître</b> si une <b>image</b> d'animal de compagnie représente un <b>chien</b> ou un <b>chat</b>.",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
         "dataset":"<a href='https://www.kaggle.com/c/dogs-vs-cats' class='projects__link' target='_blank'>Dogs vs. Cats</a> (Asirra)",
         "additional_html":[
