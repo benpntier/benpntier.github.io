@@ -472,7 +472,13 @@
             "algo",
             "env"
         ],
+        "mission":"<b>Collecter</b>, <b>traiter</b> et <b>analyser</b> des <b>données</b>. Après avoir choisi et <b>extrait</b> des <b>features</b>, l'objectif est dans un premier temps d'<b>exploiter</b> les données pour y <b>observer</b> des tendances, afin de formuler une <b>hypothèse</b> et mener une <b>analyse statistique</b>, puis dans un second temps concevoir un <b>modèle de prédiction</b> (régression linéaire simple).",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "additional_html":[
+            "<p class='project__mission no-margin'>La première partie consistait à <b>collecter</b> quotidiennement des <b>données</b> (<i>web scraping</i>) de RyanAir, afin de déterminer le <b>meilleur moment</b> pour acheter un <b>billet d'avion</b>. Par exemple, pour un vol entre Malte et Catane (Sicile), la <b>tendance observée</b> était qu'il était plus intéressant d'acheter un billet environ un mois (entre 32 et 27 jours) avant le vol :</p>",
+            "<figure class='no-margin project__gallery'><table><tr><th></th><th>Collection date</th><th>Flight date</th><th>Price (€)</th><th>Departure Time</th><th>Arrival Time</th><th>Days before</th></tr><tr><td>0</td><td>2019-12-02</td><td>2020-01-06</td><td>23.99</td><td>12:10</td><td>13:00</td><td>35</td></tr><tr><td>1</td><td>2019-12-02</td><td>2020-01-07</td><td>23.99</td><td>12:00</td><td>12:50</td><td>36</td></tr><tr><td>2</td><td>2019-12-02</td><td>2020-01-08</td><td>32.99</td><td>12:00</td><td>12:50</td><td>37</td></tr><tr><td>3</td><td>2019-12-02</td><td>2020-01-09</td><td>20.58</td><td>12:10</td><td>13:00</td><td>38</td></tr><tr><td>4</td><td>2019-12-02</td><td>2020-01-10</td><td>21.72</td><td>12:00</td><td>12:50</td><td>39</td></table><figcaption>Extrait des données collectées sur les vols entre Malte et Catane</figcaption></figure>",
+            "<figure class='project__gallery'><img class='project__image project__image--rounded' src='uni/img/datascience/plot.png' alt='Fluctuation of prices for route MLA-CTA'><figcaption>Variation des prix selon le nombre de jours avant le vol pour la route MLA-CTA</figcaption></figure"
+        ],
         "prev":"arkanoid3D",
         "next":"multilabelclass"
     },

@@ -1063,6 +1063,26 @@ hr {
 .project__page .tags span:nth-of-type(8) {
   animation-delay: 2.2s;
 }
+.project__page table {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: #4f5f64;
+  border-collapse: collapse;
+}
+.project__page table th, .project__page table td {
+  padding: 0.3em 0.9em;
+  border-bottom: 1px solid #dadfe1;
+  text-align: right;
+}
+.project__page table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+.project__page table tr:nth-child(even):hover {
+  background-color: #f0f0f0;
+}
+.project__page table tr:nth-child(odd):hover {
+  background-color: #f0f0f0;
+}
 .project__page figcaption {
   font-size: 0.85em;
   color: #697e86;
