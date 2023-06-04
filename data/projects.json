@@ -231,7 +231,7 @@
             "sql",
             "env"
         ],
-        "mission":"Développer un <b>outil en ligne d'aide à la correction de cartes conceptuelles</b>, en ayant à la fois une partie <b>saisie de carte</b> et une partie <b>correction</b>, avec un <b>algorithme de prétaitement</b> des cartes pour faciliter leur correction.",
+        "mission":"Développer un <b>outil en ligne d'aide à la correction de cartes conceptuelles</b>, en ayant à la fois une partie <b>saisie de carte</b> et une partie <b>correction</b>, avec un <b>algorithme de prétraitement</b> des cartes pour faciliter leur correction.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, groupe de six membres",
         "grade":"<b>14.5</b>/20",
         "images_url":[
@@ -275,7 +275,7 @@
             "algo",
             "env"
         ],
-        "mission":"<b>Entraîner</b> et <b>évaluer</b> un <b>réseau de neurones</b> (simple) de type <b>MLP</b> (Multi-Layer Perceptron), afin de résoudre une tâche de <b>classification d'images de vêtements</b>, avec une première étape de <b>pré-traitement</b> des données (<b>encodage</b> <i>one-hot</i>, <b>normalisation</b>, <b>vectorisation</b> des images, etc).",
+        "mission":"<b>Entraîner</b> et <b>évaluer</b> un <b>réseau de neurones</b> (simple) de type <b>MLP</b> (Multi-Layer Perceptron), afin de résoudre une tâche de <b>classification d'images de vêtements</b>, avec une première étape de <b>prétraitement</b> des données (<b>encodage</b> <i>one-hot</i>, <b>normalisation</b>, <b>vectorisation</b> des images, etc).",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, Travaux Pratiques",
         "dataset":"<a href='https://www.kaggle.com/datasets/zalando-research/fashionmnist' class='projects__link' target='_blank'>Fashion-MNIST</a> (Zalando)",
         "grade":"<b>16</b>/20",
@@ -385,7 +385,7 @@
             "<p class='project__mission'>Pour <b>évaluer</b> cet algorithme, on calcule notamment le <b>PSNR</b> (<i>Peak Signal-to-Noise Ratio</i>, qui mesure la qualité et la distorsion par le bruit) pour chaque image, <b>originale</b> et <b>débruitée</b>, en comparant également avec un <b>débruitage basique</b> (filtre <b>gaussien</b>)&nbsp;:</p>",
             "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><table><tbody><tr><th>Image Name</th><th>Noisy</th><th class='green'>Restored</th><th>Basic Denoising</th></tr><tr><td class='mono'>cameraman.tif</td><td>28.274</td><td class='green'>32.557</td><td>27.733</td></tr><tr><td class='mono'>house.tif</td><td>28.161</td><td class='green'>34.418</td><td>30.481994</td></tr><tr><td class='mono'>lena.tif</td><td>28.127</td><td class='green'>31.710</td><td>28.521</td></tr><tr><td class='mono'>pirate.tif</td><td>28.126</td><td class='green'>30.211</td><td>26.953</td></tr></tbody></table><figcaption>Valeur du PSNR pour chaque image</figcaption></figure></div>",
             "<p class='project__mission'>Le <b>PSNR</b> est effectivement <b>supérieur</b> pour l'image débruitée par <b>notre algorithme</b>, qui permet à la fois de <b>débruiter</b> l'image et de <b>préserver les bords</b> (ce qui n'est pas assuré par le débruitage gaussien).</p>",
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/denoiser/comparison.png' alt='Comparison de la version originale, restaurée et débruitage basique'><figcaption>Comparison de la version originale, restaurée et débruitage basique</figcaption></figure></div>"
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/denoiser/comparison.png' alt='Comparaison de la version originale, restaurée et débruitage basique'><figcaption>Comparaison de la version originale, restaurée et débruitage basique</figcaption></figure></div>"
         ],
         "prev":"pointillism",
         "next":"dogsvscats"
@@ -423,7 +423,7 @@
             "algo",
             "env"
         ],
-        "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un <b>réseau de neurones convolutionnels</b> (CNN), afin de résoudre le problème de classification binaire <b>chiens vs. chats</b> (<i>dogs vs. cats</i>), qui consiste à <b>reconnaître</b> si une <b>image</b> d'animal de compagnie représente un <b>chien</b> ou un <b>chat</b>.",
+        "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un <b>réseau de neurones convolutifs</b> (CNN), afin de résoudre le problème de classification binaire <b>chiens vs. chats</b> (<i>dogs vs. cats</i>), qui consiste à <b>reconnaître</b> si une <b>image</b> d'animal de compagnie représente un <b>chien</b> ou un <b>chat</b>.",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
         "dataset":"<a href='https://www.kaggle.com/c/dogs-vs-cats' class='projects__link' target='_blank'>Dogs vs. Cats</a> (Asirra)",
         "additional_html":[
@@ -456,7 +456,7 @@
             "web",
             "web"
         ],
-        "mission":"Implémenter un <b>jeu web 3D</b> inspiré du casse-briques <b>Arkanoid</b> (1986) développé par Taito, où le joueur doit casser toute les briques en faisant rebondir une balle grâce à une barre horizontale. Dans ce projet, le but est de générer tous les <b>visuels</b>, implémenter un <b>système de caméra</b> et développer les <b>mécaniques de jeu</b> grâce à un moteur physique.",
+        "mission":"Implémenter un <b>jeu web 3D</b> inspiré du casse-briques <b>Arkanoid</b> (1986) développé par Taito, où le joueur doit casser toutes les briques en faisant rebondir une balle grâce à une barre horizontale. Dans ce projet, le but est de générer tous les <b>visuels</b>, implémenter un <b>système de caméra</b> et développer les <b>mécaniques de jeu</b> grâce à un moteur physique.",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
         "images_url":[
             "img/uni/arkanoid3D/environment.jpg",
@@ -677,7 +677,7 @@
             "prog"
         ],
         "mission":"Implémenter un <b>algorithme génétique</b>, afin de répondre au problème du <b>voyageur de commerce</b>, en considérant les <b>notions mathématiques</b> associées.",
-        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en bînome",
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en binôme",
         "grade":"<b>15.8</b>/20",
         "additional_html":[
             "<div class='project__gallery project__gallery--3'><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='img/uni/algogen/chart1.png' alt='Carte des villes à visiter'></figure><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='img/uni/algogen/chart2.png' alt='Évolution de la fitness en fonction du nombre de chemins générés'></figure><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='img/uni/algogen/chart3.png' alt='Évolution de la fitness au fil des générations'></figure></div>"
@@ -715,7 +715,7 @@
             "sql"
         ],
         "mission":"Développer les pages d'un <b>site web dynamique</b> de <b>cabinet médical</b> et créer sa <b>base de données</b> pour permettre l'<b>ajout</b>, la <b>modification</b> et la <b>suppression</b> de données.",
-        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en bînome",
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en binôme",
         "grade":"<b>20</b>/20",
         "images_url":[
             "img/uni/cabinetmedical/screenshot1.jpg",
@@ -1012,11 +1012,11 @@
         "inbetween_text":"",
         "additional_html":
         [
-            "<p class='project__mission'>Selon les pochettes, il peut y avoir plus ou moins d'étapes pour adapter un <b>visuel existant</b>. Il faut <b>s'adapter</b> au <b>format carré</b>, <b>disposer différement</b> les éléments et parfois en <b>ajouter</b>, comme le montre cette animation calque par calque pour <i>Star Wars Episode III - La Revanche des Sith</i> (John Williams, Sony Classical)&nbsp;:</p>",
+            "<p class='project__mission'>Selon les pochettes, il peut y avoir plus ou moins d'étapes pour adapter un <b>visuel existant</b>. Il faut <b>s'adapter</b> au <b>format carré</b>, <b>disposer différemment</b> les éléments et parfois en <b>ajouter</b>, comme le montre cette animation calque par calque pour <i>Star Wars Episode III - La Revanche des Sith</i> (John Williams, Sony Classical)&nbsp;:</p>",
             "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/art/covers/revenge-wip.gif' alt='Star Wars Episode III - Revenge of the Sith'></figure></div>",
             "<p class='project__mission'>Il peut aussi y avoir besoin de <b>cacher</b> des éléments, comme pour l'<i>Episode VII</i>, <i>Le Réveil de la Force</i> (John Williams, Walt Disney Records)&nbsp;:</p>",
             "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/art/covers/tfa-wip.gif' alt='Star Wars Episode VII - The Force Awakens'></figure></div>",
-            "<p class='project__mission'>Enfin, l'<b>univers d'un film</b> peut inspirer une pochette plus <b>expérimentale</b>. Par exemple, pour La Forme de l'Eau (Alexandre Desplat, Decca Records), à partir d'une affiche de James Jean, l'inspiration est venue des pochettes d'anciens disques vinyls&nbsp;:</p>",
+            "<p class='project__mission'>Enfin, l'<b>univers d'un film</b> peut inspirer une pochette plus <b>expérimentale</b>. Par exemple, pour La Forme de l'Eau (Alexandre Desplat, Decca Records), à partir d'une affiche de James Jean, l'inspiration est venue des pochettes d'anciens disques vinyles&nbsp;:</p>",
             "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/art/covers/shape-wip.gif' alt='The Shape of Water'></figure></div>"
         ],
         "nb_columns":5,
