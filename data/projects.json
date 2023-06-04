@@ -8,7 +8,7 @@
         "name":"Chargé de dev. IT",
         "name_full":"Chargé de développement IT",
         "dates":"Octobre 2022 - Septembre 2023",
-        "desc":"<b>Automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et optimiser ses fonctionnalités",
+        "desc":"<b>Piloter</b> un projet en R&D, <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et l'<b>optimiser</b>",
         "tags_short":[
             "Video Processing",
             "Android"
@@ -35,7 +35,7 @@
             "env",
             "env"
         ],
-        "mission":"<b>Piloter</b> le <b>développement</b> des projets informatiques de Vimersio&nbsp;: <b>définir</b> les <b>besoins</b> des utilisateurs, <b>proposer</b> et <b>étudier</b> les différentes <b>implémentations envisageables</b>, selon les <b>risques</b> et les <b>enjeux</b>, et <b>mener à bien</b> la <b>mise en œuvre</b> de la solution choisie, en <b>autonomie</b> ou en <b>coordonnant</b> l'équipe technique. Avec le ViaBot®, Vimersio propose un outil tout-en-un pour automatiser la création de <b>menus vidéos</b>, offrant aux clients la possibilité de voir leurs plats à 360° avant de commander. Ainsi, la réalisation technique du projet consistait (notamment) à <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et <b>optimiser</b> ses fonctionnalités ainsi que son <b>expérience utilisateur</b>.",
+        "mission":"<b>Piloter</b> le <b>développement</b> d'un projet en <b>R&D</b> dans un environnement start-up&nbsp;: <b>comprendre</b> les <b>besoins</b> de Vimersio et des utilisateurs, <b>proposer</b> et <b>étudier</b> les différentes <b>implémentations envisageables</b> (selon l'<b>éthique</b> et les <b>enjeux</b> de l'entreprise, ainsi que les <b>risques</b> et <b>bénéfices</b> de chaque solution), et enfin <b>suivre</b> la <b>mission</b>, en <b>autonomie</b> ou en <b>coordonnant</b> l'équipe technique. Vimersio propose un outil tout-en-un pour faciliter la création de <b>vidéos à 360°</b>. Ainsi, la réalisation technique du projet consistait (notamment) à <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et <b>optimiser</b> ses fonctionnalités ainsi que son <b>expérience utilisateur</b>.",
         "images_url":[
             "img/pro/vimersio/viabot.jpg"
         ],
