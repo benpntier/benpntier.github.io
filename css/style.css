@@ -1357,8 +1357,8 @@ footer:not(.bg-primary) a:hover {
     background-color: #d1dfe1;
     padding: 0.1em 2em 1.3em;
   }
-  .project__page img[src*="img/logos/vimersio.png"] {
-    content: url("img/logos/vimersio-white.png");
+  .project__page img[src*="img/pro/vimersio/logo.png"] {
+    content: url("/img/pro/vimersio/logo-white.png");
   }
   .project__mission {
     padding: 0.3em 2em 0.5em;
@@ -1700,4 +1700,4 @@ footer:not(.bg-primary) a:hover {
   }
 }
 
-/*# sourceMappingURL=stylev2.css.map */
+/*# sourceMappingURL=style.css.map */

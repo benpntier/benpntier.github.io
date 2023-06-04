@@ -138,7 +138,7 @@ function addProjectHTML(project) {
 }
 
 function fetchData() {
-	fetch("projects.json")
+	fetch("data/projects.json")
         .then((response) => {
             return response.json();
         })

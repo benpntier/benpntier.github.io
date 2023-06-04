@@ -131,7 +131,7 @@ function addProjectInfo(project) {
 
 
 function fetchData(id) {
-	fetch("projects.json")
+	fetch("data/projects.json")
 		.then((response) => {
 			return response.json();
 		})

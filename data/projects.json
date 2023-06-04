@@ -3,7 +3,7 @@
         "id":"vimersio",
         "category":"pro",
         "company":"<a href='https://vimersio.com/' class='projects__link' target='_blank'>Vimersio</a>",
-        "logo_url":"img/logos/vimersio.png",
+        "logo_url":"img/pro/vimersio/logo.png",
         "logo_alt":"Vimersio",
         "name":"Chargé de dev. IT",
         "name_full":"Chargé de développement IT",
@@ -37,7 +37,7 @@
         ],
         "mission":"<b>Piloter</b> le <b>développement</b> des projets informatiques de Vimersio&nbsp;: <b>définir</b> les <b>besoins</b> des utilisateurs, <b>proposer</b> et <b>étudier</b> les différentes <b>implémentations envisageables</b>, selon les <b>risques</b> et les <b>enjeux</b>, et <b>mener à bien</b> la <b>mise en œuvre</b> de la solution choisie, en <b>autonomie</b> ou en <b>coordonnant</b> l'équipe technique. Avec le ViaBot®, Vimersio propose un outil tout-en-un pour automatiser la création de <b>menus vidéos</b>, offrant aux clients la possibilité de voir leurs plats à 360° avant de commander. Ainsi, la réalisation technique du projet consistait (notamment) à <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et <b>optimiser</b> ses fonctionnalités ainsi que son <b>expérience utilisateur</b>.",
         "images_url":[
-            "pro/img/vimersio/viabot.jpg"
+            "img/pro/vimersio/viabot.jpg"
         ],
         "images_caption":[
             "ViaBot®, outil créé par Vimersio® pour automatiser la création de menus vidéo à 360°"
@@ -49,7 +49,7 @@
         "id":"phonetik",
         "category":"pro",
         "company":"<a href='https://www.irit.fr/' class='projects__link' target='_blank'>IRIT</a>",
-        "logo_url":"img/logos/irit.png",
+        "logo_url":"img/pro/phonetik/logo.png",
         "logo_alt":"IRIT",
         "name":"Stage de fin d'études",
         "dates":"Mars-août 2021",
@@ -89,7 +89,7 @@
         "grade":"<b>15.5</b>/20",
         "comment":"<i>Benoît a montré beaucoup d'intérêt, d'autonomie et de persévérance pour terminer ce projet. Il a démontré de solides compétences en machine learning, deep learning et programmation Python. [...] De plus, son comportement, son écoute et son sérieux font qu'il est très agréable de travailler avec lui.</i> &ndash; <b>Mathieu Serrurier</b>, enseignant chercheur à l'IRIT",
         "images_url":[
-            "pro/img/phonetik/interface.jpg"
+            "img/pro/phonetik/interface.jpg"
         ],
         "images_caption":[
             "Interface du clavier et exemple de correction automatique"
@@ -97,7 +97,7 @@
         "additional_html":
         [
             "<p class='project__mission'>Pour pouvoir proposer une correction automatique à partir d'un mot saisi, le modèle proposé avait pour but de calculer la meilleure <b>représentation vectorielle</b> possible (<i>word embeddings</i>) pour tenir compte de la <b>phonétique</b>. Théoriquement, <b>deux homophones</b> auraient alors la <b>même représentation</b> et leur distance dans cet espace vectoriel serait nulle. En réalité, l'objectif était d'<b>entraîner le modèle</b> pour <b>minimiser</b> cette <b>distance</b>.</p>",
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image' src='pro/img/phonetik/tsne.png' alt='Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE'><figcaption>Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE</figcaption></figure></div>"
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image' src='img/pro/phonetik/tsne.png' alt='Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE'><figcaption>Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE</figcaption></figure></div>"
         ],
         "nb_columns":1,
         "rounded":true,
@@ -108,7 +108,7 @@
         "id":"nxt",
         "category":"pro",
         "company":"<a href='http://www.univ-tlse3.fr/' class='projects__link' target='_blank'>UPS</a> / <a href='https://www.irit.fr/' class='projects__link' target='_blank'>IRIT</a>",
-        "logo_url":"img/logos/ups.png",
+        "logo_url":"img/pro/nxt/logo.png",
         "logo_alt":"Université Paul Sabatier",
         "name":"Bureau d'études",
         "dates":"Avril-mai 2019",
@@ -137,8 +137,8 @@
         "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>L3</b> Informatique, travail en binôme",
         "grade":"<b>16</b>/20",
         "images_url":[
-            "pro/img/nxt/interfaceSaisie.jpg",
-            "pro/img/nxt/interfaceSuivi.jpg"
+            "img/pro/nxt/interfaceSaisie.jpg",
+            "img/pro/nxt/interfaceSuivi.jpg"
         ],
         "images_caption":[
             "Interface de saisie de carte",
@@ -152,7 +152,7 @@
         "id":"ica",
         "category":"pro",
         "company":"<a href='https://ica.cnrs.fr/' class='projects__link' target='_blank'>Institut Clément Ader</a>",
-        "logo_url":"img/logos/ica.png",
+        "logo_url":"img/pro/ica/logo.png",
         "logo_alt":"Institut Clément Ader",
         "name":"Stage",
         "dates":"Avril-juin 2018",
@@ -185,8 +185,8 @@
         "context":"<b>IUT Paul Sabatier</b> (Toulouse), stage de fin de <b>DUT</b> Informatique, travail en binôme",
         "grade":"<b>17</b>/20",
         "images_url":[
-            "pro/img/ica/accueil2012.jpg",
-            "pro/img/ica/accueil2018.jpg"
+            "img/pro/ica/accueil2012.jpg",
+            "img/pro/ica/accueil2018.jpg"
         ],
         "images_caption":[
             "Site web initial",
@@ -199,7 +199,7 @@
     {
         "id":"conceptmap",
         "category":"uni",
-        "logo_url":"uni/img/conceptmap/icon.png",
+        "logo_url":"img/uni/conceptmap/icon.png",
         "logo_alt":"Concept Mapping Tool",
         "name":"<i>Concept Mapping Tool</i>",
         "dates":"Octobre 2020 - Mars 2021",
@@ -235,7 +235,7 @@
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, groupe de six membres",
         "grade":"<b>14.5</b>/20",
         "images_url":[
-            "uni/img/conceptmap/screenshot.jpg"
+            "img/uni/conceptmap/screenshot.jpg"
         ],
         "images_caption":["Interface de correction de carte"],
         "nb_columns":1,
@@ -245,7 +245,7 @@
     {
         "id":"fashionclass",
         "category":"uni",
-        "logo_url":"uni/img/fashionclass/icon.png",
+        "logo_url":"img/uni/fashionclass/icon.png",
         "logo_alt":"Classification de vêtements",
         "name":"Classification de vêtements",
         "dates":"Octobre 2020",
@@ -280,11 +280,11 @@
         "dataset":"<a href='https://www.kaggle.com/datasets/zalando-research/fashionmnist' class='projects__link' target='_blank'>Fashion-MNIST</a> (Zalando)",
         "grade":"<b>16</b>/20",
         "additional_html":[
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/fashionclass/data.png' alt='Exemple de données présentes dans le dataset Fashion-MNIST'><figcaption>Exemple de données présentes dans le dataset Fashion-MNIST</figcaption></figure></div>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/fashionclass/data.png' alt='Exemple de données présentes dans le dataset Fashion-MNIST'><figcaption>Exemple de données présentes dans le dataset Fashion-MNIST</figcaption></figure></div>",
             "<p class='project__mission'>Avec un premier modèle construit avec <b>une seule couche cachée</b>, on obtient une <i>accuracy</i> de <b>69.5%</b> lors de son évaluation, ce qui peut être amélioré.</p>",
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/fashionclass/first-eval.png' alt='Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à une couche cachée'><figcaption>Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à une couche cachée</figcaption></figure></div>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/fashionclass/first-eval.png' alt='Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à une couche cachée'><figcaption>Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à une couche cachée</figcaption></figure></div>",
             "<p class='project__mission'>En construisant un second modèle avec <b>deux couches cachées</b>, on obtient une <b>meilleure</b> <i>accuracy</i> de <b>74.9%</b> après l'avoir évalué.</p>",
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/fashionclass/second-eval.png' alt='Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à deux couches cachées'><figcaption>Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à deux couches cachées</figcaption></figure></div>"
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/fashionclass/second-eval.png' alt='Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à deux couches cachées'><figcaption>Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à deux couches cachées</figcaption></figure></div>"
         ],
         "prev":"conceptmap",
         "next":"pointillism"
@@ -292,7 +292,7 @@
     {
         "id":"pointillism",
         "category":"uni",
-        "logo_url":"uni/img/pointillism/icon.png",
+        "logo_url":"img/uni/pointillism/icon.png",
         "logo_alt":"Programme Pointilliste",
         "name":"Programme Pointilliste",
         "dates":"Mars-juin 2020",
@@ -319,10 +319,10 @@
         "mission":"Implémenter un programme appliquant un <b>effet \"pointilliste\"</b> à une image, autrement dit qui va générer une image en utilisant seulement des <b>petits points de couleur</b>, d'après <a href='https://ieeexplore.ieee.org/document/8345408' class='projects__link' target='_blank'><i>“A Square Pointillism Image Generation, and its GPU Acceleration”</i></a> (H. Tokura, Y. Kuroda, Y. Ito et K. Nakano, 2017).",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
         "images_url":[
-            "https://benpntier.github.io/uni/img/pointillism/original.png",
-            "https://benpntier.github.io/uni/img/pointillism/result8.png",
-            "https://benpntier.github.io/uni/img/pointillism/result6.png",
-            "https://benpntier.github.io/uni/img/pointillism/result4.png"
+            "img/uni/pointillism/original.png",
+            "img/uni/pointillism/result8.png",
+            "img/uni/pointillism/result6.png",
+            "img/uni/pointillism/result4.png"
         ],
         "images_caption":[
             "Image originale",
@@ -341,7 +341,7 @@
     {
         "id":"denoiser",
         "category":"uni",
-        "logo_url":"uni/img/denoiser/icon.png",
+        "logo_url":"img/uni/denoiser/icon.png",
         "logo_alt":"Algorithme de débruitage",
         "name":"Algorithme de débruitage",
         "dates":"Février-mai 2020",
@@ -368,10 +368,10 @@
         "mission":"Expérimenter plusieurs techniques de <b>débruitage d'image</b>, plus particulièrement en utilisant une méthode de <b>préservation des bords</b>, grâce aux principes de l'<b>algorithme BM3D</b>, tel que le <b>filtrage 3D</b> et la <b>correspondance par blocs</b> (le but étant de proposer un algorithme basé sur ces principes plutôt que d'implémenter l'algorithme BM3D tel quel).",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
         "images_url":[
-            "https://benpntier.github.io/uni/img/denoiser/1_noisy.jpg",
-            "https://benpntier.github.io/uni/img/denoiser/1_restored.jpg",
-            "https://benpntier.github.io/uni/img/denoiser/4_noisy.jpg",
-            "https://benpntier.github.io/uni/img/denoiser/4_restored.jpg"
+            "img/uni/denoiser/1_noisy.jpg",
+            "img/uni/denoiser/1_restored.jpg",
+            "img/uni/denoiser/4_noisy.jpg",
+            "img/uni/denoiser/4_restored.jpg"
         ],
         "images_caption":[
             "Image 1 originale",
@@ -385,7 +385,7 @@
             "<p class='project__mission'>Pour <b>évaluer</b> cet algorithme, on calcule notamment le <b>PSNR</b> (<i>Peak Signal-to-Noise Ratio</i>, qui mesure la qualité et la distorsion par le bruit) pour chaque image, <b>originale</b> et <b>débruitée</b>, en comparant également avec un <b>débruitage basique</b> (filtre <b>gaussien</b>)&nbsp;:</p>",
             "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><table><tbody><tr><th>Image Name</th><th>Noisy</th><th class='green'>Restored</th><th>Basic Denoising</th></tr><tr><td class='mono'>cameraman.tif</td><td>28.274</td><td class='green'>32.557</td><td>27.733</td></tr><tr><td class='mono'>house.tif</td><td>28.161</td><td class='green'>34.418</td><td>30.481994</td></tr><tr><td class='mono'>lena.tif</td><td>28.127</td><td class='green'>31.710</td><td>28.521</td></tr><tr><td class='mono'>pirate.tif</td><td>28.126</td><td class='green'>30.211</td><td>26.953</td></tr></tbody></table><figcaption>Valeur du PSNR pour chaque image</figcaption></figure></div>",
             "<p class='project__mission'>Le <b>PSNR</b> est effectivement <b>supérieur</b> pour l'image débruitée par <b>notre algorithme</b>, qui permet à la fois de <b>débruiter</b> l'image et de <b>préserver les bords</b> (ce qui n'est pas assuré par le débruitage gaussien).</p>",
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/denoiser/comparison.png' alt='Comparison de la version originale, restaurée et débruitage basique'><figcaption>Comparison de la version originale, restaurée et débruitage basique</figcaption></figure></div>"
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/denoiser/comparison.png' alt='Comparison de la version originale, restaurée et débruitage basique'><figcaption>Comparison de la version originale, restaurée et débruitage basique</figcaption></figure></div>"
         ],
         "prev":"pointillism",
         "next":"dogsvscats"
@@ -393,7 +393,7 @@
     {
         "id":"dogsvscats",
         "category":"uni",
-        "logo_url":"uni/img/dogsvscats/icon.png",
+        "logo_url":"img/uni/dogsvscats/icon.png",
         "logo_alt":"Dogs vs. cats",
         "name":"Classification <i>Dogs vs. cats</i>",
         "dates":"Décembre 2019 - Janvier 2020",
@@ -428,7 +428,7 @@
         "dataset":"<a href='https://www.kaggle.com/c/dogs-vs-cats' class='projects__link' target='_blank'>Dogs vs. Cats</a> (Asirra)",
         "additional_html":[
             "<p class='project__mission no-margin'>L'<b>évaluation</b> du <b>modèle obtenu</b> sur les données de validation converge vers une <i>accuracy</i> de <b>0.73</b> (ce qui est un plutôt bon résultat pour le contexte de ce projet).</p>",
-            "<div class='project__gallery project__gallery--2'><figure class='no-margin project__gallery__img--2'><img class='project__image project__image--rounded' src='uni/img/dogsvscats/accuracy.png' alt='Accuracy au cours de l'entraînement et évaluation'><figcaption class='center'>Accuracy au cours de l'entraînement et évaluation</figcaption></figure><figure class='no-margin project__gallery__img--2'><img class='project__image project__image--rounded' src='uni/img/dogsvscats/loss.png' alt='Loss au cours de l'entraînement et évaluation'><figcaption class='center'>Loss au cours de l'entraînement et évaluation</figcaption></figure></div>"
+            "<div class='project__gallery project__gallery--2'><figure class='no-margin project__gallery__img--2'><img class='project__image project__image--rounded' src='img/uni/dogsvscats/accuracy.png' alt='Accuracy au cours de l'entraînement et évaluation'><figcaption class='center'>Accuracy au cours de l'entraînement et évaluation</figcaption></figure><figure class='no-margin project__gallery__img--2'><img class='project__image project__image--rounded' src='img/uni/dogsvscats/loss.png' alt='Loss au cours de l'entraînement et évaluation'><figcaption class='center'>Loss au cours de l'entraînement et évaluation</figcaption></figure></div>"
         ],
         "prev":"denoiser",
         "next":"arkanoid3D"
@@ -436,7 +436,7 @@
     {
         "id":"arkanoid3D",
         "category":"uni",
-        "logo_url":"uni/img/arkanoid3D/icon.png",
+        "logo_url":"img/uni/arkanoid3D/icon.png",
         "logo_alt":"Arkanoid 3D",
         "name":"Jeu web <i>Arkanoid 3D</i>",
         "dates":"Novembre 2019 - Janvier 2020",
@@ -459,8 +459,8 @@
         "mission":"Implémenter un <b>jeu web 3D</b> inspiré du casse-briques <b>Arkanoid</b> (1986) développé par Taito, où le joueur doit casser toute les briques en faisant rebondir une balle grâce à une barre horizontale. Dans ce projet, le but est de générer tous les <b>visuels</b>, implémenter un <b>système de caméra</b> et développer les <b>mécaniques de jeu</b> grâce à un moteur physique.",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
         "images_url":[
-            "uni/img/arkanoid3D/environment.jpg",
-            "uni/img/arkanoid3D/XYaxes.jpg"
+            "img/uni/arkanoid3D/environment.jpg",
+            "img/uni/arkanoid3D/XYaxes.jpg"
         ],
         "images_caption":[
             "Environnement du jeu",
@@ -474,7 +474,7 @@
     {
         "id":"datascience",
         "category":"uni",
-        "logo_url":"uni/img/datascience/icon.png",
+        "logo_url":"img/uni/datascience/icon.png",
         "logo_alt":"Data Science",
         "name":"Data Science",
         "dates":"Novembre 2019 - Janvier 2020",
@@ -503,13 +503,13 @@
         "additional_html":[
             "<p class='project__mission no-margin'>La première partie consistait à <b>collecter</b> quotidiennement des <b>données</b> (<i>web scraping</i>) de RyanAir, afin de déterminer le <b>meilleur moment</b> pour acheter un <b>billet d'avion</b>. Par exemple, pour un vol entre Malte et Catane (Sicile), la <b>tendance observée</b> était qu'il était plus intéressant d'acheter un billet environ un mois (entre 32 et 27 jours) avant le vol&nbsp;:</p>",
             "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><table id='datascience'><tr><th></th><th>Collection date</th><th>Flight date</th><th>Price (€)</th><th>Departure</th><th>Arrival</th><th>Days before</th></tr><tr><td>0</td><td>2019-12-02</td><td>2020-01-06</td><td>23.99</td><td>12:10</td><td>13:00</td><td>35</td></tr><tr><td>1</td><td>2019-12-02</td><td>2020-01-07</td><td>23.99</td><td>12:00</td><td>12:50</td><td>36</td></tr><tr><td>2</td><td>2019-12-02</td><td>2020-01-08</td><td>32.99</td><td>12:00</td><td>12:50</td><td>37</td></tr><tr><td>3</td><td>2019-12-02</td><td>2020-01-09</td><td>20.58</td><td>12:10</td><td>13:00</td><td>38</td></tr><tr><td>4</td><td>2019-12-02</td><td>2020-01-10</td><td>21.72</td><td>12:00</td><td>12:50</td><td>39</td></table><figcaption>Extrait des données collectées sur les vols entre Malte et Catane</figcaption></figure></div>",
-            "<div class='project__gallery'><figure class='project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/datascience/flights_plot.png' alt='Fluctuation of prices for route MLA-CTA'><figcaption>Variation des prix selon le nombre de jours avant le vol pour le trajet MLA-CTA</figcaption></figure></div>",
+            "<div class='project__gallery'><figure class='project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/datascience/flights_plot.png' alt='Fluctuation of prices for route MLA-CTA'><figcaption>Variation des prix selon le nombre de jours avant le vol pour le trajet MLA-CTA</figcaption></figure></div>",
             "<p class='project__mission'>La seconde partie se concentrait sur un <i>dataset</i> existant&nbsp;: des <b>annonces immobilières</b> publiées sur le site de Times of Malta entre 2015 et 2019. Les données étant des <b>pages HTML brutes</b>, il était bien sûr nécessaire de <b>traiter</b> les données (données <b>manquantes</b>, <b>doublons</b>, <b>format variable</b>, etc.) pour en extraire des <i>features</i> intéressantes. Certaines <b>observations</b> ont alors pu être réalisées, par exemple l'<b>augmentation de 30%</b> du prix d'achat à Sliema entre 2015 et 2018&nbsp;:</p>",
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/datascience/sliema_plot.png' alt='Evolution of median price in Sliema between 2015 et 2018'><figcaption>Évolution du prix médian de l'immobilier à Sliema entre 2015 et 2018</figcaption></figure></div>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/datascience/sliema_plot.png' alt='Evolution of median price in Sliema between 2015 et 2018'><figcaption>Évolution du prix médian de l'immobilier à Sliema entre 2015 et 2018</figcaption></figure></div>",
             "<p class='project__mission'>Une <b>analyse statistique</b> permet également de constater l'importante <b>dispersion</b> des données&nbsp;:</p>",
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/datascience/distribution_plot.png' alt='Distribution of prices'><figcaption>Distribution des prix d'annonces immobilières à Malte entre 2015 et 2018</figcaption></figure></div>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/datascience/distribution_plot.png' alt='Distribution of prices'><figcaption>Distribution des prix d'annonces immobilières à Malte entre 2015 et 2018</figcaption></figure></div>",
             "<p class='project__mission'>Enfin, il est possible d'établir un <b>modèle de régression linéaire</b> pour pouvoir <b>prédire</b> un <b>prix médian</b> de l'immobilier à Malte pour un mois donné, avec un <b>score R2</b> de <b>0.939</b>&nbsp;:</p>",
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/datascience/model_plot.png' alt='Evolution of median price over time'><figcaption>Prédiction du modèle de régression linéaire et prix médian de l'immobilier</figcaption></figure></div>"
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/datascience/model_plot.png' alt='Evolution of median price over time'><figcaption>Prédiction du modèle de régression linéaire et prix médian de l'immobilier</figcaption></figure></div>"
         ],
         "prev":"arkanoid3D",
         "next":"multilabelclass"
@@ -518,7 +518,7 @@
         "id":"multilabelclass",
         "category":"uni",
         "name":"Classification Multi-Label",
-        "logo_url":"uni/img/multilabelclass/icon.png",
+        "logo_url":"img/uni/multilabelclass/icon.png",
         "logo_alt":"Classification Multi-Label",
         "dates":"Novembre-décembre 2019",
         "tags_short":[
@@ -548,7 +548,7 @@
         "dataset":"<a href='https://research.brighton.ac.uk/en/publications/spatialvoc2k-a-multilingual-dataset-of-images-with-annotations-an' class='projects__link' target='_blank'>SpatialVOC2K</a> (Anja Belz, Adrian Muscat, Pierre Anguill et al.)",
         "additional_html":[
             "<p class='project__mission no-margin'>Le <i>dataset</i> comporte des <b>données</b> sur des <b>objets</b> avec de nombreuses <i>features</i> (<b>géométriques</b>, de distance en <b>profondeur</b>, de <b>langage</b> et de <i>word embeddings</i> <b>Word2Vec</b>). Chaque <b>instance</b> peut être associée à <b>une ou plusieurs prépositions</b> de <b>relation spatiale</b> entre <b>deux objets</b> (<i>\"à côté de\"</i>, <i>\"autour de\"</i>, <i>\"devant\"</i>, etc). Pour prédire ces prépositions, l'objectif est donc de construire un classificateur (<b>régression logistique</b>) <b>par label</b>, avec <b>hyperparamètres optimisés</b> et une <b>sélection</b> de <i>features</i> basée sur le coefficient de <b>corrélation de Pearson</b> (pour que les <i>features</i> sélectionnées soient fortement <b>corrélées</b> avec l'<b>output</b>, mais avec suffisamment de <b>variance entre elles</b>).</p>",
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/multilabelclass/correlation.png' alt='Heatmap of the Pearson correlation coefficients'><figcaption>Heatmap des coefficients de corrélation de Pearson pour les features géométriques</figcaption></figure></div>"
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/multilabelclass/correlation.png' alt='Heatmap of the Pearson correlation coefficients'><figcaption>Heatmap des coefficients de corrélation de Pearson pour les features géométriques</figcaption></figure></div>"
         ],
         "prev":"datascience",
         "next":"neocampus"
@@ -556,7 +556,7 @@
     {
         "id":"neocampus",
         "category":"uni",
-        "logo_url":"uni/img/neocampus/icon.png",
+        "logo_url":"img/uni/neocampus/icon.png",
         "logo_alt":"neOCampus",
         "name":"Interface neOCampus",
         "dates":"Novembre 2018 - Janvier 2019",
@@ -572,9 +572,9 @@
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>L3</b> Informatique, projet tuteuré, travail en binôme",
         "grade":"<b>20</b>/20",
         "images_url":[
-            "uni/img/neocampus/panneau1.png",
-            "uni/img/neocampus/panneau2.png",
-            "uni/img/neocampus/panneau3.png"
+            "img/uni/neocampus/panneau1.png",
+            "img/uni/neocampus/panneau2.png",
+            "img/uni/neocampus/panneau3.png"
         ],
         "images_caption":[
             "Panneau 'Temps réel'",
@@ -588,7 +588,7 @@
     {
         "id":"coursepoursuite",
         "category":"uni",
-        "logo_url":"uni/img/coursepoursuite/icon.png",
+        "logo_url":"img/uni/coursepoursuite/icon.png",
         "logo_alt":"Course Poursuite",
         "name":"Application <i>Course Poursuite</i>",
         "dates":"Novembre 2018 - Janvier 2019",
@@ -604,9 +604,9 @@
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en binôme",
         "grade":"<b>20</b>/20",
         "images_url":[
-            "uni/img/coursepoursuite/screenshot1.jpg",
-            "uni/img/coursepoursuite/screenshot2.jpg",
-            "uni/img/coursepoursuite/screenshot3.jpg"
+            "img/uni/coursepoursuite/screenshot1.jpg",
+            "img/uni/coursepoursuite/screenshot2.jpg",
+            "img/uni/coursepoursuite/screenshot3.jpg"
         ],
         "images_alt":[
             "Écran d'Accueil",
@@ -621,7 +621,7 @@
     {
         "id":"norntalk",
         "category":"uni",
-        "logo_url":"uni/img/norntalk/icon.png",
+        "logo_url":"img/uni/norntalk/icon.png",
         "logo_alt":"Norn Talk",
         "name":"Application <i>Norn Talk</i>",
         "dates":"Octobre-décembre 2017",
@@ -647,10 +647,10 @@
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, projet tuteuré, groupe de quatre membres",
         "grade":"<b>16.9</b>/20",
         "images_url":[
-            "uni/img/norntalk/screenshot1.jpg",
-            "uni/img/norntalk/screenshot2.jpg",
-            "uni/img/norntalk/screenshot3.jpg",
-            "uni/img/norntalk/screenshot4.jpg"
+            "img/uni/norntalk/screenshot1.jpg",
+            "img/uni/norntalk/screenshot2.jpg",
+            "img/uni/norntalk/screenshot3.jpg",
+            "img/uni/norntalk/screenshot4.jpg"
         ],
         "images_alt":[
             "Écran d'Accueil",
@@ -666,7 +666,7 @@
     {
         "id":"algogen",
         "category":"uni",
-        "logo_url":"uni/img/algogen/icon.png",
+        "logo_url":"img/uni/algogen/icon.png",
         "logo_alt":"Algorithme génétique",
         "name":"Algorithme génétique",
         "dates":"Septembre-novembre 2017",
@@ -680,7 +680,7 @@
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en bînome",
         "grade":"<b>15.8</b>/20",
         "additional_html":[
-            "<div class='project__gallery project__gallery--3'><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='uni/img/algogen/chart1.png' alt='Carte des villes à visiter'></figure><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='uni/img/algogen/chart2.png' alt='Évolution de la fitness en fonction du nombre de chemins générés'></figure><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='uni/img/algogen/chart3.png' alt='Évolution de la fitness au fil des générations'></figure></div>"
+            "<div class='project__gallery project__gallery--3'><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='img/uni/algogen/chart1.png' alt='Carte des villes à visiter'></figure><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='img/uni/algogen/chart2.png' alt='Évolution de la fitness en fonction du nombre de chemins générés'></figure><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='img/uni/algogen/chart3.png' alt='Évolution de la fitness au fil des générations'></figure></div>"
         ],
         "prev":"norntalk",
         "next":"cabinetmedical"
@@ -688,7 +688,7 @@
     {
         "id":"cabinetmedical",
         "category":"uni",
-        "logo_url":"uni/img/cabinetmedical/icon.png",
+        "logo_url":"img/uni/cabinetmedical/icon.png",
         "logo_alt":"Cabinet Médical",
         "name":"Site de cabinet médical",
         "dates":"Décembre 2017 - Janvier 2018",
@@ -718,10 +718,10 @@
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en bînome",
         "grade":"<b>20</b>/20",
         "images_url":[
-            "uni/img/cabinetmedical/screenshot1.jpg",
-            "uni/img/cabinetmedical/screenshot2.jpg",
-            "uni/img/cabinetmedical/screenshot3.jpg",
-            "uni/img/cabinetmedical/screenshot4.jpg"
+            "img/uni/cabinetmedical/screenshot1.jpg",
+            "img/uni/cabinetmedical/screenshot2.jpg",
+            "img/uni/cabinetmedical/screenshot3.jpg",
+            "img/uni/cabinetmedical/screenshot4.jpg"
         ],
         "images_alt":[
             "Page d'Accueil",
@@ -737,7 +737,7 @@
     {
         "id":"bravenewearth",
         "category":"uni",
-        "logo_url":"uni/img/bravenewearth/icon.png",
+        "logo_url":"img/uni/bravenewearth/icon.png",
         "logo_alt":"Brave New Earth",
         "name":"Webdoc <i>Brave New Earth</i>",
         "name_full":"Webdocumentaire <i>Brave New Earth</i>",
@@ -768,8 +768,8 @@
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, groupe de six membres",
         "grade":"<b>19</b>/20",
         "images_url":[
-            "uni/img/bravenewearth/screenshot.jpg",
-            "uni/img/bravenewearth/screenshot2.jpg"
+            "img/uni/bravenewearth/screenshot.jpg",
+            "img/uni/bravenewearth/screenshot2.jpg"
         ],
         "images_alt":[
             "Page d'Accueil",
@@ -785,7 +785,7 @@
     {
         "id":"dune",
         "category":"uni",
-        "logo_url":"uni/img/dune/icon.png",
+        "logo_url":"img/uni/dune/icon.png",
         "logo_alt":"Un Rêve de Dune",
         "name":"Site web <i>Un Rêve de Dune</i>",
         "dates":"Septembre-octobre 2016",
@@ -811,7 +811,7 @@
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 1<sup>re</sup> année, travail en binôme",
         "grade":"<b>20</b>/20",
         "images_url":[
-            "uni/img/dune/screenshot.jpg"
+            "img/uni/dune/screenshot.jpg"
         ],
         "images_alt":[
             "Page d'Accueil"
@@ -824,7 +824,7 @@
     {
         "id":"odyssee",
         "category":"uni",
-        "logo_url":"uni/img/odyssee/icon.png",
+        "logo_url":"img/uni/odyssee/icon.png",
         "logo_alt":"L'Odyssée de l'Hyperespace",
         "name":"L'Odyssée de l'Hyperespace",
         "dates":"Mars-mai 2016",
@@ -840,8 +840,8 @@
         "context":"<b>Lycée Charles Gide</b> (Uzès), projet final de la <b>spécialité ISN</b>, travail en binôme",
         "grade":"<b>20</b>/20",
         "images_url":[
-            "uni/img/odyssee/screenshot1.png",
-            "uni/img/odyssee/screenshot2.png"
+            "img/uni/odyssee/screenshot1.png",
+            "img/uni/odyssee/screenshot2.png"
         ],
         "images_caption":[
             "Interface",
@@ -853,63 +853,63 @@
     {
         "id":"analog",
         "category":"art",
-        "logo_url":"art/img/analog/icon.jpg",
+        "logo_url":"img/art/analog/icon.jpg",
         "logo_alt":"Exemple de photo argentique (Venise)",
         "name":"Photographie argentique",
         "dates":"Depuis 2021",
         "desc":"Garder des <b>souvenirs</b> de mes <b>voyages</b> grâce à mon appareil <b>argentique</b>",
         "mission":"Garder des <b>souvenirs</b> de mes <b>voyages</b> grâce à mon appareil <i>point-and-shoot</i> <b>argentique</b> (Olympus AF 30) et en expérimentant avec différentes <b>pellicules</b>, notamment à Toulouse, Bordeaux, Annecy, Strasbourg ou encore à Malte, en Espagne, en Italie, ou en Suède.",
         "images_url":[
-            "art/img/analog/1.jpg",
-            "art/img/analog/2.jpg",
-            "art/img/analog/3.jpg",
-            "art/img/analog/4.jpg",
-            "art/img/analog/5.jpg",
-            "art/img/analog/6.jpg",
-            "art/img/analog/7.jpg",
-            "art/img/analog/8.jpg",
-            "art/img/analog/9.jpg",
-            "art/img/analog/10.jpg",
-            "art/img/analog/11.jpg",
-            "art/img/analog/12.jpg",
-            "art/img/analog/13.jpg",
-            "art/img/analog/14.jpg",
-            "art/img/analog/15.jpg",
-            "art/img/analog/16.jpg",
-            "art/img/analog/17.jpg",
-            "art/img/analog/18.jpg",
-            "art/img/analog/19.jpg",
-            "art/img/analog/20.jpg",
-            "art/img/analog/21.jpg",
-            "art/img/analog/22.jpg",
-            "art/img/analog/23.jpg",
-            "art/img/analog/24.jpg",
-            "art/img/analog/25.jpg",
-            "art/img/analog/26.jpg",
-            "art/img/analog/27.jpg",
-            "art/img/analog/28.jpg",
-            "art/img/analog/29.jpg",
-            "art/img/analog/30.jpg",
-            "art/img/analog/31.jpg",
-            "art/img/analog/32.jpg",
-            "art/img/analog/33.jpg",
-            "art/img/analog/34.jpg",
-            "art/img/analog/35.jpg",
-            "art/img/analog/36.jpg",
-            "art/img/analog/37.jpg",
-            "art/img/analog/38.jpg",
-            "art/img/analog/39.jpg",
-            "art/img/analog/40.jpg",
-            "art/img/analog/41.jpg",
-            "art/img/analog/42.jpg",
-            "art/img/analog/43.jpg",
-            "art/img/analog/44.jpg",
-            "art/img/analog/45.jpg",
-            "art/img/analog/46.jpg",
-            "art/img/analog/47.jpg",
-            "art/img/analog/48.jpg",
-            "art/img/analog/49.jpg",
-            "art/img/analog/50.jpg"
+            "img/art/analog/1.jpg",
+            "img/art/analog/2.jpg",
+            "img/art/analog/3.jpg",
+            "img/art/analog/4.jpg",
+            "img/art/analog/5.jpg",
+            "img/art/analog/6.jpg",
+            "img/art/analog/7.jpg",
+            "img/art/analog/8.jpg",
+            "img/art/analog/9.jpg",
+            "img/art/analog/10.jpg",
+            "img/art/analog/11.jpg",
+            "img/art/analog/12.jpg",
+            "img/art/analog/13.jpg",
+            "img/art/analog/14.jpg",
+            "img/art/analog/15.jpg",
+            "img/art/analog/16.jpg",
+            "img/art/analog/17.jpg",
+            "img/art/analog/18.jpg",
+            "img/art/analog/19.jpg",
+            "img/art/analog/20.jpg",
+            "img/art/analog/21.jpg",
+            "img/art/analog/22.jpg",
+            "img/art/analog/23.jpg",
+            "img/art/analog/24.jpg",
+            "img/art/analog/25.jpg",
+            "img/art/analog/26.jpg",
+            "img/art/analog/27.jpg",
+            "img/art/analog/28.jpg",
+            "img/art/analog/29.jpg",
+            "img/art/analog/30.jpg",
+            "img/art/analog/31.jpg",
+            "img/art/analog/32.jpg",
+            "img/art/analog/33.jpg",
+            "img/art/analog/34.jpg",
+            "img/art/analog/35.jpg",
+            "img/art/analog/36.jpg",
+            "img/art/analog/37.jpg",
+            "img/art/analog/38.jpg",
+            "img/art/analog/39.jpg",
+            "img/art/analog/40.jpg",
+            "img/art/analog/41.jpg",
+            "img/art/analog/42.jpg",
+            "img/art/analog/43.jpg",
+            "img/art/analog/44.jpg",
+            "img/art/analog/45.jpg",
+            "img/art/analog/46.jpg",
+            "img/art/analog/47.jpg",
+            "img/art/analog/48.jpg",
+            "img/art/analog/49.jpg",
+            "img/art/analog/50.jpg"
         ],
         "images_alt":[
             "Saint Julian's (Malte)",
@@ -969,28 +969,28 @@
     {
         "id":"covers",
         "category":"art",
-        "logo_url":"art/img/covers/icon.png",
+        "logo_url":"img/art/covers/icon.png",
         "logo_alt":"Exemple de pochette (Doctor Who)",
         "name":"<i>Soundtrack Covers</i>",
         "dates":"Depuis 2012",
         "desc":"Créer des <b>pochettes alternatives</b> pour mes albums préférés de <b>musique de film et séries</b>",
         "mission":"<b>Réimaginer</b> des <b>pochettes</b> de <b>bandes originales</b> de <b>films</b> et <b>séries TV</b>, à partir de visuels officiels ou non. L'objectif est d'avoir une pochette qui <b>représente mieux</b> le film, sa musique ou qui soit simplement <b>plus artistique</b>.",
         "images_url":[
-            "art/img/covers/TwinPeaks.png",
-            "art/img/covers/DoctorWho.png",
-            "art/img/covers/Empire.png",
-            "art/img/covers/BladeRunner.png",
-            "art/img/covers/ShapeOfWater.png",
-            "art/img/covers/Logan.png",
-            "art/img/covers/Ragnarok.png",
-            "art/img/covers/GITS.png",
-            "art/img/covers/ManOfSteel.png",
-            "art/img/covers/BealeStreet.png",
-            "art/img/covers/BR2049.png",
-            "art/img/covers/MadMax.png",
-            "art/img/covers/TFA.png",
-            "art/img/covers/HarryPotter.png",
-            "art/img/covers/2001.png"
+            "img/art/covers/TwinPeaks.png",
+            "img/art/covers/DoctorWho.png",
+            "img/art/covers/Empire.png",
+            "img/art/covers/BladeRunner.png",
+            "img/art/covers/ShapeOfWater.png",
+            "img/art/covers/Logan.png",
+            "img/art/covers/Ragnarok.png",
+            "img/art/covers/GITS.png",
+            "img/art/covers/ManOfSteel.png",
+            "img/art/covers/BealeStreet.png",
+            "img/art/covers/BR2049.png",
+            "img/art/covers/MadMax.png",
+            "img/art/covers/TFA.png",
+            "img/art/covers/HarryPotter.png",
+            "img/art/covers/2001.png"
         ],
         "images_alt":[
             "Twin Peaks - Fire Walk With Me",
@@ -1013,11 +1013,11 @@
         "additional_html":
         [
             "<p class='project__mission'>Selon les pochettes, il peut y avoir plus ou moins d'étapes pour adapter un <b>visuel existant</b>. Il faut <b>s'adapter</b> au <b>format carré</b>, <b>disposer différement</b> les éléments et parfois en <b>ajouter</b>, comme le montre cette animation calque par calque pour <i>Star Wars Episode III - La Revanche des Sith</i> (John Williams, Sony Classical)&nbsp;:</p>",
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/revenge-wip.gif' alt='Star Wars Episode III - Revenge of the Sith'></figure></div>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/art/covers/revenge-wip.gif' alt='Star Wars Episode III - Revenge of the Sith'></figure></div>",
             "<p class='project__mission'>Il peut aussi y avoir besoin de <b>cacher</b> des éléments, comme pour l'<i>Episode VII</i>, <i>Le Réveil de la Force</i> (John Williams, Walt Disney Records)&nbsp;:</p>",
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/tfa-wip.gif' alt='Star Wars Episode VII - The Force Awakens'></figure></div>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/art/covers/tfa-wip.gif' alt='Star Wars Episode VII - The Force Awakens'></figure></div>",
             "<p class='project__mission'>Enfin, l'<b>univers d'un film</b> peut inspirer une pochette plus <b>expérimentale</b>. Par exemple, pour La Forme de l'Eau (Alexandre Desplat, Decca Records), à partir d'une affiche de James Jean, l'inspiration est venue des pochettes d'anciens disques vinyls&nbsp;:</p>",
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='art/img/covers/shape-wip.gif' alt='The Shape of Water'></figure></div>"
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/art/covers/shape-wip.gif' alt='The Shape of Water'></figure></div>"
         ],
         "nb_columns":5,
         "prev":"analog"
