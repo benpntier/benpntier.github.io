@@ -546,6 +546,10 @@
         "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un modèle de <b>classification multi-label</b> (MLC) dans le domaine de la <b>détection de relation spatiale</b>, une sous-tâche de la recherche en <b>vision et langage naturel</b>.",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
         "dataset":"<a href='https://research.brighton.ac.uk/en/publications/spatialvoc2k-a-multilingual-dataset-of-images-with-annotations-an' class='projects__link' target='_blank'>SpatialVOC2K</a> (Anja Belz, Adrian Muscat, Pierre Anguill et al.)",
+        "additional_html":[
+            "<p class='project__mission no-margin'>Le <i>dataset</i> comporte des <b>données</b> sur des <b>objets</b> avec de nombreuses <i>features</i> (<b>géométriques</b>, de distance en <b>profondeur</b>, de <b>langage</b> et de <i>word embeddings</i> <b>Word2Vec</b>). Chaque <b>instance</b> peut être associée à <b>une ou plusieurs prépositions</b> de <b>relation spatiale</b> entre <b>deux objets</b> (<i>\"à côté de\"</i>, <i>\"autour de\"</i>, <i>\"devant\"</i>, etc). Pour prédire ces prépositions, l'objectif est donc de construire un classificateur (<b>régression logistique</b>) <b>par label</b>, avec <b>hyperparamètres optimisés</b> et une <b>sélection</b> de <i>features</i> basée sur le coefficient de <b>corrélation de Pearson</b> (pour que les <i>features</i> sélectionnées soient fortement <b>corrélées</b> avec l'<b>output</b>, mais avec suffisamment de <b>variance entre elles</b>).</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='uni/img/multilabelclass/correlation.png' alt='Heatmap of the Pearson correlation coefficients'><figcaption>Heatmap des coefficients de corrélation de Pearson pour les features géométriques</figcaption></figure></div>"
+        ],
         "prev":"datascience",
         "next":"neocampus"
     },
