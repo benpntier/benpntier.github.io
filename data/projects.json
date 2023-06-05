@@ -1,0 +1,1025 @@
+[
+    {
+        "id":"vimersio",
+        "category":"pro",
+        "company":"<a href='https://vimersio.com/' class='projects__link' target='_blank'>Vimersio</a>",
+        "logo_url":"img/pro/vimersio/logo.png",
+        "logo_alt":"Vimersio",
+        "name":"Chargé de dev. IT",
+        "name_full":"Chargé de développement IT",
+        "dates":"Octobre 2022 - Septembre 2023",
+        "desc":"<b>Piloter</b> un projet en R&D, <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et l'<b>optimiser</b>",
+        "tags_short":[
+            "Video Processing",
+            "Android"
+        ],
+        "tags_colors_short":[
+            "imagep",
+            "android"
+        ],
+        "tags_full":[
+            "Video Processing",
+            "Computer Vision",
+            "Python",
+            "Android",
+            "Kotlin",
+            "GitHub",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "imagep",
+            "imagep",
+            "prog",
+            "android",
+            "prog",
+            "env",
+            "env"
+        ],
+        "mission":"<b>Piloter</b> le <b>développement</b> d'un projet en <b>R&D</b> dans un environnement start-up&nbsp;: <b>comprendre</b> les <b>besoins</b> de Vimersio et des utilisateurs, <b>proposer</b> et <b>étudier</b> les différentes <b>implémentations envisageables</b> (selon l'<b>éthique</b> et les <b>enjeux</b> de l'entreprise, ainsi que les <b>risques</b> et <b>bénéfices</b> de chaque solution), et enfin <b>suivre</b> la <b>mission</b>, en <b>autonomie</b> ou en <b>coordonnant</b> l'équipe technique. Vimersio propose un outil tout-en-un pour faciliter la création de <b>vidéos à 360°</b>. Ainsi, la réalisation technique du projet consistait (notamment) à <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et <b>optimiser</b> ses fonctionnalités ainsi que son <b>expérience utilisateur</b>.",
+        "images_url":[
+            "img/pro/vimersio/viabot.jpg"
+        ],
+        "images_caption":[
+            "ViaBot®, outil créé par Vimersio® pour automatiser la création de vidéos à 360°"
+        ],
+        "rounded":true,
+        "next":"phonetik"
+    },
+    {
+        "id":"phonetik",
+        "category":"pro",
+        "company":"<a href='https://www.irit.fr/' class='projects__link' target='_blank'>IRIT</a>",
+        "logo_url":"img/pro/phonetik/logo.png",
+        "logo_alt":"IRIT",
+        "name":"Stage de fin d'études",
+        "dates":"Mars-août 2021",
+        "desc":"Concevoir un <b>réseau de neurones</b> capable de proposer une <b>correction automatique</b> basée sur la <b>prononciation</b>",
+        "tags_short":[
+            "Deep Learning",
+            "NLP",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "dl",
+            "nlp",
+            "prog"
+        ],
+        "tags_full":[
+            "Réseaux siamois",
+            "LSTM",
+            "Natural Language Processing",
+            "Keras",
+            "scikit-learn",
+            "Python",
+            "Java",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "dl",
+            "dl",
+            "nlp",
+            "dl",
+            "algo",
+            "prog",
+            "prog",
+            "env"
+        ],
+        "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un modèle de <b>Deep Learning</b> permettant de proposer une <b>correction automatique</b> basée sur la <b>prononciation</b> (plutôt que l'orthographe), lié à une <b>interface de clavier</b> en Java Swing. Ce type de clavier pourrait <b>faciliter la saisie</b> pour les personnes dysorthographiques (qui écrivent les mots phonétiquement).",
+        "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>Master 2</b> en Intelligence Artificielle",
+        "grade":"<b>15.5</b>/20",
+        "comment":"<i>Benoît a montré beaucoup d'intérêt, d'autonomie et de persévérance pour terminer ce projet. Il a démontré de solides compétences en machine learning, deep learning et programmation Python. [...] De plus, son comportement, son écoute et son sérieux font qu'il est très agréable de travailler avec lui.</i> &ndash; <b>Mathieu Serrurier</b>, enseignant chercheur à l'IRIT",
+        "images_url":[
+            "img/pro/phonetik/interface.jpg"
+        ],
+        "images_caption":[
+            "Interface du clavier et exemple de correction automatique"
+        ],
+        "additional_html":
+        [
+            "<p class='project__mission'>Pour pouvoir proposer une correction automatique à partir d'un mot saisi, le modèle proposé avait pour but de calculer la meilleure <b>représentation vectorielle</b> possible (<i>word embeddings</i>) pour tenir compte de la <b>phonétique</b>. Théoriquement, <b>deux homophones</b> auraient alors la <b>même représentation</b> et leur distance dans cet espace vectoriel serait nulle. En réalité, l'objectif était d'<b>entraîner le modèle</b> pour <b>minimiser</b> cette <b>distance</b>.</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image' src='img/pro/phonetik/tsne.png' alt='Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE'><figcaption>Échantillon de données étiquetées par le modèle, après réduction de dimension t-SNE</figcaption></figure></div>"
+        ],
+        "nb_columns":1,
+        "rounded":true,
+        "prev":"vimersio",
+        "next":"nxt"
+    },
+    {
+        "id":"nxt",
+        "category":"pro",
+        "company":"<a href='http://www.univ-tlse3.fr/' class='projects__link' target='_blank'>UPS</a> / <a href='https://www.irit.fr/' class='projects__link' target='_blank'>IRIT</a>",
+        "logo_url":"img/pro/nxt/logo.png",
+        "logo_alt":"Université Paul Sabatier",
+        "name":"Bureau d'études",
+        "dates":"Avril-mai 2019",
+        "desc":"Implémenter une <b>interface<\/b> et une <b>IA<\/b> pour faire <b>collaborer<\/b> deux robots Lego NXT sur une <b>tâche commune<\/b> sans collision",
+        "tags_short":[
+            "Algorithme A*",
+            "Java"
+        ],
+        "tags_colors_short":[
+            "algo",
+            "prog"
+        ],
+        "tags_full":[
+            "Algorithme A*",
+            "Java",
+            "Librairie leJOS",
+            "GitHub"
+        ],
+        "tags_colors_full":[
+            "algo",
+            "prog",
+            "prog",
+            "env"
+        ],
+        "mission":"Implémenter en <b>Java</b> une IA (<b>algorithme A*</b>) pour faire <b>collaborer</b> deux <b><a href='https://www.lego.com/themes/mindstorms/about' class='projects__link' target='_blank'>Lego NXT</a></b>&nbsp;: l'un <b>autonome</b>, l'autre <b>télécommandé</b> (grâce à une interface Java Swing) en évitant les collisions, pour réaliser une <b>tâche commune</b> et en suivant leur <b>trajectoire</b> sur une carte.",
+        "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>L3</b> Informatique, travail en binôme",
+        "grade":"<b>16</b>/20",
+        "images_url":[
+            "img/pro/nxt/interfaceSaisie.jpg",
+            "img/pro/nxt/interfaceSuivi.jpg"
+        ],
+        "images_caption":[
+            "Interface de saisie de carte",
+            "Interface de suivi des robots"
+        ],
+        "nb_columns":"2h",
+        "prev":"phonetik",
+        "next":"ica"
+    },
+    {
+        "id":"ica",
+        "category":"pro",
+        "company":"<a href='https://ica.cnrs.fr/' class='projects__link' target='_blank'>Institut Clément Ader</a>",
+        "logo_url":"img/pro/ica/logo.png",
+        "logo_alt":"Institut Clément Ader",
+        "name":"Stage",
+        "dates":"Avril-juin 2018",
+        "desc":"<b>Migrer</b> un <b>site</b> statique vers WordPress, maintenir ses <b>fonctions</b> et <b>données</b> et étendre ses fonctionnalités",
+        "tags_short":[
+            "Web",
+            "WordPress",
+            "SQL"
+        ],
+        "tags_colors_short":[
+            "web",
+            "web",
+            "sql"
+        ],
+        "tags_full":[
+            "HTML",
+            "CSS",
+            "PHP",
+            "WordPress",
+            "SQL"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "web",
+            "web",
+            "sql"
+        ],
+        "mission":"Reprendre complètement le <b>site web de l'Institut Clément Ader</b>, laboratoire de recherche à Toulouse, en utilisant <b>WordPress</b>, pour <b>moderniser son apparence</b> (intégrer le nouveau logo et construire une identité visuelle autour), <b>restructurer sa base de données</b> et <b>améliorer</b> voire <b>compléter</b> ses <b>fonctionnalités</b> (notamment des pages de gestion en intranet).",
+        "context":"<b>IUT Paul Sabatier</b> (Toulouse), stage de fin de <b>DUT</b> Informatique, travail en binôme",
+        "grade":"<b>17</b>/20",
+        "images_url":[
+            "img/pro/ica/accueil2012.jpg",
+            "img/pro/ica/accueil2018.jpg"
+        ],
+        "images_caption":[
+            "Site web initial",
+            "Site web à la fin du stage"
+        ],
+        "nb_columns":2,
+        "rounded":true,
+        "prev":"nxt"
+    },
+    {
+        "id":"conceptmap",
+        "category":"uni",
+        "logo_url":"img/uni/conceptmap/icon.png",
+        "logo_alt":"Concept Mapping Tool",
+        "name":"<i>Concept Mapping Tool</i>",
+        "dates":"Octobre 2020 - Mars 2021",
+        "tags_short":[
+            "Java",
+            "Web",
+            "SQL"
+        ],
+        "tags_colors_short":[
+            "prog",
+            "web",
+            "sql"
+        ],
+        "tags_full":[
+            "Java",
+            "HTML",
+            "CSS",
+            "PHP",
+            "JavaScript",
+            "SQL",
+            "GitHub"
+        ],
+        "tags_colors_full":[
+            "prog",
+            "web",
+            "web",
+            "web",
+            "web",
+            "sql",
+            "env"
+        ],
+        "mission":"Développer un <b>outil en ligne d'aide à la correction de cartes conceptuelles</b>, en ayant à la fois une partie <b>saisie de carte</b> et une partie <b>correction</b>, avec un <b>algorithme de prétraitement</b> des cartes pour faciliter leur correction.",
+        "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, groupe de six membres",
+        "grade":"<b>14.5</b>/20",
+        "images_url":[
+            "img/uni/conceptmap/screenshot.jpg"
+        ],
+        "images_caption":["Interface de correction de carte"],
+        "nb_columns":1,
+        "rounded":true,
+        "next":"fashionclass"
+    },
+    {
+        "id":"fashionclass",
+        "category":"uni",
+        "logo_url":"img/uni/fashionclass/icon.png",
+        "logo_alt":"Classification de vêtements",
+        "name":"Classification de vêtements",
+        "dates":"Octobre 2020",
+        "tags_short":[
+            "Deep Learning",
+            "MLP",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "dl",
+            "dl",
+            "prog"
+        ],
+        "tags_full":[
+            "Deep Learning",
+            "Multi-layer Perceptron",
+            "Python",
+            "Keras",
+            "scikit-learn",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "dl",
+            "dl",
+            "prog",
+            "dl",
+            "algo",
+            "env"
+        ],
+        "mission":"<b>Entraîner</b> et <b>évaluer</b> un <b>réseau de neurones</b> (simple) de type <b>MLP</b> (Multi-Layer Perceptron), afin de résoudre une tâche de <b>classification d'images de vêtements</b>, avec une première étape de <b>prétraitement</b> des données (<b>encodage</b> <i>one-hot</i>, <b>normalisation</b>, <b>vectorisation</b> des images, etc).",
+        "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, Travaux Pratiques",
+        "dataset":"<a href='https://www.kaggle.com/datasets/zalando-research/fashionmnist' class='projects__link' target='_blank'>Fashion-MNIST</a> (Zalando)",
+        "grade":"<b>16</b>/20",
+        "additional_html":[
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/fashionclass/data.png' alt='Exemple de données présentes dans le dataset Fashion-MNIST'><figcaption>Exemple de données présentes dans le dataset Fashion-MNIST</figcaption></figure></div>",
+            "<p class='project__mission'>Avec un premier modèle construit avec <b>une seule couche cachée</b>, on obtient une <i>accuracy</i> de <b>69.5%</b> lors de son évaluation, ce qui peut être amélioré.</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/fashionclass/first-eval.png' alt='Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à une couche cachée'><figcaption>Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à une couche cachée</figcaption></figure></div>",
+            "<p class='project__mission'>En construisant un second modèle avec <b>deux couches cachées</b>, on obtient une <b>meilleure</b> <i>accuracy</i> de <b>74.9%</b> après l'avoir évalué.</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/fashionclass/second-eval.png' alt='Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à deux couches cachées'><figcaption>Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à deux couches cachées</figcaption></figure></div>"
+        ],
+        "prev":"conceptmap",
+        "next":"pointillism"
+    },
+    {
+        "id":"pointillism",
+        "category":"uni",
+        "logo_url":"img/uni/pointillism/icon.png",
+        "logo_alt":"Programme Pointilliste",
+        "name":"Programme Pointilliste",
+        "dates":"Mars-juin 2020",
+        "tags_short":[
+            "Image Processing",
+            "C++"
+        ],
+        "tags_colors_short":[
+            "imagep",
+            "prog"
+        ],
+        "tags_full":[
+            "Image Processing",
+            "Python",
+            "C++",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "imagep",
+            "prog",
+            "prog",
+            "env"
+        ],
+        "mission":"Implémenter un programme appliquant un <b>effet \"pointilliste\"</b> à une image, autrement dit qui va générer une image en utilisant seulement des <b>petits points de couleur</b>, d'après <a href='https://ieeexplore.ieee.org/document/8345408' class='projects__link' target='_blank'><i>“A Square Pointillism Image Generation, and its GPU Acceleration”</i></a> (H. Tokura, Y. Kuroda, Y. Ito et K. Nakano, 2017).",
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "images_url":[
+            "img/uni/pointillism/original.png",
+            "img/uni/pointillism/result8.png",
+            "img/uni/pointillism/result6.png",
+            "img/uni/pointillism/result4.png"
+        ],
+        "images_caption":[
+            "Image originale",
+            "Résultat avec précision 8",
+            "Résultat avec précision 6",
+            "Résultat avec précision 4"
+        ],
+        "nb_columns":4,
+        "rounded":true,
+        "additional_html":[
+            "<p class='project__mission'>Dans ce projet, chaque point est de forme <b>elliptique</b> (tandis que la publication utilise des formes carrées) en choisissant une <b>orientation</b> et une <b>couleur</b> qui <b>retranscrit le mieux l'image originale</b>, en se rapprochant du filtre gaussien qui simule la vision humaine. Pour imiter un aspect pointilliste et leur utilisation des couleurs, la <b>nuance</b> de chaque \"coup de pinceau\" est <b>modifiée aléatoirement</b>, particulièrement dans les zones d'aplat. La <b>précision</b> est un paramètre, qui peut varier pour obtenir des résultats tels que ci-dessous. L'algorithme final a été implémenté à la fois en Python et en C++.</p>"
+        ],
+        "prev":"fashionclass",
+        "next":"denoiser"
+    },
+    {
+        "id":"denoiser",
+        "category":"uni",
+        "logo_url":"img/uni/denoiser/icon.png",
+        "logo_alt":"Algorithme de débruitage",
+        "name":"Algorithme de débruitage",
+        "dates":"Février-mai 2020",
+        "tags_short":[
+            "Image Processing",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "imagep",
+            "prog"
+        ],
+        "tags_full":[
+            "Image Processing",
+            "BM3D",
+            "Python",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "imagep",
+            "imagep",
+            "prog",
+            "env"
+        ],
+        "mission":"Expérimenter plusieurs techniques de <b>débruitage d'image</b>, plus particulièrement en utilisant une méthode de <b>préservation des bords</b>, grâce aux principes de l'<b>algorithme BM3D</b>, tel que le <b>filtrage 3D</b> et la <b>correspondance par blocs</b> (le but étant de proposer un algorithme basé sur ces principes plutôt que d'implémenter l'algorithme BM3D tel quel).",
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "images_url":[
+            "img/uni/denoiser/1_noisy.jpg",
+            "img/uni/denoiser/1_restored.jpg",
+            "img/uni/denoiser/4_noisy.jpg",
+            "img/uni/denoiser/4_restored.jpg"
+        ],
+        "images_caption":[
+            "Image 1 originale",
+            "Image 1 débruitée",
+            "Image 2 originale",
+            "Image 2 débruitée"
+        ],
+        "nb_columns":4,
+        "rounded":true,
+        "additional_html":[
+            "<p class='project__mission'>Pour <b>évaluer</b> cet algorithme, on calcule notamment le <b>PSNR</b> (<i>Peak Signal-to-Noise Ratio</i>, qui mesure la qualité et la distorsion par le bruit) pour chaque image, <b>originale</b> et <b>débruitée</b>, en comparant également avec un <b>débruitage basique</b> (filtre <b>gaussien</b>)&nbsp;:</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><table><tbody><tr><th>Image Name</th><th>Noisy</th><th class='green'>Restored</th><th>Basic Denoising</th></tr><tr><td class='mono'>cameraman.tif</td><td>28.274</td><td class='green'>32.557</td><td>27.733</td></tr><tr><td class='mono'>house.tif</td><td>28.161</td><td class='green'>34.418</td><td>30.481994</td></tr><tr><td class='mono'>lena.tif</td><td>28.127</td><td class='green'>31.710</td><td>28.521</td></tr><tr><td class='mono'>pirate.tif</td><td>28.126</td><td class='green'>30.211</td><td>26.953</td></tr></tbody></table><figcaption>Valeur du PSNR pour chaque image</figcaption></figure></div>",
+            "<p class='project__mission'>Le <b>PSNR</b> est effectivement <b>supérieur</b> pour l'image débruitée par <b>notre algorithme</b>, qui permet à la fois de <b>débruiter</b> l'image et de <b>préserver les bords</b> (ce qui n'est pas assuré par le débruitage gaussien).</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/denoiser/comparison.png' alt='Comparaison de la version originale, restaurée et débruitage basique'><figcaption>Comparaison de la version originale, restaurée et débruitage basique</figcaption></figure></div>"
+        ],
+        "prev":"pointillism",
+        "next":"dogsvscats"
+    },
+    {
+        "id":"dogsvscats",
+        "category":"uni",
+        "logo_url":"img/uni/dogsvscats/icon.png",
+        "logo_alt":"Dogs vs. cats",
+        "name":"Classification <i>Dogs vs. cats</i>",
+        "dates":"Décembre 2019 - Janvier 2020",
+        "tags_short":[
+            "Deep Learning",
+            "CNN",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "dl",
+            "dl",
+            "prog"
+        ],
+        "tags_full":[
+            "Deep Learning",
+            "Convolutional Neural Network",
+            "Python",
+            "Keras",
+            "scikit-learn",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "dl",
+            "dl",
+            "prog",
+            "dl",
+            "algo",
+            "env"
+        ],
+        "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un <b>réseau de neurones convolutifs</b> (CNN), afin de résoudre le problème de classification binaire <b>chiens vs. chats</b> (<i>dogs vs. cats</i>), qui consiste à <b>reconnaître</b> si une <b>image</b> d'animal de compagnie représente un <b>chien</b> ou un <b>chat</b>.",
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "dataset":"<a href='https://www.kaggle.com/c/dogs-vs-cats' class='projects__link' target='_blank'>Dogs vs. Cats</a> (Asirra)",
+        "additional_html":[
+            "<p class='project__mission no-margin'>L'<b>évaluation</b> du <b>modèle obtenu</b> sur les données de validation converge vers une <i>accuracy</i> de <b>0.73</b> (ce qui est un plutôt bon résultat pour le contexte de ce projet).</p>",
+            "<div class='project__gallery project__gallery--2'><figure class='no-margin project__gallery__img--2'><img class='project__image project__image--rounded' src='img/uni/dogsvscats/accuracy.png' alt='Accuracy au cours de l'entraînement et évaluation'><figcaption class='center'>Accuracy au cours de l'entraînement et évaluation</figcaption></figure><figure class='no-margin project__gallery__img--2'><img class='project__image project__image--rounded' src='img/uni/dogsvscats/loss.png' alt='Loss au cours de l'entraînement et évaluation'><figcaption class='center'>Loss au cours de l'entraînement et évaluation</figcaption></figure></div>"
+        ],
+        "prev":"denoiser",
+        "next":"arkanoid3D"
+    },
+    {
+        "id":"arkanoid3D",
+        "category":"uni",
+        "logo_url":"img/uni/arkanoid3D/icon.png",
+        "logo_alt":"Arkanoid 3D",
+        "name":"Jeu web <i>Arkanoid 3D</i>",
+        "dates":"Novembre 2019 - Janvier 2020",
+        "tags_short":[
+            "Web",
+            "JavaScript"
+        ],
+        "tags_colors_short":[
+            "web",
+            "web"
+        ],
+        "tags_full":[
+            "HTML",
+            "JavaScript"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web"
+        ],
+        "mission":"Implémenter un <b>jeu web 3D</b> inspiré du casse-briques <b>Arkanoid</b> (1986) développé par Taito, où le joueur doit casser toutes les briques en faisant rebondir une balle grâce à une barre horizontale. Dans ce projet, le but est de générer tous les <b>visuels</b>, implémenter un <b>système de caméra</b> et développer les <b>mécaniques de jeu</b> grâce à un moteur physique.",
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "images_url":[
+            "img/uni/arkanoid3D/environment.jpg",
+            "img/uni/arkanoid3D/XYaxes.jpg"
+        ],
+        "images_caption":[
+            "Environnement du jeu",
+            "Environnement 3D"
+        ],
+        "nb_columns":2,
+        "rounded":true,
+        "prev":"dogsvscats",
+        "next":"datascience"
+    },
+    {
+        "id":"datascience",
+        "category":"uni",
+        "logo_url":"img/uni/datascience/icon.png",
+        "logo_alt":"Data Science",
+        "name":"Data Science",
+        "dates":"Novembre 2019 - Janvier 2020",
+        "tags_short":[
+            "Python",
+            "Linear Regression"
+        ],
+        "tags_colors_short":[
+            "prog",
+            "algo"
+        ],
+        "tags_full":[
+            "Python",
+            "Linear Regression",
+            "Pandas",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "prog",
+            "algo",
+            "algo",
+            "env"
+        ],
+        "mission":"<b>Collecter</b>, <b>traiter</b> et <b>analyser</b> des <b>données</b>. Après avoir choisi et <b>extrait</b> des <b>features</b>, l'objectif est dans un premier temps d'<b>exploiter</b> les données pour y <b>observer</b> des tendances, afin de formuler une <b>hypothèse</b> et mener une <b>analyse statistique</b>, puis dans un second temps concevoir un <b>modèle de prédiction</b> (régression linéaire simple).",
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "additional_html":[
+            "<p class='project__mission no-margin'>La première partie consistait à <b>collecter</b> quotidiennement des <b>données</b> (<i>web scraping</i>) de RyanAir, afin de déterminer le <b>meilleur moment</b> pour acheter un <b>billet d'avion</b>. Par exemple, pour un vol entre Malte et Catane (Sicile), la <b>tendance observée</b> était qu'il était plus intéressant d'acheter un billet environ un mois (entre 32 et 27 jours) avant le vol&nbsp;:</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><table id='datascience'><tr><th></th><th>Collection date</th><th>Flight date</th><th>Price (€)</th><th>Departure</th><th>Arrival</th><th>Days before</th></tr><tr><td>0</td><td>2019-12-02</td><td>2020-01-06</td><td>23.99</td><td>12:10</td><td>13:00</td><td>35</td></tr><tr><td>1</td><td>2019-12-02</td><td>2020-01-07</td><td>23.99</td><td>12:00</td><td>12:50</td><td>36</td></tr><tr><td>2</td><td>2019-12-02</td><td>2020-01-08</td><td>32.99</td><td>12:00</td><td>12:50</td><td>37</td></tr><tr><td>3</td><td>2019-12-02</td><td>2020-01-09</td><td>20.58</td><td>12:10</td><td>13:00</td><td>38</td></tr><tr><td>4</td><td>2019-12-02</td><td>2020-01-10</td><td>21.72</td><td>12:00</td><td>12:50</td><td>39</td></table><figcaption>Extrait des données collectées sur les vols entre Malte et Catane</figcaption></figure></div>",
+            "<div class='project__gallery'><figure class='project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/datascience/flights_plot.png' alt='Fluctuation of prices for route MLA-CTA'><figcaption>Variation des prix selon le nombre de jours avant le vol pour le trajet MLA-CTA</figcaption></figure></div>",
+            "<p class='project__mission'>La seconde partie se concentrait sur un <i>dataset</i> existant&nbsp;: des <b>annonces immobilières</b> publiées sur le site de Times of Malta entre 2015 et 2019. Les données étant des <b>pages HTML brutes</b>, il était bien sûr nécessaire de <b>traiter</b> les données (données <b>manquantes</b>, <b>doublons</b>, <b>format variable</b>, etc.) pour en extraire des <i>features</i> intéressantes. Certaines <b>observations</b> ont alors pu être réalisées, par exemple l'<b>augmentation de 30%</b> du prix d'achat à Sliema entre 2015 et 2018&nbsp;:</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/datascience/sliema_plot.png' alt='Evolution of median price in Sliema between 2015 et 2018'><figcaption>Évolution du prix médian de l'immobilier à Sliema entre 2015 et 2018</figcaption></figure></div>",
+            "<p class='project__mission'>Une <b>analyse statistique</b> permet également de constater l'importante <b>dispersion</b> des données&nbsp;:</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/datascience/distribution_plot.png' alt='Distribution of prices'><figcaption>Distribution des prix d'annonces immobilières à Malte entre 2015 et 2018</figcaption></figure></div>",
+            "<p class='project__mission'>Enfin, il est possible d'établir un <b>modèle de régression linéaire</b> pour pouvoir <b>prédire</b> un <b>prix médian</b> de l'immobilier à Malte pour un mois donné, avec un <b>score R2</b> de <b>0.939</b>&nbsp;:</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/datascience/model_plot.png' alt='Evolution of median price over time'><figcaption>Prédiction du modèle de régression linéaire et prix médian de l'immobilier</figcaption></figure></div>"
+        ],
+        "prev":"arkanoid3D",
+        "next":"multilabelclass"
+    },
+    {
+        "id":"multilabelclass",
+        "category":"uni",
+        "name":"Classification Multi-Label",
+        "logo_url":"img/uni/multilabelclass/icon.png",
+        "logo_alt":"Classification Multi-Label",
+        "dates":"Novembre-décembre 2019",
+        "tags_short":[
+            "Machine Learning",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "algo",
+            "prog"
+        ],
+        "tags_full":[
+            "Logistic Regression",
+            "Python",
+            "scikit-learn",
+            "Pandas",
+            "Google Colab"
+        ],
+        "tags_colors_full":[
+            "algo",
+            "prog",
+            "algo",
+            "algo",
+            "env"
+        ],
+        "mission":"<b>Concevoir</b>, <b>entraîner</b> et <b>évaluer</b> un modèle de <b>classification multi-label</b> (MLC) dans le domaine de la <b>détection de relation spatiale</b>, une sous-tâche de la recherche en <b>vision et langage naturel</b>.",
+        "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
+        "dataset":"<a href='https://research.brighton.ac.uk/en/publications/spatialvoc2k-a-multilingual-dataset-of-images-with-annotations-an' class='projects__link' target='_blank'>SpatialVOC2K</a> (Anja Belz, Adrian Muscat, Pierre Anguill et al.)",
+        "additional_html":[
+            "<p class='project__mission no-margin'>Le <i>dataset</i> comporte des <b>données</b> sur des <b>objets</b> avec de nombreuses <i>features</i> (<b>géométriques</b>, de distance en <b>profondeur</b>, de <b>langage</b> et de <i>word embeddings</i> <b>Word2Vec</b>). Chaque <b>instance</b> peut être associée à <b>une ou plusieurs prépositions</b> de <b>relation spatiale</b> entre <b>deux objets</b> (<i>\"à côté de\"</i>, <i>\"autour de\"</i>, <i>\"devant\"</i>, etc). Pour prédire ces prépositions, l'objectif est donc de construire un classificateur (<b>régression logistique</b>) <b>par label</b>, avec <b>hyperparamètres optimisés</b> et une <b>sélection</b> de <i>features</i> basée sur le coefficient de <b>corrélation de Pearson</b> (pour que les <i>features</i> sélectionnées soient fortement <b>corrélées</b> avec l'<b>output</b>, mais avec suffisamment de <b>variance entre elles</b>).</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/multilabelclass/correlation.png' alt='Heatmap of the Pearson correlation coefficients'><figcaption>Heatmap des coefficients de corrélation de Pearson pour les features géométriques</figcaption></figure></div>"
+        ],
+        "prev":"datascience",
+        "next":"neocampus"
+    },
+    {
+        "id":"neocampus",
+        "category":"uni",
+        "logo_url":"img/uni/neocampus/icon.png",
+        "logo_alt":"neOCampus",
+        "name":"Interface neOCampus",
+        "dates":"Novembre 2018 - Janvier 2019",
+        "tags_short":[
+            "Java",
+            "SQL"
+        ],
+        "tags_colors_short":[
+            "prog",
+            "sql"
+        ],
+        "mission":"Concevoir et développer une <b>application Java</b> qui permettra de <b>visualiser</b> les <b>données</b> de <b>consommation énergétique</b> et gérer les différents <b>capteurs</b> du projet <a href='https://www.irit.fr/neocampus/fr/' class='projects__link' target='_blank'>neOCampus</a> de l'Université Paul Sabatier.",
+        "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>L3</b> Informatique, projet tuteuré, travail en binôme",
+        "grade":"<b>20</b>/20",
+        "images_url":[
+            "img/uni/neocampus/panneau1.png",
+            "img/uni/neocampus/panneau2.png",
+            "img/uni/neocampus/panneau3.png"
+        ],
+        "images_caption":[
+            "Panneau 'Temps réel'",
+            "Panneau 'A Posteriori'",
+            "Panneau 'Gestion des Capteurs'"
+        ],
+        "nb_columns":3,
+        "prev":"multilabelclass",
+        "next":"coursepoursuite"
+    },
+    {
+        "id":"coursepoursuite",
+        "category":"uni",
+        "logo_url":"img/uni/coursepoursuite/icon.png",
+        "logo_alt":"Course Poursuite",
+        "name":"Application <i>Course Poursuite</i>",
+        "dates":"Novembre 2018 - Janvier 2019",
+        "tags_short":[
+            "Android",
+            "Java"
+        ],
+        "tags_colors_short":[
+            "android",
+            "prog"
+        ],
+        "mission":"Concevoir et développer une <b>application Android</b> permettant de gérer une <b>liste de courses</b>. Son but est de faciliter la <b>gestion des courses</b> et du <b>budget</b>, pour que l'utilisateur ait du recul sur ses achats.",
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en binôme",
+        "grade":"<b>20</b>/20",
+        "images_url":[
+            "img/uni/coursepoursuite/screenshot1.jpg",
+            "img/uni/coursepoursuite/screenshot2.jpg",
+            "img/uni/coursepoursuite/screenshot3.jpg"
+        ],
+        "images_alt":[
+            "Écran d'Accueil",
+            "Nouveau Produit",
+            "Statistiques"
+        ],
+        "nb_columns":"3v",
+        "rounded":true,
+        "prev":"neocampus",
+        "next":"norntalk"
+    },
+    {
+        "id":"norntalk",
+        "category":"uni",
+        "logo_url":"img/uni/norntalk/icon.png",
+        "logo_alt":"Norn Talk",
+        "name":"Application <i>Norn Talk</i>",
+        "dates":"Octobre-décembre 2017",
+        "tags_short":[
+            "Android",
+            "Kotlin"
+        ],
+        "tags_colors_short":[
+            "android",
+            "prog"
+        ],
+        "tags_full":[
+            "Android",
+            "Kotlin",
+            "GitHub"
+        ],
+        "tags_colors_full":[
+            "android",
+            "prog",
+            "env"
+        ],
+        "mission":"Concevoir et développer une <b>application Android</b> permettant d’envoyer des <b>SMS chiffrés</b> à d'autres utilisateurs, afin d'assurer la <b>confidentialité</b> et <b>sécurité</b> de leurs échanges.",
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, projet tuteuré, groupe de quatre membres",
+        "grade":"<b>16.9</b>/20",
+        "images_url":[
+            "img/uni/norntalk/screenshot1.jpg",
+            "img/uni/norntalk/screenshot2.jpg",
+            "img/uni/norntalk/screenshot3.jpg",
+            "img/uni/norntalk/screenshot4.jpg"
+        ],
+        "images_alt":[
+            "Écran d'Accueil",
+            "Nouvelle conversation",
+            "Conversation",
+            "Conversation sécurisée"
+        ],
+        "nb_columns":4,
+        "rounded":true,
+        "prev":"coursepoursuite",
+        "next":"algogen"
+    },
+    {
+        "id":"algogen",
+        "category":"uni",
+        "logo_url":"img/uni/algogen/icon.png",
+        "logo_alt":"Algorithme génétique",
+        "name":"Algorithme génétique",
+        "dates":"Septembre-novembre 2017",
+        "tags_short":[
+            "Python"
+        ],
+        "tags_colors_short":[
+            "prog"
+        ],
+        "mission":"Implémenter un <b>algorithme génétique</b>, afin de répondre au problème du <b>voyageur de commerce</b>, en considérant les <b>notions mathématiques</b> associées.",
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en binôme",
+        "grade":"<b>15.8</b>/20",
+        "additional_html":[
+            "<div class='project__gallery project__gallery--3'><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='img/uni/algogen/chart1.png' alt='Carte des villes à visiter'></figure><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='img/uni/algogen/chart2.png' alt='Évolution de la fitness en fonction du nombre de chemins générés'></figure><figure class='no-margin project__gallery__img--3'><img class='project__image project__image--rounded' src='img/uni/algogen/chart3.png' alt='Évolution de la fitness au fil des générations'></figure></div>"
+        ],
+        "prev":"norntalk",
+        "next":"cabinetmedical"
+    },
+    {
+        "id":"cabinetmedical",
+        "category":"uni",
+        "logo_url":"img/uni/cabinetmedical/icon.png",
+        "logo_alt":"Cabinet Médical",
+        "name":"Site de cabinet médical",
+        "dates":"Décembre 2017 - Janvier 2018",
+        "tags_short":[
+            "Web",
+            "PHP",
+            "SQL"
+        ],
+        "tags_colors_short":[
+            "web",
+            "web",
+            "sql"
+        ],
+        "tags_full":[
+            "HTML",
+            "CSS",
+            "PHP",
+            "SQL"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "web",
+            "sql"
+        ],
+        "mission":"Développer les pages d'un <b>site web dynamique</b> de <b>cabinet médical</b> et créer sa <b>base de données</b> pour permettre l'<b>ajout</b>, la <b>modification</b> et la <b>suppression</b> de données.",
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, travail en binôme",
+        "grade":"<b>20</b>/20",
+        "images_url":[
+            "img/uni/cabinetmedical/screenshot1.jpg",
+            "img/uni/cabinetmedical/screenshot2.jpg",
+            "img/uni/cabinetmedical/screenshot3.jpg",
+            "img/uni/cabinetmedical/screenshot4.jpg"
+        ],
+        "images_alt":[
+            "Page d'Accueil",
+            "Statistiques",
+            "Liste des usagers",
+            "Modifier les informations d'un usager"
+        ],
+        "nb_columns":2,
+        "rounded":true,
+        "prev":"algogen",
+        "next":"bravenewearth"
+    },
+    {
+        "id":"bravenewearth",
+        "category":"uni",
+        "logo_url":"img/uni/bravenewearth/icon.png",
+        "logo_alt":"Brave New Earth",
+        "name":"Webdoc <i>Brave New Earth</i>",
+        "name_full":"Webdocumentaire <i>Brave New Earth</i>",
+        "dates":"Février-mai 2017",
+        "tags_short":[
+            "Web",
+            "Montage vidéo",
+            "Design"
+        ],
+        "tags_colors_short":[
+            "web",
+            "design",
+            "design"
+        ],
+        "tags_full":[
+            "Web",
+            "Wix",
+            "Montage vidéo",
+            "Design"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "design",
+            "design"
+        ],
+        "mission":"Créer un <b>webdocumentaire</b> comprenant des <b>vidéos</b> et <b>articles de vulgarisation</b>, pour mener l'enquête sur les caractéristiques d'une planète habitable, tout en construisant une <b>ligne directrice éditoriale</b> et <b>esthétique</b> inspirée des <i>films noirs</i>.",
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, groupe de six membres",
+        "grade":"<b>19</b>/20",
+        "images_url":[
+            "img/uni/bravenewearth/screenshot.jpg",
+            "img/uni/bravenewearth/screenshot2.jpg"
+        ],
+        "images_alt":[
+            "Page d'Accueil",
+            "Navigation du site"
+        ],
+        "video":"<iframe width='623' height='350' src='https://www.youtube-nocookie.com/embed/d1ha6hZjz-E' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+        "nb_columns":1,
+        "rounded":true,
+        "external_url":["https://bravenewearth.wixsite.com/site/", "Lien du Webdocumentaire"],
+        "prev":"cabinetmedical",
+        "next":"dune"
+    },
+    {
+        "id":"dune",
+        "category":"uni",
+        "logo_url":"img/uni/dune/icon.png",
+        "logo_alt":"Un Rêve de Dune",
+        "name":"Site web <i>Un Rêve de Dune</i>",
+        "dates":"Septembre-octobre 2016",
+        "tags_short":[
+            "Web",
+            "Design"
+        ],
+        "tags_colors_short":[
+            "web",
+            "design"
+        ],
+        "tags_full":[
+            "HTML",
+            "CSS",
+            "Design"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "design"
+        ],
+        "mission":"Développer un <b>site web statique</b>, en explorant les notions fondamentales du <b>HTML</b> et <b>CSS</b>, consacré au projet d'adaptation cinématographique du livre <b>Dune</b> par Alejandro Jodorowsky.",
+        "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 1<sup>re</sup> année, travail en binôme",
+        "grade":"<b>20</b>/20",
+        "images_url":[
+            "img/uni/dune/screenshot.jpg"
+        ],
+        "images_alt":[
+            "Page d'Accueil"
+        ],
+        "nb_columns":1,
+        "rounded":true,
+        "prev":"bravenewearth",
+        "next":"odyssee"
+    },
+    {
+        "id":"odyssee",
+        "category":"uni",
+        "logo_url":"img/uni/odyssee/icon.png",
+        "logo_alt":"L'Odyssée de l'Hyperespace",
+        "name":"L'Odyssée de l'Hyperespace",
+        "dates":"Mars-mai 2016",
+        "tags_short":[
+            "Python",
+            "Dijkstra"
+        ],
+        "tags_colors_short":[
+            "prog",
+            "algo"
+        ],
+        "mission":"Développer un <b>programme Python</b> avec une <b>interface Tkinter</b>, permettant de résoudre le problème du <b>voyageur de commerce</b>, grâce à l'algorithme de <b>Dijkstra</b>. Pour nous approprier ce problème du plus court chemin, nous avons situé le contexte <i>il y a bien longtemps, dans une galaxie lointaine, très lointaine....</i>",
+        "context":"<b>Lycée Charles Gide</b> (Uzès), projet final de la <b>spécialité ISN</b>, travail en binôme",
+        "grade":"<b>20</b>/20",
+        "images_url":[
+            "img/uni/odyssee/screenshot1.png",
+            "img/uni/odyssee/screenshot2.png"
+        ],
+        "images_caption":[
+            "Interface",
+            "Console"
+        ],
+        "nb_columns":2,
+        "prev":"dune"
+    },
+    {
+        "id":"analog",
+        "category":"art",
+        "logo_url":"img/art/analog/icon.jpg",
+        "logo_alt":"Exemple de photo argentique (Venise)",
+        "name":"Photographie argentique",
+        "dates":"Depuis 2021",
+        "desc":"Garder des <b>souvenirs</b> de mes <b>voyages</b> grâce à mon appareil <b>argentique</b>",
+        "mission":"Garder des <b>souvenirs</b> de mes <b>voyages</b> grâce à mon appareil <i>point-and-shoot</i> <b>argentique</b> (Olympus AF 30) et en expérimentant avec différentes <b>pellicules</b>, notamment à Toulouse, Bordeaux, Annecy, Strasbourg ou encore à Malte, en Espagne, en Italie, ou en Suède.",
+        "images_url":[
+            "img/art/analog/1.jpg",
+            "img/art/analog/2.jpg",
+            "img/art/analog/3.jpg",
+            "img/art/analog/4.jpg",
+            "img/art/analog/5.jpg",
+            "img/art/analog/6.jpg",
+            "img/art/analog/7.jpg",
+            "img/art/analog/8.jpg",
+            "img/art/analog/9.jpg",
+            "img/art/analog/10.jpg",
+            "img/art/analog/11.jpg",
+            "img/art/analog/12.jpg",
+            "img/art/analog/13.jpg",
+            "img/art/analog/14.jpg",
+            "img/art/analog/15.jpg",
+            "img/art/analog/16.jpg",
+            "img/art/analog/17.jpg",
+            "img/art/analog/18.jpg",
+            "img/art/analog/19.jpg",
+            "img/art/analog/20.jpg",
+            "img/art/analog/21.jpg",
+            "img/art/analog/22.jpg",
+            "img/art/analog/23.jpg",
+            "img/art/analog/24.jpg",
+            "img/art/analog/25.jpg",
+            "img/art/analog/26.jpg",
+            "img/art/analog/27.jpg",
+            "img/art/analog/28.jpg",
+            "img/art/analog/29.jpg",
+            "img/art/analog/30.jpg",
+            "img/art/analog/31.jpg",
+            "img/art/analog/32.jpg",
+            "img/art/analog/33.jpg",
+            "img/art/analog/34.jpg",
+            "img/art/analog/35.jpg",
+            "img/art/analog/36.jpg",
+            "img/art/analog/37.jpg",
+            "img/art/analog/38.jpg",
+            "img/art/analog/39.jpg",
+            "img/art/analog/40.jpg",
+            "img/art/analog/41.jpg",
+            "img/art/analog/42.jpg",
+            "img/art/analog/43.jpg",
+            "img/art/analog/44.jpg",
+            "img/art/analog/45.jpg",
+            "img/art/analog/46.jpg",
+            "img/art/analog/47.jpg",
+            "img/art/analog/48.jpg",
+            "img/art/analog/49.jpg",
+            "img/art/analog/50.jpg"
+        ],
+        "images_alt":[
+            "Saint Julian's (Malte)",
+            "Sliema (Malte)",
+            "Buġibba (Malte)",
+            "Bordeaux",
+            "Bordeaux",
+            "Bordeaux",
+            "Toulouse",
+            "Xativa (Espagne)",
+            "Valence (Espagne)",
+            "Valence (Espagne)",
+            "Valence (Espagne)",
+            "Bordeaux",
+            "Bordeaux",
+            "Carcassonne",
+            "Carcassonne",
+            "La Rochelle",
+            "Foix",
+            "Għajn Tuffieħa (Malte)",
+            "La Valette (Malte)",
+            "La Valette (Malte)",
+            "Mellieħa (Malte)",
+            "Stockholm (Suède)",
+            "Stockholm (Suède)",
+            "Stockholm (Suède)",
+            "Stockholm (Suède)",
+            "Stockholm (Suède)",
+            "Paris",
+            "Annecy",
+            "Annecy",
+            "Annecy",
+            "Annecy",
+            "Cinq Terres (Italie)",
+            "Cinq Terres (Italie)",
+            "Cinq Terres (Italie)",
+            "Rome (Italie)",
+            "Rome (Italie)",
+            "Rome (Italie)",
+            "Rome (Italie)",
+            "Rome (Italie)",
+            "Florence (Italie)",
+            "Florence (Italie)",
+            "Florence (Italie)",
+            "Venise (Italie)",
+            "Burano (Italie)",
+            "Burano (Italie)",
+            "Prague (Tchéquie)",
+            "Amsterdam (Pays-Bas)",
+            "Amsterdam (Pays-Bas)",
+            "Strasbourg",
+            "Toulouse"
+        ],
+        "nb_columns":"5h",
+        "next":"covers"
+    },
+    {
+        "id":"covers",
+        "category":"art",
+        "logo_url":"img/art/covers/icon.png",
+        "logo_alt":"Exemple de pochette (Doctor Who)",
+        "name":"<i>Soundtrack Covers</i>",
+        "dates":"Depuis 2012",
+        "desc":"Créer des <b>pochettes alternatives</b> pour mes albums préférés de <b>musique de film et séries</b>",
+        "mission":"<b>Réimaginer</b> des <b>pochettes</b> de <b>bandes originales</b> de <b>films</b> et <b>séries TV</b>, à partir de visuels officiels ou non. L'objectif est d'avoir une pochette qui <b>représente mieux</b> le film, sa musique ou qui soit simplement <b>plus artistique</b>.",
+        "images_url":[
+            "img/art/covers/TwinPeaks.png",
+            "img/art/covers/DoctorWho.png",
+            "img/art/covers/Empire.png",
+            "img/art/covers/BladeRunner.png",
+            "img/art/covers/ShapeOfWater.png",
+            "img/art/covers/Logan.png",
+            "img/art/covers/Ragnarok.png",
+            "img/art/covers/GITS.png",
+            "img/art/covers/ManOfSteel.png",
+            "img/art/covers/BealeStreet.png",
+            "img/art/covers/BR2049.png",
+            "img/art/covers/MadMax.png",
+            "img/art/covers/TFA.png",
+            "img/art/covers/HarryPotter.png",
+            "img/art/covers/2001.png"
+        ],
+        "images_alt":[
+            "Twin Peaks - Fire Walk With Me",
+            "Doctor Who Season 9",
+            "Star Wars Episode V - The Empire Strikes Back",
+            "Blade Runner",
+            "The Shape of Water",
+            "Logan",
+            "Thor - Ragnarok",
+            "Ghost in the Shell",
+            "Man of Steel",
+            "If Beale Street Could Talk",
+            "Blade Runner 2049",
+            "Mad Max - Fury Road",
+            "Star Wars Episode VII - The Force Awakens",
+            "Harry Potter and the Philosophers's Stone",
+            "2001: A Space Odyssey"
+        ],
+        "inbetween_text":"",
+        "additional_html":
+        [
+            "<p class='project__mission'>Selon les pochettes, il peut y avoir plus ou moins d'étapes pour adapter un <b>visuel existant</b>. Il faut <b>s'adapter</b> au <b>format carré</b>, <b>disposer différemment</b> les éléments et parfois en <b>ajouter</b>, comme le montre cette animation calque par calque pour <i>Star Wars Episode III - La Revanche des Sith</i> (John Williams, Sony Classical)&nbsp;:</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/art/covers/revenge-wip.gif' alt='Star Wars Episode III - Revenge of the Sith'></figure></div>",
+            "<p class='project__mission'>Il peut aussi y avoir besoin de <b>cacher</b> des éléments, comme pour l'<i>Episode VII</i>, <i>Le Réveil de la Force</i> (John Williams, Walt Disney Records)&nbsp;:</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/art/covers/tfa-wip.gif' alt='Star Wars Episode VII - The Force Awakens'></figure></div>",
+            "<p class='project__mission'>Enfin, l'<b>univers d'un film</b> peut inspirer une pochette plus <b>expérimentale</b>. Par exemple, pour La Forme de l'Eau (Alexandre Desplat, Decca Records), à partir d'une affiche de James Jean, l'inspiration est venue des pochettes d'anciens disques vinyles&nbsp;:</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/art/covers/shape-wip.gif' alt='The Shape of Water'></figure></div>"
+        ],
+        "nb_columns":5,
+        "prev":"analog"
+    }
+]
