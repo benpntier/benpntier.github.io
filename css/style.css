@@ -1346,7 +1346,7 @@ footer:not(.bg-primary) a:hover {
     margin-top: 0;
     padding: 1.5em 1.5em 1em;
     position: relative;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #d1dfe1;
   }
   .project__navigation--hidden {
@@ -1654,6 +1654,7 @@ footer:not(.bg-primary) a:hover {
   .project__navigation {
     padding-top: 0.8em;
     padding-bottom: 0.6em;
+    justify-content: space-between;
   }
   .project__navigation .fa-solid {
     font-size: 0.9em;
