@@ -1,5 +1,8 @@
 function addProjectInfo(project) {
 
+    const titleHTML = document.querySelector("title");
+    titleHTML.innerText = project.logo_alt + " | Benoît Pannetier";
+
     const navPrevious = document.querySelector(".nav-prev");
     if (project.prev !== undefined) {
         navPrevious.href = "project.html?id="+project.prev;
