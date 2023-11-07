@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./CSS/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benpntier/ohmyfood.git"
+  },
+  "author": "Benoit Pannetier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benpntier/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/benpntier/ohmyfood#readme"
+}
