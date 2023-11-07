@@ -1,0 +1,36 @@
+@import '../../style/colors.scss';
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  &__star {
+    font-size: 1.5rem;
+    &--full {
+      color: $primary-color;
+    }
+    &--empty {
+      color: #e3e3e3;
+    }
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 650px) {
+  .rating {
+    gap: 10px;
+    &__star {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 430px) {
+  .rating {
+    gap: 5px;
+    &__star {
+      font-size: 0.8rem;
+    }
+  }
+}

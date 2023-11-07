@@ -1,0 +1,73 @@
+@import '../../style/colors.scss';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+
+  &__logo {
+    height: 68px;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+
+  &__link {
+    color: $primary-color;
+    transition: color 0.3s;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+    &:hover {
+      color: darken($primary-color, 25);
+    }
+    &--active {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 650px) {
+  .header {
+    margin: 30px 0;
+    &__logo {
+      height: 48px;
+    }
+  }
+
+  .nav {
+    gap: 25px;
+    &__link {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 430px) {
+  .header {
+    margin: 20px 0;
+  }
+  .nav {
+    gap: 20px;
+    &__link {
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 370px) {
+  .header {
+    &__logo {
+      height: 32px;
+    }
+  }
+}

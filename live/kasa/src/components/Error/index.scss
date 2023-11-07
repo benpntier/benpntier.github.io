@@ -1,0 +1,71 @@
+@import '../../style/colors.scss';
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $primary-color;
+  gap: 30px;
+
+  &__home {
+    color: $primary-color;
+    font-size: 1.2rem;
+    margin: 170px 0;
+    text-align: center;
+  }
+}
+
+.error__message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+
+  &__404 {
+    font-size: 18rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  &__notfound {
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 650px) {
+  .error__message {
+    &__404 {
+      font-size: 10rem;
+    }
+    &__notfound {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 430px) {
+  .error {
+    &.max-width {
+      padding: 0 40px;
+    }
+    &__home {
+      font-size: 0.9rem;
+      margin: 130px 0;
+    }
+  }
+  .error__message {
+    gap: 10px;
+    margin-top: 140px;
+    &__404 {
+      font-size: 6rem;
+    }
+    &__notfound {
+      font-size: 1.2rem;
+    }
+  }
+}

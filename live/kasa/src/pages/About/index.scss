@@ -1,0 +1,14 @@
+.about__dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 30px auto 200px;
+  max-width: 1023px;
+}
+
+/* Mobile */
+@media screen and (max-width: 430px) {
+  .about__dropdown {
+    gap: 20px;
+  }
+}

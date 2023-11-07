@@ -1,0 +1,94 @@
+@import '../../style/colors.scss';
+
+.collapse {
+  &__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 47px;
+    padding: 0 20px;
+    background-color: $primary-color;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &__content {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: $tertiary-color;
+    }
+  }
+
+  &__icon {
+    padding: 10px;
+    & .fa-solid {
+      color: $tertiary-color;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__text {
+    &__content {
+      position: relative;
+      background-color: $secondary-color;
+      color: $primary-color;
+      padding: 35px 20px 15px;
+      margin: -10px 0 0;
+      font-size: 1.5rem;
+      font-weight: 400;
+      z-index: -1;
+      border-radius: 0 0px 5px 5px;
+    }
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 650px) {
+  .collapse {
+    &__title {
+      height: 40px;
+      &__content {
+        font-size: 0.9rem;
+      }
+    }
+    &__icon {
+      padding-right: 0;
+    }
+    &__text {
+      &__content {
+        font-size: 0.9rem;
+        padding-top: 30px;
+      }
+    }
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 430px) {
+  .collapse {
+    &__title {
+      height: 30px;
+      padding-left: 10px;
+      padding-right: 0;
+
+      &__content {
+        font-size: 0.8rem;
+      }
+    }
+
+    &__icon {
+      padding: 10px;
+      & .fa-solid {
+        font-size: 1rem;
+      }
+    }
+
+    &__text {
+      &__content {
+        font-size: 0.75rem;
+        padding: 25px 15px 15px;
+      }
+    }
+  }
+}
