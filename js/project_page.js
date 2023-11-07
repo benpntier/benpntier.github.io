@@ -38,6 +38,12 @@ function addProjectInfo(project) {
     if (project.context !== undefined) {
         document.querySelector(".project__context").innerHTML = "<i class='project__icon fa-solid fa-building-columns' title='Contexte'></i> " + project.context;
     }
+    if (project.solo !== undefined) {
+        document.querySelector(".project__solo").innerHTML = "<i class='project__icon fa-solid fa-user' title='Autonomie'></i> " + project.solo;
+    }
+    if (project.team !== undefined) {
+        document.querySelector(".project__team").innerHTML = "<i class='project__icon fa-solid fa-user-group' title='Equipe'></i> " + project.team;
+    }
     if (project.dataset !== undefined) {
         document.querySelector(".project__dataset").innerHTML = "<i class='project__icon fa-solid fa-database' title='Dataset'></i> " + project.dataset;
     }
@@ -45,7 +51,7 @@ function addProjectInfo(project) {
         document.querySelector(".project__grade").innerHTML = "<i class='project__icon fa-solid fa-medal' title='Note finale'></i> " + project.grade;
     }
     if (project.comment !== undefined) {
-        document.querySelector(".project__comment").innerHTML = "<i class='project__icon fa-solid fa-quote-left' title='Recommendation'></i> " + project.comment;
+        document.querySelector(".project__comment").innerHTML = "<i class='project__icon fa-solid fa-quote-left' title='Recommandation'></i> " + project.comment;
     }
 
     document.querySelector(".project__mission").innerHTML = project.mission;
