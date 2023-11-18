@@ -829,13 +829,13 @@ hr {
         }
     }
     & .projects__list .projects__item {
-        @for $i from 1 to 17 {
+        @for $i from 1 to 21 {
             &:nth-of-type(#{$i}) {
                 animation-delay: #{$loader-duration+1.75+$i*.05}s;
             }
         }
         &.no-delay {
-            @for $i from 1 to 17 {
+            @for $i from 1 to 21 {
                 &:nth-of-type(#{$i}) {
                     animation-delay: #{$i*.03}s;
                 }
@@ -877,7 +877,7 @@ hr {
         font-size: .9em;
     }
     & .projects__list .projects__item {
-        @for $i from 1 to 5 {
+        @for $i from 1 to 3 {
             &:nth-of-type(#{$i}) {
                 animation-delay: #{$loader-duration+3.3+$i*.1}s;
             }
