@@ -204,6 +204,189 @@
         "prev":"nxt"
     },
     {
+        "id":"kasa",
+        "category":"uni",
+        "logo_url":"img/uni/kasa/icon.png",
+        "logo_alt":"Kasa",
+        "name": "Application web <i>Kasa</i>",
+        "dates":"Août 2023",
+        "tags_short":[
+            "Web",
+            "JavaScript",
+            "React"
+        ],
+        "tags_colors_short":[
+            "web",
+            "web",
+            "web"
+        ],
+        "tags_full":[
+            "HTML",
+            "CSS",
+            "Sass",
+            "JavaScript",
+            "React",
+            "React Router",
+            "Figma"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "web",
+            "web",
+            "web",
+            "web",
+            "design"
+        ],
+        "mission":"<b>Développer</b> la partie <i>front-end</i> d'une <b>application web</b> de location d'appartements et de ses différents composants pour une refonte complète, avec <b>React</b>, les routes <b>React Router</b>, selon des <b>maquettes Figma</b> <i>responsive</i>. L'implémentation se concentrait sur l'utilisation des concepts React comme les <i>props</i>, les <i>states</i>, les listes avec <i>map</i> ou bien la gestion des évenements.",
+        "context":"Formation <b>OpenClassrooms</b> en <b>développement web</b>",
+        "solo":"Travail en <b>autonomie</b>",
+        "images_url":[
+            "img/uni/kasa/desktop.jpg"
+        ],
+        "images_alt":[
+            "Page d'accueil"
+        ],
+        "rounded":true,
+        "next":"hottakes"
+    },
+    {
+        "id":"hottakes",
+        "category":"uni",
+        "logo_url":"img/uni/hottakes/icon.png",
+        "logo_alt":"HotTakes",
+        "name":"API de l'app web <i>HotTakes</i>",
+        "name_full":"API de l'application web <i>HotTakes</i>",
+        "dates":"Juillet-août 2023",
+        "tags_short":[
+            "Web",
+            "Node.js",
+            "NoSQL"
+        ],
+        "tags_colors_short":[
+            "web",
+            "web",
+            "sql"
+        ],
+        "tags_full":[
+            "HTML",
+            "CSS",
+            "Sass",
+            "JavaScript",
+            "Node.js",
+            "MongoDB",
+            "NoSQL",
+            "Design"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "web",
+            "web",
+            "web",
+            "sql",
+            "sql",
+            "design"
+
+        ],
+        "mission":"<b>Construire</b> l'<b>API</b> de la partie <i>back-end</i> d'une <b>application web</b> de critique de sauces piquantes. L'<b>interface</b> du <i>front-end</i> a également été <b>améliorée</b>, avec la <b>création</b> d'un <b>logo</b> pour ce projet, même si ce n'était pas requis. L'application est centrée autour d'une <b>galerie</b> de sauces communautaire, avec un système d'<b>utilisateurs</b> (avec des exigeances de <b>sécurité</b> sur l'<b>authentification</b> et les <b>droits</b>) qui pourront donc <b>s'inscrire</b> et <b>se connecter</b>, mais aussi <b>créer</b>, <b>modifier</b> et <b>supprimer</b> des sauces, ou encore les <i>like</i> ou les <i>dislike</i>.",
+        "context":"Formation <b>OpenClassrooms</b> en <b>développement web</b>",
+        "solo":"Travail en <b>autonomie</b>",
+        "images_url":[
+            "img/uni/hottakes/desktop.jpg"
+        ],
+        "images_alt":[
+            "Page d'accueil"
+        ],
+        "rounded":true,
+        "prev":"kasa",
+        "next":"ohmyfood"
+    },
+    {
+        "id":"ohmyfood",
+        "category":"uni",
+        "logo_url":"img/uni/ohmyfood/icon.png",
+        "logo_alt":"OhMyFood",
+        "name":"Site web <i>OhMyFood</i>",
+        "dates":"Février-mars 2023",
+        "tags_short":[
+            "Web",
+            "Sass",
+            "Animations"
+        ],
+        "tags_colors_short":[
+            "web",
+            "web",
+            "design"
+        ],
+        "tags_full":[
+            "HTML",
+            "CSS",
+            "Sass",
+            "Animations",
+            "GitHub"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "web",
+            "design",
+            "env"
+        ],
+        "mission":"<b>Développer</b> un <b>site 100% mobile</b> qui répertorie les <b>menus</b> de restaurants gastronomiques, intégrer les <b>maquettes</b> (mobile, à adapter pour les versions tablette et ordinateur) des différentes pages et ajouter des <b>animations</b> CSS pour dynamiser le site. ",
+        "context":"Formation <b>OpenClassrooms</b> en <b>développement web</b>",
+        "solo":"Travail en <b>autonomie</b>",
+        "images_url":[
+            "img/uni/ohmyfood/desktop.jpg"
+        ],
+        "images_alt":[
+            "Page d'accueil"
+        ],
+        "rounded":true,
+        "external_url":["https://benpntier.github.io/live/ohmyfood/", "Démo du site web"],
+        "prev":"hottakes",
+        "next":"booki"
+    },
+    {
+        "id":"booki",
+        "category":"uni",
+        "logo_url":"img/uni/booki/icon.png",
+        "logo_alt":"Booki",
+        "name":"Site web <i>Booki</i>",
+        "dates":"Octobre-Novembre 2022",
+        "tags_short":[
+            "Web",
+            "Figma"
+        ],
+        "tags_colors_short":[
+            "web",
+            "design"
+        ],
+        "tags_full":[
+            "HTML",
+            "CSS",
+            "Figma"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "design"
+        ],
+        "mission":"<b>Intégrer</b> l'<b>interface</b> d'un <b>site de réservation d'hébergements</b> à partir d'une <b>maquette Figma</b> donnée (pour les formats ordinateur, mobile et tablette). Plusieurs <b>contraintes techniques</b> étaient données, notamment les <i>breakpoints</i> pour que le site soit <i>responsive</i>, l'implémentation en <i>desktop-first</i>, l'utilisation des <i>flexbox</i>, ou encore la charte graphique. Le code devait aussi passer les <b>validateurs</b> <a href='https://validator.w3.org/' class='projects__link' target='_blank'>HTML</a> et <a href='https://jigsaw.w3.org/css-validator/' class='projects__link' target='_blank'>CSS</a>.",
+        "context":"Formation <b>OpenClassrooms</b> en <b>développement web</b>",
+        "solo":"Travail en <b>autonomie</b>",
+        "images_url":[
+            "img/uni/booki/desktop.jpg"
+        ],
+        "images_alt":[
+            "Interface de Booki"
+        ],
+        "rounded":true,
+        "external_url":["https://benpntier.github.io/live/booki/", "Démo de l'interface"],
+        "prev":"ohmyfood",
+        "next":"conceptmap"
+    },
+    {
         "id":"conceptmap",
         "category":"uni",
         "logo_url":"img/uni/conceptmap/icon.png",
@@ -248,6 +431,7 @@
         "images_caption":["Interface de correction de carte"],
         "nb_columns":1,
         "rounded":true,
+        "prev":"booki",
         "next":"fashionclass"
     },
     {

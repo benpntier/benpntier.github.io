@@ -151,7 +151,7 @@ function fetchData() {
         })
 }
 
-let webTags = ["JavaScript", "PHP"];
+let webTags = ["JavaScript", "PHP", "Sass", "Node.js", "React"];
 let dlTags = ["CNN", "MLP"];
 
 function getTag(tag) {
