@@ -473,7 +473,7 @@
         "grade":"<b>16</b>/20",
         "solo":"Travail en <b>autonomie</b>",
         "additional_html":[
-            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/fashionclass/data.png' alt='Exemple de données présentes dans le dataset Fashion-MNIST'><figcaption>Exemple de données présentes dans le dataset Fashion-MNIST</figcaption></figure></div>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/fashionclass/data.png' alt='Extrait du dataset Fashion-MNIST'><figcaption>Extrait du dataset Fashion-MNIST</figcaption></figure></div>",
             "<p class='project__mission'>Avec un premier modèle construit avec <b>une seule couche cachée</b>, on obtient une <i>accuracy</i> de <b>69.5%</b> lors de son évaluation, ce qui peut être amélioré.</p>",
             "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/fashionclass/first-eval.png' alt='Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à une couche cachée'><figcaption>Courbes de loss et accuracy au cours des epochs de l'entraînement du modèle à une couche cachée</figcaption></figure></div>",
             "<p class='project__mission'>En construisant un second modèle avec <b>deux couches cachées</b>, on obtient une <b>meilleure</b> <i>accuracy</i> de <b>74.9%</b> après l'avoir évalué.</p>",
@@ -623,6 +623,7 @@
         "solo":"Travail en <b>autonomie</b>",
         "dataset":"<a href='https://www.kaggle.com/c/dogs-vs-cats' class='projects__link' target='_blank'>Dogs vs. Cats</a> (Asirra)",
         "additional_html":[
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/uni/dogsvscats/data.jpg' alt='Extrait du dataset Dogs vs. Cats de Kaggle'><figcaption>Extrait du dataset Dogs vs. Cats de Kaggle</figcaption></figure></div><br>",
             "<p class='project__mission no-margin'>L'<b>évaluation</b> du <b>modèle obtenu</b> sur les données de validation converge vers une <i>accuracy</i> de <b>0.73</b> (ce qui est un plutôt bon résultat pour le contexte de ce projet).</p>",
             "<div class='project__gallery project__gallery--2'><figure class='no-margin project__gallery__img--2'><img class='project__image project__image--rounded' src='img/uni/dogsvscats/accuracy.png' alt='Accuracy au cours de l'entraînement et évaluation'><figcaption class='center'>Accuracy au cours de l'entraînement et évaluation</figcaption></figure><figure class='no-margin project__gallery__img--2'><img class='project__image project__image--rounded' src='img/uni/dogsvscats/loss.png' alt='Loss au cours de l'entraînement et évaluation'><figcaption class='center'>Loss au cours de l'entraînement et évaluation</figcaption></figure></div>"
         ],

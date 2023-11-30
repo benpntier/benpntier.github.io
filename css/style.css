@@ -855,6 +855,7 @@ hr {
 .uni__img {
   height: 70px;
   width: 70px;
+  transition: filter 0.3s;
 }
 .uni .projects__ornament .fa-solid {
   animation-delay: 3.15s;
