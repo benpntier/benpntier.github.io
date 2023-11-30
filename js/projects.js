@@ -194,16 +194,23 @@ function filterTagsHover(event) {
     for (tag of projectTags) {
         let tagText = getTag(tag.innerText);
         let parentProject = tag.parentNode.parentNode.parentNode;
+        let projectImage = parentProject.querySelector(".uni__img");
 
         if (tagText != event.target.innerText) {
             tag.classList.add("nonhoverfilter");
-            if (!parentProject.classList.contains("hover"))
+            if (!parentProject.classList.contains("hover")) {
                 parentProject.classList.add("uni__project--nonhover");
+                projectImage.style.filter = "grayscale(1) opacity(.7)";
+                projectImage.style.transition = "all .3s"
+            }
         } else {
             if (!parentProject.classList.contains("hover"))
                 parentProject.classList.add("hover");
-            if (parentProject.classList.contains("uni__project--nonhover"))
+            if (parentProject.classList.contains("uni__project--nonhover")) {
                 parentProject.classList.remove("uni__project--nonhover");
+                projectImage.style.filter = "none";
+                projectImage.style.transition = "all .3s"
+            }
         }
     }
 }
@@ -212,10 +219,14 @@ function filterTagsReset() {
     let projectTags = document.querySelectorAll(".uni .projects__item .tags span");
     for (tag of projectTags) {
         let parentProject = tag.parentNode.parentNode.parentNode;
+        let projectImage = parentProject.querySelector(".uni__img");
         if (tag.classList.contains("nonhoverfilter")) {
             tag.classList.remove("nonhoverfilter");
-            if (parentProject.classList.contains("uni__project--nonhover"))
+            if (parentProject.classList.contains("uni__project--nonhover")) {
                 parentProject.classList.remove("uni__project--nonhover");
+                projectImage.style.filter = "none";
+            }
+
         } else {
             parentProject.classList.remove("hover");
         }

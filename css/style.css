@@ -848,18 +848,9 @@ hr {
   align-items: center;
   border-bottom: #c3b3c8 solid 1px;
 }
-.uni__project--nonhover .uni__img {
-  -webkit-filter: grayscale(1) opacity(0.7);
-  -moz-filter: grayscale(1) opacity(0.7);
-  -ms-filter: grayscale(1) opacity(0.7);
-  -o-filter: grayscale(1) opacity(0.7);
-  filter: grayscale(1) opacity(0.7);
-  transition: all 0.3s;
-}
 .uni__img {
   height: 70px;
   width: 70px;
-  transition: filter 0.3s;
 }
 .uni .projects__ornament .fa-solid {
   animation-delay: 3.15s;

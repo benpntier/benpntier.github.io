@@ -815,22 +815,10 @@ hr {
         width: 305px;
         align-items: center;
         border-bottom: $uni-highlight solid 1px;
-
-        &--nonhover {
-            & .uni__img {
-                -webkit-filter: grayscale(1) opacity(.7);
-                -moz-filter: grayscale(1) opacity(.7);
-                -ms-filter: grayscale(1) opacity(.7); 
-                -o-filter: grayscale(1) opacity(.7);
-                filter: grayscale(1) opacity(.7);
-                transition: all .3s;
-            }
-        }
     }
     &__img {
         height: 70px;
         width: 70px;
-        transition: filter .3s;
     }
     & .projects__ornament {
         & .fa-solid {
