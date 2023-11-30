@@ -237,8 +237,7 @@ window.onload = function() {
     fetchData();
     
     document.querySelectorAll(".filter .tags span").forEach(tag => {
-        tag.addEventListener("mouseup", filterProjects)
-        tag.addEventListener("touchend", filterProjects)
+        tag.addEventListener("click", filterProjects)
         tag.addEventListener("mouseover", filterTagsHover)
         tag.addEventListener("mouseout", filterTagsReset)
     });
