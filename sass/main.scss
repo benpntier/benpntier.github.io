@@ -728,9 +728,9 @@ hr {
         display: flex;
         gap: .9em;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-        transition: box-shadow 0.3s;
+        transition: box-shadow .3s;
 
-        &:hover {
+        &:hover, &.hover {
             box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.23);
 
             & img {
@@ -818,15 +818,19 @@ hr {
 
         &--nonhover {
             & .uni__img {
-                filter: grayscale(1) opacity(.6);
-                transition: filter .3s;
+                -webkit-filter: grayscale(1) opacity(.7);
+                -moz-filter: grayscale(1) opacity(.7);
+                -ms-filter: grayscale(1) opacity(.7); 
+                -o-filter: grayscale(1) opacity(.7);
+                filter: grayscale(1) opacity(.7);
+                transition: all .3s;
             }
         }
     }
     &__img {
         height: 70px;
         width: 70px;
-        transition: filter 0.3s;
+        transition: filter .3s;
     }
     & .projects__ornament {
         & .fa-solid {

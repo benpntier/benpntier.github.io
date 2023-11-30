@@ -767,10 +767,10 @@ hr {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s;
 }
-.projects__card:hover {
+.projects__card:hover, .projects__card.hover {
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.23);
 }
-.projects__card:hover img {
+.projects__card:hover img, .projects__card.hover img {
   opacity: 100%;
 }
 .projects img {
@@ -849,8 +849,12 @@ hr {
   border-bottom: #c3b3c8 solid 1px;
 }
 .uni__project--nonhover .uni__img {
-  filter: grayscale(1) opacity(0.6);
-  transition: filter 0.3s;
+  -webkit-filter: grayscale(1) opacity(0.7);
+  -moz-filter: grayscale(1) opacity(0.7);
+  -ms-filter: grayscale(1) opacity(0.7);
+  -o-filter: grayscale(1) opacity(0.7);
+  filter: grayscale(1) opacity(0.7);
+  transition: all 0.3s;
 }
 .uni__img {
   height: 70px;
