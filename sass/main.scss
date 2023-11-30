@@ -815,6 +815,13 @@ hr {
         width: 305px;
         align-items: center;
         border-bottom: $uni-highlight solid 1px;
+
+        &--nonhover {
+            & .uni__img {
+                filter: grayscale(1) opacity(.6);
+                transition: filter .3s;
+            }
+        }
     }
     &__img {
         height: 70px;

@@ -156,8 +156,6 @@ let dlTags = ["CNN", "MLP"];
 
 function getTag(tag) {
 
-    console.log(tag);
-
     if (webTags.includes(tag)) {
         return "Web";
     } else if (dlTags.includes(tag)) {
@@ -195,9 +193,17 @@ function filterTagsHover(event) {
     let projectTags = document.querySelectorAll(".uni .projects__item .tags span");
     for (tag of projectTags) {
         let tagText = getTag(tag.innerText);
+        let parentProject = tag.parentNode.parentNode.parentNode;
 
         if (tagText != event.target.innerText) {
             tag.classList.add("nonhoverfilter");
+            if (!parentProject.classList.contains("hover"))
+                parentProject.classList.add("uni__project--nonhover");
+        } else {
+            if (!parentProject.classList.contains("hover"))
+                parentProject.classList.add("hover");
+            if (parentProject.classList.contains("uni__project--nonhover"))
+                parentProject.classList.remove("uni__project--nonhover");
         }
     }
 }
@@ -205,8 +211,13 @@ function filterTagsHover(event) {
 function filterTagsReset() {
     let projectTags = document.querySelectorAll(".uni .projects__item .tags span");
     for (tag of projectTags) {
+        let parentProject = tag.parentNode.parentNode.parentNode;
         if (tag.classList.contains("nonhoverfilter")) {
             tag.classList.remove("nonhoverfilter");
+            if (parentProject.classList.contains("uni__project--nonhover"))
+                parentProject.classList.remove("uni__project--nonhover");
+        } else {
+            parentProject.classList.remove("hover");
         }
     }
 }
