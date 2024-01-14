@@ -36,7 +36,7 @@ function addProjectInfo(project) {
     document.querySelector(".project__dates").innerText = project.dates;
 
     if (project.context !== undefined) {
-        document.querySelector(".project__context").innerHTML = "<i class='project__icon fa-solid fa-building-columns' title='Contexte'></i> " + project.context;
+        document.querySelector(".project__context").innerHTML = "<i class='project__icon fa-solid fa-graduation-cap' title='Contexte'></i> " + project.context;
     }
     if (project.solo !== undefined) {
         document.querySelector(".project__solo").innerHTML = "<i class='project__icon fa-solid fa-user' title='Autonomie'></i> " + project.solo;
