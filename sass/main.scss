@@ -720,14 +720,14 @@ hr {
     }
 
     & .filter {
-        animation: title-slidein 1s #{$loader-duration+2.1}s backwards;
+        animation: title-slidein 1s #{$min-delay+.4}s backwards;
     }
 
     &.pro {
         & .projects__list .projects__item {
             @for $i from 1 to 5 {
                 &:nth-of-type(#{$i}) {
-                    animation-delay: #{$min-delay+.15+$i*.1}s;
+                    animation-delay: #{$min-delay+.4+$i*.1}s;
                 }
             }
         }
@@ -737,7 +737,7 @@ hr {
 		& .projects__list .projects__item {
 			@for $i from 1 to 21 {
 				&:nth-of-type(#{$i}) {
-					animation-delay: #{$min-delay+.15+$i*.05}s;
+					animation-delay: #{$min-delay+.4+$i*.05}s;
 				}
 			}
 			&.no-delay {
@@ -754,7 +754,7 @@ hr {
     	& .projects__list .projects__item {
 			@for $i from 1 to 3 {
 				&:nth-of-type(#{$i}) {
-					animation-delay: #{$min-delay+.3+$i*.1}s;
+					animation-delay: #{$min-delay+.4+$i*.1}s;
 				}
 			}
 		}
