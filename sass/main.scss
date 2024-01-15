@@ -857,8 +857,6 @@ hr {
 
 .art {
     & .projects__ornament {
-        color: darken($lightergrey, 7);
-
         & .fa-solid {
             animation-delay: #{$loader-duration+3.6}s;
         }
