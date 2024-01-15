@@ -238,7 +238,7 @@
             "web",
             "design"
         ],
-        "mission":"<b>Développer</b> la partie <i>front-end</i> d'une <b>application web</b> de location d'appartements et de ses différents composants pour une refonte complète, avec <b>React</b>, les routes <b>React Router</b>, selon des <b>maquettes Figma</b> <i>responsive</i>. L'implémentation se concentrait sur l'utilisation des concepts React comme les <i>props</i>, les <i>states</i>, les listes avec <i>map</i> ou bien la gestion des évenements.",
+        "mission":"<b>Développer</b> la partie <i>front-end</i> d'une <b>application web</b> de location d'appartements et de ses différents composants pour une refonte complète, avec <b>React</b>, les routes <b>React Router</b>, selon des <b>maquettes Figma <i>responsives</i></b>. L'implémentation se concentrait sur l'utilisation des concepts React comme les <i>props</i>, les <i>states</i>, les listes avec <i>map</i> ou bien la gestion des évenements.",
         "context":"Formation <b>OpenClassrooms</b> en <b>développement web</b>",
         "solo":"Travail en <b>autonomie</b>",
         "images_url":[
@@ -372,7 +372,7 @@
             "web",
             "design"
         ],
-        "mission":"<b>Intégrer</b> l'<b>interface</b> d'un <b>site de réservation d'hébergements</b> à partir d'une <b>maquette Figma</b> donnée (pour les formats ordinateur, mobile et tablette). Plusieurs <b>contraintes techniques</b> étaient données, notamment les <i>breakpoints</i> pour que le site soit <i>responsive</i>, l'implémentation en <i>desktop-first</i>, l'utilisation des <i>flexbox</i>, ou encore la charte graphique. Le code devait aussi passer les <b>validateurs</b> <a href='https://validator.w3.org/' class='projects__link' target='_blank'>HTML</a> et <a href='https://jigsaw.w3.org/css-validator/' class='projects__link' target='_blank'>CSS</a>.",
+        "mission":"<b>Intégrer</b> l'<b>interface</b> d'un <b>site de réservation d'hébergements</b> à partir d'une <b>maquette Figma</b> donnée (pour les formats ordinateur, mobile et tablette). Plusieurs <b>contraintes techniques</b> étaient données, notamment les <i>breakpoints</i> pour que le site soit <i><b>responsive</b></i>, l'implémentation en <i>desktop-first</i>, l'utilisation des <i>flexbox</i>, ou encore la charte graphique. Le code devait aussi passer les <b>validateurs</b> <a href='https://validator.w3.org/' class='projects__link' target='_blank'>HTML</a> et <a href='https://jigsaw.w3.org/css-validator/' class='projects__link' target='_blank'>CSS</a>.",
         "context":"Formation <b>OpenClassrooms</b> en <b>développement web</b>",
         "solo":"Travail en <b>autonomie</b>",
         "images_url":[
@@ -467,7 +467,7 @@
             "algo",
             "env"
         ],
-        "mission":"<b>Entraîner</b> et <b>évaluer</b> un <b>réseau de neurones</b> (simple) de type <b>MLP</b> (Multi-Layer Perceptron), afin de résoudre une tâche de <b>classification d'images de vêtements</b>, avec une première étape de <b>prétraitement</b> des données (<b>encodage</b> <i>one-hot</i>, <b>normalisation</b>, <b>vectorisation</b> des images, etc).",
+        "mission":"<b>Entraîner</b> et <b>évaluer</b> un <b>réseau de neurones</b> (simple) de type <b>MLP</b> (Multi-Layer Perceptron), afin de résoudre une tâche de <b>classification d'images de vêtements</b>, avec une première étape de <b>prétraitement</b> des données (<b>encodage <i>one-hot</i></b>, <b>normalisation</b>, <b>vectorisation</b> des images, etc).",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>Master 2</b> en Intelligence Artificielle, Travaux Pratiques",
         "dataset":"<a href='https://www.kaggle.com/datasets/zalando-research/fashionmnist' class='projects__link' target='_blank'>Fashion-MNIST</a> (Zalando)",
         "grade":"<b>16</b>/20",

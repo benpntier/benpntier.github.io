@@ -32,6 +32,16 @@
     transform: translateY(0);
   }
 }
+@keyframes left-slidein {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 @keyframes fadein {
   0% {
     opacity: 0;
@@ -1019,6 +1029,46 @@ hr {
   margin: 0 0 1.4em 0;
 }
 
+.quotes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.8em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  max-width: 900px;
+  gap: 2em;
+}
+.quotes__item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2.2em;
+}
+.quotes__icon {
+  color: #cecbe5;
+  font-size: 2.2em;
+  animation: left-slidein 0.75s backwards;
+}
+.quotes__text {
+  margin: 0;
+  animation: p-slidein 0.75s backwards;
+}
+.quotes__item:nth-of-type(1) .quotes__icon {
+  animation-delay: 3s;
+}
+.quotes__item:nth-of-type(1) .quotes__text {
+  animation-delay: 2.8s;
+}
+.quotes__item:nth-of-type(2) .quotes__icon {
+  animation-delay: 3.1s;
+}
+.quotes__item:nth-of-type(2) .quotes__text {
+  animation-delay: 2.9s;
+}
+.quotes__name {
+  margin-left: 3em;
+}
+
 .filter {
   color: #768a93;
   display: flex;
@@ -1029,16 +1079,13 @@ hr {
   margin-bottom: 1em;
   animation: title-slidein 1s 3.3s backwards;
 }
-
 .filter .tags {
   justify-content: center;
   margin: 0 0.3em;
 }
-
 .filter .tags span {
   cursor: pointer;
 }
-
 .filter .tags span:not(.selected) {
   background-color: #a3b1b7;
 }
@@ -1517,6 +1564,12 @@ footer:not(.bg-primary) a:hover {
     font-size: 0.7em;
     padding: 0.2em 0.7em;
   }
+  .quotes__item {
+    gap: 1.2em;
+  }
+  .quotes__name {
+    margin-left: 0;
+  }
 }
 @media screen and (max-width: 560px) {
   h1 {
@@ -1529,6 +1582,10 @@ footer:not(.bg-primary) a:hover {
   .sparkles-right {
     top: -1em;
     left: -1.2em;
+  }
+  .quotes__item {
+    flex-direction: column;
+    gap: 0.5em;
   }
 }
 @media screen and (max-width: 550px) {
@@ -1590,6 +1647,9 @@ footer:not(.bg-primary) a:hover {
   }
   footer {
     font-size: 0.65em;
+  }
+  .quotes__text {
+    font-size: 0.95em;
   }
 }
 @media screen and (max-width: 410px) {
@@ -1684,6 +1744,20 @@ footer:not(.bg-primary) a:hover {
     padding-left: 1em;
     padding-right: 1em;
   }
+  .quotes {
+    padding: 0 1.5em;
+    margin-top: 1.5em;
+    gap: 1em;
+  }
+  .quotes__item {
+    gap: 0.3em;
+  }
+  .quotes__text {
+    font-size: 0.85em;
+  }
+  .quotes__icon {
+    font-size: 1.7em;
+  }
 }
 @media screen and (max-width: 350px) {
   .pro__project {
@@ -1716,6 +1790,9 @@ footer:not(.bg-primary) a:hover {
   }
   .filter .tags {
     max-width: 250px;
+  }
+  .quotes {
+    padding: 0 1em;
   }
 }
 
