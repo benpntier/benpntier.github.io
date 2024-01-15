@@ -935,8 +935,13 @@ hr {
         }
     }
 
-    &__name {
+    &__author {
         margin-left: 2.3em;
+        font-size: .9em;
+    }
+
+    &__name {
+        text-transform: uppercase;
         font-size: .9em;
     }
 }
@@ -1537,7 +1542,7 @@ footer {
         &__item {
             gap: 1.2em;
         }
-        &__name {
+        &__author {
             margin-left: 0;
         }
     }
@@ -1647,9 +1652,6 @@ footer {
     .quotes {
         __text {
             font-size: .95em;
-        }
-        &__name {
-            font-size: .85em;
         }
     }
 }
@@ -1783,10 +1785,6 @@ footer {
 
         &__text {
             font-size: .85em;
-        }
-
-        &__name {
-            font-size: .8em;
         }
 
         &__icon {

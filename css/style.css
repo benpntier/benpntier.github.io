@@ -1062,8 +1062,12 @@ hr {
 .quotes__item:nth-of-type(2) .quotes__text {
   animation-delay: 2.9s;
 }
-.quotes__name {
+.quotes__author {
   margin-left: 2.3em;
+  font-size: 0.9em;
+}
+.quotes__name {
+  text-transform: uppercase;
   font-size: 0.9em;
 }
 
@@ -1565,7 +1569,7 @@ footer:not(.bg-primary) a:hover {
   .quotes__item {
     gap: 1.2em;
   }
-  .quotes__name {
+  .quotes__author {
     margin-left: 0;
   }
 }
@@ -1648,9 +1652,6 @@ footer:not(.bg-primary) a:hover {
   }
   .quotes __text {
     font-size: 0.95em;
-  }
-  .quotes__name {
-    font-size: 0.85em;
   }
 }
 @media screen and (max-width: 410px) {
@@ -1755,9 +1756,6 @@ footer:not(.bg-primary) a:hover {
   }
   .quotes__text {
     font-size: 0.85em;
-  }
-  .quotes__name {
-    font-size: 0.8em;
   }
   .quotes__icon {
     font-size: 1.7em;
