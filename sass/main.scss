@@ -855,10 +855,25 @@ hr {
     }
 }
 
-.art {
+.perso {
+    &__separator {
+        width: 4.5em;
+        border-top-color: darken($lightergrey, 7);
+    }
+
     & .projects__ornament {
         color: darken($lightergrey, 7);
+    }
+}
 
+.edu {
+    &__separator {
+        width: 3em;
+    }
+}
+
+.art {
+    & .projects__ornament {
         & .fa-solid {
             animation-delay: #{$loader-duration+3.6}s;
         }
