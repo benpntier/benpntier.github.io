@@ -809,10 +809,10 @@ hr {
 .uni {
     &__separator {
         width: 5.8em;
-        border-top-color: darken($lightergrey, 7);
+        //border-top-color: darken($lightergrey, 7);
     }
     & .projects__ornament {
-        color: darken($lightergrey, 7);
+        //color: darken($lightergrey, 7);
 
         & .fa-solid {
             animation-delay: #{$loader-duration+1.2}s;
@@ -869,11 +869,17 @@ hr {
 .edu {
     &__separator {
         width: 3em;
+        border-top-color: darken($lightergrey, 7);
+    }
+
+    & .projects__ornament {
+        color: darken($lightergrey, 7);
     }
 }
 
 .art {
     & .projects__ornament {
+        color: darken($lightergrey, 7);
         & .fa-solid {
             animation-delay: #{$loader-duration+3.6}s;
         }
@@ -883,6 +889,7 @@ hr {
     }
     &__separator {
         width: 4em;
+        border-top-color: darken($lightergrey, 7);
     }
     &__project {
         flex-direction: row;

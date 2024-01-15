@@ -841,10 +841,6 @@ hr {
 
 .uni__separator {
   width: 5.8em;
-  border-top-color: #a9b6bb;
-}
-.uni .projects__ornament {
-  color: #a9b6bb;
 }
 .uni .projects__ornament .fa-solid {
   animation-delay: 2.4s;
@@ -999,8 +995,15 @@ hr {
 
 .edu__separator {
   width: 3em;
+  border-top-color: #a9b6bb;
+}
+.edu .projects__ornament {
+  color: #a9b6bb;
 }
 
+.art .projects__ornament {
+  color: #a9b6bb;
+}
 .art .projects__ornament .fa-solid {
   animation-delay: 4.8s;
 }
@@ -1009,6 +1012,7 @@ hr {
 }
 .art__separator {
   width: 4em;
+  border-top-color: #a9b6bb;
 }
 .art__project {
   flex-direction: row;
