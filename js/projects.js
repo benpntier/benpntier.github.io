@@ -239,18 +239,19 @@ window.onload = function() {
     let observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             //entry.target.style.opacity = entry.intersectionRatio;
-            if (entry.isIntersecting) {
+            if (screen.width > 1450) {
                 if (entry.target.classList.contains("pro") && entry.intersectionRatio >= 0.4) {
                     entry.target.classList.add('onview-animation');
                 }
-                if (entry.target.classList.contains("uni") && entry.intersectionRatio >= 0.15) {
+                if (entry.target.classList.contains("uni") && entry.intersectionRatio >= 0.3) {
                     entry.target.classList.add('onview-animation');
                 }
-                if (entry.target.classList.contains("art") && entry.intersectionRatio >= 0.5) {
+                if (entry.target.classList.contains("art") && entry.intersectionRatio >= 0.3) {
                     entry.target.classList.add('onview-animation');
                 }
+            } else if (entry.isIntersecting) {
+                entry.target.classList.add('onview-animation');
             }
-
         });
     }, {
         root: null,
