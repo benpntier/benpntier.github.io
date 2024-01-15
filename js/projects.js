@@ -240,13 +240,13 @@ window.onload = function() {
         entries.forEach(entry => {
             //entry.target.style.opacity = entry.intersectionRatio;
             if (entry.isIntersecting) {
-                if (entry.target.classList.contains("pro") && entry.intersectionRatio >= 0.5) {
+                if (entry.target.classList.contains("pro") && entry.intersectionRatio >= 0.4) {
                     entry.target.classList.add('onview-animation');
                 }
                 if (entry.target.classList.contains("uni") && entry.intersectionRatio >= 0.15) {
                     entry.target.classList.add('onview-animation');
                 }
-                if (entry.target.classList.contains("art") && entry.intersectionRatio >= 0.7) {
+                if (entry.target.classList.contains("art") && entry.intersectionRatio >= 0.5) {
                     entry.target.classList.add('onview-animation');
                 }
             }
