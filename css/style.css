@@ -15,39 +15,47 @@
 @keyframes title-slidein {
   0% {
     opacity: 0;
+    visibility: hidden;
     transform: translateY(15px);
   }
   100% {
     opacity: 1;
+    visibility: visible;
     transform: translateY(0);
   }
 }
 @keyframes p-slidein {
   0% {
     opacity: 0;
+    visibility: hidden;
     transform: translateY(10px);
   }
   100% {
     opacity: 1;
+    visibility: visible;
     transform: translateY(0);
   }
 }
 @keyframes left-slidein {
   0% {
     opacity: 0;
+    visibility: hidden;
     transform: translateX(-15px);
   }
   100% {
     opacity: 1;
+    visibility: visible;
     transform: translateX(0);
   }
 }
 @keyframes fadein {
   0% {
     opacity: 0;
+    visibility: hidden;
   }
   100% {
     opacity: 1;
+    visibility: visible;
   }
 }
 @keyframes cloud-bottomleft {
@@ -109,6 +117,7 @@
 @keyframes contact-fadein {
   0% {
     opacity: 0;
+    visibility: hidden;
     transform: translateX(5px);
   }
   35% {
@@ -117,6 +126,7 @@
   }
   100% {
     opacity: 1;
+    visibility: visible;
     transform: translateY(0);
   }
 }
