@@ -1066,7 +1066,8 @@ hr {
   animation-delay: 2.9s;
 }
 .quotes__name {
-  margin-left: 3em;
+  margin-left: 2.3em;
+  font-size: 0.9em;
 }
 
 .filter {
@@ -1648,8 +1649,11 @@ footer:not(.bg-primary) a:hover {
   footer {
     font-size: 0.65em;
   }
-  .quotes__text {
+  .quotes __text {
     font-size: 0.95em;
+  }
+  .quotes__name {
+    font-size: 0.85em;
   }
 }
 @media screen and (max-width: 410px) {
@@ -1754,6 +1758,9 @@ footer:not(.bg-primary) a:hover {
   }
   .quotes__text {
     font-size: 0.85em;
+  }
+  .quotes__name {
+    font-size: 0.8em;
   }
   .quotes__icon {
     font-size: 1.7em;

@@ -938,7 +938,8 @@ hr {
     }
 
     &__name {
-        margin-left: 3em;
+        margin-left: 2.3em;
+        font-size: .9em;
     }
 }
 
@@ -1645,8 +1646,13 @@ footer {
         font-size: .65em;
     }
 
-    .quotes__text {
-        font-size: .95em;
+    .quotes {
+        __text {
+            font-size: .95em;
+        }
+        &__name {
+            font-size: .85em;
+        }
     }
 }
 
@@ -1779,6 +1785,10 @@ footer {
 
         &__text {
             font-size: .85em;
+        }
+
+        &__name {
+            font-size: .8em;
         }
 
         &__icon {
