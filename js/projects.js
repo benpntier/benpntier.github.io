@@ -235,6 +235,25 @@ function filterTagsReset() {
 
 window.onload = function() {
     fetchData();
+
+    let observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            //entry.target.style.opacity = entry.intersectionRatio;
+            if (entry.isIntersecting) {
+                if (entry.intersectionRatio >= 0.5) {
+                    entry.target.classList.add('onview-animation');
+                }
+            }
+
+        });
+    }, {
+        root: null,
+        threshold: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+      });
+    const sections = document.querySelectorAll('.show-on-scroll')
+    sections.forEach(section => {
+        observer.observe(section)
+    })
     
     document.querySelectorAll(".filter .tags span").forEach(tag => {
         tag.addEventListener("click", filterProjects)

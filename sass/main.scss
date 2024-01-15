@@ -39,7 +39,7 @@
 @keyframes left-slidein {
     0% {
         opacity: 0;
-        transform: translateX(-10px);
+        transform: translateX(-15px);
     }
     100% {
         opacity: 1;
@@ -210,6 +210,7 @@
 }
 
 $loader-duration: 1.2;
+$min-delay: .4;
 
 // Colours
 $black: #2d3639;
@@ -396,22 +397,17 @@ h3 {
     margin-left: .7em;
     margin-right: .7em;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
-
-    animation: title-slidein 1s;
-    animation-fill-mode: backwards;
 }
 
-.pro h3 {
+/* .pro h3 {
     animation-delay: #{$loader-duration+.65}s;
 }
-
 .uni h3 {
     animation-delay: #{$loader-duration+1.7}s;
 }
-
 .art h3 {
     animation-delay: #{$loader-duration+3.3}s;
-}
+} */
 
 h3:hover {
     text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
@@ -676,6 +672,96 @@ hr {
     }
 }
 
+.show-on-scroll:not(.onview-animation) > * {
+    visibility: hidden;
+}
+
+.onview-animation {
+    & h3 {
+        animation: title-slidein 1s;
+        animation-fill-mode: backwards;
+        animation-delay: #{$min-delay}s;
+    }
+
+    & .projects {
+        &__ornament {
+            & .fa-solid {
+                animation: fadein 1s;
+                animation-fill-mode: backwards;
+                animation-delay: #{$min-delay+.35}s;
+            }
+
+            & hr {
+                animation: ornament-separator .8s;
+                animation-fill-mode: backwards;
+                animation-delay: #{$min-delay+.45}s;
+            }
+        }
+
+        &__item {
+            animation: title-slidein .75s backwards;
+        
+            &.no-delay {
+                animation-duration: .5s;
+            }
+        }
+    }
+
+    & .quotes {
+        &__icon {
+            animation: left-slidein .75s backwards;
+			animation-delay: #{$min-delay+1.1}s;
+        }
+    
+        &__text {
+            animation: p-slidein .75s backwards;
+			animation-delay: #{$min-delay+1}s;
+        }
+    }
+
+    & .filter {
+        animation: title-slidein 1s #{$loader-duration+2.1}s backwards;
+    }
+
+    &.pro {
+        & .projects__list .projects__item {
+            @for $i from 1 to 5 {
+                &:nth-of-type(#{$i}) {
+                    animation-delay: #{$min-delay+.15+$i*.1}s;
+                }
+            }
+        }
+    }
+
+    &.uni { 
+		& .projects__list .projects__item {
+			@for $i from 1 to 21 {
+				&:nth-of-type(#{$i}) {
+					animation-delay: #{$min-delay+.15+$i*.05}s;
+				}
+			}
+			&.no-delay {
+				@for $i from 1 to 21 {
+					&:nth-of-type(#{$i}) {
+						animation-delay: #{$i*.03}s;
+					}
+				}
+			}
+		}
+    }
+
+	&.art {
+    	& .projects__list .projects__item {
+			@for $i from 1 to 3 {
+				&:nth-of-type(#{$i}) {
+					animation-delay: #{$min-delay+.3+$i*.1}s;
+				}
+			}
+		}
+	}
+	
+}
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -691,28 +777,23 @@ hr {
         margin-top: .4em;
         color: $lightergrey;
 
-        & .fa-solid {
-            animation: fadein 1s;
-            animation-fill-mode: backwards;
-        }
+		& hr {
+			transition: transform .3s;
+		}
 
-        & hr {
-            transition: transform .3s;
-            animation: ornament-separator .8s;
-            animation-fill-mode: backwards;
-        }
+		& hr:first-child {
+			transform-origin: right center;
+		}
 
-        & hr:first-child {
-            transform-origin: right center;
-        }
-
-        & hr:nth-of-type(2) {
-            transform-origin: left center;
-        }
+		& hr:nth-of-type(2) {
+			transform-origin: left center;
+		}
     }
-    &:hover &__ornament hr {
-        transform: scaleX(1.35);
-    }
+
+	&:hover &__ornament hr {
+		transform: scaleX(1.35);
+	}
+
     &__list {
         display: flex;
         flex-direction: row;
@@ -725,12 +806,6 @@ hr {
     &__item {
         text-decoration: none;
         color: $black;
-
-        animation: title-slidein .75s backwards;
-        
-        &.no-delay {
-            animation-duration: .5s;
-        }
     }
     &__card {
         padding: 1em;
@@ -789,21 +864,6 @@ hr {
     &__desc {
         font-size: .9em;
     }
-    & .projects__ornament {
-        & .fa-solid {
-            animation-delay: #{$loader-duration+1}s;
-        }
-        & hr {
-            animation-delay: #{$loader-duration+1.1}s;
-        }
-    }
-    & .projects__list .projects__item {
-        @for $i from 1 to 5 {
-            &:nth-of-type(#{$i}) {
-                animation-delay: #{$loader-duration+.8+$i*.1}s;
-            }
-        }
-    }
 }
 
 .uni {
@@ -813,13 +873,15 @@ hr {
     }
     & .projects__ornament {
         color: darken($lightergrey, 7);
-
+        /*
         & .fa-solid {
-            animation-delay: #{$loader-duration+1.2}s;
+            animation-delay: #{$loader-duration+1.95}s;
         }
         & hr {
-            animation-delay: #{$loader-duration+1.3}s;;
+            animation-delay: #{$loader-duration+2.05}s;
         }
+        */
+
     }
     &__project {
         flex-direction: row;
@@ -831,31 +893,10 @@ hr {
         height: 70px;
         width: 70px;
     }
-    & .projects__ornament {
-        & .fa-solid {
-            animation-delay: #{$loader-duration+1.95}s;
-        }
-        & hr {
-            animation-delay: #{$loader-duration+2.05}s;
-        }
-    }
-    & .projects__list .projects__item {
-        @for $i from 1 to 21 {
-            &:nth-of-type(#{$i}) {
-                animation-delay: #{$loader-duration+1.75+$i*.05}s;
-            }
-        }
-        &.no-delay {
-            @for $i from 1 to 21 {
-                &:nth-of-type(#{$i}) {
-                    animation-delay: #{$i*.03}s;
-                }
-            }
-        }
-    }
 }
 
 .art {
+    /*
     & .projects__ornament {
         & .fa-solid {
             animation-delay: #{$loader-duration+3.6}s;
@@ -864,6 +905,7 @@ hr {
             animation-delay: #{$loader-duration+3.7}s;
         }
     }
+    */
     &__separator {
         width: 4em;
     }
@@ -884,13 +926,6 @@ hr {
     }
     &__desc {
         font-size: .9em;
-    }
-    & .projects__list .projects__item {
-        @for $i from 1 to 3 {
-            &:nth-of-type(#{$i}) {
-                animation-delay: #{$loader-duration+3.3+$i*.1}s;
-            }
-        }
     }
 }
 
@@ -914,26 +949,14 @@ hr {
         gap: 1.7em;
     }
 
-    &__icon {
-        color: $sparkle;
-        font-size: 2.2em;
-        animation: left-slidein .75s backwards;
-    }
+	&__icon {
+		color: $sparkle;
+		font-size: 2.2em;
+	}
 
-    &__text {
-        margin: 0;
-        animation: p-slidein .75s backwards;
-    }
-
-    @for $i from 1 to 3 {
-        &__item:nth-of-type(#{$i}) &__icon {
-            animation-delay: #{$loader-duration+1.7+$i*.1}s;
-        }
-
-        &__item:nth-of-type(#{$i}) &__text {
-            animation-delay: #{$loader-duration+1.5+$i*.1}s;
-        }
-    }
+	&__text {
+		margin: 0;
+	}
 
     &__author {
         margin-left: 2.3em;
@@ -954,7 +977,6 @@ hr {
     gap: .5em;
     font-size: .85em;
     margin-bottom: 1em;
-    animation: title-slidein 1s #{$loader-duration+2.1}s backwards;
 
     & .tags {
         justify-content: center;
