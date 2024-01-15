@@ -750,10 +750,10 @@ hr {
 }
 .onview-animation .quotes__icon {
   animation: left-slidein 0.75s backwards;
-  animation-delay: 1.5s;
+  animation-delay: 1.55s;
 }
 .onview-animation .quotes__text {
-  animation: p-slidein 0.75s backwards;
+  animation: left-slidein 0.75s backwards;
   animation-delay: 1.4s;
 }
 .onview-animation .filter {

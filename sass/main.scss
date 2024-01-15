@@ -720,11 +720,11 @@ hr {
     & .quotes {
         &__icon {
             animation: left-slidein .75s backwards;
-			animation-delay: #{$min-delay+1.1}s;
+			animation-delay: #{$min-delay+1.15}s;
         }
     
         &__text {
-            animation: p-slidein .75s backwards;
+            animation: left-slidein .75s backwards;
 			animation-delay: #{$min-delay+1}s;
         }
     }
