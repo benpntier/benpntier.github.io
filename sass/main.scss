@@ -1797,6 +1797,8 @@ footer {
 
     .education {
         margin-top: 0;
+        row-gap: 1.5em;
+        column-gap: 2.5em;
         
         &__year {
             font-size: 1em;
@@ -1814,9 +1816,8 @@ footer {
 }
 
 @media screen and (max-width: 490px) {
-    .education {
-        display: flex;
-        flex-direction: column-reverse;
+    .education__field br {
+        display: none;
     }
 }
 
@@ -1971,6 +1972,19 @@ footer {
 
         &__icon {
             font-size: 1.7em;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .education {
+        display: flex;
+        flex-direction: column-reverse;
+
+        &__diploma:last-of-type {
+            & .education__field {
+                max-width: 195px;
+            }
         }
     }
 }

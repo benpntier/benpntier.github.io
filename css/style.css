@@ -1759,6 +1759,8 @@ footer:not(.bg-primary) a:hover {
   }
   .education {
     margin-top: 0;
+    row-gap: 1.5em;
+    column-gap: 2.5em;
   }
   .education__year {
     font-size: 1em;
@@ -1774,9 +1776,8 @@ footer:not(.bg-primary) a:hover {
   }
 }
 @media screen and (max-width: 490px) {
-  .education {
-    display: flex;
-    flex-direction: column-reverse;
+  .education__field br {
+    display: none;
   }
 }
 @media screen and (max-width: 410px) {
@@ -1890,6 +1891,15 @@ footer:not(.bg-primary) a:hover {
   }
   .quotes__icon {
     font-size: 1.7em;
+  }
+}
+@media screen and (max-width: 360px) {
+  .education {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .education__diploma:last-of-type .education__field {
+    max-width: 195px;
   }
 }
 @media screen and (max-width: 350px) {
