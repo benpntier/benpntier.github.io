@@ -1892,14 +1892,9 @@ footer:not(.bg-primary) a:hover {
   .quotes__icon {
     font-size: 1.7em;
   }
-}
-@media screen and (max-width: 360px) {
   .education {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .education__diploma:last-of-type .education__field {
-    max-width: 195px;
+    padding: 0 1.5em;
+    column-gap: 2em;
   }
 }
 @media screen and (max-width: 350px) {
@@ -1933,6 +1928,13 @@ footer:not(.bg-primary) a:hover {
   }
   .quotes {
     padding: 0 1em;
+  }
+  .education {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .education__diploma:last-of-type .education__field {
+    max-width: 195px;
   }
 }
 

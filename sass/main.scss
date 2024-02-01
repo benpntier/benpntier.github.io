@@ -1974,18 +1974,10 @@ footer {
             font-size: 1.7em;
         }
     }
-}
 
-@media screen and (max-width: 360px) {
     .education {
-        display: flex;
-        flex-direction: column-reverse;
-
-        &__diploma:last-of-type {
-            & .education__field {
-                max-width: 195px;
-            }
-        }
+        padding: 0 1.5em;
+        column-gap: 2em;
     }
 }
 
@@ -2029,5 +2021,16 @@ footer {
 
     .quotes {
         padding: 0 1em;
+    }
+
+    .education {
+        display: flex;
+        flex-direction: column-reverse;
+
+        &__diploma:last-of-type {
+            & .education__field {
+                max-width: 195px;
+            }
+        }
     }
 }
