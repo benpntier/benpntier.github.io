@@ -1897,6 +1897,11 @@ footer:not(.bg-primary) a:hover {
     column-gap: 2em;
   }
 }
+@media screen and (max-width: 380px) {
+  .education {
+    column-gap: 1.7em;
+  }
+}
 @media screen and (max-width: 350px) {
   .pro__project, .uni__project, .perso__project {
     width: inherit;
