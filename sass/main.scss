@@ -233,8 +233,8 @@ $cloud-shadow: #efe5f2;
 $link: #947fb3;
 $link-secondary: #0084ae;
 $lightergrey: #bdc7cb;
-$pro-highlight: #d3c5d8;
-$uni-highlight: #c3b3c8;
+$highlight: #d3c5d8;
+$highdark: #c3b3c8;
 $valid: #e0f3cd;
 $tag-colours: (
     "algo": #7dc2ba,
@@ -678,6 +678,14 @@ hr {
             &:hover {
                 color: darken($link, 10);
             }
+
+            &:first-of-type {
+                margin-top: -.05em;
+
+                .fa-solid {
+                    font-size: .9em;
+                }
+            }
         }
     }
 }
@@ -729,6 +737,18 @@ hr {
         }
     }
 
+    & .education {
+        &__diploma {
+            animation: left-slidein .75s backwards;
+
+            @for $i from 1 to 5 {
+                &:nth-of-type(#{$i}) {
+                    animation-delay: #{$min-delay+.4+$i*.1}s;
+                }
+            }
+        }
+    }
+
     & .filter {
         animation: title-slidein 1s #{$min-delay+.4}s backwards;
     }
@@ -769,6 +789,16 @@ hr {
 			}
 		}
 	}
+
+    &.perso {
+        & .projects__list .projects__item {
+            @for $i from 1 to 5 {
+                &:nth-of-type(#{$i}) {
+                    animation-delay: #{$min-delay+.4+$i*.1}s;
+                }
+            }
+        }
+    }
 	
 }
 
@@ -860,7 +890,7 @@ hr {
     &__project {
         width: 290px;
         flex-direction: column;
-        border-bottom: $pro-highlight solid 1px;
+        border-bottom: $highlight solid 1px;
     }
     &__header {
         display: flex;
@@ -879,25 +909,12 @@ hr {
 .uni {
     &__separator {
         width: 5.8em;
-        border-top-color: darken($lightergrey, 7);
-    }
-    & .projects__ornament {
-        color: darken($lightergrey, 7);
-        /*
-        & .fa-solid {
-            animation-delay: #{$loader-duration+1.95}s;
-        }
-        & hr {
-            animation-delay: #{$loader-duration+2.05}s;
-        }
-        */
-
     }
     &__project {
         flex-direction: row;
         width: 305px;
         align-items: center;
-        border-bottom: $uni-highlight solid 1px;
+        border-bottom: $highdark solid 1px;
     }
     &__img {
         height: 70px;
@@ -905,24 +922,39 @@ hr {
     }
 }
 
-.art {
-    /*
-    & .projects__ornament {
-        & .fa-solid {
-            animation-delay: #{$loader-duration+3.6}s;
-        }
-        & hr {
-            animation-delay: #{$loader-duration+3.7}s;
-        }
+.edu {
+    &__separator {
+        width: 3.1em;
     }
-    */
+}
+
+.perso {
+    &__separator {
+        width: 4em;
+    }
+
+    &__project {
+        flex-direction: row;
+        width: 242px;
+        align-items: center;
+        border-bottom: $highlight solid 1px;
+        //align-items: flex-start;
+    }
+
+    &__img {
+        height: 70px;
+        border-radius: 8px;
+    }
+}
+
+.art {
     &__separator {
         width: 4em;
     }
     &__project {
         flex-direction: row;
         width: 350px;
-        border-bottom: $pro-highlight solid 1px;
+        border-bottom: $highlight solid 1px;
         
         &:nth-of-type(2) {
             width: 345px;
@@ -939,8 +971,16 @@ hr {
     }
 }
 
-.uni__project .projects__dates, .art__project .projects__dates {
-    margin: 0 0 1.4em 0;
+.projects__ornament--darker {
+    color: darken($lightergrey, 7);
+
+    & hr {
+        border-top-color: darken($lightergrey, 7);
+    }
+}
+
+.uni__project .projects__dates, .art__project .projects__dates, .perso__project .projects__dates {
+    margin: 0 0 1em 0;
 }
 
 .quotes {
@@ -976,6 +1016,53 @@ hr {
     &__name {
         text-transform: uppercase;
         font-size: .9em;
+    }
+}
+
+.education {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1500px;
+    margin-top: .8em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    gap: 6em;
+
+    & p {
+        margin: 0;
+    }
+
+    &__diploma {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    &__year {
+        font-weight: 600;
+        font-size: 1.1em;
+        color: $link;
+    }
+
+    &__title {
+        font-weight: 800;
+        font-size: 1.9em;
+    }
+
+    &__field {
+        font-weight: 600;
+    }
+
+    &__city {
+        color: darken($lightergrey, 25);
+        font-size: .8em;
+    }
+
+    &__icon {
+        font-size: .8em;
+        color: darken($lightergrey, 25);
     }
 }
 
@@ -1349,6 +1436,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 1235px) {
+    .perso .projects__list {
+        max-width: 700px;
+    }
+}
+
 @media screen and (max-width: 1150px) {
     .loader {
         background-color: $bg-primary
@@ -1421,9 +1514,18 @@ footer {
     }
 }
 
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1120px) {
     .uni .projects__list {
         max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .education {
+        max-width: 650px;
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        row-gap: 4em;
     }
 }
 
@@ -1578,6 +1680,13 @@ footer {
             margin-left: 0;
         }
     }
+
+    .education {
+        //display: flex;
+        //flex-direction: column-reverse;
+        row-gap: 2em;
+        column-gap: 3.5em;
+    }
 }
 
 @media screen and (max-width: 560px) {
@@ -1623,7 +1732,6 @@ footer {
     .about p {
         font-size: 1em;
     }
-    
 
     .projects {
         padding-bottom: 2em;
@@ -1686,7 +1794,32 @@ footer {
             font-size: .95em;
         }
     }
+
+    .education {
+        margin-top: 0;
+        
+        &__year {
+            font-size: 1em;
+        }
+        &__title {
+            font-size: 1.5em;
+        }
+        &__field, &__university {
+            font-size: .9em;
+        }
+        &__city {
+            font-size: .7em;
+        }
+    }
 }
+
+@media screen and (max-width: 490px) {
+    .education {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
 
 @media screen and (max-width: 410px) {
     h1 {
@@ -1720,85 +1853,102 @@ footer {
     header {
         padding-top: 1.2em;
         padding-bottom: .2em;
-    }
 
-    header.bg-primary {
-        background-color: $bg-secondary;
+        &.bg-primary {
+            background-color: $bg-secondary;
+        }
     }
 
     .about {
         margin: 0 2em;
         padding-top: 2em;
         padding-bottom: 2em;
+
+        & p {
+            font-size: .9em;
+        }
     }
 
-    .about p {
-        font-size: .9em;
+    .projects {
+        &__list {
+            gap: 1em;
+        }
+
+        &__card {
+            padding: .7em;
+            gap: .7em;
+        }
     }
 
-    .projects__list {
-        gap: 1em;
-    }
+    .pro {
+        &__header {
+            gap: .5em;
+        }
 
-    .projects__card {
-        padding: .7em;
-        gap: .7em;
-    }
-
-    .pro__header {
-        gap: .5em;
-    }
-
-    .pro__img {
-        height: 30px;
+        &__img {
+            height: 30px;
+        }
     }
 
     .pro__desc, .art__desc {
         font-size: .8em;
     }
 
+    .uni .projects__card {
+        gap: .75em;
+    }
+
     .uni__img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .perso__img {
         height: 50px;
-        width: 50px;
     }
 
-    .art__img {
-        height: 35px;
-        width: 35px;
+    .art {
+        &__img {
+            height: 35px;
+            width: 35px;
+        }
+
+        &__desc {
+            margin-left: -3.3em;
+        }
+
+        &__project {
+            width: inherit;
+        }
+
+        & .projects__item {
+            flex-grow: 1;
+        }
     }
 
-    .art__desc {
-        margin-left: -3.3em;
-    }
-
-    .uni__project .projects__dates, .art__project .projects__dates {
+    .uni__project .projects__dates, .perso__project .projects__dates, .art__project .projects__dates {
         margin: 0 0 .6em 0;
-    }
-
-    .art__project {
-        width: inherit;
-    }
-
-    .art .projects__item {
-        flex-grow: 1;
     }
 
     .tags span {
         font-size: .73em;
     }
 
-    .project__navigation {
-        padding-top: .8em;
-        padding-bottom: .6em;
-        justify-content: space-between;
-    }
+    .project {
+        &__navigation {
+            padding-top: .8em;
+            padding-bottom: .6em;
+            justify-content: space-between;
 
-    .project__navigation .fa-solid {
-        font-size: .9em;
-    }
+            & .fa-solid {
+                font-size: .9em;
+            }
+        }
 
-    .project__logo {
-        height: 3em;
+        &__logo {
+            height: 3em;
+        }
+    
     }
 
     .project__navigation, .project__header, .project__mission, .project__page .tags, .project__info, .project__page .project__gallery {
@@ -1826,11 +1976,7 @@ footer {
 }
 
 @media screen and (max-width: 350px) {
-    .pro__project {
-        width: inherit;
-    }
-
-    .uni__project {
+    .pro__project, .uni__project, .perso__project {
         width: inherit;
     }
 

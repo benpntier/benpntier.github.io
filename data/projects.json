@@ -204,6 +204,66 @@
         "prev":"nxt"
     },
     {
+        "id":"kaggle",
+        "category":"unlisted",
+        "logo_url":"img/perso/kaggle/logo.png",
+        "logo_alt":"Kaggle",
+        "name":"Défis <i>Kaggle</i>",
+        "dates":"Depuis février 2024",
+        "tags_short":[
+            "Deep Learning",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "dl",
+            "prog"
+        ]
+    },
+    {
+        "id":"deeplearning",
+        "category":"unlisted",
+        "logo_url":"img/perso/deeplearning/logo.png",
+        "logo_alt":"Deep Learning",
+        "name":"Deep Learning",
+        "dates":"Depuis février 2024",
+        "tags_short":[
+            "DL",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "dl",
+            "prog"
+        ]
+    },
+    {
+        "id":"computervision",
+        "category":"perso",
+        "logo_url":"img/perso/computervision/logo.png",
+        "logo_alt":"OpenCV",
+        "name":"Computer Vision",
+        "dates":"Depuis janvier 2024",
+        "tags_short":[
+            "Image Processing"
+        ],
+        "tags_colors_short":[
+            "imagep"
+        ]
+    },
+    {
+        "id":"codingame",
+        "category":"perso",
+        "logo_url":"img/perso/codingame/logo.png",
+        "logo_alt":"CodinGame",
+        "name":"Défis <i>CodinGame</i>",
+        "dates":"Depuis octobre 2023",
+        "tags_short":[
+            "Python"
+        ],
+        "tags_colors_short":[
+            "prog"
+        ]
+    },
+    {
         "id":"kasa",
         "category":"uni",
         "logo_url":"img/uni/kasa/icon.png",

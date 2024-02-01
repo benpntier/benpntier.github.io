@@ -82,7 +82,6 @@ function addProjectHTML(project) {
         uniInfo.appendChild(uniDates);
         uniInfo.appendChild(uniTags);
 
-
         const uniArticle = document.createElement("article");
         uniArticle.classList.add("projects__card", "uni__project");
         uniArticle.appendChild(uniLogo);
@@ -134,6 +133,52 @@ function addProjectHTML(project) {
         artLink.className = "projects__item";
 
         document.querySelector(".art .projects__list").appendChild(artLink);
+
+    } else if (project.category == "perso") {
+
+        console.log("lil");
+
+        const persoLogo = document.createElement("img");
+        persoLogo.className = "perso__img";
+        persoLogo.alt = project.logo_alt;
+        persoLogo.src = project.logo_url;
+
+        const persoName = document.createElement("h4");
+        persoName.className = "no-margin";
+        persoName.innerHTML = project.name;
+
+        const persoDates = document.createElement("p");
+        persoDates.className = "projects__dates";
+        persoDates.innerText = project.dates;
+
+        const persoTags = document.createElement("div");
+        persoTags.className = "tags";
+        for (var t=0; t < project.tags_short.length; t++) {
+            var tag = document.createElement("span");
+            tag.className = project.tags_colors_short[t];
+            tag.innerText = project.tags_short[t];
+            persoTags.appendChild(tag);
+        }
+
+        const persoInfo = document.createElement("div");
+        persoInfo.appendChild(persoName);
+        persoInfo.appendChild(persoDates);
+        persoInfo.appendChild(persoTags);
+
+        const persoArticle = document.createElement("article");
+        persoArticle.classList.add("projects__card", "perso__project");
+        persoArticle.appendChild(persoLogo);
+        persoArticle.appendChild(persoInfo);
+        persoArticle.classList.add("projects__item"); // remove when link implemented
+
+        /*
+        const persoLink = document.createElement("a");
+        persoLink.href = "";
+        persoLink.appendChild(persoArticle);
+        persoLink.className = "projects__item";
+        */
+
+        document.querySelector(".perso .projects__list").appendChild(persoArticle);
     }
 }
 
@@ -147,7 +192,6 @@ function fetchData() {
             for (project of projectsData) {
                 addProjectHTML(project);
             }
-            
         })
 }
 
@@ -243,7 +287,13 @@ window.onload = function() {
                 if (entry.target.classList.contains("pro") && entry.intersectionRatio >= 0.4) {
                     entry.target.classList.add('onview-animation');
                 }
-                if (entry.target.classList.contains("uni") && entry.intersectionRatio >= 0.3) {
+                if (entry.target.classList.contains("edu") && entry.intersectionRatio >= 0.3) {
+                    entry.target.classList.add('onview-animation');
+                }
+                if (entry.target.classList.contains("perso") && entry.intersectionRatio >= 0.6) {
+                    entry.target.classList.add('onview-animation');
+                }
+                if (entry.target.classList.contains("uni") && entry.intersectionRatio >= 0.2) {
                     entry.target.classList.add('onview-animation');
                 }
                 if (entry.target.classList.contains("art") && entry.intersectionRatio >= 0.3) {
