@@ -201,7 +201,7 @@
 }
 body {
   padding: 0;
-  background-color: #d1dfe1;
+  background-color: #e8f1f2;
   color: #2d3639;
   font-family: "Work Sans", sans-serif;
   letter-spacing: -0.02em;
@@ -224,6 +224,10 @@ header {
 
 .bg-primary {
   background-color: #e8f1f2;
+}
+
+.bg-secondary {
+  background-color: #d1dfe1;
 }
 
 .no-margin {
@@ -318,12 +322,13 @@ header {
 
 h1, h3 {
   font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 800;
   transition: text-shadow 0.3s;
 }
 
 h1 {
   margin: 0 0.4em;
-  font-style: italic;
   font-size: 4.9em;
   text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
   line-height: 0.9em;
@@ -348,8 +353,8 @@ header h2 {
 }
 
 h3 {
-  text-align: center;
   font-size: 2.8em;
+  text-align: center;
   margin-bottom: 0;
   margin-left: 0.7em;
   margin-right: 0.7em;
@@ -1461,14 +1466,14 @@ footer.bg-primary a {
 footer.bg-primary a:hover {
   color: #a0afb5;
 }
-footer:not(.bg-primary) {
+footer.bg-secondary {
   color: #92a3a9;
 }
-footer:not(.bg-primary) a {
+footer.bg-secondary a {
   color: #92a3a9;
   transition: color 0.3s;
 }
-footer:not(.bg-primary) a:hover {
+footer.bg-secondary a:hover {
   color: #768a93;
 }
 

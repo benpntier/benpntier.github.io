@@ -251,7 +251,7 @@ $tag-colours: (
 
 body {
     padding: 0;
-    background-color: $bg-secondary;
+    background-color: $bg-primary;
     color: $black;
     font-family: 'Work Sans', sans-serif;
     letter-spacing: -.02em;
@@ -274,6 +274,10 @@ header {
 
 .bg-primary {
     background-color: $bg-primary;
+}
+
+.bg-secondary {
+    background-color: $bg-secondary;
 }
 
 .no-margin {
@@ -1417,7 +1421,7 @@ footer {
         }
     }
 
-    &:not(.bg-primary) {
+    &.bg-secondary {
         color: darken($lightergrey, 15);
 
         & a {
