@@ -221,6 +221,7 @@
 
 $loader-duration: 1.2;
 $min-delay: .4;
+$header-delay: .75;
 
 // Colours
 $black: #2d3639;
@@ -703,17 +704,17 @@ hr {
 
     &.pro.onview-animation--next {
         & h3 {
-            animation-delay: #{$loader-duration+.7}s;
+            animation-delay: #{$loader-duration+$header-delay}s;
         }
 
         & .projects {
             &__ornament {
                 & .fa-solid {
-                    animation-delay: #{$loader-duration+1.05}s;
+                    animation-delay: #{$loader-duration+$header-delay+.35}s;
                 }
     
                 & hr {
-                    animation-delay: #{$loader-duration+1.15}s;
+                    animation-delay: #{$loader-duration+$header-delay+.45}s;
                 }
             }
         }
@@ -721,35 +722,35 @@ hr {
         & .projects__list .projects__item {
             @for $i from 1 to 5 {
                 &:nth-of-type(#{$i}) {
-                    animation-delay: #{$loader-duration+1.1+$i*.1}s;
+                    animation-delay: #{$loader-duration+$header-delay+.4+$i*.1}s;
                 }
             }
         }
 
         & .quotes {
             &__icon {
-                animation-delay: #{$loader-duration+1.85}s;
+                animation-delay: #{$loader-duration+$header-delay+1.15}s;
             }
         
             &__text {
-                animation-delay: #{$loader-duration+1.7}s;;
+                animation-delay: #{$loader-duration+$header-delay+1}s;;
             }
         }
     }
 
     &.edu.onview-animation--next {
         & h3 {
-            animation-delay: #{$loader-duration+1.95}s;
+            animation-delay: #{$loader-duration+$header-delay+1.25}s;
         }
 
         & .projects {
             &__ornament {
                 & .fa-solid {
-                    animation-delay: #{$loader-duration+2.3}s;
+                    animation-delay: #{$loader-duration+$header-delay+1.6}s;
                 }
     
                 & hr {
-                    animation-delay: #{$loader-duration+2.4}s;
+                    animation-delay: #{$loader-duration+$header-delay+1.7}s;
                 }
             }
         }
@@ -758,7 +759,7 @@ hr {
             &__diploma {
                 @for $i from 1 to 5 {
                     &:nth-of-type(#{$i}) {
-                        animation-delay: #{$loader-duration+2.35+$i*.1}s;
+                        animation-delay: #{$loader-duration+$header-delay+1.65+$i*.1}s;
                     }
                 }
             }

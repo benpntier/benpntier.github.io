@@ -739,52 +739,52 @@ hr {
 }
 
 .onview-animation.pro.onview-animation--next h3 {
-  animation-delay: 1.9s;
+  animation-delay: 1.95s;
 }
 .onview-animation.pro.onview-animation--next .projects__ornament .fa-solid {
-  animation-delay: 2.25s;
+  animation-delay: 2.3s;
 }
 .onview-animation.pro.onview-animation--next .projects__ornament hr {
-  animation-delay: 2.35s;
-}
-.onview-animation.pro.onview-animation--next .projects__list .projects__item:nth-of-type(1) {
   animation-delay: 2.4s;
 }
+.onview-animation.pro.onview-animation--next .projects__list .projects__item:nth-of-type(1) {
+  animation-delay: 2.45s;
+}
 .onview-animation.pro.onview-animation--next .projects__list .projects__item:nth-of-type(2) {
-  animation-delay: 2.5s;
+  animation-delay: 2.55s;
 }
 .onview-animation.pro.onview-animation--next .projects__list .projects__item:nth-of-type(3) {
-  animation-delay: 2.6s;
+  animation-delay: 2.65s;
 }
 .onview-animation.pro.onview-animation--next .projects__list .projects__item:nth-of-type(4) {
-  animation-delay: 2.7s;
+  animation-delay: 2.75s;
 }
 .onview-animation.pro.onview-animation--next .quotes__icon {
-  animation-delay: 3.05s;
+  animation-delay: 3.1s;
 }
 .onview-animation.pro.onview-animation--next .quotes__text {
-  animation-delay: 2.9s;
+  animation-delay: 2.95s;
 }
 .onview-animation.edu.onview-animation--next h3 {
-  animation-delay: 3.15s;
+  animation-delay: 3.2s;
 }
 .onview-animation.edu.onview-animation--next .projects__ornament .fa-solid {
-  animation-delay: 3.5s;
+  animation-delay: 3.55s;
 }
 .onview-animation.edu.onview-animation--next .projects__ornament hr {
-  animation-delay: 3.6s;
-}
-.onview-animation.edu.onview-animation--next .education__diploma:nth-of-type(1) {
   animation-delay: 3.65s;
 }
+.onview-animation.edu.onview-animation--next .education__diploma:nth-of-type(1) {
+  animation-delay: 3.7s;
+}
 .onview-animation.edu.onview-animation--next .education__diploma:nth-of-type(2) {
-  animation-delay: 3.75s;
+  animation-delay: 3.8s;
 }
 .onview-animation.edu.onview-animation--next .education__diploma:nth-of-type(3) {
-  animation-delay: 3.85s;
+  animation-delay: 3.9s;
 }
 .onview-animation.edu.onview-animation--next .education__diploma:nth-of-type(4) {
-  animation-delay: 3.95s;
+  animation-delay: 4s;
 }
 .onview-animation h3 {
   animation: title-slidein 1s;
