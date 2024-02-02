@@ -1932,7 +1932,8 @@ footer.bg-secondary a:hover {
     padding-right: 1em;
   }
   .quotes {
-    padding: 0 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.3em;
     margin-top: 1.5em;
     gap: 1em;
   }
@@ -1946,12 +1947,8 @@ footer.bg-secondary a:hover {
     font-size: 1.7em;
   }
   .education {
-    padding: 0 1.5em;
-    column-gap: 2em;
-  }
-}
-@media screen and (max-width: 380px) {
-  .education {
+    padding-left: 1.5em;
+    padding-right: 1.2em;
     column-gap: 1.7em;
   }
 }
