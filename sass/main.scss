@@ -700,6 +700,71 @@ hr {
 }
 
 .onview-animation {
+
+    &.pro.onview-animation--next {
+        & h3 {
+            animation-delay: #{$loader-duration+.7}s;
+        }
+
+        & .projects {
+            &__ornament {
+                & .fa-solid {
+                    animation-delay: #{$loader-duration+1.05}s;
+                }
+    
+                & hr {
+                    animation-delay: #{$loader-duration+1.15}s;
+                }
+            }
+        }
+
+        & .projects__list .projects__item {
+            @for $i from 1 to 5 {
+                &:nth-of-type(#{$i}) {
+                    animation-delay: #{$loader-duration+1.1+$i*.1}s;
+                }
+            }
+        }
+
+        & .quotes {
+            &__icon {
+                animation-delay: #{$loader-duration+1.85}s;
+            }
+        
+            &__text {
+                animation-delay: #{$loader-duration+1.7}s;;
+            }
+        }
+    }
+
+    &.edu.onview-animation--next {
+        & h3 {
+            animation-delay: #{$loader-duration+1.95}s;
+        }
+
+        & .projects {
+            &__ornament {
+                & .fa-solid {
+                    animation-delay: #{$loader-duration+2.3}s;
+                }
+    
+                & hr {
+                    animation-delay: #{$loader-duration+2.4}s;
+                }
+            }
+        }
+
+        & .education {
+            &__diploma {
+                @for $i from 1 to 5 {
+                    &:nth-of-type(#{$i}) {
+                        animation-delay: #{$loader-duration+2.35+$i*.1}s;
+                    }
+                }
+            }
+        }
+    }
+
     & h3 {
         animation: title-slidein 1s;
         animation-fill-mode: backwards;
@@ -804,7 +869,6 @@ hr {
             }
         }
     }
-	
 }
 
 .projects {

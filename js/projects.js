@@ -300,7 +300,7 @@ window.onload = function() {
                     entry.target.classList.add('onview-animation');
                 }
             } else if (entry.isIntersecting) {
-                entry.target.classList.add('onview-animation');
+                entry.target.classList.add('onview-animation', 'onview-animation--next');
             }
         });
     }, {

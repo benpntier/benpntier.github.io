@@ -738,6 +738,54 @@ hr {
   visibility: hidden;
 }
 
+.onview-animation.pro.onview-animation--next h3 {
+  animation-delay: 1.9s;
+}
+.onview-animation.pro.onview-animation--next .projects__ornament .fa-solid {
+  animation-delay: 2.25s;
+}
+.onview-animation.pro.onview-animation--next .projects__ornament hr {
+  animation-delay: 2.35s;
+}
+.onview-animation.pro.onview-animation--next .projects__list .projects__item:nth-of-type(1) {
+  animation-delay: 2.4s;
+}
+.onview-animation.pro.onview-animation--next .projects__list .projects__item:nth-of-type(2) {
+  animation-delay: 2.5s;
+}
+.onview-animation.pro.onview-animation--next .projects__list .projects__item:nth-of-type(3) {
+  animation-delay: 2.6s;
+}
+.onview-animation.pro.onview-animation--next .projects__list .projects__item:nth-of-type(4) {
+  animation-delay: 2.7s;
+}
+.onview-animation.pro.onview-animation--next .quotes__icon {
+  animation-delay: 3.05s;
+}
+.onview-animation.pro.onview-animation--next .quotes__text {
+  animation-delay: 2.9s;
+}
+.onview-animation.edu.onview-animation--next h3 {
+  animation-delay: 3.15s;
+}
+.onview-animation.edu.onview-animation--next .projects__ornament .fa-solid {
+  animation-delay: 3.5s;
+}
+.onview-animation.edu.onview-animation--next .projects__ornament hr {
+  animation-delay: 3.6s;
+}
+.onview-animation.edu.onview-animation--next .education__diploma:nth-of-type(1) {
+  animation-delay: 3.65s;
+}
+.onview-animation.edu.onview-animation--next .education__diploma:nth-of-type(2) {
+  animation-delay: 3.75s;
+}
+.onview-animation.edu.onview-animation--next .education__diploma:nth-of-type(3) {
+  animation-delay: 3.85s;
+}
+.onview-animation.edu.onview-animation--next .education__diploma:nth-of-type(4) {
+  animation-delay: 3.95s;
+}
 .onview-animation h3 {
   animation: title-slidein 1s;
   animation-fill-mode: backwards;
