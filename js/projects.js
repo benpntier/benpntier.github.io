@@ -299,8 +299,10 @@ window.onload = function() {
                 if (entry.target.classList.contains("art") && entry.intersectionRatio >= 0.3) {
                     entry.target.classList.add('onview-animation');
                 }
-            } else if (entry.isIntersecting) {
+            } else if (screen.width > screen.height && entry.isIntersecting) {
                 entry.target.classList.add('onview-animation', 'onview-animation--next');
+            } else if (entry.isIntersecting) {
+                entry.target.classList.add('onview-animation');
             }
         });
     }, {
