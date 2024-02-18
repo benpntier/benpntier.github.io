@@ -264,6 +264,22 @@
         ]
     },
     {
+        "id":"portfolio",
+        "category":"perso",
+        "logo_url":"/favicon.ico?",
+        "logo_alt":"Portfolio",
+        "name":"Portfolio v3",
+        "dates":"Depuis mai 2023",
+        "tags_short":[
+            "Web",
+            "JavaScript"
+        ],
+        "tags_colors_short":[
+            "web",
+            "web"
+        ]
+    },
+    {
         "id":"kasa",
         "category":"uni",
         "logo_url":"img/uni/kasa/icon.png",
