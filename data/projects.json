@@ -261,7 +261,8 @@
         ],
         "tags_colors_short":[
             "prog"
-        ]
+        ],
+        "mission":"Résoudre des problèmes de la plateforme <a href='https://www.codingame.com/' class='projects__link' target='_blank'>CodinGame</a>, qui propose aux développeurs d'améliorer leurs compétences en continu avec des puzzles et événements."
     },
     {
         "id":"portfolio",
