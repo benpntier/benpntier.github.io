@@ -278,6 +278,11 @@ function filterTagsReset() {
 }
 
 window.onload = function() {
+
+    var encodedEmail = "YmVub2l0LnBudGllckBnbWFpbC5jb20=";
+    const emailButton = document.getElementById("contact");
+    emailButton.setAttribute("href", "mailto:".concat(atob(encodedEmail)));
+
     fetchData();
 
     let observer = new IntersectionObserver(entries => {
