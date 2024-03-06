@@ -243,7 +243,7 @@
     },
     {
         "id":"computervision",
-        "category":"perso",
+        "category":"unlisted",
         "logo_url":"img/perso/computervision/logo.png",
         "logo_alt":"OpenCV",
         "name":"Computer Vision",
