@@ -45,7 +45,21 @@ function addProjectHTML(project) {
         proArticle.classList.add("projects__card", "pro__project");
         proArticle.appendChild(proHeader);
         proArticle.appendChild(proDesc);
-        proArticle.appendChild(proTags);
+
+        if (project.comment != undefined) {
+            const proRef = document.createElement("i");
+            //proRef.classList.add("fa-solid", "fa-user-check", "pro__reficon");
+            proRef.classList.add("fa-solid", "fa-quote-left", "pro__reficon");
+    
+            const proFooter = document.createElement("div");
+            proFooter.className = "pro__footer";
+            proFooter.appendChild(proTags);
+            proFooter.appendChild(proRef);
+
+            proArticle.appendChild(proFooter);
+        } else {
+            proArticle.appendChild(proTags);
+        }
 
         const proLink = document.createElement("a");
         proLink.href = "project.html?id=" + project.id;
@@ -135,9 +149,6 @@ function addProjectHTML(project) {
         document.querySelector(".art .projects__list").appendChild(artLink);
 
     } else if (project.category == "perso") {
-
-        console.log("lil");
-
         const persoLogo = document.createElement("img");
         persoLogo.className = "perso__img";
         persoLogo.alt = project.logo_alt;
@@ -171,14 +182,17 @@ function addProjectHTML(project) {
         persoArticle.appendChild(persoInfo);
         persoArticle.classList.add("projects__item"); // remove when link implemented
 
-        /*
-        const persoLink = document.createElement("a");
-        persoLink.href = "";
-        persoLink.appendChild(persoArticle);
-        persoLink.className = "projects__item";
-        */
+        if (project.page) {
+            const persoLink = document.createElement("a");
+            persoLink.href = "project.html?id=" + project.id;;
+            persoLink.appendChild(persoArticle);
+            persoLink.className = "projects__item";
+            document.querySelector(".perso .projects__list").appendChild(persoLink);
+        } else {
+            document.querySelector(".perso .projects__list").appendChild(persoArticle);
+        }
 
-        document.querySelector(".perso .projects__list").appendChild(persoArticle);
+        
     }
 }
 
@@ -195,7 +209,7 @@ function fetchData() {
         })
 }
 
-let webTags = ["JavaScript", "PHP", "Sass", "Node.js", "React"];
+let webTags = ["JavaScript", "PHP", "Sass", "Node.js", "React", "WordPress"];
 let dlTags = ["CNN", "MLP", "Machine Learning"];
 
 function getTag(tag) {

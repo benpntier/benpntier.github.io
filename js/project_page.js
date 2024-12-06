@@ -38,6 +38,9 @@ function addProjectInfo(project) {
     if (project.context !== undefined) {
         document.querySelector(".project__context").innerHTML = "<i class='project__icon fa-solid fa-graduation-cap' title='Contexte'></i> " + project.context;
     }
+    if (project.city !== undefined) {
+        document.querySelector(".project__city").innerHTML = "<i class='project__icon fa-solid fa-location-dot' title='Ville'></i> " + project.city;
+    }
     if (project.solo !== undefined) {
         document.querySelector(".project__solo").innerHTML = "<i class='project__icon fa-solid fa-user' title='Autonomie'></i> " + project.solo;
     }

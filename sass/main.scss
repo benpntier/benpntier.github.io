@@ -485,7 +485,7 @@ hr {
     animation: 1s p-slidein;
     animation-fill-mode: backwards;
 
-    @for $i from 1 to 7 {
+    @for $i from 1 to 8 {
         &:nth-of-type(#{$i}) {
             animation-delay: #{$loader-duration+.5+$i*.1}s;
         }
@@ -863,7 +863,7 @@ hr {
 
     &.perso {
         & .projects__list .projects__item {
-            @for $i from 1 to 5 {
+            @for $i from 1 to 9 {
                 &:nth-of-type(#{$i}) {
                     animation-delay: #{$min-delay+.4+$i*.1}s;
                 }
@@ -932,6 +932,10 @@ hr {
             & img {
                 opacity: 100%;
             }
+
+            & .pro__reficon {
+                color: lighten($link,7);
+            }
         }
     }
     & img {
@@ -967,6 +971,16 @@ hr {
         flex-direction: row;
         gap: .8em;
         align-items: center;
+    }
+    &__footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+    }
+    &__reficon {
+        color: lighten($link, 27);
+        transition: color .3s;
     }
     &__img {
         height: 35px;
@@ -1005,7 +1019,7 @@ hr {
 
     &__project {
         flex-direction: row;
-        width: 242px;
+        width: 305px;
         align-items: center;
         border-bottom: $highlight solid 1px;
         //align-items: flex-start;
@@ -1071,7 +1085,7 @@ hr {
 
 	&__icon {
 		color: $sparkle;
-		font-size: 2.2em;
+		font-size: 2.5em;
 	}
 
 	&__text {
@@ -1175,7 +1189,7 @@ hr {
             animation: 1s p-slidein;
             animation-fill-mode: backwards;
             
-            @for $i from 1 to 9 {
+            @for $i from 1 to 12 {
                 &:nth-of-type(#{$i}) {
                     animation-delay: #{$loader-duration+.6+$i*.05}s;
                 }
@@ -1506,12 +1520,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 1235px) {
-    .perso .projects__list {
-        max-width: 700px;
-    }
-}
-
 @media screen and (max-width: 1150px) {
     .loader {
         background-color: $bg-primary
@@ -1585,7 +1593,7 @@ footer {
 }
 
 @media screen and (max-width: 1120px) {
-    .uni .projects__list {
+    .uni .projects__list, .perso .projects__list {
         max-width: 900px;
     }
 }
@@ -1956,6 +1964,10 @@ footer {
             gap: .5em;
         }
 
+        &__reficon {
+            font-size: .9em;
+        }
+
         &__img {
             height: 30px;
         }
@@ -1972,6 +1984,10 @@ footer {
     .uni__img {
         height: 60px;
         width: 60px;
+    }
+
+    .perso .projects__card {
+        gap: .75em;
     }
 
     .perso__img {
