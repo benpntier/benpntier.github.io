@@ -48,7 +48,6 @@ function addProjectHTML(project) {
 
         if (project.comment != undefined) {
             const proRef = document.createElement("i");
-            //proRef.classList.add("fa-solid", "fa-user-check", "pro__reficon");
             proRef.classList.add("fa-solid", "fa-quote-left", "pro__reficon");
     
             const proFooter = document.createElement("div");
@@ -72,7 +71,11 @@ function addProjectHTML(project) {
         const uniLogo = document.createElement("img");
         uniLogo.className = "uni__img";
         uniLogo.alt = project.logo_alt;
-        uniLogo.src = project.logo_url;
+        if (project.icon_url != undefined) {
+            uniLogo.src = project.icon_url;
+        } else {
+            uniLogo.src = project.logo_url;
+        }
 
         const uniName = document.createElement("h4");
         uniName.className = "no-margin";

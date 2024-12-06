@@ -975,7 +975,8 @@
     {
         "id":"icastage",
         "category":"uni",
-        "logo_url":"img/uni/icastage/icon.png",
+        "icon_url":"img/uni/icastage/icon.png",
+        "logo_url":"img/pro/ica/logo.png",
         "logo_alt":"Institut Clément Ader",
         "name":"Stage à l'ICA",
         "name_full":"Stage à l'<a href='https://ica.cnrs.fr/' class='projects__link' target='_blank'>Institut Clément Ader</a>",
