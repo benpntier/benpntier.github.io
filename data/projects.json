@@ -223,7 +223,7 @@
         "prev":"phonetik"
     },
     {
-        "id":"ica",
+        "id":"icastage",
         "category":"unlisted",
         "company":"<a href='https://ica.cnrs.fr/' class='projects__link' target='_blank'>Institut Clément Ader</a>",
         "logo_url":"img/pro/ica/logo.png",
@@ -970,12 +970,12 @@
         "nb_columns":"3v",
         "rounded":true,
         "prev":"neocampus",
-        "next":"icastage"
+        "next":"ica"
     },
     {
-        "id":"icastage",
+        "id":"ica",
         "category":"uni",
-        "icon_url":"img/uni/icastage/icon.png",
+        "icon_url":"img/uni/ica/icon.png",
         "logo_url":"img/pro/ica/logo.png",
         "logo_alt":"Institut Clément Ader",
         "name":"Stage à l'ICA",
@@ -1065,7 +1065,7 @@
         ],
         "nb_columns":4,
         "rounded":true,
-        "prev":"icastage",
+        "prev":"ica",
         "next":"cabinetmedical"
     },
     {
