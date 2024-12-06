@@ -249,6 +249,15 @@ $tag-colours: (
     "android": #a3cb7b,
     "design": #dea8d7
 );
+$tag-accents: (
+    "undefined": $highlight,
+    "algo": #b4d4d0,
+    "android": #c0d2ad,
+    "deepl": #b7d2db,
+    "imagep": #c2c9e3,
+    "prog": #e6cccc,
+    "web": #e5d2b8
+);
 
 body {
     padding: 0;
@@ -957,6 +966,20 @@ hr {
     }
 }
 
+@each $tag-name, $tag-colour in $tag-accents {
+    .projects__accent--#{$tag-name} {
+        border-bottom: $tag-colour solid 2px;
+    }
+
+    .uni__project.projects__accent--#{$tag-name} {
+        border-bottom-color: darken($tag-colour, 5);
+    }
+
+    .uni__project--nonhover.projects__accent--#{$tag-name} {
+        border-bottom-color: $lightergrey;
+    }
+}
+
 .pro {
     &__separator {
         width: 6em;
@@ -964,7 +987,7 @@ hr {
     &__project {
         width: 290px;
         flex-direction: column;
-        border-bottom: $highlight solid 1px;
+        //border-bottom: $highlight solid 1px;
     }
     &__header {
         display: flex;
@@ -998,7 +1021,7 @@ hr {
         flex-direction: row;
         width: 305px;
         align-items: center;
-        border-bottom: $highdark solid 1px;
+        //border-bottom: $highdark solid 1px;
     }
     &__img {
         height: 70px;
@@ -1021,7 +1044,7 @@ hr {
         flex-direction: row;
         width: 305px;
         align-items: center;
-        border-bottom: $highlight solid 1px;
+        //border-bottom: $highlight solid 1px;
         //align-items: flex-start;
     }
 
@@ -1038,7 +1061,7 @@ hr {
     &__project {
         flex-direction: row;
         width: 350px;
-        border-bottom: $highlight solid 1px;
+        border-bottom: $highlight solid 2px;
         
         &:nth-of-type(2) {
             width: 345px;

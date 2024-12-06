@@ -59,6 +59,7 @@ function addProjectHTML(project) {
         } else {
             proArticle.appendChild(proTags);
         }
+        proArticle.classList.add("projects__accent--"+project.tag_accent);
 
         const proLink = document.createElement("a");
         proLink.href = "project.html?id=" + project.id;
@@ -103,6 +104,7 @@ function addProjectHTML(project) {
         uniArticle.classList.add("projects__card", "uni__project");
         uniArticle.appendChild(uniLogo);
         uniArticle.appendChild(uniInfo);
+        uniArticle.classList.add("projects__accent--"+project.tag_accent);
 
         const uniLink = document.createElement("a");
         uniLink.href = "project.html?id=" + project.id;
@@ -184,6 +186,7 @@ function addProjectHTML(project) {
         persoArticle.appendChild(persoLogo);
         persoArticle.appendChild(persoInfo);
         persoArticle.classList.add("projects__item"); // remove when link implemented
+        persoArticle.classList.add("projects__accent--"+project.tag_accent);
 
         if (project.page) {
             const persoLink = document.createElement("a");
@@ -194,8 +197,6 @@ function addProjectHTML(project) {
         } else {
             document.querySelector(".perso .projects__list").appendChild(persoArticle);
         }
-
-        
     }
 }
 

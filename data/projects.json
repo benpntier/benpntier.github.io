@@ -9,6 +9,7 @@
         "name_full":"Ingénieur développeur en IA",
         "dates":"Mars-juin 2024",
         "desc":"Projet européen <b>ACHILE</b> : Mener la <b>R&D</b> autour des <b>technologies vocales</b>, rédiger l'<b>état de l'art</b>, développer des <b>prototypes</b>",
+        "tag_accent":"deepl",
         "tags_short":[
             "Deep Learning",
             "Speech AI",
@@ -70,6 +71,7 @@
         "name_full":"Chargé de développement IT",
         "dates":"Octobre 2022 - Septembre 2023",
         "desc":"<b>Piloter</b> un projet en R&D, <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et l'<b>optimiser</b>",
+        "tag_accent":"imagep",
         "tags_short":[
             "Video Processing",
             "Android"
@@ -127,6 +129,7 @@
         "name":"Stage de fin d'études",
         "dates":"Mars-août 2021",
         "desc":"Concevoir un <b>réseau de neurones</b> capable de proposer une <b>correction automatique</b> basée sur la <b>prononciation</b>",
+        "tag_accent":"deepl",
         "tags_short":[
             "Deep Learning",
             "NLP",
@@ -187,6 +190,7 @@
         "name":"Bureau d'études",
         "dates":"Avril-mai 2019",
         "desc":"Implémenter une <b>interface<\/b> et une <b>IA<\/b> pour faire <b>collaborer<\/b> deux robots Lego NXT sur une <b>tâche commune<\/b> sans collision",
+        "tag_accent":"algo",
         "tags_short":[
             "Algorithme A*",
             "Java"
@@ -231,6 +235,7 @@
         "name":"Stage",
         "dates":"Avril-juin 2018",
         "desc":"<b>Migrer</b> un <b>site</b> statique vers WordPress, maintenir ses <b>fonctions</b> et <b>données</b> et étendre ses fonctionnalités",
+        "tag_accent":"web",
         "tags_short":[
             "Web",
             "WordPress",
@@ -278,6 +283,7 @@
         "logo_alt":"Kaggle",
         "name":"Défis <i>Kaggle</i> en ML & IA",
         "dates":"Depuis juillet 2024",
+        "tag_accent":"dl",
         "tags_short":[
             "Deep Learning",
             "Python"
@@ -295,6 +301,7 @@
         "logo_alt":"Deep Learning",
         "name":"Deep Learning",
         "dates":"Depuis février 2024",
+        "tag_accent":"dl",
         "tags_short":[
             "DL",
             "Python"
@@ -312,6 +319,7 @@
         "logo_alt":"OpenCV",
         "name":"Projets de Computer Vision",
         "dates":"Depuis janvier 2024",
+        "tag_accent":"imagep",
         "tags_short":[
             "Image Processing"
         ],
@@ -327,6 +335,7 @@
         "logo_alt":"CodinGame",
         "name":"Défis et puzzles <i>CodinGame</i>",
         "dates":"Depuis octobre 2023",
+        "tag_accent":"prog",
         "tags_short":[
             "Python"
         ],
@@ -343,6 +352,7 @@
         "logo_alt":"Portfolio",
         "name":"Portfolio professionnel v3",
         "dates":"Depuis mai 2023",
+        "tag_accent":"web",
         "tags_short":[
             "Web",
             "JavaScript"
@@ -360,6 +370,7 @@
         "logo_alt":"Kasa",
         "name": "Application web <i>Kasa</i>",
         "dates":"Août 2023",
+        "tag_accent":"web",
         "tags_short":[
             "Web",
             "JavaScript",
@@ -409,6 +420,7 @@
         "name":"API de l'app web <i>HotTakes</i>",
         "name_full":"API de l'application web <i>HotTakes</i>",
         "dates":"Juillet-août 2023",
+        "tag_accent":"web",
         "tags_short":[
             "Web",
             "Node.js",
@@ -461,6 +473,7 @@
         "logo_alt":"OhMyFood",
         "name":"Site web <i>OhMyFood</i>",
         "dates":"Février-mars 2023",
+        "tag_accent":"web",
         "tags_short":[
             "Web",
             "Sass",
@@ -507,6 +520,7 @@
         "logo_alt":"Booki",
         "name":"Site web <i>Booki</i>",
         "dates":"Octobre-Novembre 2022",
+        "tag_accent":"web",
         "tags_short":[
             "Web",
             "Figma"
@@ -546,6 +560,7 @@
         "logo_alt":"Concept Mapping Tool",
         "name":"<i>Concept Mapping Tool</i>",
         "dates":"Octobre 2020 - Mars 2021",
+        "tag_accent":"prog",
         "tags_short":[
             "Java",
             "Web",
@@ -593,6 +608,7 @@
         "logo_alt":"Classification de vêtements",
         "name":"Classification de vêtements",
         "dates":"Octobre 2020",
+        "tag_accent":"deepl",
         "tags_short":[
             "Deep Learning",
             "MLP",
@@ -641,6 +657,7 @@
         "logo_alt":"Programme Pointilliste",
         "name":"Programme Pointilliste",
         "dates":"Mars-juin 2020",
+        "tag_accent":"imagep",
         "tags_short":[
             "Image Processing",
             "C++"
@@ -691,6 +708,7 @@
         "logo_alt":"Algorithme de débruitage",
         "name":"Algorithme de débruitage",
         "dates":"Février-mai 2020",
+        "tag_accent":"imagep",
         "tags_short":[
             "Image Processing",
             "Python"
@@ -744,6 +762,7 @@
         "logo_alt":"Dogs vs. cats",
         "name":"Classification <i>Dogs vs. cats</i>",
         "dates":"Décembre 2019 - Janvier 2020",
+        "tag_accent":"deepl",
         "tags_short":[
             "Deep Learning",
             "CNN",
@@ -789,6 +808,7 @@
         "logo_alt":"Arkanoid 3D",
         "name":"Jeu web <i>Arkanoid 3D</i>",
         "dates":"Novembre 2019 - Janvier 2020",
+        "tag_accent":"web",
         "tags_short":[
             "Web",
             "JavaScript"
@@ -828,6 +848,7 @@
         "logo_alt":"Data Science",
         "name":"Data Science",
         "dates":"Novembre 2019 - Janvier 2020",
+        "tag_accent":"prog",
         "tags_short":[
             "Python",
             "Linear Regression"
@@ -872,6 +893,7 @@
         "logo_url":"img/uni/multilabelclass/icon.png",
         "logo_alt":"Classification Multi-Label",
         "dates":"Novembre-décembre 2019",
+        "tag_accent":"algo",
         "tags_short":[
             "Machine Learning",
             "Python"
@@ -912,6 +934,7 @@
         "logo_alt":"neOCampus",
         "name":"Interface neOCampus",
         "dates":"Novembre 2018 - Janvier 2019",
+        "tag_accent":"prog",
         "tags_short":[
             "Java",
             "SQL"
@@ -945,6 +968,7 @@
         "logo_alt":"Course Poursuite",
         "name":"Application <i>Course Poursuite</i>",
         "dates":"Novembre 2018 - Janvier 2019",
+        "tag_accent":"android",
         "tags_short":[
             "Android",
             "Java"
@@ -981,6 +1005,7 @@
         "name":"Stage à l'ICA",
         "name_full":"Stage à l'<a href='https://ica.cnrs.fr/' class='projects__link' target='_blank'>Institut Clément Ader</a>",
         "dates":"Avril-juin 2018",
+        "tag_accent":"web",
         "tags_short":[
             "Web",
             "WordPress",
@@ -1029,6 +1054,7 @@
         "logo_alt":"Norn Talk",
         "name":"Application <i>Norn Talk</i>",
         "dates":"Octobre-décembre 2017",
+        "tag_accent":"android",
         "tags_short":[
             "Android",
             "Kotlin"
@@ -1075,6 +1101,7 @@
         "logo_alt":"Algorithme génétique",
         "name":"Algorithme génétique",
         "dates":"Septembre-novembre 2017",
+        "tag_accent":"prog",
         "tags_short":[
             "Python"
         ],
@@ -1098,6 +1125,7 @@
         "logo_alt":"Cabinet Médical",
         "name":"Site de cabinet médical",
         "dates":"Décembre 2017 - Janvier 2018",
+        "tag_accent":"web",
         "tags_short":[
             "Web",
             "PHP",
@@ -1149,6 +1177,7 @@
         "name":"Webdoc <i>Brave New Earth</i>",
         "name_full":"Webdocumentaire <i>Brave New Earth</i>",
         "dates":"Février-mai 2017",
+        "tag_accent":"web",
         "tags_short":[
             "Web",
             "Montage vidéo",
@@ -1197,6 +1226,7 @@
         "logo_alt":"Un Rêve de Dune",
         "name":"Site web <i>Un Rêve de Dune</i>",
         "dates":"Septembre-octobre 2016",
+        "tag_accent":"web",
         "tags_short":[
             "Web",
             "Design"
@@ -1237,6 +1267,7 @@
         "logo_alt":"L'Odyssée de l'Hyperespace",
         "name":"L'Odyssée de l'Hyperespace",
         "dates":"Mars-mai 2016",
+        "tag_accent":"prog",
         "tags_short":[
             "Python",
             "Dijkstra"
