@@ -252,11 +252,11 @@ $tag-colours: (
 $tag-accents: (
     "undefined": $highlight,
     "algo": #b4d4d0,
-    "android": #c0d2ad,
+    "android": #bdd1a7,
     "deepl": #b7d2db,
     "imagep": #c2c9e3,
     "prog": #e6cccc,
-    "web": #e5d2b8
+    "web": #e4d0b4
 );
 
 body {
@@ -528,7 +528,7 @@ hr {
 }
 
 @each $tag-name, $tag-colour in $tag-colours {
-    .about .tags .#{$tag-name}:hover, .projects__card:hover .tags .#{$tag-name}, .project__page .tags .#{$tag-name}:hover, .filter .#{$tag-name}:not(.selected):hover, .filter .#{$tag-name}:hover {
+    .about .tags .#{$tag-name}:hover, .projects__card:hover .tags .#{$tag-name}, .projects__card.hover .tags .#{$tag-name}:not(.nonhoverfilter), .project__page .tags .#{$tag-name}:hover, .filter .#{$tag-name}:not(.selected):hover, .filter .#{$tag-name}:hover {
         background-color: darken($tag-colour, 8);
     }
 }
@@ -937,9 +937,11 @@ hr {
 
         &:hover, &.hover {
             box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.23);
+            transition: box-shadow .3s;
 
             & img {
                 opacity: 100%;
+                transition: opacity 0.3s;
             }
 
             & .pro__reficon {
@@ -969,10 +971,19 @@ hr {
 @each $tag-name, $tag-colour in $tag-accents {
     .projects__accent--#{$tag-name} {
         border-bottom: $tag-colour solid 2px;
+        transition: box-shadow .3s, border-bottom-color .3s;
+    }
+
+    .projects__card:hover.projects__accent--#{$tag-name} {
+        border-bottom-color: darken($tag-colour, 8);
     }
 
     .uni__project.projects__accent--#{$tag-name} {
         border-bottom-color: darken($tag-colour, 5);
+    }
+
+    .uni__project.hover.projects__accent--#{$tag-name}, .uni__project:hover.projects__accent--#{$tag-name} {
+        border-bottom-color: darken($tag-colour, 13);
     }
 
     .uni__project--nonhover.projects__accent--#{$tag-name} {
@@ -1022,6 +1033,15 @@ hr {
         width: 305px;
         align-items: center;
         //border-bottom: $highdark solid 1px;
+        &--nonhover {
+            filter: opacity(.5);
+            transition: all .3s;
+
+            & img {
+                filter: grayscale(1);
+                transition: all .3s;
+            }
+        }
     }
     &__img {
         height: 70px;

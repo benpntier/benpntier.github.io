@@ -262,16 +262,12 @@ function filterTagsHover(event) {
             tag.classList.add("nonhoverfilter");
             if (!parentProject.classList.contains("hover")) {
                 parentProject.classList.add("uni__project--nonhover");
-                projectImage.style.filter = "grayscale(1) opacity(.7)";
-                projectImage.style.transition = "all .3s"
             }
         } else {
             if (!parentProject.classList.contains("hover"))
                 parentProject.classList.add("hover");
             if (parentProject.classList.contains("uni__project--nonhover")) {
                 parentProject.classList.remove("uni__project--nonhover");
-                projectImage.style.filter = "none";
-                projectImage.style.transition = "all .3s"
             }
         }
     }
@@ -286,7 +282,6 @@ function filterTagsReset() {
             tag.classList.remove("nonhoverfilter");
             if (parentProject.classList.contains("uni__project--nonhover")) {
                 parentProject.classList.remove("uni__project--nonhover");
-                projectImage.style.filter = "none";
             }
 
         } else {
