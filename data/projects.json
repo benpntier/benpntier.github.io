@@ -364,6 +364,60 @@
         "page":false
     },
     {
+        "id":"erasedhead",
+        "category":"perso",
+        "logo_url":"img/perso/erasedhead/icon.png",
+        "logo_alt":"Erasedhead",
+        "name":"<i>Erasedhead (Face blur)</i>",
+        "dates":"Février 2025",
+        "tag_accent":"imagep",
+        "tags_short":[
+            "Image Processing",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "imagep",
+            "prog"
+        ],
+        "page":true,
+        "tags_full":[
+            "Image Processing",
+            "OpenCV",
+            "Python",
+            "Anaconda",
+            "Jupyter Notebook"
+        ],
+        "tags_colors_full":[
+            "imagep",
+            "imagep",
+            "prog",
+            "env",
+            "env"
+        ],
+        "mission":"<b>Implémenter</b> un <b>floutage automatique</b> de <b>visage</b>, en utilisant <b>OpenCV</b> et les <b>cascades de Haar</b> pour la détection faciale. Elle doit être possible sur une <b>photo</b> individuelle ou une photo de groupe, en noir et blanc ou en couleurs, mais aussi depuis une <b>vidéo</b> existante ou depuis la <b>webcam</b>, en direct. Pour <b>anonymiser</b> les <b>visages</b>, l'effet appliqué  dans un premier temps a été le <b>flou gaussien</b>, puis dans un second temps un <b>effet pixelisé</b> (légèrement plus complexe, mais plus efficace).",
+        "images_url":[
+            "img/perso/erasedhead/eraserhead.png",
+            "img/perso/erasedhead/group.png"
+        ],
+        "images_caption":[
+            "Résultats pour l'affiche du film Eraserhead",
+            "Résultats pour une photo de groupe"
+        ],
+        "additional_html":[
+            "<p class='project__mission'>Pour chaque image (respectivement une photo <b>individuelle</b> en <b>noir et blanc</b>, et une photo de <b>groupe</b> en <b>couleurs</b>), nous avons la <b>photo originale</b>, la <b>région d'intérêt</b> (ROI, <i>Region of Interest</i>) obtenue avec la <b>détection faciale</b>, un effet de <b>flou gaussien</b> et enfin un <b>effet pixelisé</b>. Sur ce type de portraits, l'effet appliqué est très <b>efficace</b>, mais il y aura plus de <b>contraintes</b> dans une <b>vidéo</b>.</p>",
+            "<br><div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/perso/erasedhead/walking.gif' alt='Resultat pour un extrait de video'><figcaption>Résultat pour un extrait de vidéo</figcaption></figure></div>",
+            "<p class='project__mission'>Dans cet <b>extrait vidéo</b>, l'<b>effet pixelisé</b> est à nouveau <b>très efficace</b>, dès l'<b>arrivée</b> des sujets dans l'image et avec <b>leur mouvement</b> devant la caméra. Il semble y avoir seulement quelques <i>frames</i> avec des <b>aberrations</b> concernant la <b>détection faciale</b>, qui est aussi en <b>difficulté</b> lorsque les sujets <b>se tournent</b> pour partir (avec des caractéristiques faciales moins visibles).</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/perso/erasedhead/walking_2.gif' alt='Resultat pour un 2e extrait de video'><figcaption>Résultat pour un 2e extrait de vidéo, avec des limites apparentes</figcaption></figure></div>",
+            "<p class='project__mission'>Dans ce <b>deuxième extrait vidéo</b>, l'<b>effet</b> est <b>parfaitement efficace</b> sur la <b>personne à gauche</b>, de son <b>arrivée</b> jusqu'à son <b>départ</b> de l'image. En revanche, il y a plus de <b>difficultés</b> avec les autres sujets. On peut les expliquer par les <b>lunettes</b>, qui peuvent <b>troubler</b> la <b>détection faciale</b>, et le <b>visage incliné</b>, qui semble être une <b>limite</b> de la méthode des <b>cascades de Haar</b>.</p>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image project__image--rounded' src='img/perso/erasedhead/webcam.gif' alt='Resultat en direct de la webcam'><figcaption>Résultat en direct de la webcam</figcaption></figure></div>",
+            "<p class='project__mission'>Dans cet <b>extrait</b> issu de la <b>webcam</b> (application en direct), l'<b>effet</b> est toujours <b>performant</b>, y compris avec les <b>lunettes</b>. Avec les <b>mouvements</b>, la <b>détection faciale</b> peut <b>vaciller</b> sur quelques <i>frames</i>. Mais le principal <b>défaut apparent</b> de la méthode des <b>cascades de Haar</b> reste l'<b>inclinaison</b> du visage.</p>",
+            "<br><p class='project__improv project__info'><i class='project__icon fa-solid fa-lightbulb' title='Améliorations possibles' aria-hidden='true'></i> <b>Améliorations possibles</b></p>",
+            "<p class='project__mission'>Dans cette <b>version</b>, la <b>détection faciale</b> a été réalisée avec la méthode des <b>cascades de Haar</b>. Même si elle a <b>facilité</b> l'<b>implémentation</b>, sa <b>performance</b> n'est pas toujours <b>optimale</b>, avec les limites mentionnées précédemment. Selon les <b>applications</b> d'un programme comme celui-ci, il suffit d'une <i>frame</i> où l'<b>anonymisation</b> n'est pas appliquée pour qu'elle perde <b>tout son intérêt</b>. La méthode employée n'étant pas la plus avancée, elle pourrait donc être <b>améliorée</b>. Par exemple, il serait possible d'entraîner un <b>modèle</b> de <b>Deep Learning</b>, qui serait beaucoup plus performant et <b>robuste</b>. De plus, pour <b>faciliter</b> la détection <b>entre deux <i>frames</i></b> et éviter qu'elle vacille (avec un <b>mouvement</b> trop vif ou une <b>inclinaison</b> du visage par exemple), nous pourrions appliquer l'<b><i>object tracking</i></b> au <b>visage détecté</b> pour le <b>suivre</b> tout au long d'une <b>vidéo</b>.</p>"
+        ],
+        "nb_columns":"2h",
+        "next":"kasa"
+    },
+    {
         "id":"kasa",
         "category":"perso",
         "logo_url":"img/uni/kasa/icon.png",
@@ -410,6 +464,7 @@
             "Page d'accueil"
         ],
         "rounded":true,
+        "prev":"erasedhead",
         "next":"hottakes"
     },
     {
@@ -510,12 +565,11 @@
         ],
         "rounded":true,
         "external_url":["https://benpntier.github.io/live/ohmyfood/", "Démo du site web"],
-        "prev":"hottakes",
-        "next":"booki"
+        "prev":"hottakes"
     },
     {
         "id":"booki",
-        "category":"perso",
+        "category":"unlisted",
         "logo_url":"img/uni/booki/icon.png",
         "logo_alt":"Booki",
         "name":"Site web <i>Booki</i>",
@@ -668,11 +722,13 @@
         ],
         "tags_full":[
             "Image Processing",
+            "OpenCV",
             "Python",
             "C++",
             "Google Colab"
         ],
         "tags_colors_full":[
+            "imagep",
             "imagep",
             "prog",
             "prog",
@@ -720,10 +776,12 @@
         "tags_full":[
             "Image Processing",
             "BM3D",
+            "OpenCV",
             "Python",
             "Google Colab"
         ],
         "tags_colors_full":[
+            "imagep",
             "imagep",
             "imagep",
             "prog",

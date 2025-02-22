@@ -56,6 +56,9 @@ function addProjectInfo(project) {
     if (project.comment !== undefined) {
         document.querySelector(".project__comment").innerHTML = "<i class='project__icon fa-solid fa-quote-left' title='Recommandation'></i> " + project.comment;
     }
+    if (project.improv !== undefined) {
+        document.querySelector(".project__improv").innerHTML = "<i class='project__icon fa-solid fa-lightbulb' title='Améliorations possibles'></i> " + project.improv;
+    }
 
     document.querySelector(".project__mission").innerHTML = project.mission;
 
