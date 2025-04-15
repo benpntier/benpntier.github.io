@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @keyframes loader-fadeout {
     0% {
         opacity: 1;
@@ -529,7 +531,7 @@ hr {
 
 @each $tag-name, $tag-colour in $tag-colours {
     .about .tags .#{$tag-name}:hover, .projects__card:hover .tags .#{$tag-name}, .projects__card.hover .tags .#{$tag-name}:not(.nonhoverfilter), .project__page .tags .#{$tag-name}:hover, .filter .#{$tag-name}:not(.selected):hover, .filter .#{$tag-name}:hover {
-        background-color: darken($tag-colour, 8);
+        background-color: color.adjust($tag-colour, $lightness: -8%);
     }
 }
 
@@ -541,7 +543,7 @@ hr {
         height: 220px;
         width: 215px;
         background-color: $sky;
-        background: linear-gradient(0deg, lighten($sky, 15) 0%, $sky 100%);
+        background: linear-gradient(0deg, (color.adjust($sky, $lightness: +15%)) 0%, $sky 100%);
         border-radius: 50% 50% 10px 10px;
         display: flex;
         align-items: flex-end;
@@ -691,7 +693,7 @@ hr {
             transition: color .3s;
 
             &:hover {
-                color: darken($link, 10);
+                color: color.adjust($link, $lightness: -10%);
             }
 
             &:first-of-type {
@@ -945,7 +947,7 @@ hr {
             }
 
             & .pro__reficon {
-                color: lighten($link,7);
+                color: color.adjust($link, $lightness: +7%);
             }
         }
     }
@@ -958,12 +960,12 @@ hr {
         color: grey;
     }
     &__link {
-        color: darken($sky, 25);
+        color: color.adjust($sky, $lightness: -25%);
         text-decoration: none;
         transition: color .3s;
 
         &:hover {
-            color: darken($sky, 42);
+            color: color.adjust($sky, $lightness: -42%);
         }
     }
 }
@@ -975,15 +977,15 @@ hr {
     }
 
     .projects__card:hover.projects__accent--#{$tag-name} {
-        border-bottom-color: darken($tag-colour, 8);
+        border-bottom-color: color.adjust($tag-colour, $lightness: -8%);
     }
 
     .uni__project.projects__accent--#{$tag-name} {
-        border-bottom-color: darken($tag-colour, 5);
+        border-bottom-color: color.adjust($tag-colour, $lightness: -5%);
     }
 
     .uni__project.hover.projects__accent--#{$tag-name}, .uni__project:hover.projects__accent--#{$tag-name} {
-        border-bottom-color: darken($tag-colour, 13);
+        border-bottom-color: color.adjust($tag-colour, $lightness: -13%);
     }
 
     .uni__project--nonhover.projects__accent--#{$tag-name} {
@@ -1013,7 +1015,7 @@ hr {
         align-items: end;
     }
     &__reficon {
-        color: lighten($link, 27);
+        color: color.adjust($link, $lightness: +27%);
         transition: color .3s;
     }
     &__img {
@@ -1099,10 +1101,10 @@ hr {
 }
 
 .projects__ornament--darker {
-    color: darken($lightergrey, 7);
+    color: color.adjust($lightergrey, $lightness: -7%);
 
     & hr {
-        border-top-color: darken($lightergrey, 7);
+        border-top-color: color.adjust($lightergrey, $lightness: -7%);
     }
 }
 
@@ -1183,18 +1185,18 @@ hr {
     }
 
     &__city {
-        color: darken($lightergrey, 25);
+        color: color.adjust($lightergrey, $lightness: -25%);
         font-size: .8em;
     }
 
     &__icon {
         font-size: .8em;
-        color: darken($lightergrey, 25);
+        color: color.adjust($lightergrey, $lightness: -25%);
     }
 }
 
 .filter {
-    color: darken($lightergrey, 25);
+    color: color.adjust($lightergrey, $lightness: -25%);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1210,7 +1212,7 @@ hr {
             cursor: pointer;
 
             &:not(.selected) {
-                background-color: darken($lightergrey, 9);
+                background-color: color.adjust($lightergrey, $lightness: -9%);
             }
         }
     }
@@ -1242,7 +1244,7 @@ hr {
         & table {
             margin-top: .5em;
             font-size: .9em;
-            color: lighten($black, 15);
+            color: color.adjust($black, $lightness: +15%);
             border-collapse: collapse;
             border-radius: .7em;
             overflow: hidden;
@@ -1263,21 +1265,21 @@ hr {
             }
             & tr {
                 & th.green, & td.green {
-                    color: darken(#bfd8a7, 47);
+                    color: color.adjust(#bfd8a7, $lightness: -47%);
                 }
                 &:not(:last-child) {
                     & th, & td {
-                        border-bottom: 1px solid lighten($lightergrey, 10);
+                        border-bottom: 1px solid color.adjust($lightergrey, $lightness: +10%);
                     }
                     & th.green, & td.green {
                         border-bottom: 1px solid #bfd8a7;
                     }
                 }
                 &:nth-child(even) {
-                    background-color: darken($white, 3);
+                    background-color: color.adjust($white, $lightness: -3%);
 
                     & th.green, & td.green {
-                        background-color: darken($valid, 6);
+                        background-color: color.adjust($valid, $lightness: -6%);
                     }
                 }
                 &:nth-child(odd) {
@@ -1288,10 +1290,10 @@ hr {
                     }
                 }
                 &:nth-child(even):hover, &:nth-child(odd):hover {
-                    background-color: darken($white, 7);
+                    background-color: color.adjust($white, $lightness: -7%);
 
                     & th.green, & td.green {
-                        background-color: darken($valid, 12);
+                        background-color: color.adjust($valid, $lightness: -12%);
                     }
                 }
             }
@@ -1299,14 +1301,14 @@ hr {
 
         & figcaption {
             font-size: .85em;
-            color: darken($lightergrey, 30);
+            color: color.adjust($lightergrey, $lightness: -30%);
             font-style: italic;
             margin-top: .3em;
         }
     }
 
     &__icon {
-        color: darken($lightergrey, 10);
+        color: color.adjust($lightergrey, $lightness: -10%);
         margin-right: .3em;
         text-align: center;
         width: 1em;
@@ -1322,12 +1324,12 @@ hr {
         margin-top: -.5em;
 
         & .fa-solid {
-            color: darken($lightergrey, 10);
+            color: color.adjust($lightergrey, $lightness: -10%);
             text-align: center;
             transition: color .3s;
 
             &:hover {
-                color: darken($lightergrey, 25);
+                color: color.adjust($lightergrey, $lightness: -25%);
             }
         }
 
@@ -1343,14 +1345,14 @@ hr {
             color: $link-secondary;
     
             &:hover {
-                color: darken($link-secondary, 15);
+                color: color.adjust($link-secondary, $lightness: -15%);
             }
         }
     }
 
     &__dates {
         font-size: 1.1em;
-        color: darken($lightergrey, 30);
+        color: color.adjust($lightergrey, $lightness: -30%);
         margin: 0;
         animation: title-slidein 1s #{$loader-duration+.2}s backwards;
     }
@@ -1380,24 +1382,24 @@ hr {
 
     &__credits {
         font-size: .85em;
-        color: darken($lightergrey, 5);
+        color: color.adjust($lightergrey, $lightness: -5%);
         font-style: italic;
         margin-top: 2.5em;
         animation: p-slidein 1s #{$loader-duration+1}s backwards;
 
         & a {
-            color: darken($lightergrey, 5);
+            color: color.adjust($lightergrey, $lightness: -5%);
             transition: color .3s;
     
             &:hover {
-                color: darken($lightergrey, 20)
+                color: color.adjust($lightergrey, $lightness: -20%)
             }
         }
     }
 
     &__info {
         font-size: .95em;
-        color: lighten($black, 15);
+        color: color.adjust($black, $lightness: +15%);
         animation: p-slidein 1s #{$loader-duration+1}s backwards;
     }
 
@@ -1510,7 +1512,7 @@ hr {
 
         & .project__link {
             padding: 1em 1.3em;
-            color: darken($link-secondary, 5);
+            color: color.adjust($link-secondary, $lightness: -5%); 
             text-decoration: none;
             border: 1px solid $sky;
             border-bottom: 3px solid $sky;
@@ -1522,10 +1524,10 @@ hr {
         }
 
         &:hover .project__link {
-            color: darken($link-secondary, 20);
-            border: 1px solid darken($sky, 15);
-            border-bottom: 3px solid darken($sky, 15);
-            background-color: lighten($sky, 30);
+            color: color.adjust($link-secondary, $lightness: -20%);
+            border: 1px solid color.adjust($sky, $lightness: -15%);
+            border-bottom: 3px solid color.adjust($sky, $lightness: -15%);
+            background-color: color.adjust($sky, $lightness: +30%);
         }
     }
 }
@@ -1555,20 +1557,20 @@ footer {
             transition: color .3s;
     
             &:hover {
-                color: darken($lightergrey, 10)
+                color: color.adjust($lightergrey, $lightness: -10%)
             }
         }
     }
 
     &.bg-secondary {
-        color: darken($lightergrey, 15);
+        color: color.adjust($lightergrey, $lightness: -15%);
 
         & a {
-            color: darken($lightergrey, 15);
+            color: color.adjust($lightergrey, $lightness: -15%);
             transition: color .3s;
     
             &:hover {
-                color: darken($lightergrey, 25)
+                color: color.adjust($lightergrey, $lightness: -25%)
             }
         }
     }
