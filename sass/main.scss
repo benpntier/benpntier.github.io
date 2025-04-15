@@ -1378,6 +1378,23 @@ hr {
 
     }
 
+    &__credits {
+        font-size: .85em;
+        color: darken($lightergrey, 5);
+        font-style: italic;
+        margin-top: 2.5em;
+        animation: p-slidein 1s #{$loader-duration+1}s backwards;
+
+        & a {
+            color: darken($lightergrey, 5);
+            transition: color .3s;
+    
+            &:hover {
+                color: darken($lightergrey, 20)
+            }
+        }
+    }
+
     &__info {
         font-size: .95em;
         color: lighten($black, 15);
@@ -1655,7 +1672,7 @@ footer {
         gap: 4em;
     }
 
-    .project__page figcaption {
+    .project__page figcaption, .project__credits {
         font-size: .7em;
     }
 }
@@ -2081,7 +2098,7 @@ footer {
     
     }
 
-    .project__navigation, .project__header, .project__mission, .project__page .tags, .project__info, .project__page .project__gallery {
+    .project__navigation, .project__header, .project__mission, .project__page .tags, .project__info, .project__page .project__gallery, .project__credits {
         padding-left: 1em;
         padding-right: 1em;
     }
