@@ -1573,6 +1573,20 @@ hr {
 .project__mission:nth-of-type(n + 2) {
   animation-delay: 2.2s;
 }
+.project__credits {
+  font-size: 0.85em;
+  color: rgb(174.7372881356, 186.8983050847, 191.7627118644);
+  font-style: italic;
+  margin-top: 2.5em;
+  animation: p-slidein 1s 2.2s backwards;
+}
+.project__credits a {
+  color: rgb(174.7372881356, 186.8983050847, 191.7627118644);
+  transition: color 0.3s;
+}
+.project__credits a:hover {
+  color: rgb(131.9491525424, 150.593220339, 158.0508474576);
+}
 .project__info {
   font-size: 0.95em;
   color: rgb(78.75, 94.5, 99.75);
@@ -1797,7 +1811,7 @@ footer.bg-secondary a:hover {
   .about {
     gap: 4em;
   }
-  .project__page figcaption {
+  .project__page figcaption, .project__credits {
     font-size: 0.7em;
   }
 }
@@ -2119,7 +2133,7 @@ footer.bg-secondary a:hover {
   .project__logo {
     height: 3em;
   }
-  .project__navigation, .project__header, .project__mission, .project__page .tags, .project__info, .project__page .project__gallery {
+  .project__navigation, .project__header, .project__mission, .project__page .tags, .project__info, .project__page .project__gallery, .project__credits {
     padding-left: 1em;
     padding-right: 1em;
   }

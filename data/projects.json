@@ -364,6 +364,64 @@
         "page":false
     },
     {
+        "id":"cookingtimer",
+        "category":"perso",
+        "logo_url":"img/perso/cookingtimer/icon.png",
+        "logo_alt":"Cooking Timer",
+        "name":"Application <i>Cooking Timer</i>",
+        "dates": "Avril 2025",
+        "tag_accent":"android",
+        "tags_short":[
+            "React Native",
+            "TypeScript"
+        ],
+        "tags_colors_short":[
+            "android",
+            "web"
+        ],
+        "page":"true",
+        "tags_full":[
+            "React Native",
+            "Expo",
+            "React",
+            "TypeScript",
+            "Design",
+            "GitHub"
+        ],
+        "tags_colors_full":[
+            "android",
+            "android",
+            "web",
+            "web",
+            "design",
+            "env"
+        ],
+        "mission":"Développer une <b>application mobile native</b>, permettant de <b>calculer</b> le <b>temps de cuisson</b> et <b>l'ordre de préparation</b> de ses <b>légumes</b>. L'<b>interface</b> a été conçue pour être <b>pratique</b> et <b>visuelle</b>, avec assez de <b>fonctionnalités</b> pour assurer une application <b>efficace</b> mais <b>flexible</b> (avec une gestion simple de <b>minuteurs</b> par exemple). L'objectif était aussi de se familiariser en <b>autonomie</b> avec le <i>framework</i> <b>React Native</b> (et la plateforme <b>Expo</b>) pour approfondir les <b>notions</b> et <b>concepts connus</b> de <b>React</b> (les composants, les <i>props</i>, les <i>states</i>, les <i>hooks</i>, etc.) dans un contexte de <b>développement d'applications mobiles</b>.",
+        "solo":"Projet personnel en <b>autonomie</b>",
+        "images_url":[
+            "img/perso/cookingtimer/screenshot1.jpg",
+            "img/perso/cookingtimer/screenshot2.jpg",
+            "img/perso/cookingtimer/screenshot3.jpg",
+            "img/perso/cookingtimer/screenshot4.jpg"
+        ],
+        "images_alt":[
+            "Écran d'Accueil",
+            "Sélection des ingrédients",
+            "Liste des minuteurs",
+            "Cuisson en cours"
+        ],
+        "additional_html":[
+            "<p class='project__mission'>Sur l'<b>écran d'accueil</b>, l'utilisateur peut <b>choisir</b> son <b>mode de cuisson</b> (four, poêle ou vapeur), ainsi que ses <b>ingrédients</b>. Après les avoir sélectionnés, une <b>liste de minuteurs</b> s'affiche, avec les <b>ingrédients regroupés</b> par <b>temps de cuisson</b>. L'utilisateur peut <b>augmenter</b> ou <b>diminuer</b> le <b>temps</b> sur <b>chaque minuteur</b>, puis les <b>démarrer</b> au fur et à mesure, avec la possibilité de les <b>mettre en pause</b> ou de les <b>arrêter</b> complètement (auquel cas le minuteur se <b>réinitialise</b>). L'application lance une <b>alerte sonore</b> quand un <b>minuteur</b> se <b>termine</b>.</p>",
+            "<br><p class='project__improv project__info'><i class='project__icon fa-solid fa-lightbulb' title='Améliorations possibles' aria-hidden='true'></i> <b>Améliorations possibles</b></p>",
+            "<p class='project__mission'>Dans cette <b>version</b>, l'application utilise les <i>intervals</i> de <b>React</b> pour la <b>gestion</b> des <b>minuteurs</b>. Malheureusement cette méthode a des <b>limites</b>, les minuteurs ne peuvent pas continuer en <b>tâche de fond</b>, ce qui signifie que l'utilisateur <b>ne peut pas aller</b> sur une <b>autre application</b> tant que les <b>minuteurs</b> sont <b>lancés</b>, et l'application force l'<b>écran</b> à <b>rester allumé</b>. Des <b>librairies</b> existent pour <b>répondre</b> à ce <b>problème</b>, et permettraient de <b>garder les minuteurs</b> avec l'application <b>ouverte en fond</b>. De plus, il serait envisageable de lancer une <b>notification</b> ou une <b>alerte</b> lorsqu'il est temps de <b>préparer</b> les <b>ingrédients suivants</b>, au fur et à mesure de chaque minuteur.</p>",
+            "<p class='project__credits'>Icons (modes de cuissons, ingrédients) créés par <a href='https://www.flaticon.com/authors/freepik' target='_blank'>Freepik - Flaticon</a></p>"
+
+        ],
+        "nb_columns":4,
+        "rounded":true,
+        "next":"erasedhead"
+    },
+    {
         "id":"erasedhead",
         "category":"perso",
         "logo_url":"img/perso/erasedhead/icon.png",
@@ -395,6 +453,7 @@
             "env"
         ],
         "mission":"<b>Implémenter</b> un <b>floutage automatique</b> de <b>visage</b>, en utilisant <b>OpenCV</b> et les <b>cascades de Haar</b> pour la détection faciale. Elle doit être possible sur une <b>photo</b> individuelle ou une photo de groupe, en noir et blanc ou en couleurs, mais aussi depuis une <b>vidéo</b> existante ou depuis la <b>webcam</b>, en direct. Pour <b>anonymiser</b> les <b>visages</b>, l'effet appliqué  dans un premier temps a été le <b>flou gaussien</b>, puis dans un second temps un <b>effet pixelisé</b> (légèrement plus complexe, mais plus efficace).",
+        "solo":"Projet personnel en <b>autonomie</b>",
         "images_url":[
             "img/perso/erasedhead/eraserhead.png",
             "img/perso/erasedhead/group.png"
@@ -415,6 +474,7 @@
             "<p class='project__mission'>Dans cette <b>version</b>, la <b>détection faciale</b> a été réalisée avec la méthode des <b>cascades de Haar</b>. Même si elle a <b>facilité</b> l'<b>implémentation</b>, sa <b>performance</b> n'est pas toujours <b>optimale</b>, avec les limites mentionnées précédemment. Selon les <b>applications</b> d'un programme comme celui-ci, il suffit d'une <i>frame</i> où l'<b>anonymisation</b> n'est pas appliquée pour qu'elle perde <b>tout son intérêt</b>. La méthode employée n'étant pas la plus avancée, elle pourrait donc être <b>améliorée</b>. Par exemple, il serait possible d'entraîner un <b>modèle</b> de <b>Deep Learning</b>, qui serait beaucoup plus performant et <b>robuste</b>. De plus, pour <b>faciliter</b> la détection <b>entre deux <i>frames</i></b> et éviter qu'elle vacille (avec un <b>mouvement</b> trop vif ou une <b>inclinaison</b> du visage par exemple), nous pourrions appliquer l'<b><i>object tracking</i></b> au <b>visage détecté</b> pour le <b>suivre</b> tout au long d'une <b>vidéo</b>.</p>"
         ],
         "nb_columns":"2h",
+        "prev":"cookingtimer",
         "next":"kasa"
     },
     {
@@ -443,7 +503,8 @@
             "JavaScript",
             "React",
             "React Router",
-            "Figma"
+            "Figma",
+            "GitHub"
         ],
         "tags_colors_full":[
             "web",
@@ -452,7 +513,8 @@
             "web",
             "web",
             "web",
-            "design"
+            "design",
+            "env"
         ],
         "mission":"<b>Développer</b> la partie <i>front-end</i> d'une <b>application web</b> de location d'appartements et de ses différents composants pour une refonte complète, avec <b>React</b>, les routes <b>React Router</b>, selon des <b>maquettes Figma <i>responsives</i></b>. L'implémentation se concentrait sur l'utilisation des concepts React comme les <i>props</i>, les <i>states</i>, les listes avec <i>map</i> ou bien la gestion des évenements.",
         "context":"Formation <b>OpenClassrooms</b> en <b>développement web</b>",
@@ -491,11 +553,12 @@
             "HTML",
             "CSS",
             "Sass",
-            "JavaScript",
+            "TypeScript",
             "Node.js",
             "MongoDB",
             "NoSQL",
-            "Design"
+            "Design",
+            "GitHub"
         ],
         "tags_colors_full":[
             "web",
@@ -505,7 +568,8 @@
             "web",
             "sql",
             "sql",
-            "design"
+            "design",
+            "env"
 
         ],
         "mission":"<b>Construire</b> l'<b>API</b> de la partie <i>back-end</i> d'une <b>application web</b> de critique de sauces piquantes. L'<b>interface</b> du <i>front-end</i> a également été <b>améliorée</b>, avec la <b>création</b> d'un <b>logo</b> pour ce projet, même si ce n'était pas requis. L'application est centrée autour d'une <b>galerie</b> de sauces communautaire, avec un système d'<b>utilisateurs</b> (avec des exigeances de <b>sécurité</b> sur l'<b>authentification</b> et les <b>droits</b>) qui pourront donc <b>s'inscrire</b> et <b>se connecter</b>, mais aussi <b>créer</b>, <b>modifier</b> et <b>supprimer</b> des sauces, ou encore les <i>like</i> ou les <i>dislike</i>.",
@@ -518,12 +582,11 @@
             "Page d'accueil"
         ],
         "rounded":true,
-        "prev":"kasa",
-        "next":"ohmyfood"
+        "prev":"kasa"
     },
     {
         "id":"ohmyfood",
-        "category":"perso",
+        "category":"unlisted",
         "logo_url":"img/uni/ohmyfood/icon.png",
         "logo_alt":"OhMyFood",
         "name":"Site web <i>OhMyFood</i>",
