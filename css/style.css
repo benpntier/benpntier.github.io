@@ -1778,6 +1778,10 @@ footer.bg-secondary a:hover {
   .project__page .tags, .project__info, .project__page .project__gallery {
     padding: 0 2em;
   }
+  .project__credits {
+    font-size: 0.7em;
+    padding: 0 3em;
+  }
   .project__gallery--2, .project__gallery--2h {
     gap: 0.8em;
   }
@@ -1811,7 +1815,7 @@ footer.bg-secondary a:hover {
   .about {
     gap: 4em;
   }
-  .project__page figcaption, .project__credits {
+  .project__page figcaption {
     font-size: 0.7em;
   }
 }
@@ -1976,6 +1980,10 @@ footer.bg-secondary a:hover {
   }
   .project__info {
     font-size: 0.8em;
+  }
+  .project__credits {
+    font-size: 0.8em;
+    padding: 0 2em;
   }
   .project__button .project__link {
     font-size: 0.8em;

@@ -1634,6 +1634,11 @@ footer {
         padding: 0 2em;
     }
 
+    .project__credits {
+        font-size: .7em;
+        padding: 0 3em;
+    }
+
     .project__gallery {
         &--2, &--2h {
             gap: .8em;
@@ -1674,7 +1679,7 @@ footer {
         gap: 4em;
     }
 
-    .project__page figcaption, .project__credits {
+    .project__page figcaption {
         font-size: .7em;
     }
 }
@@ -1887,6 +1892,11 @@ footer {
 
     .project__info {
         font-size: .8em;
+    }
+
+    .project__credits {
+        font-size: .8em;
+        padding: 0 2em;
     }
 
     .project__button .project__link {
