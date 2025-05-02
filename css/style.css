@@ -1670,6 +1670,9 @@ hr {
 .project__gallery__img--5 img:hover, .project__gallery__img--5h img:hover {
   border-radius: 0.7em;
 }
+.project__gallery__p5script {
+  margin-top: 3em;
+}
 .project__button {
   margin-top: 3em;
   margin-bottom: 2em;

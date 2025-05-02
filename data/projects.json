@@ -364,6 +364,61 @@
         "page":false
     },
     {
+        "id":"spidersense",
+        "category":"perso",
+        "logo_url":"img/perso/spidersense/icon.png",
+        "logo_alt":"Spider-sense",
+        "name":"<i>Spider-sense (Creative code)</i>",
+        "dates": "Avril 2025",
+        "tag_accent":"web",
+        "tags_short":[
+            "p5.js",
+            "JavaScript",
+            "Design"
+        ],
+        "tags_colors_short":[
+            "web",
+            "web",
+            "design"
+        ],
+        "tags_full":[
+            "p5.js",
+            "JavaScript",
+            "Design",
+            "Signal Processing",
+            "GitHub"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "design",
+            "imagep",
+            "env"
+        ],
+        "solo":"Projet personnel en <b>autonomie</b>",
+        "mission":"<b>Développer</b> une <b>animation JavaScript</b> inspirée de la <a href='https://www.youtube.com/watch?v=Ek40XtVsO7g' class='projects__link' target='_blank'>scène d'introduction</a> du film <i>Spider-Man: Across the Spider-Verse</i> avec la <b>librairie <a href='https://p5js.org/' class='projects__link' target='_blank'>p5.js</a></b>. Cette librairie est un <b>outil</b> pour <b>créer</b> des <b>œuvres visuelles</b> à partir de <b>code</b>. Dans <b>ce projet</b>, elle est utilisée pour créer un <b>programme</b> de <b>visualisation musicale</b>, au <b>rythme</b> de la <b>bande-originale</b> du <b>film</b>, composée par Daniel Pemberton <i>(Sony Classical).</i> Également <b>inspiré</b> des <b>court-métrages expérimentaux</b> d'<b>Oskar Fischinger</b> ou <b>John Whitney Sr.</b>, le programme JavaScript <b>anime</b> ainsi des <b>formes géométriques</b> en <b>répondant</b> aux <b>instruments</b>, grâce à une analyse des <b>signaux musicaux</b> avec la <b>transformée de Fourier</b>.",
+        "images_url":[
+            "img/perso/spidersense/frame1.png",
+            "img/perso/spidersense/frame2.png",
+            "img/perso/spidersense/frame3.png",
+            "img/perso/spidersense/frame4.png"
+        ],
+        "images_caption":[
+            "",
+            "",
+            "Images extraites de la scène d'introduction du film",
+            ""
+        ],
+        "additional_html":[
+            "<div class='project__gallery project__gallery__p5script'><iframe src='https://editor.p5js.org/benpntier/full/68w_Xe6wG' width='700' height='542'></iframe></div>"
+        ],
+        "p5_script":"img/perso/spidersense/sketch.js",
+        "rounded":true,
+        "nb_columns":2,
+        "page":"true",
+        "next":"cookingtimer"
+    },
+    {
         "id":"cookingtimer",
         "category":"perso",
         "logo_url":"img/perso/cookingtimer/icon.png",
@@ -419,6 +474,7 @@
         ],
         "nb_columns":4,
         "rounded":true,
+        "prev":"spidersense",
         "next":"erasedhead"
     },
     {
@@ -526,12 +582,11 @@
             "Page d'accueil"
         ],
         "rounded":true,
-        "prev":"erasedhead",
-        "next":"hottakes"
+        "prev":"erasedhead"
     },
     {
         "id":"hottakes",
-        "category":"perso",
+        "category":"unlisted",
         "logo_url":"img/uni/hottakes/icon.png",
         "logo_alt":"HotTakes",
         "name":"API de l'app web <i>HotTakes</i>",
@@ -581,8 +636,7 @@
         "images_alt":[
             "Page d'accueil"
         ],
-        "rounded":true,
-        "prev":"kasa"
+        "rounded":true
     },
     {
         "id":"ohmyfood",
@@ -627,8 +681,7 @@
             "Page d'accueil"
         ],
         "rounded":true,
-        "external_url":["https://benpntier.github.io/live/ohmyfood/", "Démo du site web"],
-        "prev":"hottakes"
+        "external_url":["https://benpntier.github.io/live/ohmyfood/", "Démo du site web"]
     },
     {
         "id":"booki",
@@ -667,8 +720,7 @@
             "Interface de Booki"
         ],
         "rounded":true,
-        "external_url":["https://benpntier.github.io/live/booki/", "Démo de l'interface"],
-        "prev":"ohmyfood"
+        "external_url":["https://benpntier.github.io/live/booki/", "Démo de l'interface"]
     },
     {
         "id":"conceptmap",

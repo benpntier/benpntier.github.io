@@ -1,5 +1,5 @@
 function addProjectInfo(project) {
-
+    
     const titleHTML = document.querySelector("title");
     titleHTML.innerText = project.logo_alt + " | Benoît Pannetier";
 
@@ -155,7 +155,7 @@ function fetchData(id) {
 
             var project = projectsData.filter(p => p.id == id)[0];
 
-            if (project == undefined) {
+            if (project == undefined || project.category == 'unlisted') {
                 document.querySelector(".project__title h2").innerHTML = "Oups ! Projet introuvable..."
             } else {
                 addProjectInfo(project);
