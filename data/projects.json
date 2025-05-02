@@ -396,23 +396,22 @@
             "env"
         ],
         "solo":"Projet personnel en <b>autonomie</b>",
-        "mission":"<b>Développer</b> une <b>animation JavaScript</b> inspirée de la <a href='https://www.youtube.com/watch?v=Ek40XtVsO7g' class='projects__link' target='_blank'>scène d'introduction</a> du film <i>Spider-Man: Across the Spider-Verse</i> avec la <b>librairie <a href='https://p5js.org/' class='projects__link' target='_blank'>p5.js</a></b>. Cette librairie est un <b>outil</b> pour <b>créer</b> des <b>œuvres visuelles</b> à partir de <b>code</b>. Dans <b>ce projet</b>, elle est utilisée pour créer un <b>programme</b> de <b>visualisation musicale</b>, au <b>rythme</b> de la <b>bande-originale</b> du <b>film</b>, composée par Daniel Pemberton <i>(Sony Classical).</i> Également <b>inspiré</b> des <b>court-métrages expérimentaux</b> d'<b>Oskar Fischinger</b> ou <b>John Whitney Sr.</b>, le programme JavaScript <b>anime</b> ainsi des <b>formes géométriques</b> en <b>répondant</b> aux <b>instruments</b>, grâce à une analyse des <b>signaux musicaux</b> avec la <b>transformée de Fourier</b>.",
+        "mission":"<b>Développer</b> une <b>animation JavaScript</b> inspirée de la <a href='https://www.youtube.com/watch?v=Ek40XtVsO7g' class='projects__link' target='_blank'>scène d'introduction</a> du film <i>Spider-Man: Across the Spider-Verse</i> avec la <b>librairie <a href='https://p5js.org/' class='projects__link' target='_blank'>p5.js</a></b>. Cette librairie est un <b>outil</b> pour <b>créer</b> des <b>œuvres visuelles</b> à partir de <b>code</b>. Dans <b>ce projet</b>, elle est utilisée pour créer un <b>programme</b> de <b>visualisation musicale</b>, au <b>rythme</b> de la <b>bande-originale</b> du <b>film</b>, composée par Daniel Pemberton <i>(Sony Classical).</i> Également <b>inspiré</b> des <b>court-métrages expérimentaux</b> d'<b>Oskar Fischinger</b> ou <b>John Whitney Sr.</b>, le script <b>anime</b> ainsi des <b>formes géométriques</b> en <b>répondant</b> aux <b>instruments</b>, grâce à une analyse des <b>signaux musicaux</b> avec la <b>transformée de Fourier</b>.",
         "images_url":[
-            "img/perso/spidersense/frame1.png",
-            "img/perso/spidersense/frame2.png",
+            "img/perso/spidersense/frame5.png",
             "img/perso/spidersense/frame3.png",
-            "img/perso/spidersense/frame4.png"
+            "img/perso/spidersense/across3.png",
+            "img/perso/spidersense/across4.png"
         ],
         "images_caption":[
+            "Extraits de l'animation générée par le script",
             "",
-            "",
-            "Images extraites de la scène d'introduction du film",
+            "Extraits de la scène d'introduction du film",
             ""
         ],
         "additional_html":[
-            "<div class='project__gallery project__gallery__p5script'><iframe src='https://editor.p5js.org/benpntier/full/68w_Xe6wG' width='700' height='542'></iframe></div>"
+            "<div class='project__gallery project__gallery__p5script'><iframe src='https://editor.p5js.org/benpntier/full/68w_Xe6wG' width='900px' height='600px'></iframe></div>"
         ],
-        "p5_script":"img/perso/spidersense/sketch.js",
         "rounded":true,
         "nb_columns":2,
         "page":"true",
