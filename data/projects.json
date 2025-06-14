@@ -404,10 +404,10 @@
             "img/perso/puzzleface/venus_circles.png"
         ],
         "images_alt":[
-            "Écran d'Accueil",
-            "Sélection des ingrédients",
-            "Liste des minuteurs",
-            "Cuisson en cours"
+            "Puzzle 'carrés' sur Le Désespéré",
+            "Puzzle 'carrés' sur La Naissance de Vénus",
+            "Puzzle 'cercles' sur Le Désespéré",
+            "Puzzle 'cercles' sur La Naissance de Vénus"
         ],
         "additional_html":[
             "<p class='project__mission'>Comme <b>exemples</b>, nous pouvons voir ces <b>effets</b> appliqués sur les <b>tableaux</b> <i>Le Désespéré</i> (1843-45) de Gustave Courbet et <i>La Naissance de Venus</i> (1485) de Sandro Botticelli, avec des paramètres différents pour chaque tableau.</p>"
