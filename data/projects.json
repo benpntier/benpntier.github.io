@@ -364,6 +364,58 @@
         "page":false
     },
     {
+        "id":"puzzleface",
+        "category":"perso",
+        "logo_url":"img/perso/puzzleface/icon.png",
+        "logo_alt":"Puzzle Face",
+        "name":"<i>Puzzle Face</i>",
+        "dates":"Mai 2025",
+        "tag_accent":"imagep",
+        "tags_short":[
+            "Image Processing",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "imagep",
+            "prog"
+        ],
+        "page":true,
+        "tags_full":[
+            "Image Processing",
+            "OpenCV",
+            "Python",
+            "Anaconda",
+            "Jupyter Notebook"
+        ],
+        "tags_colors_full":[
+            "imagep",
+            "imagep",
+            "prog",
+            "env",
+            "env"
+        ],
+        "solo":"Projet personnel en <b>autonomie</b>",
+        "mission":"<b>Implémenter</b> des <b>effets stylisés</b> de <i>'puzzle'</i> sur un visage, inspiré par le travail de l'artiste japonais <b><a class='projects__link' target='_blank' href='https://www.kensukekoike.com/'>Kensuke Koike</a></b>, en utilisant <b>OpenCV</b> et les <b>cascades de Haar</b> pour la <b>détection faciale</b>. Les <b>formes géométriques</b> (en l'occurrence, les carrés et les cercles concentriques) peuvent être <b>paramétrées</b> (nombre de formes, angle de rotation des cercles, avec un possible caractère aléatoire). L'effet crée évoque ainsi une <b>distorsion mathématique</b>, dans une approche <b>contemporaine</b> que l'on peut <b>contraster</b> avec des <b>œuvres classiques</b> de la <b>peinture</b>.",
+        "nb_columns":4,
+        "images_url":[
+            "img/perso/puzzleface/courbet_squares.png",
+            "img/perso/puzzleface/venus_squares.png",
+            "img/perso/puzzleface/courbet_circles.png",
+            "img/perso/puzzleface/venus_circles.png"
+        ],
+        "images_alt":[
+            "Écran d'Accueil",
+            "Sélection des ingrédients",
+            "Liste des minuteurs",
+            "Cuisson en cours"
+        ],
+        "additional_html":[
+            "<p class='project__mission'>Comme <b>exemples</b>, nous pouvons voir ces <b>effets</b> appliqués sur les <b>tableaux</b> <i>Le Désespéré</i> (1843-45) de Gustave Courbet et <i>La Naissance de Venus</i> (1485) de Sandro Botticelli, avec des paramètres différents pour chaque tableau.</p>"
+        ],
+        "rounded":true,
+        "next":"spidersense"
+    },
+    {
         "id":"spidersense",
         "category":"perso",
         "logo_url":"img/perso/spidersense/icon.png",
@@ -415,6 +467,7 @@
         "rounded":true,
         "nb_columns":2,
         "page":"true",
+        "prev":"puzzleface",
         "next":"cookingtimer"
     },
     {
@@ -581,11 +634,12 @@
             "Page d'accueil"
         ],
         "rounded":true,
-        "prev":"erasedhead"
+        "prev":"erasedhead",
+        "next":"hottakes"
     },
     {
         "id":"hottakes",
-        "category":"unlisted",
+        "category":"perso",
         "logo_url":"img/uni/hottakes/icon.png",
         "logo_alt":"HotTakes",
         "name":"API de l'app web <i>HotTakes</i>",
@@ -624,7 +678,6 @@
             "sql",
             "design",
             "env"
-
         ],
         "mission":"<b>Construire</b> l'<b>API</b> de la partie <i>back-end</i> d'une <b>application web</b> de critique de sauces piquantes. L'<b>interface</b> du <i>front-end</i> a également été <b>améliorée</b>, avec la <b>création</b> d'un <b>logo</b> pour ce projet, même si ce n'était pas requis. L'application est centrée autour d'une <b>galerie</b> de sauces communautaire, avec un système d'<b>utilisateurs</b> (avec des exigeances de <b>sécurité</b> sur l'<b>authentification</b> et les <b>droits</b>) qui pourront donc <b>s'inscrire</b> et <b>se connecter</b>, mais aussi <b>créer</b>, <b>modifier</b> et <b>supprimer</b> des sauces, ou encore les <i>like</i> ou les <i>dislike</i>.",
         "context":"Formation <b>OpenClassrooms</b> en <b>développement web</b>",
@@ -635,11 +688,13 @@
         "images_alt":[
             "Page d'accueil"
         ],
-        "rounded":true
+        "rounded":true,
+        "prev":"kasa",
+        "next":"ohmyfood"
     },
     {
         "id":"ohmyfood",
-        "category":"unlisted",
+        "category":"perso",
         "logo_url":"img/uni/ohmyfood/icon.png",
         "logo_alt":"OhMyFood",
         "name":"Site web <i>OhMyFood</i>",
@@ -680,11 +735,13 @@
             "Page d'accueil"
         ],
         "rounded":true,
-        "external_url":["https://benpntier.github.io/live/ohmyfood/", "Démo du site web"]
+        "external_url":["https://benpntier.github.io/live/ohmyfood/", "Démo du site web"],
+        "prev":"hottakes",
+        "next":"booki"
     },
     {
         "id":"booki",
-        "category":"unlisted",
+        "category":"perso",
         "logo_url":"img/uni/booki/icon.png",
         "logo_alt":"Booki",
         "name":"Site web <i>Booki</i>",
@@ -719,7 +776,8 @@
             "Interface de Booki"
         ],
         "rounded":true,
-        "external_url":["https://benpntier.github.io/live/booki/", "Démo de l'interface"]
+        "external_url":["https://benpntier.github.io/live/booki/", "Démo de l'interface"],
+        "prev":"ohmyfood"
     },
     {
         "id":"conceptmap",
