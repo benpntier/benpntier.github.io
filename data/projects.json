@@ -363,6 +363,45 @@
         ],
         "page":false
     },
+        {
+        "id":"urbansound",
+        "category":"perso",
+        "logo_url":"img/perso/urbansound/icon.png",
+        "logo_alt":"Urban Sound Classification",
+        "name":"<i>Urban Sound Classification</i>",
+        "dates":"Juin 2025",
+        "tag_accent":"deepl",
+        "tags_short":[
+            "Deep Learning",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "dl",
+            "prog"
+        ],
+        "tags_full":[
+            "Deep Learning",
+            "Tensorflow",
+            "Keras",
+            "Audio Processing",
+            "Python",
+            "Anaconda",
+            "Jupyter Notebook"
+        ],
+        "tags_colors_full":[
+            "dl",
+            "dl",
+            "dl",
+            "nlp",
+            "prog",
+            "env",
+            "env"
+        ],
+        "solo":"Projet personnel en <b>autonomie</b>",
+        "dataset":"<a href='https://urbansounddataset.weebly.com/urbansound8k.html' class='projects__link' target='_blank'>UrbanSound8k</a> (J. Salamon, C. Jacoby et J. P. Bello)",
+        "mission":"<b>Entraîner</b> et <b>évaluer</b> un modèle de <b>Deep Learning</b> permettant de <b>classifier</b> des <b>bruits urbains</b> (klaxon, aboiement, travaux, etc.), en extrayant les <b>MFCC</b> (<i>Mel-Frequency Cepstral Coefficients</i>) comme <b>caractéristiques</b> du <b>signal audio</b>. La classification automatique de sons urbains a de <b>multiples applications</b>, avec des <b>enjeux</b> tels que la <b>pollution sonore</b> ou l'<b>accessibilité</b> dans les <b>lieux publics</b>.",
+        "page":false
+    },
     {
         "id":"puzzleface",
         "category":"perso",
@@ -413,6 +452,7 @@
             "<p class='project__mission'>Comme <b>exemples</b>, nous pouvons voir ces <b>effets</b> appliqués sur les visages des <b>tableaux</b> <i>Le Désespéré</i> (1843-45) de Gustave Courbet et <i>La Naissance de Venus</i> (1485) de Sandro Botticelli, avec des paramètres différents pour chaque œuvre.</p>"
         ],
         "rounded":true,
+        "prev":"urbansound",
         "next":"spidersense"
     },
     {
@@ -736,12 +776,11 @@
         ],
         "rounded":true,
         "external_url":["https://benpntier.github.io/live/ohmyfood/", "Démo du site web"],
-        "prev":"hottakes",
-        "next":"booki"
+        "prev":"hottakes"
     },
     {
         "id":"booki",
-        "category":"perso",
+        "category":"unlisted",
         "logo_url":"img/uni/booki/icon.png",
         "logo_alt":"Booki",
         "name":"Site web <i>Booki</i>",
