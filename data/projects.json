@@ -373,9 +373,11 @@
         "tag_accent":"deepl",
         "tags_short":[
             "Deep Learning",
+            "MLP",
             "Python"
         ],
         "tags_colors_short":[
+            "dl",
             "dl",
             "prog"
         ],
