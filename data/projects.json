@@ -610,7 +610,7 @@
         "prev":"cookingtimer",
         "next":"kasa"
     },
-        {
+    {
         "id":"codingame",
         "category":"perso",
         "logo_url":"img/perso/codingame/logo.png",

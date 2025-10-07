@@ -188,15 +188,13 @@ function addProjectHTML(project) {
         persoArticle.classList.add("projects__item"); // remove when link implemented
         persoArticle.classList.add("projects__accent--"+project.tag_accent);
 
+        const persoLink = document.createElement("a");
         if (project.page) {
-            const persoLink = document.createElement("a");
-            persoLink.href = "project.html?id=" + project.id;;
-            persoLink.appendChild(persoArticle);
-            persoLink.className = "projects__item";
-            document.querySelector(".perso .projects__list").appendChild(persoLink);
-        } else {
-            document.querySelector(".perso .projects__list").appendChild(persoArticle);
+            persoLink.href = "project.html?id=" + project.id;
         }
+        persoLink.appendChild(persoArticle);
+        persoLink.className = "projects__item";
+        document.querySelector(".perso .projects__list").appendChild(persoLink);
     }
 }
 
