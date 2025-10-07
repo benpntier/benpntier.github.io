@@ -432,7 +432,7 @@
             "env"
         ],
         "solo":"Projet personnel en <b>autonomie</b>",
-        "mission":"<b>Implémenter</b> des <b>effets stylisés</b> de <i>'puzzle'</i> sur un visage, inspiré par le travail de l'artiste japonais <b><a class='projects__link' target='_blank' href='https://www.kensukekoike.com/'>Kensuke Koike</a></b>, en utilisant <b>OpenCV</b> et les <b>cascades de Haar</b> pour la <b>détection faciale</b>. Les <b>formes géométriques</b> (en l'occurrence, les carrés et les cercles concentriques) peuvent être <b>paramétrées</b> (nombre de formes, angle de rotation des cercles, avec un possible caractère aléatoire). L'effet crée évoque ainsi une <b>distorsion mathématique</b>, dans une approche <b>contemporaine</b> que l'on peut <b>contraster</b> avec des <b>œuvres classiques</b> de la <b>peinture</b>.",
+        "mission":"<b>Implémenter</b> des <b>effets stylisés</b> de <i>'puzzle'</i> sur un visage, inspiré par le travail de l'artiste japonais <b><a class='projects__link' target='_blank' href='https://www.kensukekoike.com/'>Kensuke Koike</a></b>, en utilisant <b>OpenCV</b> et les <b>cascades de Haar</b> pour la <b>détection faciale</b>. Les <b>formes géométriques</b> (en l'occurrence, les carrés et les cercles concentriques) peuvent être <b>paramétrées</b> (nombre de formes, angle de rotation des cercles, avec un possible caractère aléatoire). L'effet créé évoque ainsi une <b>distorsion mathématique</b>, dans une approche <b>contemporaine</b> que l'on peut <b>contraster</b> avec des <b>œuvres classiques</b> de la <b>peinture</b>.",
         "nb_columns":4,
         "images_url":[
             "img/perso/puzzleface/courbet_squares.png",
