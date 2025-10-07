@@ -450,6 +450,12 @@ hr {
 .bio .tags span:nth-of-type(7) {
   animation-delay: 2.4s;
 }
+.bio .tags span:nth-of-type(8) {
+  animation-delay: 2.5s;
+}
+.bio .tags span:nth-of-type(9) {
+  animation-delay: 2.6s;
+}
 
 .tags {
   display: flex;
