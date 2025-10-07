@@ -47,6 +47,9 @@ function addProjectInfo(project) {
     if (project.team !== undefined) {
         document.querySelector(".project__team").innerHTML = "<i class='project__icon fa-solid fa-user-group' title='Equipe'></i> " + project.team;
     }
+    if (project.management !== undefined) {
+        document.querySelector(".project__management").innerHTML = "<i class='project__icon fa-solid fa-list-check' title='Gestion de projet'></i> " + project.management;
+    }
     if (project.doc !== undefined) {
         document.querySelector(".project__doc").innerHTML = "<i class='project__icon fa-solid fa-file-lines' title='Rédaction'></i> " + project.doc;
     }

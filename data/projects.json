@@ -47,6 +47,7 @@
         "mission":"<a href='https://www.safran-group.com/fr/espace-presse/achile-communaute-europeenne-prete-lancer-conception-systeme-du-combattant-debarque-nouvelle-2023-06-13' class='projects__link' target='_blank'>Projet européen <b>ACHILE</b></a> : mettre en œuvre la <b>R&D</b> autour de la <b>reconnaissance</b> et <b>synthèse vocale</b>, à partir d'un <b>besoin</b> (la coordination entre les soldats) et de <b>contraintes techniques</b> et commerciales. Dans cette première phase du projet, mon rôle était plus précisément de <b>rédiger</b> des <b>rapports techniques</b> et l’<b>état de l’art</b> (études et évaluations de différents systèmes de technologies vocales), <b>développer</b> des <b>prototypes d’applications mobiles</b> MAUI et assurer la <b>gestion client</b> (communication et support) avec les <b>partenaires</b> du projet.",
         "city":"Toulouse",
         "solo":"Travail en <b>autonomie</b>",
+        "management":"Méthode <b>Agile</b>",
         "doc":"<b>État de l'art</b> et <b>rapports techniques</b>",
         "comment":"<i>Benoît fait preuve d’un socle de compétences solides lui permettant de travailler tout aussi efficacement sur des activités de développements informatiques purs que sur des activités de recherche sur l’IA. Il fait également preuve d’une bonne autonomie et d’une facilité à monter en compétences.</i> &ndash; <b>Leny Turmel</b>, Directeur R&D et cofondateur de SPIX Industry",
         "images_url":[
@@ -104,6 +105,7 @@
         "mission":"<b>Piloter</b> le <b>développement</b> d'un projet en <b>R&D</b> dans un environnement start-up&nbsp;: <b>comprendre</b> les <b>besoins</b> de Vimersio et des utilisateurs, <b>proposer</b> et <b>étudier</b> les différentes <b>implémentations envisageables</b> (selon l'<b>éthique</b> et les <b>enjeux</b> de l'entreprise, ainsi que les <b>risques</b> et <b>bénéfices</b> de chaque solution), et enfin <b>suivre</b> la <b>mission</b>, en <b>autonomie</b> ou en <b>coordonnant</b> l'équipe technique. Vimersio propose un outil tout-en-un pour faciliter la création de <b>vidéos à 360°</b>. Ainsi, la réalisation technique du projet consistait (notamment) à <b>automatiser</b> un processus de <b>montage vidéo</b>, faire le lien avec une <b>application mobile</b> et <b>optimiser</b> ses fonctionnalités ainsi que son <b>expérience utilisateur</b>.",
         "city":"Strasbourg",
         "team":"<b>Coordonner</b> une <b>équipe</b> et travail en <b>autonomie</b>",
+        "management":"<b>Gestion</b> de projet",
         "doc":"<b>Documentation</b> technique",
         "comment":"<i>Benoît s’est révélé être un atout humain précieux pour l'équipe. Ayant démontré une éthique du travail irréprochable, additionnée à une grande aisance relationnelle et une créativité remarquable, je peux affirmer que sa présence nous a toutes et tous, positivement marqués.</i> &ndash; <b>Hanane Geyer</b>, C.E.O. de Vimersio",
         "images_url":[
@@ -218,6 +220,7 @@
         "context":"<b>Université Paul Sabatier</b> (Toulouse), stage de fin de <b>L3</b> Informatique",
         "grade":"<b>16</b>/20",
         "team":"Travail en <b>binôme</b>",
+        "management":"<b>Gestion</b> de projet",
         "doc":"<b>Documentation technique</b> et <b>rapport</b> de bureau d'études",
         "images_url":[
             "img/pro/nxt/interfaceSaisie.jpg",
