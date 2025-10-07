@@ -161,7 +161,7 @@ function fetchData(id) {
 
             var project = projectsData.filter(p => p.id == id)[0];
 
-            if (project == undefined || project.category == 'unlisted') {
+            if (project == undefined || project.category == 'unlisted' || project.page == false) {
                 document.querySelector(".project__title h2").innerHTML = "Oups ! Projet introuvable..."
             } else {
                 addProjectInfo(project);
