@@ -30,6 +30,7 @@
             ".NET",
             "Python",
             "Android",
+            "UX/UI",
             "GitKraken"
         ],
         "tags_colors_full":[
@@ -42,6 +43,7 @@
             "prog",
             "prog",
             "android",
+            "design",
             "env"
         ],
         "mission":"<a href='https://www.safran-group.com/fr/espace-presse/achile-communaute-europeenne-prete-lancer-conception-systeme-du-combattant-debarque-nouvelle-2023-06-13' class='projects__link' target='_blank'>Projet européen <b>ACHILE</b></a> : mettre en œuvre la <b>R&D</b> autour de la <b>reconnaissance</b> et <b>synthèse vocale</b>, à partir d'un <b>besoin</b> (la coordination entre les soldats) et de <b>contraintes techniques</b> et commerciales. Dans cette première phase du projet, mon rôle était plus précisément de <b>rédiger</b> des <b>rapports techniques</b> et l’<b>état de l’art</b> (études et évaluations de différents systèmes de technologies vocales), <b>développer</b> des <b>prototypes d’applications mobiles</b> MAUI et assurer la <b>gestion client</b> (communication et support) avec les <b>partenaires</b> du projet.",
@@ -76,11 +78,13 @@
         "tag_accent":"imagep",
         "tags_short":[
             "Video Processing",
-            "Android"
+            "Android",
+            "UX/UI"
         ],
         "tags_colors_short":[
             "imagep",
-            "android"
+            "android",
+            "design"
         ],
         "tags_full":[
             "Video Processing",
@@ -208,12 +212,14 @@
             "Algorithme A*",
             "Java",
             "Librairie leJOS",
+            "UX/UI",
             "GitHub"
         ],
         "tags_colors_full":[
             "algo",
             "prog",
             "prog",
+            "design",
             "env"
         ],
         "mission":"Implémenter en <b>Java</b> une IA (<b>algorithme A*</b>) pour faire <b>collaborer</b> deux <b><a href='https://www.lego.com/themes/mindstorms/about' class='projects__link' target='_blank'>Lego NXT</a></b>&nbsp;: l'un <b>autonome</b>, l'autre <b>télécommandé</b> (grâce à une interface Java Swing) en évitant les collisions, pour réaliser une <b>tâche commune</b> et en suivant leur <b>trajectoire</b> sur une carte.",
@@ -524,6 +530,7 @@
             "Expo",
             "React",
             "TypeScript",
+            "UX/UI",
             "Design",
             "GitHub"
         ],
@@ -532,6 +539,7 @@
             "android",
             "web",
             "web",
+            "design",
             "design",
             "env"
         ],
@@ -698,12 +706,14 @@
         "tags_short":[
             "Web",
             "Node.js",
-            "NoSQL"
+            "NoSQL",
+            "UX/UI"
         ],
         "tags_colors_short":[
             "web",
             "web",
-            "sql"
+            "sql",
+            "design"
         ],
         "page":true,
         "tags_full":[
@@ -714,6 +724,7 @@
             "Node.js",
             "MongoDB",
             "NoSQL",
+            "UX/UI",
             "Design",
             "GitHub"
         ],
@@ -725,6 +736,7 @@
             "web",
             "sql",
             "sql",
+            "design",
             "design",
             "env"
         ],
@@ -851,6 +863,7 @@
             "PHP",
             "JavaScript",
             "SQL",
+            "UX/UI",
             "GitHub"
         ],
         "tags_colors_full":[
@@ -860,6 +873,7 @@
             "web",
             "web",
             "sql",
+            "design",
             "env"
         ],
         "mission":"Développer un <b>outil en ligne d'aide à la correction de cartes conceptuelles</b>, en ayant à la fois une partie <b>saisie de carte</b> et une partie <b>correction</b>, avec un <b>algorithme de prétraitement</b> des cartes pour faciliter leur correction.",
@@ -1096,11 +1110,13 @@
         ],
         "tags_full":[
             "HTML",
-            "JavaScript"
+            "JavaScript",
+            "UX/UI"
         ],
         "tags_colors_full":[
             "web",
-            "web"
+            "web",
+            "design"
         ],
         "mission":"Implémenter un <b>jeu web 3D</b> inspiré du casse-briques <b>Arkanoid</b> (1986) développé par Taito, où le joueur doit casser toutes les briques en faisant rebondir une balle grâce à une barre horizontale. Dans ce projet, le but est de générer tous les <b>visuels</b>, implémenter un <b>système de caméra</b> et développer les <b>mécaniques de jeu</b> grâce à un moteur physique.",
         "context":"<b>Université de Malte</b> (Erasmus), <b>Master 1</b> en Intelligence Artificielle",
@@ -1220,6 +1236,16 @@
             "prog",
             "sql"
         ],
+        "tags_full":[
+            "Java",
+            "SQL",
+            "UX/UI"
+        ],
+        "tags_colors_full":[
+            "prog",
+            "sql",
+            "design"
+        ],
         "mission":"Concevoir et développer une <b>application Java</b> qui permettra de <b>visualiser</b> les <b>données</b> de <b>consommation énergétique</b> et gérer les différents <b>capteurs</b> du projet <a href='https://www.irit.fr/neocampus/fr/' class='projects__link' target='_blank'>neOCampus</a> de l'Université Paul Sabatier.",
         "context":"<b>Université Paul Sabatier</b> (Toulouse), <b>L3</b> Informatique, projet tuteuré",
         "grade":"<b>20</b>/20",
@@ -1248,11 +1274,13 @@
         "tag_accent":"android",
         "tags_short":[
             "Android",
-            "Java"
+            "Java",
+            "UX/UI"
         ],
         "tags_colors_short":[
             "android",
-            "prog"
+            "prog",
+            "design"
         ],
         "mission":"Concevoir et développer une <b>application Android</b> permettant de gérer une <b>liste de courses</b>. Son but est de faciliter la <b>gestion des courses</b> et du <b>budget</b>, pour que l'utilisateur ait du recul sur ses achats.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année",
@@ -1286,26 +1314,30 @@
         "tags_short":[
             "Web",
             "WordPress",
-            "SQL"
+            "SQL",
+            "UX/UI"
         ],
         "tags_colors_short":[
             "web",
             "web",
-            "sql"
+            "sql",
+            "design"
         ],
         "tags_full":[
             "HTML",
             "CSS",
             "PHP",
             "WordPress",
-            "SQL"
+            "SQL",
+            "UX/UI"
         ],
         "tags_colors_full":[
             "web",
             "web",
             "web",
             "web",
-            "sql"
+            "sql",
+            "design"
         ],
         "mission":"Reprendre complètement le <b>site web de l'Institut Clément Ader</b>, laboratoire de recherche à Toulouse, en utilisant <b>WordPress</b>, pour <b>moderniser son apparence</b> (intégrer le nouveau logo et construire une identité visuelle autour), <b>restructurer sa base de données</b> et <b>améliorer</b> voire <b>compléter</b> ses <b>fonctionnalités</b> (notamment des pages de gestion en intranet).",
         "context":"<b>IUT Paul Sabatier</b> (Toulouse), stage de fin de <b>DUT</b> Informatique",
@@ -1334,21 +1366,25 @@
         "tag_accent":"android",
         "tags_short":[
             "Android",
-            "Kotlin"
+            "Kotlin",
+            "UX/UI"
         ],
         "tags_colors_short":[
             "android",
-            "prog"
+            "prog",
+            "design"
         ],
         "tags_full":[
             "Android",
             "Kotlin",
-            "GitHub"
+            "GitHub",
+            "UX/UI"
         ],
         "tags_colors_full":[
             "android",
             "prog",
-            "env"
+            "env",
+            "design"
         ],
         "mission":"Concevoir et développer une <b>application Android</b> permettant d’envoyer des <b>SMS chiffrés</b> à d'autres utilisateurs, afin d'assurer la <b>confidentialité</b> et <b>sécurité</b> de leurs échanges.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année, projet tuteuré",
@@ -1417,13 +1453,15 @@
             "HTML",
             "CSS",
             "PHP",
-            "SQL"
+            "SQL",
+            "UX/UI"
         ],
         "tags_colors_full":[
             "web",
             "web",
             "web",
-            "sql"
+            "sql",
+            "design"
         ],
         "mission":"Développer les pages d'un <b>site web dynamique</b> de <b>cabinet médical</b> et créer sa <b>base de données</b> pour permettre l'<b>ajout</b>, la <b>modification</b> et la <b>suppression</b> de données.",
         "context":"<b>IUT Informatique Paul Sabatier</b> (Toulouse), 2<sup>e</sup> année",
@@ -1458,7 +1496,7 @@
         "tags_short":[
             "Web",
             "Montage vidéo",
-            "Design"
+            "UX/UI"
         ],
         "tags_colors_short":[
             "web",
@@ -1469,11 +1507,13 @@
             "Web",
             "Wix",
             "Montage vidéo",
+            "UX/UI",
             "Design"
         ],
         "tags_colors_full":[
             "web",
             "web",
+            "design",
             "design",
             "design"
         ],
@@ -1506,7 +1546,7 @@
         "tag_accent":"web",
         "tags_short":[
             "Web",
-            "Design"
+            "UX/UI"
         ],
         "tags_colors_short":[
             "web",
@@ -1515,11 +1555,13 @@
         "tags_full":[
             "HTML",
             "CSS",
+            "UX/UI",
             "Design"
         ],
         "tags_colors_full":[
             "web",
             "web",
+            "design",
             "design"
         ],
         "mission":"Développer un <b>site web statique</b>, en explorant les notions fondamentales du <b>HTML</b> et <b>CSS</b>, consacré au projet d'adaptation cinématographique du livre <b>Dune</b> par Alejandro Jodorowsky.",
@@ -1552,6 +1594,18 @@
         "tags_colors_short":[
             "prog",
             "algo"
+        ],
+        "tags_full":[
+            "Python",
+            "Dijkstra",
+            "UX/UI",
+            "Design"
+        ],
+        "tags_colors_full":[
+            "prog",
+            "algo",
+            "design",
+            "design"
         ],
         "mission":"Développer un <b>programme Python</b> avec une <b>interface Tkinter</b>, permettant de résoudre le problème du <b>voyageur de commerce</b>, grâce à l'algorithme de <b>Dijkstra</b>. Pour nous approprier ce problème du plus court chemin, nous avons situé le contexte <i>il y a bien longtemps, dans une galaxie lointaine, très lointaine....</i>",
         "context":"<b>Lycée Charles Gide</b> (Uzès), projet final de la <b>spécialité ISN</b>",

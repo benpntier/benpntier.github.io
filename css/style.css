@@ -551,7 +551,7 @@ hr {
 }
 
 .tags .design:not(.nonhoverfilter) {
-  background-color: #dea8d7;
+  background-color: #deafd0;
 }
 
 .about .tags .algo:hover, .projects__card:hover .tags .algo, .projects__card.hover .tags .algo:not(.nonhoverfilter), .project__page .tags .algo:hover, .filter .algo:not(.selected):hover, .filter .algo:hover {
@@ -591,7 +591,7 @@ hr {
 }
 
 .about .tags .design:hover, .projects__card:hover .tags .design, .projects__card.hover .tags .design:not(.nonhoverfilter), .project__page .tags .design:hover, .filter .design:not(.selected):hover, .filter .design:hover {
-  background-color: rgb(210.78, 138.42, 201.4);
+  background-color: rgb(210.0849557522, 146.1150442478, 191.0300884956);
 }
 
 .portrait {
