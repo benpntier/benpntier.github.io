@@ -329,23 +329,6 @@
         "page":false
     },
     {
-        "id":"codingame",
-        "category":"unlisted",
-        "logo_url":"img/perso/codingame/logo.png",
-        "logo_alt":"CodinGame",
-        "name":"Défis et puzzles <i>CodinGame</i>",
-        "dates":"Depuis octobre 2023",
-        "tag_accent":"prog",
-        "tags_short":[
-            "Python"
-        ],
-        "tags_colors_short":[
-            "prog"
-        ],
-        "mission":"Résoudre des problèmes de la plateforme <a href='https://www.codingame.com/' class='projects__link' target='_blank'>CodinGame</a>, qui propose aux développeurs d'améliorer leurs compétences en continu avec des puzzles et événements.",
-        "page":false
-    },
-    {
         "id":"portfolio",
         "category":"unlisted",
         "logo_url":"/favicon.ico?",
@@ -627,6 +610,23 @@
         "prev":"cookingtimer",
         "next":"kasa"
     },
+        {
+        "id":"codingame",
+        "category":"perso",
+        "logo_url":"img/perso/codingame/logo.png",
+        "logo_alt":"CodinGame",
+        "name":"Défis et puzzles <i>CodinGame</i>",
+        "dates":"Depuis octobre 2023",
+        "tag_accent":"prog",
+        "tags_short":[
+            "Python"
+        ],
+        "tags_colors_short":[
+            "prog"
+        ],
+        "mission":"Résoudre des problèmes de la plateforme <a href='https://www.codingame.com/' class='projects__link' target='_blank'>CodinGame</a>, qui propose aux développeurs d'améliorer leurs compétences en continu avec des puzzles et événements.",
+        "page":false
+    },
     {
         "id":"kasa",
         "category":"perso",
@@ -731,12 +731,11 @@
             "Page d'accueil"
         ],
         "rounded":true,
-        "prev":"kasa",
-        "next":"ohmyfood"
+        "prev":"kasa"
     },
     {
         "id":"ohmyfood",
-        "category":"perso",
+        "category":"unlisted",
         "logo_url":"img/uni/ohmyfood/icon.png",
         "logo_alt":"OhMyFood",
         "name":"Site web <i>OhMyFood</i>",
