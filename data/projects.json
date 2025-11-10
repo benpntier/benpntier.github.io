@@ -31,6 +31,7 @@
             "Python",
             "Android",
             "UX/UI",
+            "Visual Studio",
             "GitKraken"
         ],
         "tags_colors_full":[
@@ -44,6 +45,7 @@
             "prog",
             "android",
             "design",
+            "env",
             "env"
         ],
         "mission":"<a href='https://www.safran-group.com/fr/espace-presse/achile-communaute-europeenne-prete-lancer-conception-systeme-du-combattant-debarque-nouvelle-2023-06-13' class='projects__link' target='_blank'>Projet européen <b>ACHILE</b></a> : mettre en œuvre la <b>R&D</b> autour de la <b>reconnaissance</b> et <b>synthèse vocale</b>, à partir d'un <b>besoin</b> (la coordination entre les soldats) et de <b>contraintes techniques</b> et commerciales. Dans cette première phase du projet, mon rôle était plus précisément de <b>rédiger</b> des <b>rapports techniques</b> et l’<b>état de l’art</b> (études et évaluations de différents systèmes de technologies vocales), <b>développer</b> des <b>prototypes d’applications mobiles</b> MAUI et assurer la <b>gestion client</b> (communication et support) avec les <b>partenaires</b> du projet.",
@@ -94,6 +96,7 @@
             "Android",
             "UI/UX",
             "GitHub",
+            "VS Code",
             "Google Colab"
         ],
         "tags_colors_full":[
@@ -103,6 +106,7 @@
             "prog",
             "android",
             "design",
+            "env",
             "env",
             "env"
         ],
@@ -350,12 +354,34 @@
         "dates":"Depuis mai 2023",
         "tag_accent":"web",
         "tags_short":[
-            "Web",
-            "JavaScript"
+            "Node.js",
+            "Sass",
+            "UX/UI"
         ],
         "tags_colors_short":[
             "web",
-            "web"
+            "web",
+            "design"
+        ],
+        "tags_full":[
+            "Node.js",
+            "JavaScript",
+            "Sass",
+            "HTML",
+            "CSS",
+            "UI/UX",
+            "Design",
+            "GitHub"
+        ],
+        "tags_colors_full":[
+            "web",
+            "web",
+            "web",
+            "web",
+            "web",
+            "web",
+            "design",
+            "env"
         ],
         "page":false
     },
