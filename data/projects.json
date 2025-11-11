@@ -591,6 +591,7 @@
         ],
         "nb_columns":4,
         "rounded":true,
+        "external_url":["https://github.com/benpntier/cookingtimer", "Projet GitHub"],
         "prev":"spidersense",
         "next":"erasedhead"
     },
@@ -647,6 +648,7 @@
             "<p class='project__mission'>Dans cette <b>version</b>, la <b>détection faciale</b> a été réalisée avec la méthode des <b>cascades de Haar</b>. Même si elle a <b>facilité</b> l'<b>implémentation</b>, sa <b>performance</b> n'est pas toujours <b>optimale</b>, avec les limites mentionnées précédemment. Selon les <b>applications</b> d'un programme comme celui-ci, il suffit d'une <i>frame</i> où l'<b>anonymisation</b> n'est pas appliquée pour qu'elle perde <b>tout son intérêt</b>. La méthode employée n'étant pas la plus avancée, elle pourrait donc être <b>améliorée</b>. Par exemple, il serait possible d'entraîner un <b>modèle</b> de <b>Deep Learning</b>, qui serait beaucoup plus performant et <b>robuste</b>. De plus, pour <b>faciliter</b> la détection <b>entre deux <i>frames</i></b> et éviter qu'elle vacille (avec un <b>mouvement</b> trop vif ou une <b>inclinaison</b> du visage par exemple), nous pourrions appliquer l'<b><i>object tracking</i></b> au <b>visage détecté</b> pour le <b>suivre</b> tout au long d'une <b>vidéo</b>.</p>"
         ],
         "nb_columns":"2h",
+        "external_url":["https://github.com/benpntier/erasedhead", "Projet GitHub"],
         "prev":"cookingtimer",
         "next":"kasa"
     },
@@ -716,6 +718,7 @@
             "Page d'accueil"
         ],
         "rounded":true,
+        "external_url":["https://github.com/benpntier/kasa", "Projet GitHub"],
         "prev":"erasedhead",
         "next":"hottakes"
     },
@@ -747,6 +750,7 @@
             "Sass",
             "TypeScript",
             "Node.js",
+            "Express",
             "MongoDB",
             "NoSQL",
             "UX/UI",
@@ -754,6 +758,7 @@
             "GitHub"
         ],
         "tags_colors_full":[
+            "web",
             "web",
             "web",
             "web",
@@ -775,6 +780,7 @@
             "Page d'accueil"
         ],
         "rounded":true,
+        "external_url":["https://github.com/benpntier/hottakes", "Projet GitHub"],
         "prev":"kasa"
     },
     {
