@@ -290,7 +290,7 @@ function filterTagsReset() {
 
 window.onload = function() {
 
-    var encodedEmail = "YmVub2l0LnBudGllckBnbWFpbC5jb20=";
+    var encodedEmail = "Yi5wYW5uZXRpZXJAcHJvdG9uLm1l";
     const emailButton = document.getElementById("contact");
     emailButton.setAttribute("href", "mailto:".concat(atob(encodedEmail)));
 
