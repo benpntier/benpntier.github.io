@@ -816,7 +816,7 @@
             "design",
             "env"
         ],
-        "mission":"<b>Développer</b> un <b>site 100% mobile</b> qui répertorie les <b>menus</b> de restaurants gastronomiques, intégrer les <b>maquettes</b> (mobile, à adapter pour les versions tablette et ordinateur) des différentes pages et ajouter des <b>animations</b> CSS pour dynamiser le site. ",
+        "mission":"<b>Développer</b> un <b>site 100% responsive</b> qui répertorie les <b>menus</b> de restaurants gastronomiques, intégrer les <b>maquettes</b> (pour mobile, à adapter pour les versions tablette et ordinateur) des différentes pages et ajouter des <b>animations</b> CSS pour dynamiser le site. ",
         "context":"Formation <b>OpenClassrooms</b> en <b>développement web</b>",
         "solo":"Travail en <b>autonomie</b>",
         "images_url":[
