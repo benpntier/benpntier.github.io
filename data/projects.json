@@ -718,7 +718,7 @@
             "Page d'accueil"
         ],
         "rounded":true,
-        "external_url":["https://github.com/benpntier/kasa", "Projet GitHub"],
+        "external_url":["https://benpntier.github.io/kasa", "Démo du site web"],
         "prev":"erasedhead",
         "next":"hottakes"
     },
