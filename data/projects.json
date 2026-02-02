@@ -387,7 +387,7 @@
     },
         {
         "id":"urbansound",
-        "category":"perso",
+        "category":"unlisted",
         "logo_url":"img/perso/urbansound/icon.png",
         "logo_alt":"Urban Sound Classification",
         "name":"<i>Urban Sound Classification</i>",
@@ -785,7 +785,7 @@
     },
     {
         "id":"ohmyfood",
-        "category":"unlisted",
+        "category":"perso",
         "logo_url":"img/uni/ohmyfood/icon.png",
         "logo_alt":"OhMyFood",
         "name":"Site web <i>OhMyFood</i>",
