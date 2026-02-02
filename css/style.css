@@ -1774,7 +1774,6 @@ footer.bg-secondary a:hover {
     position: relative;
     justify-content: space-evenly;
     background-color: #d1dfe1;
-    z-index: -1;
   }
   .project__navigation--hidden {
     display: block;
