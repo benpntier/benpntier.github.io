@@ -1338,6 +1338,7 @@ hr {
 
     &__title {
         animation: title-slidein 1s #{$loader-duration+.1}s backwards;
+        z-index: 1;
 
         & .projects__link {
             color: $link-secondary;

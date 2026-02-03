@@ -1550,6 +1550,7 @@ hr {
 }
 .project__title {
   animation: title-slidein 1s 1.3s backwards;
+  z-index: 1;
 }
 .project__title .projects__link {
   color: #0084ae;
