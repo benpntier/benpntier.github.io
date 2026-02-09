@@ -770,7 +770,7 @@
             "design",
             "env"
         ],
-        "mission":"<b>Construire</b> l'<b>API</b> de la partie <i>back-end</i> d'une <b>application web</b> de critique de sauces piquantes. L'<b>interface</b> du <i>front-end</i> a également été <b>améliorée</b>, avec la <b>création</b> d'un <b>logo</b> pour ce projet, même si ce n'était pas requis. L'application est centrée autour d'une <b>galerie</b> de sauces communautaire, avec un système d'<b>utilisateurs</b> (avec des exigeances de <b>sécurité</b> sur l'<b>authentification</b> et les <b>droits</b>) qui pourront donc <b>s'inscrire</b> et <b>se connecter</b>, mais aussi <b>créer</b>, <b>modifier</b> et <b>supprimer</b> des sauces, ou encore les <i>like</i> ou les <i>dislike</i>.",
+        "mission":"<b>Construire</b> l'<b>API</b> de la partie <i>back-end</i> d'une <b>application web</b> de critique de sauces piquantes. L'<b>interface</b> du <i>front-end</i> (existante, développée avec Angular) a également été <b>améliorée</b>, avec la <b>création</b> d'un <b>logo</b> pour ce projet, même si ce n'était pas requis. L'application est centrée autour d'une <b>galerie</b> de sauces communautaire, avec un système d'<b>utilisateurs</b> (avec des exigeances de <b>sécurité</b> sur l'<b>authentification</b> et les <b>droits</b>) qui pourront donc <b>s'inscrire</b> et <b>se connecter</b>, mais aussi <b>créer</b>, <b>modifier</b> et <b>supprimer</b> leurs propres sauces, ou encore ajouter des <i>likes</i> ou des <i>dislikes</i> sur les sauces partagées par les membres de la communauté.",
         "context":"Formation <b>OpenClassrooms</b> en <b>développement web</b>",
         "solo":"Travail en <b>autonomie</b>",
         "images_url":[
@@ -778,6 +778,10 @@
         ],
         "images_alt":[
             "Page d'accueil"
+        ],
+        "additional_html":[
+            "<p class='project__mission'>Il y avait également des <b>exigences</b> de <b>sécurité</b> qui ont été <b>implémentées</b> pour le système d'utilisateurs, principalement : le <b>mot de passe</b> de chaque utilisateur est <b>hashé</b>, l'<b>authentification</b> est <b>renforcée</b> sur toutes les <b>routes</b> sauce requises et les <b>adresses e-mail</b> dans la <b>base de données</b> sont <b>uniques</b>.</p><br>",
+            "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image rounded' src='img/uni/hottakes/sauce-page.jpg' alt='Page de gestion de sauce'></figure></div>"
         ],
         "rounded":true,
         "external_url":["https://github.com/benpntier/hottakes", "Projet GitHub"],
