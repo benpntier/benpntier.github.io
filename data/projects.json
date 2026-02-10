@@ -780,7 +780,7 @@
             "Page d'accueil"
         ],
         "additional_html":[
-            "<p class='project__mission'>Il y avait également des <b>exigences</b> de <b>sécurité</b> qui ont été <b>implémentées</b> pour le système d'utilisateurs, principalement : le <b>mot de passe</b> de chaque utilisateur est <b>hashé</b>, l'<b>authentification</b> est <b>renforcée</b> sur toutes les <b>routes</b> sauce requises et les <b>adresses e-mail</b> dans la <b>base de données</b> sont <b>uniques</b>. L'authentification permet ainsi d'assurer la <b>restriction</b> des <b>droits</b> : un <b>utilisateur</b> ne <b>peut pas</b> <b>modifier</b> ou <b>supprimer</b> les sauces d'un <b>autre utilisateur</b>, par exemple.</p><br>",
+            "<p class='project__mission'>Il y avait également des <b>exigences</b> de <b>sécurité</b> qui ont été <b>implémentées</b> pour le système d'utilisateurs, principalement : les <b>adresses e-mail</b> dans la <b>base de données</b> sont <b>uniques</b>, le <b>mot de passe</b> de chaque utilisateur est <b>hashé</b> et l'<b>authentification</b> est <b>renforcée</b> sur toutes les <b>routes</b> sauce requises. L'authentification permet ainsi d'assurer la <b>restriction</b> des <b>droits</b> : un <b>utilisateur</b> ne <b>peut pas</b> <b>modifier</b> ou <b>supprimer</b> les sauces d'un <b>autre utilisateur</b>, par exemple.</p><br>",
             "<div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image rounded' src='img/uni/hottakes/sauce-page.jpg' alt='Page de gestion de sauce'></figure></div>"
         ],
         "rounded":true,
