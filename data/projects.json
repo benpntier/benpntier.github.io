@@ -427,6 +427,25 @@
         "page":false
     },
     {
+        "id":"filmfestival",
+        "category":"perso",
+        "logo_url":"img/perso/filmfestival/icon.png",
+        "logo_alt":"Film Festival",
+        "name":"<i>Eco-cinema Festival</i>",
+        "dates":"Mars-avril 2026",
+        "tag_accent":"web",
+        "tags_short":[
+            "React",
+            "Django",
+            "Python"
+        ],
+        "tags_colors_short":[
+            "web",
+            "web",
+            "prog"
+        ]
+    },
+    {
         "id":"puzzleface",
         "category":"perso",
         "logo_url":"img/perso/puzzleface/icon.png",
@@ -654,7 +673,7 @@
     },
     {
         "id":"codingame",
-        "category":"perso",
+        "category":"unlisted",
         "logo_url":"img/perso/codingame/logo.png",
         "logo_alt":"CodinGame",
         "name":"Défis et puzzles <i>CodinGame</i>",
