@@ -443,7 +443,25 @@
             "web",
             "web",
             "prog"
-        ]
+        ],
+        "page":false,
+        "tags_full":[
+            "Python",
+            "Django",
+            "React",
+            "HTML",
+            "CSS",
+            "UX/UI"
+        ],
+        "tags_colors_full":[
+            "prog",
+            "web",
+            "web",
+            "web",
+            "web",
+            "design"
+        ],
+        "solo":"Projet personnel en <b>autonomie</b>"
     },
     {
         "id":"puzzleface",
