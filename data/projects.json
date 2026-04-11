@@ -461,7 +461,8 @@
             "web",
             "design"
         ],
-        "solo":"Projet personnel en <b>autonomie</b>"
+        "solo":"Projet personnel en <b>autonomie</b>",
+        "mission":"Développer une application web <i>full-stack</i> d'un festival de films, avec React pour la partie <i>front-end</i> et Django pour le <i>back-end</i> (permettant de gérer les données des films à l'affiche)."
     },
     {
         "id":"puzzleface",
