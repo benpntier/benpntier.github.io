@@ -488,6 +488,7 @@
             "<p class='project__mission'>Il sera possible de <b>compléter</b> ce site avec une gestion de <b>droits administrateurs</b>, avec une <b>page de connexion</b>, pour <b>accéder</b> au <i>dashboard</i>, en gardant seulement la <b>page de présentation</b> et la <b>programmation</b> visibles publiquement. Il est aussi envisageable d'implémenter une <b>page pour chaque séance</b>, avec plus de <b>données</b> sur le <b>film</b> et des <b>informatiques pratiques</b> (accès au cinéma, etc.) par exemple. Le <b>formulaire</b> pourrait également être <b>amélioré</b>, avec la possibilité de <b>sélectionner</b> une <b>date</b> et un <b>créneau</b> pour une <b>séance</b>, en <b>visualisant</b> les <b>créneaux déjà pris</b>.</p>"
 
         ],
+        "external_url":["https://github.com/benpntier/filmfestival", "Projet GitHub"],
         "next":"puzzleface"
     },
     {
