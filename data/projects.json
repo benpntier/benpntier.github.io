@@ -444,14 +444,17 @@
             "web",
             "prog"
         ],
-        "page":false,
+        "page":true,
         "tags_full":[
             "Python",
             "Django",
             "React",
+            "JavaScript",
             "HTML",
             "CSS",
-            "UX/UI"
+            "API REST",
+            "UX/UI",
+            "GitHub"
         ],
         "tags_colors_full":[
             "prog",
@@ -459,10 +462,33 @@
             "web",
             "web",
             "web",
-            "design"
+            "web",
+            "sql",
+            "design",
+            "env"
         ],
         "solo":"Projet personnel en <b>autonomie</b>",
-        "mission":"Développer une application web <i>full-stack</i> d'un festival de films, avec React pour la partie <i>front-end</i> et Django pour le <i>back-end</i> (permettant de gérer les données des films à l'affiche)."
+        "mission":"<b>Développer</b> une <b>application web <i>full-stack</i></b> d'un festival de cinéma centré sur une thématique environnementale, implémenté avec <b>React</b> pour la partie <i>front-end</i> et <b>Django</b> pour le <i>back-end</i> (permettant de gérer les données des séances). Le site web, dont l'<b>interface</b> est <b><i>responsive</i></b>, est constitué de deux pages principales : une <b>page d'accueil</b>, présentant le festival, la thématique et la <b>liste des films à l'affiche</b> (avec les informations de chaque séance), ainsi qu'une <b>page de gestion</b>, un <i>dashboard</i>, avec un <b>formulaire</b> pour <b>ajouter</b> une <b>séance</b> et une <b>liste des films programmés</b>, avec des boutons <b><i>Modifier</i></b> et <b><i>Supprimer</i></b>. En cliquant sur le bouton <b><i>Modifier</i></b>, le site web renvoie vers une <b>page de formulaire</b>, avec des champs pré-remplis pour <b>mettre à jour</b> les informations de la séance.",
+        "images_url":[
+            "img/perso/filmfestival/screenshot1.jpg"
+        ],
+        "images_caption":[
+            "Page d'accueil de l'application web Eco-cinema Festival"
+        ],
+        "images_alt":[
+            "Page d'accueil"
+        ],
+        "nb_columns":1,
+        "rounded":true,
+        "additional_html":[
+            "<br><br><div class='project__gallery project__gallery--2h'><figure class='no-margin project__gallery__img--2h'><img class='project__image rounded' src='img/perso/filmfestival/screenshot2.jpg' alt='Formulaire de création'><figcaption class='center'>Formulaire de création</figcaption></figure><figure class='no-margin project__gallery__img--2h'><img class='project__image rounded' src='img/perso/filmfestival/screenshot3.jpg' alt='Formulaire de mise à jour'><figcaption class='center'>Formulaire de mise à jour</figcaption></figure></div>",
+            "<br><br><div class='project__gallery'><figure class='no-margin project__gallery__img--1'><img class='project__image rounded' src='img/perso/filmfestival/screenshot4.jpg' alt='Liste des séances sur le dashboard'><figcaption>Liste des séances sur le dashboard</figcaption></figure></div>",
+            "<p class='project__mission'>Ayant déjà pu travailler sur des projets <b>React</b>, l'objectif était surtout de me familiariser en <b>autonomie</b> avec le <i>framework</i> <b>Django</b>, qui permet de <b>gérer</b> les <b>tâches <i>backend</i></b>, comme la <b>gestion de la base de données</b> et <b>la création d'API</b>. Les outils <a class='projects__link' target='_blank' href='https://www.django-rest-framework.org/'>Django REST framework</a> et <a class='projects__link' target='_blank' href='https://axios-http.com/'>Axios</a> ont permis de <b>concevoir</b> les <b><i>endpoints</i></b> de l'<b>API</b>, <b>gérer</b> les <b>requêtes API</b> et les <b>intégrer</b> aux <b><i>endpoints</i> Django</b>.</p>",
+            "<br><p class='project__improv project__info'><i class='project__icon fa-solid fa-lightbulb' title='Améliorations possibles' aria-hidden='true'></i> <b>Améliorations possibles</b></p>",
+            "<p class='project__mission'>Il sera possible de <b>compléter</b> ce site avec une gestion de <b>droits administrateurs</b>, avec une <b>page de connexion</b>, pour <b>accéder</b> au <i>dashboard</i>, en gardant seulement la <b>page de présentation</b> et la <b>programmation</b> visibles publiquement. Il est aussi envisageable d'implémenter une <b>page pour chaque séance</b>, avec plus de <b>données</b> sur le <b>film</b> et des <b>informatiques pratiques</b> (accès au cinéma, etc.) par exemple. Le <b>formulaire</b> pourrait également être <b>amélioré</b>, avec la possibilité de <b>sélectionner</b> une <b>date</b> et un <b>créneau</b> pour une <b>séance</b>, en <b>visualisant</b> les <b>créneaux déjà pris</b>.</p>"
+
+        ],
+        "next":"puzzleface"
     },
     {
         "id":"puzzleface",
@@ -791,6 +817,7 @@
             "Express",
             "MongoDB",
             "NoSQL",
+            "API REST",
             "UX/UI",
             "Design",
             "GitHub"
@@ -802,6 +829,7 @@
             "web",
             "web",
             "web",
+            "sql",
             "sql",
             "sql",
             "design",
