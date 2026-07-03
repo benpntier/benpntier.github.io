@@ -1232,7 +1232,7 @@ hr {
             animation: 1s p-slidein;
             animation-fill-mode: backwards;
             
-            @for $i from 1 to 13 {
+            @for $i from 1 to 14 {
                 &:nth-of-type(#{$i}) {
                     animation-delay: #{$loader-duration+.6+$i*.05}s;
                 }

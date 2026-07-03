@@ -1469,6 +1469,9 @@ hr {
 .project__page .tags span:nth-of-type(12) {
   animation-delay: 2.4s;
 }
+.project__page .tags span:nth-of-type(13) {
+  animation-delay: 2.45s;
+}
 .project__page table {
   margin-top: 0.5em;
   font-size: 0.9em;
