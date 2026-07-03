@@ -32,7 +32,8 @@
             "Android",
             "UX/UI",
             "Visual Studio",
-            "GitKraken"
+            "GitKraken",
+            "Azure DevOps"
         ],
         "tags_colors_full":[
             "dl",
@@ -45,6 +46,7 @@
             "prog",
             "android",
             "design",
+            "env",
             "env",
             "env"
         ],
