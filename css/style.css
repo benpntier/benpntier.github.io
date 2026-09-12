@@ -455,6 +455,24 @@ hr {
 .bio .tags span:nth-of-type(9) {
   animation-delay: 2.6s;
 }
+.bio .tags span:nth-of-type(10) {
+  animation-delay: 2.7s;
+}
+.bio .tags span:nth-of-type(11) {
+  animation-delay: 2.8s;
+}
+.bio .tags span:nth-of-type(12) {
+  animation-delay: 2.9s;
+}
+.bio .tags span:nth-of-type(13) {
+  animation-delay: 3s;
+}
+.bio .tags span:nth-of-type(14) {
+  animation-delay: 3.1s;
+}
+.bio .tags span:nth-of-type(15) {
+  animation-delay: 3.2s;
+}
 
 .tags {
   display: flex;
